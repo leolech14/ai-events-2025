@@ -832,6 +832,7 @@
                 return null;
             });
 
+            const results = await Promise.all(promises);
             allEvents = results.flat().filter(event => event !== null);
             
             // Sort by date initially
