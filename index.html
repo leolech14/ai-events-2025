@@ -251,27 +251,24 @@
             letter-spacing: 0.5px;
         }
 
-        /* CRITICAL FIX: Events list - ultra dense - FORCE VISIBILITY */
+        /* Events list container */
         .events-list {
-            display: flex !important;
-            flex-direction: column !important;
+            display: flex;
+            flex-direction: column;
             gap: var(--space-xs);
             padding: var(--space-sm) 0;
-            min-height: 500px !important;
-            visibility: visible !important;
+            min-height: 100px;
         }
 
-        /* CRITICAL FIX: Events Container - FORCE DISPLAY */
+        /* Events Container */
         #eventsContainer {
-            display: flex !important;
-            flex-direction: column !important;
-            gap: var(--space-xs) !important;
-            min-height: 500px !important;
-            visibility: visible !important;
-            opacity: 1 !important;
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-xs);
+            min-height: 100px;
         }
 
-        /* Event row - maximum density */
+        /* Event row - maximum density with forced visibility */
         .event-row {
             background: var(--bg-card);
             border: 1px solid var(--border-subtle);
@@ -279,12 +276,15 @@
             padding: var(--space-sm) var(--space-md);
             transition: all 0.2s;
             cursor: pointer;
-            display: grid;
+            display: grid !important;
             grid-template-columns: auto 1fr auto auto auto auto;
             align-items: center;
             gap: var(--space-md);
             position: relative;
             overflow: hidden;
+            min-height: 60px;
+            visibility: visible !important;
+            opacity: 1 !important;
         }
 
         .event-row::before {
@@ -599,16 +599,6 @@
         .glow-on-hover:hover {
             box-shadow: 0 0 20px var(--accent-glow);
         }
-
-        /* DEBUG STYLES */
-        .debug-info {
-            background: #ff0000;
-            color: white;
-            padding: 10px;
-            margin: 10px 0;
-            border-radius: 5px;
-            font-family: monospace;
-        }
     </style>
 </head>
 <body>
@@ -686,9 +676,6 @@
                 <span class="stat-label">Upcoming</span>
             </div>
         </div>
-
-        <!-- DEBUG INFO -->
-        <div id="debugInfo" class="debug-info" style="display: none;"></div>
 
         <!-- Loading state -->
         <div class="loading" id="loading">
@@ -797,20 +784,14 @@
             'workshop_rh_okrs_ia_2025.json'
         ];
 
-        // ENHANCED DEBUG FUNCTION
+        // Simple console logging
         function debugLog(message, data = null) {
-            console.log(`[AI-EVENTS-DEBUG] ${message}`, data);
-            
-            const debugDiv = document.getElementById('debugInfo');
-            if (debugDiv) {
-                debugDiv.style.display = 'block';
-                debugDiv.innerHTML += `<div>${new Date().toISOString()}: ${message} ${data ? JSON.stringify(data).substring(0, 100) : ''}</div>`;
-            }
+            // Silent logging - remove for production
+            // console.log(`[AI-EVENTS] ${message}`, data);
         }
 
-        // CRITICAL FIX: Enhanced load events with better error handling
+        // Load all event files
         async function loadEvents() {
-            debugLog(`Starting to load ${eventFiles.length} event files`);
             const loadingElement = document.getElementById('loading');
             loadingElement.style.display = 'flex';
 
@@ -819,7 +800,6 @@
 
             const promises = eventFiles.map(async (filename) => {
                 try {
-                    debugLog(`Fetching ${filename}`);
                     const response = await fetch(`events/${filename}`);
                     if (response.ok) {
                         const data = await response.json();
@@ -827,7 +807,6 @@
                         
                         // Handle different data structures
                         if (filename === "conferences.json" && data.ai_conferences_2025) {
-                            debugLog(`Processing conferences.json with ${data.ai_conferences_2025.length} conferences`);
                             // Transform conferences.json nested structure
                             return data.ai_conferences_2025.map(conf => ({
                                 event_name: conf.name,
@@ -873,19 +852,15 @@
                         return data;
                     } else {
                         errorCount++;
-                        debugLog(`Failed to fetch ${filename}: ${response.status}`);
                     }
                 } catch (error) {
                     errorCount++;
-                    debugLog(`Error loading ${filename}`, error.message);
                 }
                 return null;
             });
 
             const results = await Promise.all(promises);
             allEvents = results.flat().filter(event => event !== null);
-            
-            debugLog(`Loaded ${loadedCount} files, ${errorCount} errors, ${allEvents.length} total events`);
             
             // Sort by date initially
             allEvents.sort((a, b) => {
@@ -895,41 +870,11 @@
             });
 
             filteredEvents = [...allEvents];
-            
-            debugLog(`filteredEvents initialized with ${filteredEvents.length} events`);
             loadingElement.style.display = 'none';
             
             populateFilters();
             updateStats();
-            
-            // CRITICAL FIX: Force render immediately with multiple attempts
-            debugLog("About to render events - CRITICAL SECTION");
             renderEvents();
-            
-            // FAILSAFE: Re-render after delay to ensure display
-            setTimeout(() => {
-                debugLog("FAILSAFE: Re-rendering events after delay");
-                const container = document.getElementById('eventsContainer');
-                if (filteredEvents.length > 0 && container.innerHTML.trim() === '') {
-                    debugLog("FAILSAFE TRIGGERED: Container was empty, re-rendering");
-                    renderEvents();
-                } else {
-                    debugLog(`FAILSAFE CHECK: Container has content (${container.innerHTML.length} chars)`);
-                }
-            }, 100);
-            
-            // SECOND FAILSAFE: Check again after longer delay
-            setTimeout(() => {
-                debugLog("SECOND FAILSAFE: Final check");
-                const container = document.getElementById('eventsContainer');
-                if (filteredEvents.length > 0 && container.innerHTML.trim() === '') {
-                    debugLog("SECOND FAILSAFE TRIGGERED: Force rendering");
-                    container.style.display = 'flex !important';
-                    container.style.visibility = 'visible !important';
-                    container.style.opacity = '1 !important';
-                    renderEvents();
-                }
-            }, 500);
         }
 
         // Update statistics
@@ -949,8 +894,6 @@
                 return eventDate >= today;
             });
             document.getElementById('upcomingEvents').textContent = upcoming.length;
-            
-            debugLog(`Stats updated: ${allEvents.length} total, ${filteredEvents.length} filtered`);
         }
 
         // Populate filter dropdowns
@@ -1032,36 +975,25 @@
             return formats[format] || '📍';
         }
 
-        // CRITICAL FIX: Enhanced renderEvents with extensive debugging
+        // Render events in list view
         function renderEvents() {
-            debugLog(`renderEvents() called with ${filteredEvents.length} events`);
             const container = document.getElementById('eventsContainer');
             const noResults = document.getElementById('noResults');
             
-            debugLog("Container element found:", container ? "YES" : "NO");
-            
             if (filteredEvents.length === 0) {
-                debugLog("No filtered events - showing no results message");
                 container.style.display = 'none';
                 noResults.style.display = 'block';
                 return;
             }
             
-            // CRITICAL: Force container to be visible
-            container.style.display = 'flex !important';
-            container.style.flexDirection = 'column !important';
-            container.style.visibility = 'visible !important';
-            container.style.opacity = '1 !important';
-            container.style.minHeight = '500px !important';
-            
-            debugLog("Container styles forcefully applied");
+            container.style.display = 'flex';
             noResults.style.display = 'none';
             
             const htmlContent = filteredEvents.map(event => {
                 const tags = event.tags?.slice(0, 3) || [];
                 
                 return `
-                    <div class="event-row" style="display: grid !important; visibility: visible !important;">
+                    <div class="event-row">
                         <span class="event-type-badge">${event.event_type || 'Event'}</span>
                         
                         <div class="event-info">
@@ -1093,37 +1025,20 @@
                 `;
             }).join('');
             
-            debugLog(`Generated HTML content length: ${htmlContent.length}`);
             container.innerHTML = htmlContent;
-            
-            debugLog(`Container innerHTML set. Final length: ${container.innerHTML.length}`);
-            
-            // CRITICAL: Double-check container is still visible
-            setTimeout(() => {
-                const containerCheck = document.getElementById('eventsContainer');
-                debugLog(`Post-render check - Container display: ${getComputedStyle(containerCheck).display}`);
-                debugLog(`Post-render check - Container visibility: ${getComputedStyle(containerCheck).visibility}`);
-                debugLog(`Post-render check - Container opacity: ${getComputedStyle(containerCheck).opacity}`);
-                debugLog(`Post-render check - Container height: ${containerCheck.offsetHeight}px`);
-                debugLog(`Post-render check - Child count: ${containerCheck.children.length}`);
-            }, 50);
-            
             updateStats();
         }
 
-        // CRITICAL FIX: Enhanced filterEvents
+        // Filter events based on search and filters
         function filterEvents() {
             const searchTerm = document.getElementById('searchInput').value.toLowerCase();
             const typeFilter = document.getElementById('typeFilter').value;
             const locationFilter = document.getElementById('locationFilter').value;
             const formatFilter = document.getElementById('formatFilter').value;
             
-            debugLog(`Filtering with: search="${searchTerm}", type="${typeFilter}", location="${locationFilter}", format="${formatFilter}"`);
-            
-            // CRITICAL FIX: If no filters are applied, show ALL events
+            // If no filters are applied, show ALL events
             if (!searchTerm && !typeFilter && !locationFilter && !formatFilter) {
                 filteredEvents = [...allEvents];
-                debugLog(`No filters applied - showing all ${allEvents.length} events`);
             } else {
                 filteredEvents = allEvents.filter(event => {
                     // Search filter
@@ -1159,7 +1074,6 @@
                     
                     return true;
                 });
-                debugLog(`Filters applied - showing ${filteredEvents.length} of ${allEvents.length} events`);
             }
             
             sortEvents();
@@ -1236,9 +1150,8 @@
             }
         }
 
-        // CRITICAL FIX: Enhanced view switching
+        // Switch between list, calendar, and map views
         function switchView(view) {
-            debugLog(`Switching to ${view} view`);
             currentView = view;
             
             // Update button states
@@ -1253,12 +1166,7 @@
             switch (view) {
                 case 'list':
                     document.getElementById('listViewBtn').classList.add('active');
-                    const container = document.getElementById('eventsContainer');
-                    container.style.display = 'flex';
-                    container.style.flexDirection = 'column';
-                    container.style.visibility = 'visible';
-                    container.style.opacity = '1';
-                    debugLog("List view activated, about to render events");
+                    document.getElementById('eventsContainer').style.display = 'flex';
                     renderEvents();
                     break;
                 case 'calendar':
@@ -1275,7 +1183,6 @@
 
         // Render current view
         function renderCurrentView() {
-            debugLog(`Rendering current view: ${currentView}`);
             switch (currentView) {
                 case 'list':
                     renderEvents();
@@ -1317,29 +1224,9 @@
             renderCalendar();
         });
 
-        // Initialize
         // Initialize when DOM is ready
         window.addEventListener("DOMContentLoaded", () => {
-            debugLog("DOM loaded, initializing application");
             loadEvents();
-        });
-        
-        // BACKUP: Initialize immediately as fallback
-        debugLog("Initializing application (immediate fallback)");
-        loadEvents();
-
-        // FINAL FAILSAFE: Check everything after full page load
-        window.addEventListener('load', () => {
-            debugLog("Window fully loaded, performing final check");
-            setTimeout(() => {
-                if (allEvents.length > 0 && filteredEvents.length > 0) {
-                    const container = document.getElementById('eventsContainer');
-                    if (currentView === 'list' && container.innerHTML.trim() === '') {
-                        debugLog("FINAL FAILSAFE: Force rendering after window load");
-                        renderEvents();
-                    }
-                }
-            }, 1000);
         });
     </script>
 </body>
