@@ -321,7 +321,7 @@
         .event-title {
             font-size: 13px;
             font-weight: 600;
-            color: #000000;
+            color: var(--text-primary);
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -329,7 +329,7 @@
 
         .event-description {
             font-size: 11px;
-            color: #000000;
+            color: var(--text-primary);
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -343,7 +343,7 @@
             align-items: center;
             gap: 4px;
             font-size: 11px;
-            color: #000000;
+            color: var(--text-primary);
             white-space: nowrap;
         }
 
@@ -372,7 +372,7 @@
             border: 1px solid var(--accent-gold);
             border-radius: 3px;
             font-size: 10px;
-            color: #000000;
+            color: var(--text-primary);
             white-space: nowrap;
         }
 
@@ -810,8 +810,8 @@
                                 event_name: data.name,
                                 event_type: data.type || "conference",
                                 date: {
-                                    start: data.dates?.start,
-                                    end: data.dates?.end
+                                    start: data.dates?.start_date || data.dates?.start,
+                                    end: data.dates?.end_date || data.dates?.end
                                 },
                                 location: {
                                     city: data.location?.city,
