@@ -771,50 +771,6 @@
                     const response = await fetch(`events/${filename}`);
                     if (response.ok) {
                         const data = await response.json();
-                        // Handle different data structures
-                        if (filename === "conferences.json" && data.ai_conferences_2025) {
-                            // Transform conferences.json nested structure
-                            return data.ai_conferences_2025.map(conf => ({
-                                event_name: conf.name,
-                                event_type: "conference",
-                                date: {
-                                    start: conf.dates?.start,
-                                    end: conf.dates?.end
-                                },
-                                location: {
-                                    city: conf.location?.city,
-                                    country: conf.location?.country,
-                                    venue: conf.location?.venue
-                                },
-                                format: "presential",
-                                description: conf.description,
-                                focus_areas: conf.topics || [],
-                                tags: conf.topics ? conf.topics.slice(0, 5) : []
-                            }));
-                        }
-                        // Handle individual conference files with different structure
-                        if (data.name && data.dates && !data.event_name) {
-                            // Transform individual conference file structure
-                            return {
-                                event_name: data.name,
-                                event_type: data.type || "conference",
-                                date: {
-                                    start: data.dates?.start,
-                                    end: data.dates?.end
-                                },
-                                location: {
-                                    city: data.location?.city,
-                                    country: data.location?.country,
-                                    venue: data.location?.venue
-                                },
-                                format: "presential",
-                                description: data.description,
-                                focus_areas: data.activities || [],
-                                target_audience: data.target_audience || [],
-                                tags: data.tags || [],
-                                registration: data.registration
-                            };
-                        }
                         return data;
                     }
                 } catch (error) {
@@ -823,7 +779,8 @@
                 return null;
             });
 
-            allEvents = results.flat().filter(event => event !== null);
+            const results = await Promise.all(promises);
+            allEvents = results.filter(event => event !== null);
             
             // Sort by date initially
             allEvents.sort((a, b) => {
