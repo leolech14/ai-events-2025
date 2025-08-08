@@ -251,12 +251,24 @@
             letter-spacing: 0.5px;
         }
 
-        /* Events list - ultra dense */
+        /* CRITICAL FIX: Events list - ultra dense - FORCE VISIBILITY */
         .events-list {
-            display: flex;
-            flex-direction: column;
+            display: flex !important;
+            flex-direction: column !important;
             gap: var(--space-xs);
             padding: var(--space-sm) 0;
+            min-height: 500px !important;
+            visibility: visible !important;
+        }
+
+        /* CRITICAL FIX: Events Container - FORCE DISPLAY */
+        #eventsContainer {
+            display: flex !important;
+            flex-direction: column !important;
+            gap: var(--space-xs) !important;
+            min-height: 500px !important;
+            visibility: visible !important;
+            opacity: 1 !important;
         }
 
         /* Event row - maximum density */
@@ -845,9 +857,13 @@
 
             filteredEvents = [...allEvents];
             
+            console.log("CRITICAL FIX: Initializing filteredEvents with", allEvents.length, "events");
             loadingElement.style.display = 'none';
             populateFilters();
             updateStats();
+            
+            // CRITICAL FIX: Force render immediately
+            console.log("CRITICAL FIX: About to render", filteredEvents.length, "events");
             renderEvents();
         }
 
@@ -951,7 +967,9 @@
 
         // Render events in ultra-compact rows
         function renderEvents() {
+            console.log("CRITICAL FIX: renderEvents() called with", filteredEvents.length, "events");
             const container = document.getElementById('eventsContainer');
+            console.log("CRITICAL FIX: Container element:", container);
             const noResults = document.getElementById('noResults');
             
             if (filteredEvents.length === 0) {
@@ -961,6 +979,10 @@
             }
             
             container.style.display = 'flex';
+            container.style.flexDirection = "column";
+            container.style.visibility = "visible";
+            container.style.opacity = "1";
+            console.log("CRITICAL FIX: Container styles applied");
             noResults.style.display = 'none';
             
             container.innerHTML = filteredEvents.map(event => {
