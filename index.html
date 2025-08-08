@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<\!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -253,22 +253,22 @@
 
         /* CRITICAL FIX: Events list - ultra dense - FORCE VISIBILITY */
         .events-list {
-            display: flex !important;
-            flex-direction: column !important;
+            display: flex \!important;
+            flex-direction: column \!important;
             gap: var(--space-xs);
             padding: var(--space-sm) 0;
-            min-height: 500px !important;
-            visibility: visible !important;
+            min-height: 500px \!important;
+            visibility: visible \!important;
         }
 
         /* CRITICAL FIX: Events Container - FORCE DISPLAY */
         #eventsContainer {
-            display: flex !important;
-            flex-direction: column !important;
-            gap: var(--space-xs) !important;
-            min-height: 500px !important;
-            visibility: visible !important;
-            opacity: 1 !important;
+            display: flex \!important;
+            flex-direction: column \!important;
+            gap: var(--space-xs) \!important;
+            min-height: 500px \!important;
+            visibility: visible \!important;
+            opacity: 1 \!important;
         }
 
         /* Event row - maximum density */
@@ -599,23 +599,33 @@
         .glow-on-hover:hover {
             box-shadow: 0 0 20px var(--accent-glow);
         }
+
+        /* DEBUG STYLES */
+        .debug-info {
+            background: #ff0000;
+            color: white;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            font-family: monospace;
+        }
     </style>
 </head>
 <body>
-    <!-- Ultra-slim header bar -->
+    <\!-- Ultra-slim header bar -->
     <div class="header-bar">
         <div class="container">
             <div class="header-content">
                 <div class="logo">🇧🇷 AI Events Brasil 2025</div>
                 
                 <div class="controls-inline">
-                    <!-- Compact search -->
+                    <\!-- Compact search -->
                     <div class="search-compact">
                         <input type="text" class="search-input" id="searchInput" placeholder="Search events...">
                         <span class="search-icon">🔍</span>
                     </div>
                     
-                    <!-- Inline filters -->
+                    <\!-- Inline filters -->
                     <div class="filters-compact">
                         <select class="filter-select" id="typeFilter">
                             <option value="">All Types</option>
@@ -640,7 +650,7 @@
                         </select>
                     </div>
                     
-                    <!-- View toggles -->
+                    <\!-- View toggles -->
                     <div class="view-toggles">
                         <button class="view-btn active" id="listViewBtn">List</button>
                         <button class="view-btn" id="calendarViewBtn">Calendar</button>
@@ -651,9 +661,9 @@
         </div>
     </div>
 
-    <!-- Main container -->
+    <\!-- Main container -->
     <div class="container">
-        <!-- Minimal stats bar -->
+        <\!-- Minimal stats bar -->
         <div class="stats-bar">
             <div class="stat-item">
                 <span class="stat-value" id="totalEvents">0</span>
@@ -677,15 +687,18 @@
             </div>
         </div>
 
-        <!-- Loading state -->
+        <\!-- DEBUG INFO -->
+        <div id="debugInfo" class="debug-info" style="display: none;"></div>
+
+        <\!-- Loading state -->
         <div class="loading" id="loading">
             <div class="loading-spinner"></div>
         </div>
 
-        <!-- Events list view -->
+        <\!-- Events list view -->
         <div class="events-list" id="eventsContainer"></div>
 
-        <!-- Calendar view -->
+        <\!-- Calendar view -->
         <div class="calendar-view" id="calendarView">
             <div class="calendar-header">
                 <span class="calendar-month" id="calendarMonth">January 2025</span>
@@ -698,7 +711,7 @@
             <div class="calendar-grid" id="calendarGrid"></div>
         </div>
 
-        <!-- Map view -->
+        <\!-- Map view -->
         <div class="map-view" id="mapView">
             <div class="map-container">
                 <div>
@@ -708,7 +721,7 @@
             </div>
         </div>
 
-        <!-- No results -->
+        <\!-- No results -->
         <div class="no-results" id="noResults" style="display: none;">
             <h3>No events found</h3>
             <p>Try adjusting your filters</p>
@@ -722,8 +735,9 @@
         let currentView = 'list';
         let currentMonth = new Date();
 
-        // Event JSON files list
+        // CRITICAL FIX: Add conferences.json to eventFiles array
         const eventFiles = [
+            'conferences.json',  // ADDED: This was missing\!
             'adapta_summit_2025.json',
             'agtech_meeting_2025.json',
             'ai_summit_bix_2025.json',
@@ -783,18 +797,37 @@
             'workshop_rh_okrs_ia_2025.json'
         ];
 
-        // Load all event files
+        // ENHANCED DEBUG FUNCTION
+        function debugLog(message, data = null) {
+            console.log(`[AI-EVENTS-DEBUG] ${message}`, data);
+            
+            const debugDiv = document.getElementById('debugInfo');
+            if (debugDiv) {
+                debugDiv.style.display = 'block';
+                debugDiv.innerHTML += `<div>${new Date().toISOString()}: ${message} ${data ? JSON.stringify(data).substring(0, 100) : ''}</div>`;
+            }
+        }
+
+        // CRITICAL FIX: Enhanced load events with better error handling
         async function loadEvents() {
+            debugLog(`Starting to load ${eventFiles.length} event files`);
             const loadingElement = document.getElementById('loading');
             loadingElement.style.display = 'flex';
 
+            let loadedCount = 0;
+            let errorCount = 0;
+
             const promises = eventFiles.map(async (filename) => {
                 try {
+                    debugLog(`Fetching ${filename}`);
                     const response = await fetch(`events/${filename}`);
                     if (response.ok) {
                         const data = await response.json();
+                        loadedCount++;
+                        
                         // Handle different data structures
                         if (filename === "conferences.json" && data.ai_conferences_2025) {
+                            debugLog(`Processing conferences.json with ${data.ai_conferences_2025.length} conferences`);
                             // Transform conferences.json nested structure
                             return data.ai_conferences_2025.map(conf => ({
                                 event_name: conf.name,
@@ -815,7 +848,7 @@
                             }));
                         }
                         // Handle individual conference files with different structure
-                        if (data.name && data.dates && !data.event_name) {
+                        if (data.name && data.dates && \!data.event_name) {
                             // Transform individual conference file structure
                             return {
                                 event_name: data.name,
@@ -838,15 +871,21 @@
                             };
                         }
                         return data;
+                    } else {
+                        errorCount++;
+                        debugLog(`Failed to fetch ${filename}: ${response.status}`);
                     }
                 } catch (error) {
-                    console.error(`Error loading ${filename}:`, error);
+                    errorCount++;
+                    debugLog(`Error loading ${filename}`, error.message);
                 }
                 return null;
             });
 
             const results = await Promise.all(promises);
-            allEvents = results.flat().filter(event => event !== null);
+            allEvents = results.flat().filter(event => event \!== null);
+            
+            debugLog(`Loaded ${loadedCount} files, ${errorCount} errors, ${allEvents.length} total events`);
             
             // Sort by date initially
             allEvents.sort((a, b) => {
@@ -857,14 +896,40 @@
 
             filteredEvents = [...allEvents];
             
-            console.log("CRITICAL FIX: Initializing filteredEvents with", allEvents.length, "events");
+            debugLog(`filteredEvents initialized with ${filteredEvents.length} events`);
             loadingElement.style.display = 'none';
+            
             populateFilters();
             updateStats();
             
-            // CRITICAL FIX: Force render immediately
-            console.log("CRITICAL FIX: About to render", filteredEvents.length, "events");
+            // CRITICAL FIX: Force render immediately with multiple attempts
+            debugLog("About to render events - CRITICAL SECTION");
             renderEvents();
+            
+            // FAILSAFE: Re-render after delay to ensure display
+            setTimeout(() => {
+                debugLog("FAILSAFE: Re-rendering events after delay");
+                const container = document.getElementById('eventsContainer');
+                if (filteredEvents.length > 0 && container.innerHTML.trim() === '') {
+                    debugLog("FAILSAFE TRIGGERED: Container was empty, re-rendering");
+                    renderEvents();
+                } else {
+                    debugLog(`FAILSAFE CHECK: Container has content (${container.innerHTML.length} chars)`);
+                }
+            }, 100);
+            
+            // SECOND FAILSAFE: Check again after longer delay
+            setTimeout(() => {
+                debugLog("SECOND FAILSAFE: Final check");
+                const container = document.getElementById('eventsContainer');
+                if (filteredEvents.length > 0 && container.innerHTML.trim() === '') {
+                    debugLog("SECOND FAILSAFE TRIGGERED: Force rendering");
+                    container.style.display = 'flex \!important';
+                    container.style.visibility = 'visible \!important';
+                    container.style.opacity = '1 \!important';
+                    renderEvents();
+                }
+            }, 500);
         }
 
         // Update statistics
@@ -884,6 +949,8 @@
                 return eventDate >= today;
             });
             document.getElementById('upcomingEvents').textContent = upcoming.length;
+            
+            debugLog(`Stats updated: ${allEvents.length} total, ${filteredEvents.length} filtered`);
         }
 
         // Populate filter dropdowns
@@ -911,13 +978,13 @@
 
         // Format date - ultra compact
         function formatDate(startDate, endDate) {
-            if (!startDate) return 'TBA';
+            if (\!startDate) return 'TBA';
             
             const start = new Date(startDate);
             const month = start.toLocaleDateString('en-US', { month: 'short' });
             const day = start.getDate();
             
-            if (endDate && endDate !== startDate) {
+            if (endDate && endDate \!== startDate) {
                 const end = new Date(endDate);
                 const endDay = end.getDate();
                 const endMonth = end.toLocaleDateString('en-US', { month: 'short' });
@@ -933,7 +1000,7 @@
 
         // Format location - compact
         function formatLocation(location) {
-            if (!location) return 'TBA';
+            if (\!location) return 'TBA';
             const city = location.city || '';
             const country = location.country || '';
             
@@ -965,31 +1032,36 @@
             return formats[format] || '📍';
         }
 
-        // Render events in ultra-compact rows
+        // CRITICAL FIX: Enhanced renderEvents with extensive debugging
         function renderEvents() {
-            console.log("CRITICAL FIX: renderEvents() called with", filteredEvents.length, "events");
+            debugLog(`renderEvents() called with ${filteredEvents.length} events`);
             const container = document.getElementById('eventsContainer');
-            console.log("CRITICAL FIX: Container element:", container);
             const noResults = document.getElementById('noResults');
             
+            debugLog("Container element found:", container ? "YES" : "NO");
+            
             if (filteredEvents.length === 0) {
+                debugLog("No filtered events - showing no results message");
                 container.style.display = 'none';
                 noResults.style.display = 'block';
                 return;
             }
             
-            container.style.display = 'flex';
-            container.style.flexDirection = "column";
-            container.style.visibility = "visible";
-            container.style.opacity = "1";
-            console.log("CRITICAL FIX: Container styles applied");
+            // CRITICAL: Force container to be visible
+            container.style.display = 'flex \!important';
+            container.style.flexDirection = 'column \!important';
+            container.style.visibility = 'visible \!important';
+            container.style.opacity = '1 \!important';
+            container.style.minHeight = '500px \!important';
+            
+            debugLog("Container styles forcefully applied");
             noResults.style.display = 'none';
             
-            container.innerHTML = filteredEvents.map(event => {
+            const htmlContent = filteredEvents.map(event => {
                 const tags = event.tags?.slice(0, 3) || [];
                 
                 return `
-                    <div class="event-row">
+                    <div class="event-row" style="display: grid \!important; visibility: visible \!important;">
                         <span class="event-type-badge">${event.event_type || 'Event'}</span>
                         
                         <div class="event-info">
@@ -1021,20 +1093,37 @@
                 `;
             }).join('');
             
+            debugLog(`Generated HTML content length: ${htmlContent.length}`);
+            container.innerHTML = htmlContent;
+            
+            debugLog(`Container innerHTML set. Final length: ${container.innerHTML.length}`);
+            
+            // CRITICAL: Double-check container is still visible
+            setTimeout(() => {
+                const containerCheck = document.getElementById('eventsContainer');
+                debugLog(`Post-render check - Container display: ${getComputedStyle(containerCheck).display}`);
+                debugLog(`Post-render check - Container visibility: ${getComputedStyle(containerCheck).visibility}`);
+                debugLog(`Post-render check - Container opacity: ${getComputedStyle(containerCheck).opacity}`);
+                debugLog(`Post-render check - Container height: ${containerCheck.offsetHeight}px`);
+                debugLog(`Post-render check - Child count: ${containerCheck.children.length}`);
+            }, 50);
+            
             updateStats();
         }
 
-        // Filter events - FIXED VERSION
+        // CRITICAL FIX: Enhanced filterEvents
         function filterEvents() {
             const searchTerm = document.getElementById('searchInput').value.toLowerCase();
             const typeFilter = document.getElementById('typeFilter').value;
             const locationFilter = document.getElementById('locationFilter').value;
             const formatFilter = document.getElementById('formatFilter').value;
             
+            debugLog(`Filtering with: search="${searchTerm}", type="${typeFilter}", location="${locationFilter}", format="${formatFilter}"`);
+            
             // CRITICAL FIX: If no filters are applied, show ALL events
-            if (!searchTerm && !typeFilter && !locationFilter && !formatFilter) {
+            if (\!searchTerm && \!typeFilter && \!locationFilter && \!formatFilter) {
                 filteredEvents = [...allEvents];
-                console.log(`No filters applied - showing all ${allEvents.length} events`);
+                debugLog(`No filters applied - showing all ${allEvents.length} events`);
             } else {
                 filteredEvents = allEvents.filter(event => {
                     // Search filter
@@ -1048,29 +1137,29 @@
                             ...(event.focus_areas || [])
                         ].filter(Boolean).join(' ').toLowerCase();
                         
-                        if (!searchableText.includes(searchTerm)) {
+                        if (\!searchableText.includes(searchTerm)) {
                             return false;
                         }
                     }
                     
                     // Type filter
-                    if (typeFilter && event.event_type !== typeFilter) {
+                    if (typeFilter && event.event_type \!== typeFilter) {
                         return false;
                     }
                     
                     // Location filter
-                    if (locationFilter && event.location?.city !== locationFilter) {
+                    if (locationFilter && event.location?.city \!== locationFilter) {
                         return false;
                     }
                     
                     // Format filter
-                    if (formatFilter && event.format !== formatFilter) {
+                    if (formatFilter && event.format \!== formatFilter) {
                         return false;
                     }
                     
                     return true;
                 });
-                console.log(`Filters applied - showing ${filteredEvents.length} of ${allEvents.length} events`);
+                debugLog(`Filters applied - showing ${filteredEvents.length} of ${allEvents.length} events`);
             }
             
             sortEvents();
@@ -1147,8 +1236,9 @@
             }
         }
 
-        // Switch views
+        // CRITICAL FIX: Enhanced view switching
         function switchView(view) {
+            debugLog(`Switching to ${view} view`);
             currentView = view;
             
             // Update button states
@@ -1163,7 +1253,12 @@
             switch (view) {
                 case 'list':
                     document.getElementById('listViewBtn').classList.add('active');
-                    document.getElementById('eventsContainer').style.display = 'flex';
+                    const container = document.getElementById('eventsContainer');
+                    container.style.display = 'flex';
+                    container.style.flexDirection = 'column';
+                    container.style.visibility = 'visible';
+                    container.style.opacity = '1';
+                    debugLog("List view activated, about to render events");
                     renderEvents();
                     break;
                 case 'calendar':
@@ -1180,6 +1275,7 @@
 
         // Render current view
         function renderCurrentView() {
+            debugLog(`Rendering current view: ${currentView}`);
             switch (currentView) {
                 case 'list':
                     renderEvents();
@@ -1222,7 +1318,23 @@
         });
 
         // Initialize
+        debugLog("Initializing application");
         loadEvents();
+
+        // FINAL FAILSAFE: Check everything after full page load
+        window.addEventListener('load', () => {
+            debugLog("Window fully loaded, performing final check");
+            setTimeout(() => {
+                if (allEvents.length > 0 && filteredEvents.length > 0) {
+                    const container = document.getElementById('eventsContainer');
+                    if (currentView === 'list' && container.innerHTML.trim() === '') {
+                        debugLog("FINAL FAILSAFE: Force rendering after window load");
+                        renderEvents();
+                    }
+                }
+            }, 1000);
+        });
     </script>
 </body>
 </html>
+EOF < /dev/null
