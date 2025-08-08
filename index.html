@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Events 2025 - Ultra Compact Directory</title>
+    <title>🇧🇷 AI Events Brasil 2025 - Ultra Compact Directory</title>
     <style>
         :root {
             /* Ultra-dark color palette */
@@ -594,7 +594,7 @@
     <div class="header-bar">
         <div class="container">
             <div class="header-content">
-                <div class="logo">AI Events 2025</div>
+                <div class="logo">🇧🇷 AI Events Brasil 2025</div>
                 
                 <div class="controls-inline">
                     <!-- Compact search -->
@@ -725,7 +725,6 @@
             'cidia_2025.json',
             'conecta_industria_2025.json',
             'conexao_mulher_ia_2025.json',
-            'conferences.json',
             'curso_aplicacao_ia_trabalho_2025.json',
             'curso_ia_generativa_encantado_2025.json',
             'curso_ia_generativa_ensino_2025.json',
@@ -924,7 +923,17 @@
             
             if (city && country) {
                 // Use country code if available, otherwise abbreviate
-                const countryCode = country.length > 15 ? country.substring(0, 2).toUpperCase() : country;
+                let countryDisplay = country;
+                if (country.toLowerCase() === "brazil" || country.toLowerCase() === "brasil") {
+                    countryDisplay = "🇧🇷";
+                } else if (country.toLowerCase() === "canada") {
+                    countryDisplay = "🇨🇦";
+                } else if (country.toLowerCase() === "australia") {
+                    countryDisplay = "🇦🇺";
+                } else if (country.length > 10) {
+                    countryDisplay = country.substring(0, 3).toUpperCase();
+                }
+                const countryCode = countryDisplay;
                 return `${city}, ${countryCode}`;
             }
             return city || country || 'TBA';
