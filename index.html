@@ -1,4 +1,4 @@
-<\!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -11,15 +11,19 @@
         .event-title { font-size: 18px; font-weight: bold; color: #000; margin-bottom: 8px; }
         .event-info { color: #333; margin: 3px 0; font-size: 14px; }
         .stats { background: #e6f7ff; padding: 10px; margin: 10px 0; border: 1px solid #0066cc; }
+        .error { background: #ffeeee; color: #cc0000; padding: 10px; margin: 10px 0; border: 1px solid #cc0000; }
+        .loading { background: #fff3cd; color: #856404; padding: 10px; margin: 10px 0; border: 1px solid #ffc107; }
     </style>
 </head>
 <body>
     <h1>AI Events 2025 - ALL EVENTS LOADED</h1>
-    <div class="debug" id="debug">Loading all 59 event files...</div>
+    <div class="debug" id="debug">Starting to load events...</div>
     <div class="stats" id="stats">Stats will appear here...</div>
+    <div class="loading" id="progress">Progress: 0/59 files loaded...</div>
     <div id="eventsContainer"><h2>Events will appear here...</h2></div>
+    
     <script>
-        console.log('Starting comprehensive event loader');
+        console.log('=== BULLETPROOF EVENT LOADER STARTING ===');
         
         // All 59 JSON files in events directory
         const eventFiles = [
@@ -84,193 +88,324 @@
             'workshop_rh_okrs_ia_2025.json'
         ];
         
-        async function loadEvents() {
+        // Global variables for tracking
+        let totalFilesLoaded = 0;
+        let totalEventsFound = 0;
+        let futureEvents = [];
+        let pastEvents = 0;
+        let errors = [];
+        const cutoffDate = '2025-08-08';
+        
+        function updateProgress() {
+            const progressElement = document.getElementById('progress');
             const debugElement = document.getElementById('debug');
             const statsElement = document.getElementById('stats');
+            
+            try {
+                progressElement.innerHTML = `Progress: ${totalFilesLoaded}/${eventFiles.length} files loaded, ${errors.length} errors`;
+                
+                debugElement.innerHTML = `LOADING: ${totalFilesLoaded}/${eventFiles.length} files processed. Events found: ${totalEventsFound}`;
+                
+                statsElement.innerHTML = 
+                    `<strong>CURRENT STATS:</strong><br>` +
+                    `Files loaded: ${totalFilesLoaded}/${eventFiles.length}<br>` +
+                    `Total events found: ${totalEventsFound}<br>` +
+                    `Events before Aug 8: ${pastEvents}<br>` +
+                    `Future events: ${futureEvents.length}<br>` +
+                    `Errors: ${errors.length}`;
+                    
+                console.log(`Progress: ${totalFilesLoaded}/${eventFiles.length}, Events: ${totalEventsFound}, Future: ${futureEvents.length}, Errors: ${errors.length}`);
+            } catch (e) {
+                console.error('Error updating progress:', e);
+            }
+        }
+        
+        function displayEvents() {
             const container = document.getElementById('eventsContainer');
             
             try {
-                debugElement.innerHTML = 'Loading ' + eventFiles.length + ' files...';
-                
-                let totalFilesLoaded = 0;
-                let totalEventsFound = 0;
-                let futureEvents = [];
-                let pastEvents = 0;
-                const cutoffDate = '2025-08-08';
-                
-                // Load all files in parallel
-                const loadPromises = eventFiles.map(async (filename) => {
-                    try {
-                        const response = await fetch('events/' + filename);
-                        if (\!response.ok) {
-                            console.warn('Failed to load ' + filename + ': HTTP ' + response.status);
-                            return null;
-                        }
-                        const data = await response.json();
-                        totalFilesLoaded++;
-                        return { filename, data };
-                    } catch (error) {
-                        console.warn('Error loading ' + filename + ':', error.message);
-                        return null;
-                    }
-                });
-                
-                const results = await Promise.all(loadPromises);
-                
-                // Process loaded data
-                results.forEach(result => {
-                    if (\!result) return;
-                    const { filename, data } = result;
-                    
-                    // Handle conferences.json (array format)
-                    if (filename === 'conferences.json' && data.ai_conferences_2025) {
-                        data.ai_conferences_2025.forEach(event => {
-                            totalEventsFound++;
-                            const eventData = normalizeEvent(event, 'conference');
-                            if (eventData && eventData.startDate >= cutoffDate) {
-                                futureEvents.push(eventData);
-                            } else if (eventData) {
-                                pastEvents++;
-                            }
-                        });
-                        return;
-                    }
-                    
-                    // Handle event_template.json (skip it)
-                    if (filename === 'event_template.json') {
-                        return;
-                    }
-                    
-                    // Handle individual event files
-                    totalEventsFound++;
-                    const eventData = normalizeEvent(data, getEventType(data));
-                    if (eventData && eventData.startDate >= cutoffDate) {
-                        futureEvents.push(eventData);
-                    } else if (eventData) {
-                        pastEvents++;
-                    }
-                });
-                
                 // Sort by date
-                futureEvents.sort((a, b) => a.startDate.localeCompare(b.startDate));
-                
-                // Update stats
-                statsElement.innerHTML = 
-                    '<strong>LOADING STATS:</strong><br>' +
-                    'Files loaded: ' + totalFilesLoaded + '/' + eventFiles.length + '<br>' +
-                    'Total events found: ' + totalEventsFound + '<br>' +
-                    'Events before Aug 8: ' + pastEvents + '<br>' +
-                    'Future events displayed: ' + futureEvents.length;
-                
-                debugElement.innerHTML = 'SUCCESS: Loaded ' + totalFilesLoaded + ' files, showing ' + futureEvents.length + ' future events';
-                
-                // Display events
-                container.innerHTML = '<h2>AI Events 2025 - Future Events (' + futureEvents.length + ' events)</h2>';
-                
-                futureEvents.forEach((event, index) => {
-                    const div = document.createElement('div');
-                    div.className = 'event';
-                    
-                    const formattedDate = formatDate(event.startDate, event.endDate);
-                    const typeInfo = event.type ? ' (' + event.type + ')' : '';
-                    
-                    div.innerHTML = 
-                        '<div class="event-title">' + (index + 1) + '. ' + event.name + typeInfo + '</div>' +
-                        '<div class="event-info"><strong>Date:</strong> ' + formattedDate + '</div>' +
-                        '<div class="event-info"><strong>Location:</strong> ' + event.city + ', ' + event.country + '</div>' +
-                        (event.venue ? '<div class="event-info"><strong>Venue:</strong> ' + event.venue + '</div>' : '') +
-                        (event.format ? '<div class="event-info"><strong>Format:</strong> ' + event.format + '</div>' : '');
-                    
-                    container.appendChild(div);
+                futureEvents.sort((a, b) => {
+                    if (!a.startDate) return 1;
+                    if (!b.startDate) return -1;
+                    return a.startDate.localeCompare(b.startDate);
                 });
                 
-                console.log('All events processed and displayed');
+                let html = `<h2>AI Events 2025 - Future Events (${futureEvents.length} events)</h2>`;
                 
+                if (futureEvents.length === 0) {
+                    html += '<p>No future events found or events failed to load.</p>';
+                    if (errors.length > 0) {
+                        html += '<h3>Errors encountered:</h3>';
+                        errors.forEach(error => {
+                            html += `<p style="color: red;">• ${error}</p>`;
+                        });
+                    }
+                } else {
+                    futureEvents.forEach((event, index) => {
+                        const formattedDate = formatDate(event.startDate, event.endDate);
+                        const typeInfo = event.type ? ` (${event.type})` : '';
+                        
+                        html += `
+                            <div class="event">
+                                <div class="event-title">${index + 1}. ${event.name}${typeInfo}</div>
+                                <div class="event-info"><strong>Date:</strong> ${formattedDate}</div>
+                                <div class="event-info"><strong>Location:</strong> ${event.city || 'TBA'}, ${event.country || 'TBA'}</div>
+                                ${event.venue ? `<div class="event-info"><strong>Venue:</strong> ${event.venue}</div>` : ''}
+                                ${event.format ? `<div class="event-info"><strong>Format:</strong> ${event.format}</div>` : ''}
+                            </div>
+                        `;
+                    });
+                }
+                
+                container.innerHTML = html;
+                console.log('Events displayed successfully');
             } catch (error) {
-                console.error('Error in loadEvents:', error);
-                debugElement.innerHTML = 'ERROR: ' + error.message;
-                container.innerHTML = '<h2>ERROR LOADING EVENTS</h2><p>' + error.message + '</p>';
+                console.error('Error displaying events:', error);
+                container.innerHTML = `<h2>ERROR DISPLAYING EVENTS</h2><p>${error.message}</p>`;
             }
         }
         
-        function normalizeEvent(eventData, defaultType) {
-            if (\!eventData) return null;
-            
-            // Extract name (different field names across files)
-            const name = eventData.name || 
-                         eventData.event_name || 
-                         eventData.full_name || 
-                         'Unnamed Event';
-            
-            // Extract dates (different structures)
-            let startDate = null;
-            let endDate = null;
-            
-            if (eventData.dates) {
-                startDate = eventData.dates.start;
-                endDate = eventData.dates.end;
-            } else if (eventData.date) {
-                startDate = eventData.date.start;
-                endDate = eventData.date.end;
+        async function loadSingleFile(filename) {
+            try {
+                console.log(`Loading: ${filename}`);
+                const response = await fetch(`events/${filename}`);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status} for ${filename}`);
+                }
+                
+                const data = await response.json();
+                return { filename, data, success: true };
+            } catch (error) {
+                const errorMsg = `Failed to load ${filename}: ${error.message}`;
+                console.warn(errorMsg);
+                errors.push(errorMsg);
+                return { filename, error: error.message, success: false };
             }
-            
-            if (\!startDate) return null;
-            
-            // Extract location
-            const location = eventData.location || {};
-            const city = location.city || 'Unknown City';
-            const country = location.country || 'Unknown Country';
-            const venue = location.venue || '';
-            
-            // Extract type/format
-            const type = eventData.type || 
-                        eventData.event_type || 
-                        defaultType || 
-                        'event';
-            
-            const format = eventData.format || '';
-            
-            return {
-                name,
-                startDate,
-                endDate,
-                city,
-                country,
-                venue,
-                type,
-                format
-            };
         }
         
-        function getEventType(data) {
-            return data.type || data.event_type || 'event';
+        function normalizeEvent(eventData, filename) {
+            try {
+                if (!eventData) return null;
+                
+                // Extract name (try multiple field names)
+                const name = eventData.name || 
+                            eventData.event_name || 
+                            eventData.full_name || 
+                            eventData.title ||
+                            filename.replace('.json', '').replace(/_/g, ' ');
+                
+                // Extract dates (try multiple structures)
+                let startDate = null;
+                let endDate = null;
+                
+                if (eventData.dates) {
+                    startDate = eventData.dates.start;
+                    endDate = eventData.dates.end;
+                } else if (eventData.date) {
+                    startDate = eventData.date.start;
+                    endDate = eventData.date.end;
+                } else if (eventData.start_date) {
+                    startDate = eventData.start_date;
+                    endDate = eventData.end_date;
+                }
+                
+                // Skip if no start date
+                if (!startDate) {
+                    console.warn(`No start date found for ${filename}`);
+                    return null;
+                }
+                
+                // Extract location
+                const location = eventData.location || {};
+                const city = location.city || eventData.city || '';
+                const country = location.country || eventData.country || '';
+                const venue = location.venue || eventData.venue || '';
+                
+                // Extract type/format
+                const type = eventData.type || 
+                            eventData.event_type || 
+                            'event';
+                
+                const format = eventData.format || (location.online_platform ? 'online' : '');
+                
+                return {
+                    name,
+                    startDate,
+                    endDate,
+                    city,
+                    country,
+                    venue,
+                    type,
+                    format,
+                    source: filename
+                };
+            } catch (error) {
+                console.error(`Error normalizing event from ${filename}:`, error);
+                return null;
+            }
+        }
+        
+        function processEventData(result) {
+            try {
+                if (!result.success) return;
+                
+                const { filename, data } = result;
+                
+                // Skip template files
+                if (filename === 'event_template.json') {
+                    console.log('Skipping template file');
+                    return;
+                }
+                
+                // Handle conferences.json (array format)
+                if (filename === 'conferences.json' && data.ai_conferences_2025) {
+                    console.log(`Processing ${data.ai_conferences_2025.length} conferences from conferences.json`);
+                    data.ai_conferences_2025.forEach(event => {
+                        totalEventsFound++;
+                        const eventData = normalizeEvent(event, 'conference');
+                        if (eventData && eventData.startDate >= cutoffDate) {
+                            futureEvents.push(eventData);
+                        } else if (eventData) {
+                            pastEvents++;
+                        }
+                    });
+                    return;
+                }
+                
+                // Handle individual event files
+                totalEventsFound++;
+                const eventData = normalizeEvent(data, filename);
+                if (eventData && eventData.startDate >= cutoffDate) {
+                    futureEvents.push(eventData);
+                    console.log(`Added future event: ${eventData.name}`);
+                } else if (eventData) {
+                    pastEvents++;
+                    console.log(`Skipped past event: ${eventData.name}`);
+                } else {
+                    console.warn(`Failed to normalize event from ${filename}`);
+                }
+            } catch (error) {
+                const errorMsg = `Error processing ${result.filename}: ${error.message}`;
+                console.error(errorMsg);
+                errors.push(errorMsg);
+            }
         }
         
         function formatDate(start, end) {
-            if (\!start) return 'TBA';
-            
-            const startFormatted = new Date(start).toLocaleDateString('en-US', {
-                year: 'numeric',
-                month: 'short',
-                day: 'numeric'
-            });
-            
-            if (end && end \!== start) {
-                const endFormatted = new Date(end).toLocaleDateString('en-US', {
+            try {
+                if (!start) return 'TBA';
+                
+                const startFormatted = new Date(start).toLocaleDateString('en-US', {
                     year: 'numeric',
                     month: 'short',
                     day: 'numeric'
                 });
-                return startFormatted + ' - ' + endFormatted;
+                
+                if (end && end !== start) {
+                    const endFormatted = new Date(end).toLocaleDateString('en-US', {
+                        year: 'numeric',
+                        month: 'short',
+                        day: 'numeric'
+                    });
+                    return `${startFormatted} - ${endFormatted}`;
+                }
+                
+                return startFormatted;
+            } catch (error) {
+                console.error('Error formatting date:', error);
+                return 'Invalid Date';
             }
-            
-            return startFormatted;
         }
         
-        // Start loading
-        document.addEventListener('DOMContentLoaded', loadEvents);
-        setTimeout(loadEvents, 1000);
-        window.loadEvents = loadEvents;
+        async function loadAllEvents() {
+            const debugElement = document.getElementById('debug');
+            
+            try {
+                console.log('=== STARTING BULLETPROOF LOADER ===');
+                debugElement.innerHTML = 'STARTING: Initializing bulletproof loader...';
+                updateProgress();
+                
+                // Process files in smaller batches to avoid overwhelming the browser
+                const batchSize = 10;
+                const batches = [];
+                
+                for (let i = 0; i < eventFiles.length; i += batchSize) {
+                    batches.push(eventFiles.slice(i, i + batchSize));
+                }
+                
+                console.log(`Processing ${batches.length} batches of ${batchSize} files each`);
+                
+                for (let batchIndex = 0; batchIndex < batches.length; batchIndex++) {
+                    const batch = batches[batchIndex];
+                    console.log(`Processing batch ${batchIndex + 1}/${batches.length}`);
+                    
+                    // Load batch in parallel
+                    const batchPromises = batch.map(filename => loadSingleFile(filename));
+                    const batchResults = await Promise.all(batchPromises);
+                    
+                    // Process results
+                    batchResults.forEach(result => {
+                        if (result.success) {
+                            totalFilesLoaded++;
+                            processEventData(result);
+                        }
+                        updateProgress();
+                    });
+                    
+                    // Small delay between batches to keep UI responsive
+                    await new Promise(resolve => setTimeout(resolve, 100));
+                }
+                
+                console.log('=== ALL FILES PROCESSED ===');
+                console.log(`Total files loaded: ${totalFilesLoaded}/${eventFiles.length}`);
+                console.log(`Total events found: ${totalEventsFound}`);
+                console.log(`Future events: ${futureEvents.length}`);
+                console.log(`Past events: ${pastEvents}`);
+                console.log(`Errors: ${errors.length}`);
+                
+                debugElement.innerHTML = `SUCCESS: Loaded ${totalFilesLoaded}/${eventFiles.length} files. Found ${futureEvents.length} future events.`;
+                
+                if (errors.length > 0) {
+                    debugElement.innerHTML += ` (${errors.length} errors - see console)`;
+                }
+                
+                displayEvents();
+                
+            } catch (error) {
+                console.error('CRITICAL ERROR in loadAllEvents:', error);
+                debugElement.innerHTML = `CRITICAL ERROR: ${error.message}`;
+                
+                // Try to display whatever we have
+                try {
+                    displayEvents();
+                } catch (displayError) {
+                    console.error('Failed to display events after error:', displayError);
+                }
+            }
+        }
+        
+        // Auto-start when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOM loaded, starting event loader...');
+            loadAllEvents();
+        });
+        
+        // Backup trigger in case DOMContentLoaded already fired
+        if (document.readyState === 'loading') {
+            console.log('Document still loading, waiting for DOMContentLoaded');
+        } else {
+            console.log('Document already loaded, starting immediately');
+            setTimeout(loadAllEvents, 100);
+        }
+        
+        // Manual trigger for debugging
+        window.loadEvents = loadAllEvents;
+        window.displayEvents = displayEvents;
+        
+        console.log('=== BULLETPROOF LOADER INITIALIZED ===');
     </script>
 </body>
 </html>
+EOF < /dev/null
