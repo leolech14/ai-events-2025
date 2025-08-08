@@ -1002,47 +1002,54 @@
             updateStats();
         }
 
-        // Filter events
+        // Filter events - FIXED VERSION
         function filterEvents() {
             const searchTerm = document.getElementById('searchInput').value.toLowerCase();
             const typeFilter = document.getElementById('typeFilter').value;
             const locationFilter = document.getElementById('locationFilter').value;
             const formatFilter = document.getElementById('formatFilter').value;
             
-            filteredEvents = allEvents.filter(event => {
-                // Search filter
-                if (searchTerm) {
-                    const searchableText = [
-                        event.event_name,
-                        event.description,
-                        event.location?.city,
-                        event.location?.country,
-                        ...(event.tags || []),
-                        ...(event.focus_areas || [])
-                    ].filter(Boolean).join(' ').toLowerCase();
+            // CRITICAL FIX: If no filters are applied, show ALL events
+            if (!searchTerm && !typeFilter && !locationFilter && !formatFilter) {
+                filteredEvents = [...allEvents];
+                console.log(`No filters applied - showing all ${allEvents.length} events`);
+            } else {
+                filteredEvents = allEvents.filter(event => {
+                    // Search filter
+                    if (searchTerm) {
+                        const searchableText = [
+                            event.event_name,
+                            event.description,
+                            event.location?.city,
+                            event.location?.country,
+                            ...(event.tags || []),
+                            ...(event.focus_areas || [])
+                        ].filter(Boolean).join(' ').toLowerCase();
+                        
+                        if (!searchableText.includes(searchTerm)) {
+                            return false;
+                        }
+                    }
                     
-                    if (!searchableText.includes(searchTerm)) {
+                    // Type filter
+                    if (typeFilter && event.event_type !== typeFilter) {
                         return false;
                     }
-                }
-                
-                // Type filter
-                if (typeFilter && event.event_type !== typeFilter) {
-                    return false;
-                }
-                
-                // Location filter
-                if (locationFilter && event.location?.city !== locationFilter) {
-                    return false;
-                }
-                
-                // Format filter
-                if (formatFilter && event.format !== formatFilter) {
-                    return false;
-                }
-                
-                return true;
-            });
+                    
+                    // Location filter
+                    if (locationFilter && event.location?.city !== locationFilter) {
+                        return false;
+                    }
+                    
+                    // Format filter
+                    if (formatFilter && event.format !== formatFilter) {
+                        return false;
+                    }
+                    
+                    return true;
+                });
+                console.log(`Filters applied - showing ${filteredEvents.length} of ${allEvents.length} events`);
+            }
             
             sortEvents();
             renderCurrentView();
