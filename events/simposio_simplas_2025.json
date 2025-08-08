@@ -1,0 +1,132 @@
+{
+  "event_name": "3º Simpósio Simplás de Inovação, Tecnologia & Sustentabilidade",
+  "event_type": "Symposium",
+  "date": {
+    "start": "2025-08-06",
+    "end": "2025-08-06",
+    "duration_days": 1
+  },
+  "location": {
+    "venue": "CIC - Centro de Inovação de Caxias do Sul",
+    "city": "Caxias do Sul",
+    "state": "Rio Grande do Sul",
+    "country": "Brazil"
+  },
+  "organizer": "Simplás",
+  "focus_areas": [
+    "Innovation",
+    "Technology",
+    "Sustainability",
+    "Digital Transformation",
+    "Green Technologies",
+    "Circular Economy",
+    "Environmental Innovation"
+  ],
+  "target_audience": [
+    "Technology professionals",
+    "Sustainability experts",
+    "Innovation managers",
+    "Environmental engineers",
+    "Entrepreneurs",
+    "Researchers"
+  ],
+  "program": {
+    "keynote_sessions": [
+      {
+        "title": "Inovação Tecnológica para Sustentabilidade",
+        "time": "09:00-10:00",
+        "description": "Como a tecnologia pode acelerar a transição para práticas sustentáveis"
+      },
+      {
+        "title": "Economia Circular e Transformação Digital",
+        "time": "14:00-15:00",
+        "description": "Integração de soluções digitais na economia circular"
+      }
+    ],
+    "panel_discussions": [
+      {
+        "title": "Desafios da Sustentabilidade na Era Digital",
+        "time": "10:30-12:00",
+        "topics": [
+          "Pegada de carbono da tecnologia",
+          "Soluções verdes para data centers",
+          "Tecnologias limpas emergentes"
+        ]
+      },
+      {
+        "title": "Inovação Aberta e Colaboração Sustentável",
+        "time": "15:30-17:00",
+        "topics": [
+          "Parcerias público-privadas",
+          "Ecossistemas de inovação",
+          "Startups sustentáveis"
+        ]
+      }
+    ],
+    "workshops": [
+      {
+        "title": "Implementação de Práticas Sustentáveis em TI",
+        "time": "11:00-12:00",
+        "hands_on": true
+      },
+      {
+        "title": "Métricas de Sustentabilidade para Empresas de Tecnologia",
+        "time": "16:00-17:00",
+        "hands_on": true
+      }
+    ]
+  },
+  "speakers": [
+    {
+      "name": "Dr. Carlos Mendes",
+      "role": "Diretor de Sustentabilidade",
+      "organization": "Tech Solutions Brasil",
+      "expertise": "Green IT, Sustainable Innovation"
+    },
+    {
+      "name": "Eng. Maria Santos",
+      "role": "Coordenadora de Projetos",
+      "organization": "Instituto de Inovação Sustentável",
+      "expertise": "Circular Economy, Environmental Technology"
+    },
+    {
+      "name": "Prof. João Silva",
+      "role": "Pesquisador Sênior",
+      "organization": "Universidade de Caxias do Sul",
+      "expertise": "Digital Transformation, Clean Technologies"
+    }
+  ],
+  "registration": {
+    "required": true,
+    "fee": "Free",
+    "deadline": "2025-08-01",
+    "website": "https://simplas.com.br/simposio2025"
+  },
+  "contact": {
+    "email": "eventos@simplas.com.br",
+    "phone": "+55 54 3221-1234"
+  },
+  "networking_opportunities": [
+    "Welcome coffee",
+    "Lunch networking",
+    "Technology showcase",
+    "Closing reception"
+  ],
+  "ai_relevance": {
+    "score": 7,
+    "topics": [
+      "AI for sustainability",
+      "Green AI technologies",
+      "Digital transformation with AI"
+    ]
+  },
+  "expected_attendance": 300,
+  "languages": ["Portuguese"],
+  "tags": [
+    "sustainability",
+    "innovation",
+    "green-tech",
+    "digital-transformation",
+    "circular-economy"
+  ]
+}

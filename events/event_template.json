@@ -1,0 +1,54 @@
+{
+  "event_name": "",
+  "event_type": "conference/workshop/summit/hackathon/course/seminar/meetup",
+  "date": {
+    "start": "2025-MM-DD",
+    "end": "2025-MM-DD"
+  },
+  "location": {
+    "city": "",
+    "state": "",
+    "country": "Brazil",
+    "venue": "",
+    "address": "",
+    "online_platform": ""
+  },
+  "format": "presential/online/hybrid",
+  "duration": "",
+  "description": "",
+  "focus_areas": [],
+  "target_audience": [],
+  "organizers": [],
+  "sponsors": [],
+  "speakers": [],
+  "agenda": [],
+  "registration": {
+    "url": "",
+    "deadline": "",
+    "price": {
+      "currency": "BRL",
+      "early_bird": 0,
+      "regular": 0,
+      "student": 0
+    },
+    "capacity": 0,
+    "requirements": []
+  },
+  "contact": {
+    "email": "",
+    "phone": "",
+    "website": "",
+    "social_media": {
+      "linkedin": "",
+      "instagram": "",
+      "twitter": ""
+    }
+  },
+  "tags": [],
+  "language": "Portuguese",
+  "certification": false,
+  "networking_opportunities": [],
+  "partners": [],
+  "related_events": [],
+  "last_updated": "2025-01-07"
+}

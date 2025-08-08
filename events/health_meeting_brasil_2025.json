@@ -1,0 +1,54 @@
+{
+  "event_name": "Health Meeting Brasil / SINDIHOSPA 2025",
+  "event_type": "conference",
+  "date": {
+    "start": "2025-10-21",
+    "end": "2025-10-23"
+  },
+  "location": {
+    "city": "Porto Alegre",
+    "state": "Rio Grande do Sul",
+    "country": "Brazil",
+    "venue": "PUCRS",
+    "address": "Pontifícia Universidade Católica do Rio Grande do Sul",
+    "online_platform": ""
+  },
+  "format": "presential",
+  "duration": "3 days",
+  "description": "Health Meeting Brasil em parceria com SINDIHOSPA, focado em inovações em saúde, tecnologia médica e inteligência artificial aplicada ao setor de saúde hospitalar.",
+  "focus_areas": ["Healthcare Technology", "Medical AI", "Hospital Management", "Health Innovation", "Digital Health"],
+  "target_audience": ["Healthcare Professionals", "Hospital Administrators", "Health Tech Developers", "Medical Students", "Healthcare Investors"],
+  "organizers": ["SINDIHOSPA", "PUCRS"],
+  "sponsors": [],
+  "speakers": [],
+  "agenda": [],
+  "registration": {
+    "url": "",
+    "deadline": "",
+    "price": {
+      "currency": "BRL",
+      "early_bird": 0,
+      "regular": 0,
+      "student": 0
+    },
+    "capacity": 0,
+    "requirements": []
+  },
+  "contact": {
+    "email": "",
+    "phone": "",
+    "website": "",
+    "social_media": {
+      "linkedin": "",
+      "instagram": "",
+      "twitter": ""
+    }
+  },
+  "tags": ["healthcare", "AI", "medical technology", "hospital management", "health innovation"],
+  "language": "Portuguese",
+  "certification": false,
+  "networking_opportunities": [],
+  "partners": [],
+  "related_events": [],
+  "last_updated": "2025-01-07"
+}

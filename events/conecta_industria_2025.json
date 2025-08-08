@@ -1,0 +1,151 @@
+{
+  "event_name": "Conecta Indústria 2025",
+  "event_type": "conference",
+  "date": {
+    "start": "2025-09-17",
+    "end": "2025-09-18"
+  },
+  "location": {
+    "city": "Sorocaba",
+    "state": "SP",
+    "country": "Brazil",
+    "venue": "Parque Tecnológico de Sorocaba",
+    "address": "Rodovia Raposo Tavares, Km 92,5 - Vila Artura, Sorocaba - SP",
+    "online_platform": ""
+  },
+  "format": "presential",
+  "duration": "2 days",
+  "description": "Evento de dois dias focado na conexão entre tecnologia e indústria, explorando como a IA está revolucionando processos industriais, manufatura inteligente, IoT industrial e sustentabilidade através da tecnologia.",
+  "focus_areas": [
+    "Industrial AI",
+    "Smart Manufacturing",
+    "Industry 4.0",
+    "IoT in Industry",
+    "Predictive Maintenance",
+    "Quality Control with AI",
+    "Supply Chain Optimization",
+    "Sustainable Industrial Practices",
+    "Digital Twin Technology",
+    "Robotics and Automation"
+  ],
+  "target_audience": [
+    "Industrial Engineers",
+    "Manufacturing Professionals",
+    "Technology Directors",
+    "Operations Managers",
+    "Quality Control Specialists",
+    "Supply Chain Managers",
+    "R&D Professionals",
+    "Startup Founders",
+    "Investors in Industrial Tech"
+  ],
+  "organizers": [
+    "Parque Tecnológico de Sorocaba",
+    "FIESP",
+    "SENAI-SP"
+  ],
+  "sponsors": [],
+  "speakers": [],
+  "agenda": [
+    {
+      "time": "Day 1 - 08:00-09:00",
+      "title": "Credenciamento e Coffee Networking",
+      "type": "networking"
+    },
+    {
+      "time": "Day 1 - 09:00-10:30",
+      "title": "Keynote: IA na Indústria 4.0",
+      "type": "keynote"
+    },
+    {
+      "time": "Day 1 - 10:30-12:00",
+      "title": "Painel: Manufatura Inteligente",
+      "type": "panel"
+    },
+    {
+      "time": "Day 1 - 14:00-15:30",
+      "title": "Workshop: IoT Industrial na Prática",
+      "type": "workshop"
+    },
+    {
+      "time": "Day 1 - 16:00-17:30",
+      "title": "Cases de Sucesso em IA Industrial",
+      "type": "presentation"
+    },
+    {
+      "time": "Day 2 - 09:00-10:30",
+      "title": "Manutenção Preditiva com IA",
+      "type": "presentation"
+    },
+    {
+      "time": "Day 2 - 11:00-12:30",
+      "title": "Mesa Redonda: Sustentabilidade e Tecnologia",
+      "type": "panel"
+    },
+    {
+      "time": "Day 2 - 14:00-16:00",
+      "title": "Laboratório de Inovação Aberto",
+      "type": "workshop"
+    },
+    {
+      "time": "Day 2 - 16:00-17:00",
+      "title": "Pitch de Startups Industriais",
+      "type": "pitch"
+    }
+  ],
+  "registration": {
+    "url": "",
+    "deadline": "2025-09-10",
+    "price": {
+      "currency": "BRL",
+      "early_bird": 180,
+      "regular": 250,
+      "student": 50
+    },
+    "capacity": 500,
+    "requirements": [
+      "Inscrição online obrigatória",
+      "Documento de identificação",
+      "Comprovante de vínculo profissional/acadêmico"
+    ]
+  },
+  "contact": {
+    "email": "eventos@parquetecsorocaba.com.br",
+    "phone": "+55 15 3238-5000",
+    "website": "https://www.parquetecsorocaba.com.br/",
+    "social_media": {
+      "linkedin": "https://linkedin.com/company/parque-tecnologico-sorocaba",
+      "instagram": "@parquetecsorocaba",
+      "twitter": "@parquetecsorocaba"
+    }
+  },
+  "tags": [
+    "industry-4.0",
+    "smart-manufacturing",
+    "industrial-iot",
+    "artificial-intelligence",
+    "automation",
+    "predictive-maintenance",
+    "digital-transformation",
+    "sustainability",
+    "innovation"
+  ],
+  "language": "Portuguese",
+  "certification": true,
+  "networking_opportunities": [
+    "Coffee breaks",
+    "Lunch networking",
+    "Innovation lab sessions",
+    "Startup pitch sessions",
+    "Exhibition area"
+  ],
+  "partners": [
+    "SEBRAE-SP",
+    "FINEP",
+    "BNDES"
+  ],
+  "related_events": [
+    "bate_papo_ia_futuro_trabalho_2025.json"
+  ],
+  "last_updated": "2025-08-07"
+}

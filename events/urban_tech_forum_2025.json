@@ -1,0 +1,624 @@
+{
+  "event_name": "Urban Tech Forum 2025",
+  "event_type": "afternoon_forum",
+  "dates": {
+    "start": "2025-09-23",
+    "end": "2025-09-23",
+    "duration_days": 1,
+    "time_schedule": {
+      "start_time": "14:00",
+      "end_time": "18:00",
+      "total_hours": 4
+    }
+  },
+  "location": {
+    "venue": "CIA Primavera",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "country": "Brazil",
+    "address": "Rua Conselheiro Mafra, 173 - Centro Histórico",
+    "postal_code": "88010-100",
+    "coordinates": {
+      "latitude": -27.5954,
+      "longitude": -48.5480
+    },
+    "venue_type": "Creative Hub & Innovation Center",
+    "facilities": {
+      "main_auditorium": "150 capacity amphitheater",
+      "breakout_rooms": 3,
+      "coworking_spaces": "Open collaboration areas",
+      "exhibition_area_sqm": 200,
+      "tech_infrastructure": "Fiber optic, 5G coverage, interactive displays",
+      "accessibility": "Full wheelchair access, hearing assistance",
+      "parking_spaces": 40,
+      "public_transport": "Central location, bus and walking access"
+    },
+    "venue_description": "Historic building transformed into a vibrant creative hub, perfect for innovation discussions and networking in Florianópolis' cultural heart"
+  },
+  "organizer": {
+    "name": "Floripa Tech Hub",
+    "type": "Innovation Ecosystem",
+    "website": "https://www.floriptechhub.com.br",
+    "about": "Leading innovation hub connecting startups, government and corporations in Santa Catarina's smart city initiatives",
+    "focus_areas": [
+      "Smart city technologies",
+      "Urban innovation",
+      "Government-tech partnerships",
+      "Sustainable urban development",
+      "Digital transformation in cities"
+    ],
+    "partners": [
+      "Prefeitura de Florianópolis",
+      "ACATE - Associação Catarinense de Tecnologia",
+      "SEBRAE SC",
+      "FAPESC - Fundação de Amparo à Pesquisa de SC"
+    ]
+  },
+  "event_details": {
+    "expected_attendance": 120,
+    "target_audience": [
+      "Urban planners",
+      "City government officials",
+      "Smart city technology providers",
+      "Municipal IT directors",
+      "Transportation specialists",
+      "Environmental monitoring experts",
+      "IoT solution architects",
+      "Mobility startups",
+      "Civic tech developers",
+      "University researchers",
+      "Public policy makers",
+      "Urban sustainability consultants"
+    ],
+    "languages": ["Portuguese", "English"],
+    "format": {
+      "forum_structure": {
+        "opening_keynote": 1,
+        "panel_discussions": 3,
+        "interactive_workshops": 2,
+        "demo_stations": 6,
+        "networking_breaks": 2,
+        "closing_roundtable": 1
+      },
+      "afternoon_flow": {
+        "14:00-14:30": "Registration & Welcome Coffee",
+        "14:30-15:15": "Opening Keynote: AI-Powered Cities of Tomorrow",
+        "15:15-16:00": "Panel 1: Smart Infrastructure & IoT Integration",
+        "16:00-16:15": "Networking Break",
+        "16:15-17:00": "Panel 2: Mobility & Transportation AI",
+        "17:00-17:45": "Interactive Demo Session",
+        "17:45-18:00": "Closing Roundtable & Next Steps"
+      }
+    }
+  },
+  "ai_focus_areas": {
+    "smart_city_infrastructure": {
+      "title": "AI for Smart City Infrastructure",
+      "topics": [
+        "Intelligent traffic light systems",
+        "Predictive maintenance for city assets",
+        "Smart energy grid optimization",
+        "Water management with AI sensors",
+        "Waste collection route optimization",
+        "Public safety incident prediction",
+        "Emergency response coordination"
+      ],
+      "use_cases": [
+        "Florianópolis smart traffic pilot",
+        "Automated street lighting systems",
+        "Flood prediction and prevention",
+        "Public space optimization"
+      ],
+      "technologies": [
+        "Computer vision for urban monitoring",
+        "Edge AI for real-time decisions",
+        "Digital twins for city modeling",
+        "Machine learning for pattern recognition"
+      ]
+    },
+    "urban_mobility_ai": {
+      "title": "AI-Driven Urban Mobility",
+      "topics": [
+        "Real-time traffic flow optimization",
+        "Public transport demand prediction",
+        "Dynamic routing algorithms",
+        "Parking space availability systems",
+        "Shared mobility management",
+        "Pedestrian and cyclist safety",
+        "Multimodal journey planning"
+      ],
+      "applications": [
+        "Smart bus scheduling",
+        "Congestion pricing algorithms",
+        "Bike-sharing optimization",
+        "Ride-sharing coordination",
+        "Last-mile delivery solutions"
+      ],
+      "florianopolis_context": [
+        "Bridge traffic management",
+        "Tourist season flow optimization",
+        "Beach area mobility planning",
+        "Integration with Hercílio Luz Airport"
+      ]
+    },
+    "environmental_monitoring": {
+      "title": "AI for Environmental Urban Management",
+      "topics": [
+        "Air quality monitoring and prediction",
+        "Noise pollution mapping",
+        "Urban heat island detection",
+        "Green space optimization",
+        "Water quality assessment",
+        "Biodiversity tracking in urban areas",
+        "Climate change adaptation planning"
+      ],
+      "smart_solutions": [
+        "IoT sensor networks for environmental data",
+        "Satellite imagery analysis for urban growth",
+        "Predictive models for environmental impact",
+        "Automated environmental reporting"
+      ],
+      "local_relevance": [
+        "Lagoa da Conceição ecosystem monitoring",
+        "Coastal erosion prediction",
+        "Urban forest management",
+        "Sustainable tourism impact assessment"
+      ]
+    }
+  },
+  "forum_tracks": {
+    "track_1": {
+      "name": "Smart Infrastructure & IoT",
+      "time": "15:15-16:00",
+      "sessions": [
+        "IoT sensor deployment strategies",
+        "Edge computing for city operations",
+        "Data privacy in smart cities",
+        "Interoperability challenges and solutions"
+      ],
+      "speakers": [
+        "Municipal IT Director",
+        "IoT Platform Architect",
+        "Privacy & Security Expert",
+        "Standards & Integration Specialist"
+      ]
+    },
+    "track_2": {
+      "name": "Mobility & Transportation AI",
+      "time": "16:15-17:00",
+      "sessions": [
+        "Traffic optimization algorithms",
+        "Public transport intelligence",
+        "Autonomous vehicle readiness",
+        "Sustainable mobility planning"
+      ],
+      "speakers": [
+        "Transportation Planner",
+        "Mobility Tech Startup CEO",
+        "Autonomous Systems Engineer",
+        "Sustainable Transport Advocate"
+      ]
+    }
+  },
+  "expected_speakers": {
+    "keynote_speakers": [
+      {
+        "name": "Dr. Carolina Silva",
+        "title": "Secretary of Innovation, Florianópolis City Hall",
+        "topic": "Florianópolis Smart City Vision 2030",
+        "bio": "Leading the digital transformation of Florianópolis with focus on citizen-centric AI solutions"
+      }
+    ],
+    "panel_speakers": [
+      {
+        "name": "Prof. Roberto Santos",
+        "title": "Urban Planning Director, UFSC",
+        "expertise": "AI applications in urban planning and sustainable development"
+      },
+      {
+        "name": "Maria Gonzalez",
+        "title": "CTO, UrbanTech Solutions",
+        "expertise": "Smart city platform development and IoT integration"
+      },
+      {
+        "name": "João Oliveira",
+        "title": "Mobility Director, Prefeitura de Florianópolis",
+        "expertise": "Transportation planning and smart mobility initiatives"
+      },
+      {
+        "name": "Dr. Ana Costa",
+        "title": "Environmental AI Researcher, INPE",
+        "expertise": "Climate monitoring and environmental data analysis"
+      }
+    ],
+    "international_speakers": [
+      {
+        "name": "Sarah Chen",
+        "title": "Smart Cities Lead, Singapore GovTech",
+        "topic": "Global best practices in urban AI implementation",
+        "participation": "Virtual presentation"
+      }
+    ]
+  },
+  "demo_stations": {
+    "station_1": {
+      "title": "Traffic AI Command Center",
+      "description": "Live demonstration of real-time traffic optimization system",
+      "provider": "Urban Intelligence Systems",
+      "technology": "Computer vision + Machine learning"
+    },
+    "station_2": {
+      "title": "Environmental Monitoring Dashboard",
+      "description": "IoT sensors and AI for air quality and noise monitoring",
+      "provider": "EcoSense Technologies",
+      "technology": "IoT sensors + Predictive analytics"
+    },
+    "station_3": {
+      "title": "Smart Lighting Network",
+      "description": "Adaptive street lighting based on usage patterns",
+      "provider": "LuminAI",
+      "technology": "Edge AI + Light sensors"
+    },
+    "station_4": {
+      "title": "Mobility Planning Platform",
+      "description": "AI-powered public transport optimization",
+      "provider": "MoveSmarter",
+      "technology": "Route optimization algorithms"
+    },
+    "station_5": {
+      "title": "Citizen Engagement App",
+      "description": "AI chatbot for city services and complaint resolution",
+      "provider": "CitizenConnect",
+      "technology": "NLP + Workflow automation"
+    },
+    "station_6": {
+      "title": "Urban Digital Twin",
+      "description": "3D city model with real-time data integration",
+      "provider": "CityTwin Technologies",
+      "technology": "Digital twins + Real-time data"
+    }
+  },
+  "florianopolis_initiatives": {
+    "current_projects": [
+      {
+        "name": "Floripa Inteligente",
+        "description": "Comprehensive smart city initiative covering mobility, environment, and governance",
+        "ai_components": [
+          "Traffic flow optimization",
+          "Public service chatbots",
+          "Environmental monitoring",
+          "Citizen service analytics"
+        ]
+      },
+      {
+        "name": "Centro Conectado",
+        "description": "Historic center digitalization with smart tourism and mobility solutions",
+        "ai_features": [
+          "Tourist flow prediction",
+          "Dynamic parking management",
+          "Cultural site recommendations",
+          "Real-time event information"
+        ]
+      },
+      {
+        "name": "Lagoa Sustentável",
+        "description": "AI-powered environmental monitoring for Lagoa da Conceição",
+        "technologies": [
+          "Water quality sensors",
+          "Biodiversity tracking",
+          "Tourist impact assessment",
+          "Ecosystem health prediction"
+        ]
+      }
+    ],
+    "planned_expansions": [
+      "Island-wide smart mobility network",
+      "Predictive flood management system",
+      "Integrated emergency response AI",
+      "Sustainable tourism optimization"
+    ]
+  },
+  "workshops": {
+    "workshop_1": {
+      "title": "Hands-on: Building Smart City Dashboards",
+      "time": "Parallel to demos",
+      "duration": "45 minutes",
+      "capacity": 25,
+      "description": "Interactive session on creating data visualization for urban management",
+      "tools": ["Power BI", "Tableau", "Custom APIs"],
+      "takeaways": "Dashboard template for municipal use"
+    },
+    "workshop_2": {
+      "title": "IoT Deployment Strategy Workshop",
+      "time": "Parallel to demos",
+      "duration": "45 minutes",
+      "capacity": 20,
+      "description": "Planning and executing citywide IoT sensor networks",
+      "focus": ["Sensor selection", "Network architecture", "Data management", "Privacy compliance"],
+      "outcome": "IoT deployment roadmap template"
+    }
+  },
+  "registration": {
+    "categories": {
+      "government_officials": {
+        "price_brl": 150,
+        "includes": [
+          "Full forum access",
+          "Demo stations tour",
+          "Workshop participation",
+          "Networking coffee",
+          "Digital materials package",
+          "Follow-up consultation session"
+        ],
+        "verification": "Government email required"
+      },
+      "private_sector": {
+        "price_brl": 250,
+        "includes": [
+          "Full forum access",
+          "Demo stations tour",
+          "Workshop participation",
+          "Networking opportunities",
+          "Business cards exchange platform",
+          "Partnership matching service"
+        ]
+      },
+      "academics_researchers": {
+        "price_brl": 120,
+        "includes": [
+          "Full forum access",
+          "Research presentation opportunity",
+          "Academic networking session",
+          "Digital proceedings access"
+        ],
+        "verification": "Academic institution email"
+      },
+      "students": {
+        "price_brl": 50,
+        "includes": [
+          "Forum access",
+          "Student networking session",
+          "Mentoring opportunities",
+          "Career guidance session"
+        ],
+        "verification": "Valid student ID"
+      }
+    },
+    "early_bird": {
+      "deadline": "2025-08-15",
+      "discount": "20% off all categories"
+    },
+    "group_discounts": {
+      "5_plus_same_organization": "15% discount",
+      "10_plus_same_organization": "25% discount"
+    }
+  },
+  "partnerships": {
+    "government": [
+      {
+        "entity": "Prefeitura de Florianópolis",
+        "role": "Main Partner",
+        "contribution": "Venue support, speaker coordination, local case studies"
+      },
+      {
+        "entity": "Governo do Estado de SC",
+        "role": "Strategic Partner",
+        "contribution": "State-level smart city initiatives presentation"
+      },
+      {
+        "entity": "Ministério das Cidades",
+        "role": "Federal Support",
+        "contribution": "National urban policy context"
+      }
+    ],
+    "academic": [
+      {
+        "institution": "UFSC - Universidade Federal de Santa Catarina",
+        "contribution": "Research presentations, student participation"
+      },
+      {
+        "institution": "UDESC - Universidade do Estado de Santa Catarina",
+        "contribution": "Urban planning expertise, case studies"
+      },
+      {
+        "institution": "SENAI/SC",
+        "contribution": "Technical training programs, workforce development"
+      }
+    ],
+    "industry": [
+      {
+        "company": "WEG",
+        "role": "Technology Sponsor",
+        "contribution": "Smart infrastructure solutions showcase"
+      },
+      {
+        "company": "Softplan",
+        "role": "GovTech Partner",
+        "contribution": "Government technology solutions demo"
+      },
+      {
+        "company": "Tractian",
+        "role": "Innovation Partner",
+        "contribution": "Predictive maintenance for urban assets"
+      }
+    ],
+    "international": [
+      {
+        "organization": "Smart Cities Council",
+        "role": "Knowledge Partner",
+        "contribution": "Global best practices sharing"
+      },
+      {
+        "organization": "ICLEI - Local Governments for Sustainability",
+        "role": "Sustainability Partner",
+        "contribution": "Environmental AI applications"
+      }
+    ]
+  },
+  "innovation_showcase": {
+    "startup_corner": {
+      "slots": 8,
+      "focus": "Urban tech startups from Santa Catarina",
+      "format": "5-minute pitches + demo stations",
+      "categories": [
+        "Mobility solutions",
+        "Environmental monitoring",
+        "Citizen services",
+        "Urban planning tools"
+      ]
+    },
+    "government_innovation": {
+      "showcase": "Municipal AI projects from Brazilian cities",
+      "participants": [
+        "São Paulo - Traffic AI system",
+        "Rio de Janeiro - Public safety prediction",
+        "Curitiba - Bus route optimization",
+        "Florianópolis - Tourist flow management"
+      ]
+    }
+  },
+  "networking_opportunities": {
+    "welcome_coffee": {
+      "time": "14:00-14:30",
+      "format": "Informal networking with name tags indicating interests/expertise"
+    },
+    "demo_station_networking": {
+      "time": "17:00-17:45",
+      "format": "Structured networking around demo stations with guided discussions"
+    },
+    "follow_up_platform": {
+      "tool": "Digital networking platform",
+      "features": [
+        "Contact exchange",
+        "Project collaboration matching",
+        "Resource sharing",
+        "Follow-up meeting scheduling"
+      ]
+    }
+  },
+  "expected_outcomes": {
+    "collaboration_projects": "3-5 new municipal-private partnerships",
+    "pilot_programs": "2-3 AI pilot projects initiated",
+    "knowledge_sharing": "Best practices documentation for SC municipalities",
+    "network_building": "Strong connection between urban planners and tech providers",
+    "policy_insights": "Recommendations for smart city governance frameworks",
+    "follow_up_events": "Quarterly technical working groups"
+  },
+  "sustainability_focus": {
+    "carbon_neutral_event": {
+      "measures": [
+        "Digital-first materials (minimal printing)",
+        "Local speaker preference to reduce travel",
+        "Public transport incentives for attendees",
+        "Recyclable materials for demo stations",
+        "Paperless registration and networking"
+      ]
+    },
+    "sustainable_urban_themes": [
+      "AI for carbon footprint reduction",
+      "Green infrastructure optimization",
+      "Sustainable mobility promotion",
+      "Energy efficiency in public buildings",
+      "Waste reduction through smart systems"
+    ]
+  },
+  "media_coverage": {
+    "local_media": [
+      "NSC Total",
+      "Diário Catarinense",
+      "ND Mais",
+      "Notícias do Dia"
+    ],
+    "specialized_media": [
+      "Portal GovTech",
+      "CiTi - Cidade Inteligente",
+      "Revista Infraestrutura Urbana",
+      "Smart Cities Brasil"
+    ],
+    "digital_presence": {
+      "live_streaming": "Key sessions streamed on YouTube",
+      "social_media": "#UrbanTechFloripa #CidadeInteligente #FloriaAI",
+      "event_app": "Mobile app with agenda, networking, and materials",
+      "post_event": "Recorded sessions available for 6 months"
+    }
+  },
+  "contact": {
+    "website": "www.urbantechforum.floripa.br",
+    "email": "contato@urbantechforum.floripa.br",
+    "phone": "+55 48 3222-1234",
+    "whatsapp": "+55 48 99999-8888",
+    "registration": "inscricoes@urbantechforum.floripa.br",
+    "speakers": "palestrantes@urbantechforum.floripa.br",
+    "partnerships": "parcerias@urbantechforum.floripa.br",
+    "press": "imprensa@urbantechforum.floripa.br"
+  },
+  "key_topics_2025": [
+    "Generative AI for urban planning",
+    "Edge computing in smart cities",
+    "Privacy-preserving urban analytics",
+    "AI governance in municipal services",
+    "Climate resilience through AI",
+    "Inclusive smart city design",
+    "Real-time city operations centers",
+    "Predictive infrastructure maintenance",
+    "Citizen-centric AI applications",
+    "Cross-municipal data sharing"
+  ],
+  "special_features": {
+    "floripa_smart_city_tour": {
+      "description": "Optional guided tour of Florianópolis smart city implementations",
+      "duration": "2 hours before forum (12:00-14:00)",
+      "capacity": 30,
+      "cost_brl": 75,
+      "includes": [
+        "Smart traffic center visit",
+        "Connected bus stops demonstration",
+        "Environmental monitoring stations",
+        "Digital tourism kiosks in historic center"
+      ]
+    },
+    "municipal_leaders_roundtable": {
+      "format": "Closed session for mayors and secretaries",
+      "time": "30 minutes after main forum",
+      "focus": [
+        "Inter-municipal collaboration opportunities",
+        "Shared AI infrastructure planning",
+        "Joint procurement strategies",
+        "Regional smart city initiatives"
+      ]
+    },
+    "tech_provider_showcase": {
+      "format": "Speed networking for solution providers",
+      "time": "During networking breaks",
+      "structure": "3-minute company presentations + matchmaking"
+    }
+  },
+  "accessibility": {
+    "physical_accessibility": [
+      "Wheelchair accessible venue",
+      "Reserved parking spaces",
+      "Accessible restrooms",
+      "Sign language interpretation available upon request"
+    ],
+    "digital_accessibility": [
+      "Materials available in multiple formats",
+      "Live captioning for presentations",
+      "Audio descriptions for visual content",
+      "Mobile app with accessibility features"
+    ]
+  },
+  "post_event": {
+    "follow_up_activities": [
+      "Monthly virtual meetups for participants",
+      "Quarterly progress reports on initiated projects",
+      "Annual follow-up forum",
+      "Online collaboration platform maintenance"
+    ],
+    "deliverables": [
+      "Forum proceedings document",
+      "Best practices guide for municipal AI implementation",
+      "Contact directory for all participants",
+      "Project collaboration matching results"
+    ]
+  }
+}

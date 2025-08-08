@@ -1,0 +1,150 @@
+{
+    "event_name": "Techstars Startup Weekend AI Curitiba",
+    "year": 2025,
+    "date": "August 22-24, 2025",
+    "location": {
+        "venue": "Sebrae Vale do Pinhão",
+        "city": "Curitiba",
+        "state": "Paraná",
+        "country": "Brazil"
+    },
+    "techstars_background": {
+        "global_program": "Techstars is a global platform for investment and innovation, supporting entrepreneurs through accelerator programs and startup weekends",
+        "mission": "To provide entrepreneurs with access to capital, mentorship, and a worldwide network",
+        "global_reach": "Active in 200+ cities worldwide, supporting over 2,500 startups annually"
+    },
+    "event_format": {
+        "duration": "54 hours",
+        "schedule": {
+            "friday": {
+                "evening": "Pitch introductions, team formation, initial ideation",
+                "activities": [
+                    "Welcome and orientation",
+                    "AI startup concept pitches",
+                    "Team building and networking"
+                ]
+            },
+            "saturday": {
+                "daytime": "Intense product development and mentorship",
+                "activities": [
+                    "Workshops on GenAI technologies",
+                    "Mentorship sessions",
+                    "Prototype development",
+                    "Technical guidance"
+                ]
+            },
+            "sunday": {
+                "morning_afternoon": "Final preparations and pitch presentations",
+                "activities": [
+                    "Final product refinement",
+                    "Pitch deck preparation",
+                    "Presentations to judges",
+                    "Awards ceremony"
+                ]
+            }
+        }
+    },
+    "venue_details": {
+        "sebrae_vale_do_pinhao": {
+            "description": "Innovation hub in Curitiba dedicated to entrepreneurship and technology",
+            "facilities": [
+                "High-speed internet",
+                "Collaborative workspaces",
+                "Technical equipment",
+                "GenAI development resources"
+            ],
+            "tech_infrastructure": "State-of-the-art equipment for AI and software development"
+    }
+    },
+    "mentorship_and_judging": {
+        "mentor_profile": "Local and international AI experts, successful startup founders, venture capitalists",
+        "mentorship_focus": [
+            "GenAI technology guidance",
+            "Product-market fit",
+            "Technical feasibility",
+            "Business model validation"
+        ],
+        "judging_criteria": [
+            "Innovation in AI application",
+            "Technical feasibility",
+            "Market potential",
+            "Presentation quality",
+            "Prototype functionality"
+        ]
+    },
+    "prizes_and_opportunities": {
+        "prize_categories": [
+            "First Place: R$50,000 in seed funding",
+            "Second Place: R$25,000 in technical support",
+            "Third Place: Mentorship and incubation package"
+        ],
+        "additional_benefits": [
+            "Potential Techstars accelerator program invitation",
+            "Investor networking",
+            "Technical resources",
+            "Cloud credits from AI platforms"
+        ]
+    },
+    "team_formation": {
+        "participant_limit": 120,
+        "team_size": "4-6 members",
+        "formation_process": [
+            "Open pitch session",
+            "Skill-based team matching",
+            "Diverse skill set encouragement"
+        ],
+        "recommended_skills": [
+            "AI/Machine Learning",
+            "Software Development",
+            "UX/UI Design",
+            "Business Strategy",
+            "Domain Expertise"
+        ]
+    },
+    "genai_focus": {
+        "technology_areas": [
+            "Generative AI",
+            "Large Language Models",
+            "Computer Vision",
+            "Natural Language Processing",
+            "Predictive Analytics"
+        ],
+        "provided_tools": [
+            "OpenAI API Access",
+            "Google Cloud AI",
+            "Microsoft Azure Cognitive Services",
+            "AWS Machine Learning Tools",
+            "Hugging Face Transformers"
+        ]
+    },
+    "registration": {
+        "process": "Online application through Techstars website",
+        "fee": "R$250 (includes meals, resources, support)",
+        "target_participants": [
+            "Students",
+            "Developers",
+            "Entrepreneurs",
+            "AI Enthusiasts",
+            "Domain Experts"
+        ]
+    },
+    "post_event_support": {
+        "incubation_programs": [
+            "3-month mentorship",
+            "Investor introductions",
+            "Continued technical support",
+            "Potential funding opportunities"
+        ],
+        "alumni_network": "Connection to global Techstars startup ecosystem"
+    },
+    "curitiba_tech_ecosystem": {
+        "local_innovation_context": "Emerging AI and technology hub in Brazil",
+        "key_partners": [
+            "Sebrae Paraná",
+            "Federal University of Paraná",
+            "Curitiba Technology Park",
+            "Local Venture Capital Networks"
+        ],
+        "startup_success_rate": "High potential for technology innovation"
+    }
+}

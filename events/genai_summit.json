@@ -1,0 +1,35 @@
+{
+  "name": "GenAI Summit 2025",
+  "full_name": "Generative AI Global Summit",
+  "type": "summit",
+  "dates": {
+    "start": "2025-05-20",
+    "end": "2025-05-22"
+  },
+  "location": {
+    "venue": "Moscone Center",
+    "city": "San Francisco",
+    "country": "USA"
+  },
+  "description": "The premier event for generative AI, featuring the latest in LLMs, diffusion models, and creative AI applications.",
+  "activities": [
+    "Executive keynotes",
+    "Technical deep dives",
+    "Product demos",
+    "Panel discussions",
+    "Startup showcase",
+    "VIP networking"
+  ],
+  "target_audience": [
+    "C-level executives",
+    "AI architects",
+    "Product leaders",
+    "Investors",
+    "Entrepreneurs"
+  ],
+  "registration": {
+    "url": "https://example.com/genai-summit",
+    "deadline": "2025-05-01"
+  },
+  "tags": ["summit", "generative AI", "LLM", "enterprise", "innovation"]
+}

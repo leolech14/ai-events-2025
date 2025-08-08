@@ -1,0 +1,54 @@
+{
+  "event_name": "Agtech Meeting 2025",
+  "event_type": "conference",
+  "date": {
+    "start": "2025-10-30",
+    "end": "2025-10-31"
+  },
+  "location": {
+    "city": "Piracicaba",
+    "state": "São Paulo",
+    "country": "Brazil",
+    "venue": "",
+    "address": "",
+    "online_platform": ""
+  },
+  "format": "presential",
+  "duration": "2 days",
+  "description": "Agtech Meeting 2025 em Piracicaba, evento focado em tecnologias para agricultura, incluindo inteligência artificial aplicada ao agronegócio.",
+  "focus_areas": ["Agricultural Technology", "AgTech", "AI in Agriculture", "Smart Farming", "Precision Agriculture"],
+  "target_audience": ["Agricultural Professionals", "Farmers", "AgTech Entrepreneurs", "Researchers", "Investors"],
+  "organizers": [],
+  "sponsors": [],
+  "speakers": [],
+  "agenda": [],
+  "registration": {
+    "url": "",
+    "deadline": "",
+    "price": {
+      "currency": "BRL",
+      "early_bird": 0,
+      "regular": 0,
+      "student": 0
+    },
+    "capacity": 0,
+    "requirements": []
+  },
+  "contact": {
+    "email": "",
+    "phone": "",
+    "website": "",
+    "social_media": {
+      "linkedin": "",
+      "instagram": "",
+      "twitter": ""
+    }
+  },
+  "tags": ["agtech", "agriculture", "smart farming", "AI", "precision agriculture"],
+  "language": "Portuguese",
+  "certification": false,
+  "networking_opportunities": [],
+  "partners": [],
+  "related_events": [],
+  "last_updated": "2025-01-07"
+}

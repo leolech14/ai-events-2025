@@ -1,0 +1,54 @@
+{
+  "event_name": "Semana de Dados 2025",
+  "event_type": "conference",
+  "date": {
+    "start": "2025-08-11",
+    "end": "2025-08-17"
+  },
+  "location": {
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "country": "Brazil",
+    "venue": "",
+    "address": "",
+    "online_platform": ""
+  },
+  "format": "presential",
+  "duration": "7 days",
+  "description": "Semana de Dados 2025 em Florianópolis, uma semana intensa dedicada ao aprendizado e networking em ciência de dados e análise.",
+  "focus_areas": ["Data Science", "Data Analytics", "Machine Learning", "Data Visualization", "Big Data"],
+  "target_audience": ["Data Scientists", "Data Analysts", "Students", "Professionals", "Researchers"],
+  "organizers": [],
+  "sponsors": [],
+  "speakers": [],
+  "agenda": [],
+  "registration": {
+    "url": "",
+    "deadline": "",
+    "price": {
+      "currency": "BRL",
+      "early_bird": 0,
+      "regular": 0,
+      "student": 0
+    },
+    "capacity": 0,
+    "requirements": []
+  },
+  "contact": {
+    "email": "",
+    "phone": "",
+    "website": "",
+    "social_media": {
+      "linkedin": "",
+      "instagram": "",
+      "twitter": ""
+    }
+  },
+  "tags": ["data science", "data analytics", "machine learning", "florianópolis", "santa catarina"],
+  "language": "Portuguese",
+  "certification": false,
+  "networking_opportunities": [],
+  "partners": [],
+  "related_events": [],
+  "last_updated": "2025-01-07"
+}

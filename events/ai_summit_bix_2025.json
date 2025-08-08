@@ -1,0 +1,54 @@
+{
+  "event_name": "AI Summit BIX",
+  "event_type": "summit",
+  "date": {
+    "start": "2025-11-18",
+    "end": "2025-11-20"
+  },
+  "location": {
+    "city": "",
+    "state": "",
+    "country": "Brazil",
+    "venue": "",
+    "address": "",
+    "online_platform": "BIX Platform"
+  },
+  "format": "online",
+  "duration": "3 days",
+  "description": "AI Summit BIX, evento online focado em inteligência artificial, inovação e transformação digital no mercado brasileiro.",
+  "focus_areas": ["Artificial Intelligence", "Digital Transformation", "Innovation", "Business AI", "Tech Trends"],
+  "target_audience": ["Tech Professionals", "Business Leaders", "Entrepreneurs", "Students", "AI Enthusiasts"],
+  "organizers": ["BIX"],
+  "sponsors": [],
+  "speakers": [],
+  "agenda": [],
+  "registration": {
+    "url": "",
+    "deadline": "",
+    "price": {
+      "currency": "BRL",
+      "early_bird": 0,
+      "regular": 0,
+      "student": 0
+    },
+    "capacity": 0,
+    "requirements": []
+  },
+  "contact": {
+    "email": "",
+    "phone": "",
+    "website": "",
+    "social_media": {
+      "linkedin": "",
+      "instagram": "",
+      "twitter": ""
+    }
+  },
+  "tags": ["AI", "summit", "online", "digital transformation", "BIX"],
+  "language": "Portuguese",
+  "certification": false,
+  "networking_opportunities": [],
+  "partners": [],
+  "related_events": [],
+  "last_updated": "2025-01-07"
+}

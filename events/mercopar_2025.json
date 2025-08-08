@@ -1,0 +1,385 @@
+{
+  "event": {
+    "name": "Mercopar 2025",
+    "full_name": "Feira de Subcontratação e Inovação Industrial",
+    "edition": "32nd",
+    "dates": {
+      "start": "2025-10-14",
+      "end": "2025-10-17",
+      "days": 4,
+      "hours": "14:00 - 21:00"
+    },
+    "location": {
+      "venue": "Centro de Feiras e Eventos Festa da Uva",
+      "address": "Rua Ludovico Cavinato, 1431",
+      "city": "Caxias do Sul",
+      "state": "Rio Grande do Sul",
+      "country": "Brazil",
+      "postal_code": "95020-040",
+      "region": "Serra Gaúcha",
+      "industrial_cluster": "Metal-Mechanical Hub of Brazil"
+    },
+    "history": {
+      "founding_year": 1992,
+      "years_active": 33,
+      "description": "Started as regional supplier fair, evolved into Latin America's premier industrial subcontracting and innovation event",
+      "milestones": [
+        {
+          "year": 1992,
+          "event": "First edition with 50 exhibitors"
+        },
+        {
+          "year": 2000,
+          "event": "International expansion with European pavilion"
+        },
+        {
+          "year": 2010,
+          "event": "Introduction of Industry 4.0 theme"
+        },
+        {
+          "year": 2018,
+          "event": "Launch of Digital Transformation Hub"
+        },
+        {
+          "year": 2023,
+          "event": "Record 42,000 visitors and R$ 1.2 billion in projected deals"
+        }
+      ],
+      "ranking": "Brazil's 2nd largest industrial fair after FEIMEC"
+    },
+    "focus_areas": {
+      "primary": [
+        "Industry 4.0 Technologies",
+        "Artificial Intelligence in Manufacturing",
+        "Industrial Automation",
+        "Robotics and Cobots",
+        "Smart Manufacturing",
+        "Digital Twins",
+        "IoT Solutions"
+      ],
+      "sectors": [
+        "Metal-Mechanical",
+        "Automotive Parts",
+        "Tooling and Dies",
+        "Plastic Injection",
+        "Surface Treatment",
+        "Precision Machining",
+        "Industrial Services",
+        "Logistics 4.0"
+      ],
+      "emerging_technologies": [
+        "AI-powered Quality Control",
+        "Predictive Maintenance with Machine Learning",
+        "Computer Vision for Production Lines",
+        "Natural Language Processing for Industrial Documentation",
+        "Generative AI for Product Design",
+        "Edge Computing in Manufacturing",
+        "5G Industrial Applications"
+      ]
+    },
+    "ai_applications": {
+      "showcases": [
+        {
+          "area": "Quality Control",
+          "technologies": ["Computer Vision", "Deep Learning", "Defect Detection"],
+          "demonstrations": "Real-time product inspection with 99.9% accuracy"
+        },
+        {
+          "area": "Predictive Maintenance",
+          "technologies": ["Machine Learning", "Sensor Fusion", "Anomaly Detection"],
+          "demonstrations": "Equipment failure prediction 72 hours in advance"
+        },
+        {
+          "area": "Production Optimization",
+          "technologies": ["Reinforcement Learning", "Digital Twins", "Process Mining"],
+          "demonstrations": "30% efficiency gains in production scheduling"
+        },
+        {
+          "area": "Supply Chain",
+          "technologies": ["AI Forecasting", "Demand Planning", "Route Optimization"],
+          "demonstrations": "Inventory reduction by 25% with AI predictions"
+        },
+        {
+          "area": "Worker Safety",
+          "technologies": ["Computer Vision", "Pose Detection", "Alert Systems"],
+          "demonstrations": "Real-time hazard detection and prevention"
+        }
+      ]
+    },
+    "robotics_automation": {
+      "exhibits": [
+        "Collaborative Robots (Cobots) Working Alongside Humans",
+        "AGVs and AMRs for Material Handling",
+        "Welding and Painting Robots",
+        "Pick-and-Place Systems with AI Vision",
+        "Mobile Manipulation Robots",
+        "Exoskeletons for Worker Assistance"
+      ],
+      "live_demonstrations": [
+        "Human-Robot Collaboration Zones",
+        "Lights-Out Manufacturing Cells",
+        "Flexible Assembly Lines",
+        "Robot Programming by Demonstration"
+      ]
+    },
+    "international_presence": {
+      "countries_represented": 25,
+      "international_pavilions": [
+        {
+          "country": "Germany",
+          "focus": "Precision Engineering and Industry 4.0",
+          "companies": 35,
+          "partnership": "VDMA - German Engineering Federation"
+        },
+        {
+          "country": "Italy",
+          "focus": "Advanced Machinery and Design",
+          "companies": 28,
+          "partnership": "ICE - Italian Trade Agency"
+        },
+        {
+          "country": "China",
+          "focus": "Smart Manufacturing and Electronics",
+          "companies": 42,
+          "partnership": "CCPIT - China Council for Promotion of International Trade"
+        },
+        {
+          "country": "South Korea",
+          "focus": "Robotics and Automation",
+          "companies": 15,
+          "partnership": "KOTRA - Korea Trade Investment Promotion Agency"
+        }
+      ],
+      "international_buyers": {
+        "expected": 2500,
+        "main_origins": ["Argentina", "Chile", "Mexico", "Colombia", "USA", "Germany"]
+      }
+    },
+    "business_activities": {
+      "b2b_meetings": {
+        "format": "Pre-scheduled Business Rounds",
+        "platform": "AI-powered matching system",
+        "expected_meetings": 5000,
+        "average_per_company": 25,
+        "success_rate": "68% result in business within 6 months"
+      },
+      "networking_events": [
+        "Opening Cocktail with Industry Leaders",
+        "International Buyers Reception",
+        "Innovation Awards Ceremony",
+        "Startup Pitch Sessions",
+        "Industry 4.0 Breakfast Meetings"
+      ]
+    },
+    "technical_conferences": {
+      "main_tracks": [
+        {
+          "name": "AI in Manufacturing Summit",
+          "sessions": 12,
+          "topics": [
+            "Implementing AI in Legacy Systems",
+            "ROI of AI Investments in Industry",
+            "Data Strategy for Manufacturing AI",
+            "Ethical AI in Industrial Applications",
+            "Case Studies: AI Success Stories"
+          ]
+        },
+        {
+          "name": "Digital Transformation Forum",
+          "sessions": 10,
+          "topics": [
+            "Cloud Manufacturing Platforms",
+            "Cybersecurity in Industry 4.0",
+            "Digital Supply Chain Integration",
+            "MES and ERP with AI",
+            "Sustainable Smart Manufacturing"
+          ]
+        },
+        {
+          "name": "Robotics and Automation Congress",
+          "sessions": 8,
+          "topics": [
+            "Collaborative Robotics Safety Standards",
+            "RaaS - Robotics as a Service",
+            "Vision Systems for Robots",
+            "Mobile Robot Fleet Management",
+            "Future of Human-Robot Interaction"
+          ]
+        }
+      ],
+      "speakers": {
+        "total": 120,
+        "international": 45,
+        "categories": ["Industry Leaders", "Academic Researchers", "Technology Providers", "Government Officials", "Startup Founders"]
+      }
+    },
+    "visitor_statistics": {
+      "expected_2025": 45000,
+      "previous_editions": [
+        {
+          "year": 2023,
+          "visitors": 42000,
+          "exhibitors": 750,
+          "area_sqm": 25000,
+          "projected_deals": "R$ 1.2 billion"
+        },
+        {
+          "year": 2022,
+          "visitors": 38000,
+          "exhibitors": 680,
+          "area_sqm": 23000,
+          "projected_deals": "R$ 950 million"
+        },
+        {
+          "year": 2019,
+          "visitors": 36000,
+          "exhibitors": 620,
+          "area_sqm": 22000,
+          "projected_deals": "R$ 800 million"
+        }
+      ],
+      "visitor_profile": {
+        "decision_makers": "72%",
+        "technical_professionals": "85%",
+        "c_level_executives": "28%",
+        "engineers": "45%",
+        "purchasing_managers": "32%"
+      }
+    },
+    "registration": {
+      "exhibitors": {
+        "standard_booth": {
+          "size": "9 sqm minimum",
+          "price_range": "R$ 8,000 - R$ 15,000",
+          "includes": ["Basic structure", "Lighting", "Company listing", "5 badges"]
+        },
+        "premium_booth": {
+          "size": "36 sqm minimum",
+          "price_range": "R$ 45,000 - R$ 120,000",
+          "includes": ["Custom design", "Meeting rooms", "Storage", "15 badges", "Marketing package"]
+        },
+        "startup_pavilion": {
+          "size": "4 sqm",
+          "price": "R$ 3,500",
+          "includes": ["Shared space", "Pitch opportunity", "3 badges", "Mentoring sessions"]
+        },
+        "application_deadline": "2025-06-30"
+      },
+      "visitors": {
+        "professional": {
+          "pre_registration": "Free until 2025-10-10",
+          "onsite": "R$ 60",
+          "benefits": ["Access to all pavilions", "Conference attendance", "Digital catalog", "Networking app"]
+        },
+        "student": {
+          "price": "R$ 30",
+          "requirements": "Valid student ID",
+          "benefits": ["Pavilion access", "Selected conferences", "Career fair"]
+        },
+        "vip": {
+          "price": "R$ 500",
+          "benefits": ["Priority access", "VIP lounge", "All conferences", "Business matching", "Parking"]
+        }
+      }
+    },
+    "side_events": {
+      "technical_professionals": [
+        {
+          "name": "AI Hackathon for Industry",
+          "duration": "48 hours",
+          "prize": "R$ 50,000",
+          "focus": "Solving real manufacturing challenges with AI"
+        },
+        {
+          "name": "Certification Workshop",
+          "topics": ["ISO 9001:2015", "Industry 4.0 Maturity", "AI Ethics"],
+          "duration": "4 hours each"
+        },
+        {
+          "name": "Factory Tours",
+          "companies": ["Randon", "Marcopolo", "Tramontina"],
+          "focus": "See AI and automation in action"
+        },
+        {
+          "name": "Women in Manufacturing Forum",
+          "sessions": 4,
+          "focus": "Leadership and technology in industry"
+        },
+        {
+          "name": "Startup Challenge",
+          "categories": ["AI/ML", "IoT", "Robotics", "Sustainability"],
+          "prize": "Incubation + R$ 100,000 investment"
+        }
+      ],
+      "social_events": [
+        "Oktoberfest Integration Night",
+        "Wine Tasting - Serra Gaúcha Vineyards",
+        "Gala Dinner with Awards Ceremony",
+        "Morning Run for Industry Professionals"
+      ]
+    },
+    "serra_gaucha_cluster": {
+      "description": "Brazil's 2nd largest industrial hub",
+      "key_metrics": {
+        "companies": 40000,
+        "industrial_gdp": "R$ 35 billion",
+        "exports": "US$ 3.5 billion annually",
+        "employment": "300,000 direct jobs"
+      },
+      "main_sectors": [
+        "Automotive and Parts",
+        "Metal-Mechanical",
+        "Furniture",
+        "Food and Beverage",
+        "Plastics and Rubber"
+      ],
+      "innovation_ecosystem": {
+        "universities": ["UCS - Universidade de Caxias do Sul", "FSG", "FTEC"],
+        "research_centers": ["Instituto Hercílio Randon", "SENAI Innovation Institute"],
+        "incubators": ["TecnoUCS", "Startups Serra Gaúcha"],
+        "innovation_index": "3rd in Brazil"
+      }
+    },
+    "sustainability_initiatives": {
+      "carbon_neutral_goal": 2027,
+      "initiatives": [
+        "Solar panels covering 30% of venue",
+        "Electric shuttle service",
+        "Zero plastic policy",
+        "Local supplier preference (70% within 100km)",
+        "Waste recycling target: 95%"
+      ]
+    },
+    "media_partnership": [
+      "Automation World",
+      "Industry Week",
+      "Máquinas e Inovação",
+      "Automação Industrial",
+      "AI Business Latin America"
+    ],
+    "organizer": {
+      "name": "Hannover Fairs Sulamérica",
+      "partnership": "Deutsche Messe AG",
+      "other_events": ["FISP", "EXPOMAFE", "FEIPLASTIC"],
+      "contact": {
+        "phone": "+55 54 3204-5011",
+        "email": "info@mercopar.com.br",
+        "website": "www.mercopar.com.br"
+      }
+    },
+    "economic_impact": {
+      "direct_impact": "R$ 150 million",
+      "indirect_impact": "R$ 450 million",
+      "hotel_occupancy": "95% in Caxias do Sul",
+      "job_generation": "2,500 temporary positions",
+      "follow_up_business": "R$ 1.5 billion in 12 months"
+    },
+    "digital_features": {
+      "virtual_platform": "Hybrid attendance option",
+      "mobile_app": "AI-powered networking and scheduling",
+      "digital_twin": "Virtual factory demonstrations",
+      "live_streaming": "Key conferences and demos",
+      "ar_experiences": "Product visualization with AR"
+    }
+  }
+}

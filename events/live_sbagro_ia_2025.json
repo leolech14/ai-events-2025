@@ -1,0 +1,59 @@
+{
+    "title": "Live SBAgro: Inteligência Artificial",
+    "institution": "ESALQ/USP",
+    "format": "Online",
+    "dates": {
+        "date": "2025-08-28",
+        "time": "19:00",
+        "duration_hours": 2
+    },
+    "target_audience": [
+        "Agricultores",
+        "Agrônomos",
+        "Pesquisadores",
+        "Estudantes de agronomia",
+        "Profissionais do agronegócio"
+    ],
+    "event_modules": [
+        {
+            "name": "IA no Agronegócio: Panorama Atual",
+            "topics": [
+                "Transformação digital na agricultura",
+                "Principais tecnologias de IA",
+                "Impacto econômico"
+            ]
+        },
+        {
+            "name": "Aplicações Práticas de IA",
+            "topics": [
+                "Agricultura de precisão",
+                "Previsão de safras",
+                "Monitoramento de culturas"
+            ]
+        },
+        {
+            "name": "Estudos de Caso",
+            "topics": [
+                "Exemplos de sucesso",
+                "Tecnologias emergentes",
+                "Desafios e oportunidades"
+            ]
+        }
+    ],
+    "certification": {
+        "available": true,
+        "hours": 2,
+        "requirements": [
+            "Participação na live",
+            "Preenchimento de questionário"
+        ]
+    },
+    "investment": {
+        "price": "Gratuito",
+        "registration_required": true
+    },
+    "contact": {
+        "email": "eventos@sbagro.org.br",
+        "website": "www.sbagro.org.br"
+    }
+}

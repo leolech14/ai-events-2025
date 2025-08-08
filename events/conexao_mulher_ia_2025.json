@@ -1,0 +1,266 @@
+{
+  "event": {
+    "name": "Conexão Mulher: IA sem Mistério",
+    "full_title": "Conexão + Inovação: IA sem Mistério – Aplicações Práticas + Reflexões Humanas",
+    "date": "2025-08-11",
+    "time": "19:00",
+    "duration": "2 hours",
+    "timezone": "America/Sao_Paulo",
+    "language": "Portuguese (Brazil)"
+  },
+  "location": {
+    "venue": "Palácio do Ministério Público",
+    "address": "Praça Marechal Deodoro, 110, Centro Histórico, Porto Alegre, RS, Brasil",
+    "room": "Auditório Principal",
+    "city": "Porto Alegre",
+    "state": "Rio Grande do Sul",
+    "country": "Brazil",
+    "postal_code": "90010-300",
+    "venue_prestige": "Historic government building, former seat of state government (1896-1921)",
+    "architectural_significance": "Listed as state historical heritage by IPHAE in 1982, nicknamed 'Fort Apache'",
+    "restoration": "Restored 2000-2002, houses Public Ministry Memorial",
+    "capacity": "150 attendees in main auditorium"
+  },
+  "organizer": {
+    "primary": "Associação do Ministério Público do Rio Grande do Sul (AMP/RS)",
+    "contact": {
+      "website": "https://www.amprs.com.br/",
+      "phone": "+55 51 99582-5930",
+      "registration_deadline": "2025-08-07"
+    }
+  },
+  "format": {
+    "type": "Talk Show",
+    "style": "Interactive conversation with expert insights",
+    "structure": [
+      "Opening remarks and introductions (15 minutes)",
+      "Main presentation by Lisiane Lemos (45 minutes)",
+      "Moderated discussion and Q&A (45 minutes)",
+      "Networking and closing (15 minutes)"
+    ],
+    "interactive_elements": [
+      "Live Q&A session",
+      "Audience participation",
+      "Real-time polling on AI topics",
+      "Networking opportunities"
+    ]
+  },
+  "speakers": {
+    "main_speaker": {
+      "name": "Lisiane Lemos",
+      "title": "Extraordinary Secretary of Digital Inclusion and Support for Equity Policies of Rio Grande do Sul",
+      "background": {
+        "experience": "Technology specialist, former executive at multinational companies including Google and Microsoft",
+        "education": "MBA in Technology for Business professor at PUCRS",
+        "recognition": "Forbes Under 30, UN MIPAD most influential Black women worldwide",
+        "google_connection": "Mentor at Google's Black Founders Fund program",
+        "initiatives": "Co-founder of Instituto Conselheira 101, accelerator for Black and Indigenous women"
+      },
+      "expertise": [
+        "Artificial Intelligence applications",
+        "Digital inclusion and equity",
+        "Technology leadership",
+        "Diversity in tech",
+        "Startup mentorship",
+        "Corporate innovation"
+      ]
+    },
+    "moderator": {
+      "name": "Julia Schutt",
+      "title": "Prosecutor and Member of Innovation and Technology Center at AMP/RS",
+      "background": {
+        "position": "Auxiliary Member in the Presidency of National Council of Public Ministry (CNMP)",
+        "education": "Master's and Doctorate in Law from University of Salamanca/USAL, Spain",
+        "specialization": "Compliance, business law, criminal procedure",
+        "focus": "Public Ministry modernization and responsible technology use"
+      }
+    }
+  },
+  "focus_areas": {
+    "primary_theme": "Women's Leadership in Artificial Intelligence",
+    "key_topics": [
+      "Demystifying AI for women professionals",
+      "Practical AI applications in different industries",
+      "Breaking barriers for women in tech",
+      "Ethical considerations in AI development",
+      "Digital inclusion and gender equity",
+      "Career paths in AI and technology",
+      "Entrepreneurship in AI for women",
+      "Public sector AI implementation"
+    ],
+    "learning_outcomes": [
+      "Understanding AI without technical jargon",
+      "Identifying opportunities for women in AI careers",
+      "Recognizing practical AI applications",
+      "Building confidence in technology discussions",
+      "Networking with female tech leaders"
+    ]
+  },
+  "women_in_ai_mission": {
+    "role": "Promoting female leadership and participation in artificial intelligence",
+    "objectives": [
+      "Increase women's representation in AI fields",
+      "Provide role models and mentorship opportunities",
+      "Combat imposter syndrome in tech",
+      "Create networking opportunities for women in tech",
+      "Educate about AI career possibilities",
+      "Address gender disparities in technology"
+    ],
+    "impact_metrics": [
+      "Only 20% of AI positions globally are held by women",
+      "Need to increase female participation in STEM",
+      "Importance of diverse perspectives in AI development",
+      "Breaking stereotypes about women in technology"
+    ]
+  },
+  "target_audience": {
+    "primary": [
+      "Women in technology and STEM fields",
+      "Female entrepreneurs and business leaders",
+      "Students interested in AI and technology careers",
+      "Legal professionals interested in tech innovation",
+      "Public sector workers involved in digital transformation"
+    ],
+    "demographics": {
+      "gender": "Primarily women, but open to all genders",
+      "age_range": "25-55 years old",
+      "professional_level": "Mid-career to executive level",
+      "geographic_focus": "Rio Grande do Sul state, broader Brazilian market"
+    },
+    "attendee_profiles": [
+      "Tech professionals seeking AI knowledge",
+      "Women entrepreneurs in tech startups",
+      "University students and recent graduates",
+      "Government employees in digital roles",
+      "Legal professionals interested in tech law",
+      "Corporate diversity and inclusion leaders"
+    ]
+  },
+  "partnerships": {
+    "tech_organizations": [
+      "Instituto Conselheira 101",
+      "Google for Startups (Black Founders Fund)",
+      "Women in Tech Brasil networks",
+      "PUCRS MBA Technology program",
+      "RS state government digital initiatives"
+    ],
+    "diversity_initiatives": [
+      "Brazilian women in tech organizations",
+      "Racial equality committees",
+      "Professional networks for women",
+      "University diversity programs",
+      "Corporate inclusion initiatives"
+    ],
+    "government_support": [
+      "Rio Grande do Sul state government",
+      "Public Ministry of Rio Grande do Sul",
+      "Digital inclusion policy initiatives",
+      "Innovation and technology secretariats"
+    ]
+  },
+  "registration": {
+    "process": "Online registration required",
+    "methods": [
+      "Official AMP/RS website",
+      "WhatsApp: +55 51 99582-5930",
+      "Restricted area on AMP/RS portal for members"
+    ],
+    "deadline": "2025-08-07",
+    "cost": "Free for AMP/RS associates and partners",
+    "requirements": [
+      "Professional identification",
+      "Contact information",
+      "Area of interest/expertise"
+    ],
+    "capacity": "150 attendees maximum",
+    "waiting_list": "Available if event reaches capacity"
+  },
+  "diversity_impact": {
+    "brazilian_context": {
+      "women_in_tech_stats": "Only 20% of AI positions in Brazil held by women",
+      "regional_focus": "Rio Grande do Sul as innovation hub",
+      "public_sector_innovation": "Government leading by example in tech inclusion",
+      "educational_initiatives": "University partnerships for female students"
+    },
+    "systemic_change_goals": [
+      "Increase female enrollment in AI/tech programs",
+      "Create mentorship networks for women in tech",
+      "Influence corporate hiring and promotion practices",
+      "Support female-led tech startups",
+      "Develop public policies supporting women in tech"
+    ]
+  },
+  "expected_outcomes": {
+    "immediate": [
+      "150 women educated about AI opportunities",
+      "New professional networks formed",
+      "Increased confidence in tech discussions",
+      "Career pathway clarity for attendees"
+    ],
+    "medium_term": [
+      "Follow-up mentorship connections",
+      "Career transitions into AI fields",
+      "New collaborations and partnerships",
+      "Increased female applications to tech programs"
+    ],
+    "long_term": [
+      "Higher representation of women in AI in RS",
+      "Policy changes supporting women in tech",
+      "Role model effect inspiring next generation",
+      "Sustainable community of women in AI"
+    ]
+  },
+  "media_coverage": {
+    "anticipated_media": [
+      "Local Porto Alegre tech publications",
+      "Women in tech specialized media",
+      "Public sector innovation coverage",
+      "University and educational media",
+      "Social media campaigns"
+    ],
+    "key_messages": [
+      "AI is accessible to everyone, not just technical experts",
+      "Women's perspectives are crucial for ethical AI development",
+      "Public sector leadership in promoting tech diversity",
+      "Rio Grande do Sul as innovation and inclusion leader"
+    ]
+  },
+  "follow_up_initiatives": {
+    "planned": [
+      "Quarterly women in AI meetups",
+      "Mentorship program matching",
+      "University guest lecture series",
+      "Corporate partnership development",
+      "Policy recommendation development"
+    ],
+    "resources": [
+      "Online community platform",
+      "Resource library for AI learning",
+      "Career guidance materials",
+      "Scholarship and opportunity database",
+      "Regular newsletter and updates"
+    ]
+  },
+  "success_metrics": {
+    "attendance": "Target 150 registrants, 80% attendance rate",
+    "engagement": "Active participation in Q&A and networking",
+    "satisfaction": "90%+ positive feedback rating",
+    "follow_up": "50%+ of attendees engage in follow-up activities",
+    "career_impact": "Track career progressions of attendees over 12 months",
+    "media_reach": "Coverage in at least 5 major outlets",
+    "policy_influence": "Integration into state digital inclusion policies"
+  },
+  "sustainability": {
+    "environmental": "Paperless event with digital materials",
+    "economic": "Free attendance to reduce barriers",
+    "social": "Inclusive environment for all backgrounds",
+    "institutional": "Integration with ongoing government initiatives"
+  },
+  "accessibility": {
+    "physical": "Wheelchair accessible venue",
+    "linguistic": "Portuguese primary, translation available if needed",
+    "economic": "Free registration to ensure financial accessibility",
+    "technological": "Live streaming option for remote participation",
+    "dietary": "Refreshments accommodate dietary restrictions"
+  }
+}

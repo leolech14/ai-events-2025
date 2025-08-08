@@ -1,0 +1,54 @@
+{
+  "event_name": "São Paulo Tech Week 2025",
+  "event_type": "conference",
+  "date": {
+    "start": "2025-09-08",
+    "end": "2025-09-12"
+  },
+  "location": {
+    "city": "São Paulo",
+    "state": "São Paulo",
+    "country": "Brazil",
+    "venue": "",
+    "address": "",
+    "online_platform": ""
+  },
+  "format": "presential",
+  "duration": "5 days",
+  "description": "São Paulo Tech Week 2025, uma semana dedicada à tecnologia e inovação, incluindo inteligência artificial e transformação digital.",
+  "focus_areas": ["Technology", "Innovation", "Artificial Intelligence", "Digital Transformation", "Startups"],
+  "target_audience": ["Tech Professionals", "Entrepreneurs", "Investors", "Students", "Industry Leaders"],
+  "organizers": [],
+  "sponsors": [],
+  "speakers": [],
+  "agenda": [],
+  "registration": {
+    "url": "",
+    "deadline": "",
+    "price": {
+      "currency": "BRL",
+      "early_bird": 0,
+      "regular": 0,
+      "student": 0
+    },
+    "capacity": 0,
+    "requirements": []
+  },
+  "contact": {
+    "email": "",
+    "phone": "",
+    "website": "",
+    "social_media": {
+      "linkedin": "",
+      "instagram": "",
+      "twitter": ""
+    }
+  },
+  "tags": ["technology", "innovation", "AI", "digital transformation", "são paulo"],
+  "language": "Portuguese",
+  "certification": false,
+  "networking_opportunities": [],
+  "partners": [],
+  "related_events": [],
+  "last_updated": "2025-01-07"
+}
