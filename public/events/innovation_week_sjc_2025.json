@@ -1,0 +1,75 @@
+{
+  "event_name": "Innovation Week 2025",
+  "event_type": "conference",
+  "date": {
+    "start": "2025-08-19",
+    "end": "2025-08-21"
+  },
+  "location": {
+    "city": "São José dos Campos",
+    "state": "São Paulo",
+    "country": "Brazil",
+    "venue": "",
+    "address": "",
+    "online_platform": ""
+  },
+  "format": "presential",
+  "duration": "3 days",
+  "description": "Innovation Week 2025 em São José dos Campos, evento focado em inovação tecnológica, incluindo inteligência artificial e startups.",
+  "focus_areas": [
+    "Innovation",
+    "Technology",
+    "Artificial Intelligence",
+    "Startups",
+    "Digital Transformation"
+  ],
+  "target_audience": [
+    "Entrepreneurs",
+    "Tech Professionals",
+    "Students",
+    "Investors",
+    "Researchers"
+  ],
+  "organizers": [],
+  "sponsors": [],
+  "speakers": [],
+  "agenda": [],
+  "registration": {
+    "url": "",
+    "deadline": "",
+    "price": {
+      "currency": "BRL",
+      "early_bird": 0,
+      "regular": 0,
+      "student": 0
+    },
+    "capacity": 0,
+    "requirements": []
+  },
+  "contact": {
+    "email": "",
+    "phone": "",
+    "website": "",
+    "social_media": {
+      "linkedin": "",
+      "instagram": "",
+      "twitter": ""
+    }
+  },
+  "tags": [
+    "innovation",
+    "technology",
+    "AI",
+    "startups",
+    "são josé dos campos"
+  ],
+  "language": "Portuguese",
+  "certification": false,
+  "networking_opportunities": [],
+  "partners": [],
+  "related_events": [],
+  "last_updated": "2025-01-07",
+  "image": "/images/innovation_week_sjc.jpg",
+  "image_source": "Parque Tecnológico SJC",
+  "image_description": "Innovation Week 2024 - Tech Park SJC"
+}

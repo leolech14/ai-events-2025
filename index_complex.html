@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Events Brasil 2025 - Simple View</title>
+    <style>
+        /* MINIMAL CSS - Just enough to make things visible */
+        body {
+            font-family: Arial, sans-serif;
+            background: white;
+            color: black;
+            margin: 20px;
+            padding: 0;
+        }
+
+        .header {
+            background: #f0f0f0;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 2px solid #333;
+        }
+
+        .loading {
+            font-size: 24px;
+            color: red;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .stats {
+            background: #e0e0e0;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #666;
+        }
+
+        .events-container {
+            background: white;
+            padding: 10px;
+            border: 2px solid blue;
+            min-height: 200px;
+        }
+
+        .event-item {
+            background: #f9f9f9;
+            border: 1px solid #000;
+            margin: 10px 0;
+            padding: 15px;
+            display: block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+        }
+
+        .event-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #000;
+            margin-bottom: 5px;
+        }
+
+        .event-detail {
+            font-size: 14px;
+            color: #333;
+            margin: 3px 0;
+        }
+
+        .event-type {
+            display: inline-block;
+            background: #ffcc00;
+            color: #000;
+            padding: 3px 8px;
+            margin-right: 10px;
+            border: 1px solid #000;
+        }
+
+        .no-events {
+            color: red;
+            font-size: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .debug-info {
+            background: yellow;
+            color: black;
+            padding: 10px;
+            margin: 10px 0;
+            border: 2px solid red;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🇧🇷 AI Events Brasil 2025 - SIMPLIFIED VERSION</h1>
+        <p>Loading events from JSON files...</p>
+    </div>
+
+    <div class="stats">
+        <div id="stats">
+            <strong>Total Events:</strong> <span id="totalEvents">0</span> | 
+            <strong>Loaded Files:</strong> <span id="loadedFiles">0</span> | 
+            <strong>Errors:</strong> <span id="errorCount">0</span>
+        </div>
+    </div>
+
+    <div id="loading" class="loading">
+        ⏳ LOADING EVENTS... PLEASE WAIT...
+    </div>
+
+    <div id="debug" class="debug-info" style="display:none;">
+        Debug info will appear here
+    </div>
+
+    <div id="eventsContainer" class="events-container" style="display:none;">
+        <!-- Events will be inserted here -->
+    </div>
+
+    <div id="noEvents" class="no-events" style="display:none;">
+        ❌ NO EVENTS FOUND! Check console for errors.
+    </div>
+
+    <script>
+        // SIMPLIFIED SCRIPT - Just load and display events
+        console.log('🚀 Starting simplified event loader...');
+
+        let allEvents = [];
+        let loadedFileCount = 0;
+        let errorCount = 0;
+
+        // COMPLETE list of event files including conferences.json
+        const eventFiles = [
+            'conferences.json',  // IMPORTANT: Main conference file
+            'adapta_summit_2025.json',
+            'agtech_meeting_2025.json',
+            'ai_summit_bix_2025.json',
+            'ai_summit_brasil_sp_2025.json',
+            'ai_workshop_march.json',
+            'bate_papo_ia_futuro_trabalho_2025.json',
+            'big_data_brazil_experience_2025.json',
+            'biotech_agro_health_2025.json',
+            'bootcamp_ia_negocios_2025.json',
+            'cbta_2025.json',
+            'cidia_2025.json',
+            'conecta_industria_2025.json',
+            'conexao_mulher_ia_2025.json',
+            'curso_aplicacao_ia_trabalho_2025.json',
+            'curso_ia_generativa_encantado_2025.json',
+            'curso_ia_generativa_ensino_2025.json',
+            'curso_ia_teoria_pratica_2025.json',
+            'data_science_summit_2025.json',
+            'deep_learning_course.json',
+            'encontro_ia_politica_2025.json',
+            'eramia_rs_2025.json',
+            'expoinovacao_2025.json',
+            'futurecom_2025.json',
+            'genai_summit.json',
+            'hackathon_innova_saude_2025.json',
+            'health_meeting_brasil_2025.json',
+            'ia_conference_brasil_2025.json',
+            'ia_summit_blumenau_2025.json',
+            'ia_summit_upf_2025.json',
+            'icbdai_porto_alegre_2025.json',
+            'icbdai_sao_paulo_2025.json',
+            'icml_2025.json',
+            'imersao_ia_pratica_negocios_2025.json',
+            'innovation_week_sjc_2025.json',
+            'inovar_sc_2025.json',
+            'live_sbagro_ia_2025.json',
+            'mercopar_2025.json',
+            'neurips_2025.json',
+            'r_day_2025.json',
+            'rio_preto_tech_summit_2025.json',
+            'rpa_ai_congress_curitiba_2025.json',
+            'sao_paulo_tech_week_2025.json',
+            'semana_caldeira_2025.json',
+            'semana_de_dados_2025.json',
+            'seminario_automacao_isa_2025.json',
+            'seminario_pesquisa_ia_generativa_2025.json',
+            'simposio_simplas_2025.json',
+            'smart_energy_2025.json',
+            'south_stat_meeting_2025.json',
+            'startup_investment_summit_2025.json',
+            'startup_summit_2025.json',
+            'super_bots_experience_2025.json',
+            'tdc_sao_paulo_2025.json',
+            'techstars_weekend_ai_curitiba_2025.json',
+            'urban_tech_forum_2025.json',
+            'workshop_fig_ladm_3d_2025.json',
+            'workshop_rh_okrs_ia_2025.json'
+        ];
+
+        console.log(`📁 Will load ${eventFiles.length} event files`);
+
+        // Simple function to format date
+        function formatDate(date) {
+            if (!date) return 'TBA';
+            try {
+                return new Date(date).toLocaleDateString('pt-BR');
+            } catch {
+                return date;
+            }
+        }
+
+        // Simple function to display events
+        function displayEvents() {
+            console.log(`📊 Displaying ${allEvents.length} events`);
+            
+            const container = document.getElementById('eventsContainer');
+            const loading = document.getElementById('loading');
+            const noEvents = document.getElementById('noEvents');
+            
+            // Hide loading
+            loading.style.display = 'none';
+            
+            if (allEvents.length === 0) {
+                console.error('❌ No events to display!');
+                container.style.display = 'none';
+                noEvents.style.display = 'block';
+                return;
+            }
+            
+            // Build HTML for all events
+            let html = '<h2>ALL EVENTS (' + allEvents.length + ' total)</h2>';
+            
+            allEvents.forEach((event, index) => {
+                // Extract event data with multiple fallbacks
+                const name = event.event_name || event.name || 'Unnamed Event';
+                const type = event.event_type || event.type || 'Event';
+                const startDate = event.date?.start || event.dates?.start || event.dates?.start_date || 'TBA';
+                const endDate = event.date?.end || event.dates?.end || event.dates?.end_date || '';
+                const city = event.location?.city || 'Unknown City';
+                const country = event.location?.country || 'Brazil';
+                const description = event.description || 'No description available';
+                
+                html += `
+                    <div class="event-item">
+                        <div class="event-title">
+                            <span class="event-type">${type.toUpperCase()}</span>
+                            #${index + 1}: ${name}
+                        </div>
+                        <div class="event-detail">📅 Date: ${formatDate(startDate)}${endDate && endDate !== startDate ? ' - ' + formatDate(endDate) : ''}</div>
+                        <div class="event-detail">📍 Location: ${city}, ${country}</div>
+                        <div class="event-detail">📝 ${description}</div>
+                    </div>
+                `;
+            });
+            
+            container.innerHTML = html;
+            container.style.display = 'block';
+            noEvents.style.display = 'none';
+            
+            console.log('✅ Events displayed successfully!');
+        }
+
+        // Load a single file
+        async function loadEventFile(filename) {
+            try {
+                console.log(`  Loading: ${filename}...`);
+                const response = await fetch(`events/${filename}`);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+                
+                const data = await response.json();
+                loadedFileCount++;
+                
+                // Handle different JSON structures
+                if (filename === 'conferences.json' && data.ai_conferences_2025) {
+                    // Special handling for conferences.json
+                    console.log(`  ✅ Loaded ${data.ai_conferences_2025.length} events from conferences.json`);
+                    return data.ai_conferences_2025.map(conf => ({
+                        event_name: conf.name,
+                        event_type: 'conference',
+                        date: {
+                            start: conf.dates?.start,
+                            end: conf.dates?.end
+                        },
+                        location: {
+                            city: conf.location?.city,
+                            country: conf.location?.country
+                        },
+                        description: conf.description || 'AI Conference'
+                    }));
+                } else if (data.name && data.dates) {
+                    // Individual event file
+                    console.log(`  ✅ Loaded event: ${data.name}`);
+                    return [{
+                        event_name: data.name,
+                        event_type: data.type || 'event',
+                        date: {
+                            start: data.dates?.start_date || data.dates?.start,
+                            end: data.dates?.end_date || data.dates?.end
+                        },
+                        location: data.location,
+                        description: data.description
+                    }];
+                } else if (data.event_name) {
+                    // Already in correct format
+                    console.log(`  ✅ Loaded event: ${data.event_name}`);
+                    return [data];
+                } else {
+                    console.log(`  ⚠️ Unknown format in ${filename}`, data);
+                    return [data];
+                }
+                
+            } catch (error) {
+                console.error(`  ❌ Error loading ${filename}:`, error.message);
+                errorCount++;
+                return [];
+            }
+        }
+
+        // Main loading function
+        async function loadAllEvents() {
+            console.log('🔄 Starting to load all event files...');
+            
+            // Update debug info
+            document.getElementById('debug').style.display = 'block';
+            document.getElementById('debug').innerHTML = `Loading ${eventFiles.length} files...`;
+            
+            // Load all files
+            for (const filename of eventFiles) {
+                const events = await loadEventFile(filename);
+                allEvents = allEvents.concat(events);
+                
+                // Update stats in real-time
+                document.getElementById('totalEvents').textContent = allEvents.length;
+                document.getElementById('loadedFiles').textContent = loadedFileCount;
+                document.getElementById('errorCount').textContent = errorCount;
+            }
+            
+            console.log(`✅ Loading complete! Total events: ${allEvents.length}`);
+            console.log('All events:', allEvents);
+            
+            // Update debug info
+            document.getElementById('debug').innerHTML = 
+                `Loaded ${loadedFileCount}/${eventFiles.length} files. ` +
+                `Found ${allEvents.length} events. Errors: ${errorCount}`;
+            
+            // Display the events
+            displayEvents();
+        }
+
+        // Start loading when page loads
+        window.addEventListener('DOMContentLoaded', () => {
+            console.log('🎯 DOM loaded, starting event loader...');
+            loadAllEvents();
+        });
+
+        // Also log to console for debugging
+        window.allEvents = () => allEvents;
+        console.log('💡 TIP: Type "allEvents()" in console to see all loaded events');
+    </script>
+</body>
+</html>

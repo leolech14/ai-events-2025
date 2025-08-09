@@ -1,0 +1,73 @@
+{
+  "title": "Workshop RH, OKRs & IA Generativa",
+  "institution": "InovaBra",
+  "location": "São Paulo",
+  "format": "Presencial",
+  "dates": {
+    "date": "2025-12-03",
+    "total_hours": 8
+  },
+  "target_audience": [
+    "Profissionais de RH",
+    "Gestores de pessoas",
+    "Líderes de equipe",
+    "Consultores de RH",
+    "Empreendedores"
+  ],
+  "course_modules": [
+    {
+      "name": "OKRs e Estratégia Organizacional",
+      "topics": [
+        "Fundamentos de OKRs",
+        "Alinhamento estratégico",
+        "Métricas de desempenho"
+      ]
+    },
+    {
+      "name": "IA Generativa em RH",
+      "topics": [
+        "Recrutamento e seleção",
+        "Análise de desempenho",
+        "Desenvolvimento de talentos"
+      ]
+    },
+    {
+      "name": "Ferramentas e Casos Práticos",
+      "topics": [
+        "Ferramentas de IA para RH",
+        "Estudos de caso",
+        "Implementação prática"
+      ]
+    },
+    {
+      "name": "Ética e Futuro do RH",
+      "topics": [
+        "Desafios éticos da IA",
+        "Transformação digital",
+        "Competências do futuro"
+      ]
+    }
+  ],
+  "certification": {
+    "available": true,
+    "hours": 8,
+    "requirements": [
+      "Participação integral",
+      "Conclusão de atividades práticas"
+    ]
+  },
+  "investment": {
+    "total_price": 750.0,
+    "payment_options": [
+      "Pagamento único com desconto",
+      "2x sem juros"
+    ]
+  },
+  "contact": {
+    "email": "eventos@inovabra.com.br",
+    "phone": "+55 11 3030-7000"
+  },
+  "image": "/images/workshop_rh_okrs_ia.jpg",
+  "image_source": "ABRH Brasil",
+  "image_description": "Workshop RH Tech 2024 - Interactive session"
+}

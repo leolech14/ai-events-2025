@@ -1,0 +1,276 @@
+<\!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>AI Events 2025 - ALL EVENTS</title>
+    <style>
+        body { background: white; color: black; font-family: Arial; margin: 20px; }
+        .debug { background: yellow; padding: 10px; margin: 10px 0; border: 2px solid red; font-weight: bold; }
+        #eventsContainer { background: white; color: black; padding: 20px; border: 2px solid blue; }
+        .event { border: 1px solid black; margin: 10px 0; padding: 15px; background: #f5f5f5; }
+        .event-title { font-size: 18px; font-weight: bold; color: #000; margin-bottom: 8px; }
+        .event-info { color: #333; margin: 3px 0; font-size: 14px; }
+        .stats { background: #e6f7ff; padding: 10px; margin: 10px 0; border: 1px solid #0066cc; }
+    </style>
+</head>
+<body>
+    <h1>AI Events 2025 - ALL EVENTS LOADED</h1>
+    <div class="debug" id="debug">Loading all 59 event files...</div>
+    <div class="stats" id="stats">Stats will appear here...</div>
+    <div id="eventsContainer"><h2>Events will appear here...</h2></div>
+    <script>
+        console.log('Starting comprehensive event loader');
+        
+        // All 59 JSON files in events directory
+        const eventFiles = [
+            'adapta_summit_2025.json',
+            'agtech_meeting_2025.json',
+            'ai_summit_bix_2025.json',
+            'ai_summit_brasil_sp_2025.json',
+            'ai_workshop_march.json',
+            'bate_papo_ia_futuro_trabalho_2025.json',
+            'big_data_brazil_experience_2025.json',
+            'biotech_agro_health_2025.json',
+            'bootcamp_ia_negocios_2025.json',
+            'cbta_2025.json',
+            'cidia_2025.json',
+            'conecta_industria_2025.json',
+            'conexao_mulher_ia_2025.json',
+            'conferences.json',
+            'curso_aplicacao_ia_trabalho_2025.json',
+            'curso_ia_generativa_encantado_2025.json',
+            'curso_ia_generativa_ensino_2025.json',
+            'curso_ia_teoria_pratica_2025.json',
+            'data_science_summit_2025.json',
+            'deep_learning_course.json',
+            'encontro_ia_politica_2025.json',
+            'eramia_rs_2025.json',
+            'event_template.json',
+            'expoinovacao_2025.json',
+            'futurecom_2025.json',
+            'genai_summit.json',
+            'hackathon_innova_saude_2025.json',
+            'health_meeting_brasil_2025.json',
+            'ia_conference_brasil_2025.json',
+            'ia_summit_blumenau_2025.json',
+            'ia_summit_upf_2025.json',
+            'icbdai_porto_alegre_2025.json',
+            'icbdai_sao_paulo_2025.json',
+            'icml_2025.json',
+            'imersao_ia_pratica_negocios_2025.json',
+            'innovation_week_sjc_2025.json',
+            'inovar_sc_2025.json',
+            'live_sbagro_ia_2025.json',
+            'mercopar_2025.json',
+            'neurips_2025.json',
+            'r_day_2025.json',
+            'rio_preto_tech_summit_2025.json',
+            'rpa_ai_congress_curitiba_2025.json',
+            'sao_paulo_tech_week_2025.json',
+            'semana_caldeira_2025.json',
+            'semana_de_dados_2025.json',
+            'seminario_automacao_isa_2025.json',
+            'seminario_pesquisa_ia_generativa_2025.json',
+            'simposio_simplas_2025.json',
+            'smart_energy_2025.json',
+            'south_stat_meeting_2025.json',
+            'startup_investment_summit_2025.json',
+            'startup_summit_2025.json',
+            'super_bots_experience_2025.json',
+            'tdc_sao_paulo_2025.json',
+            'techstars_weekend_ai_curitiba_2025.json',
+            'urban_tech_forum_2025.json',
+            'workshop_fig_ladm_3d_2025.json',
+            'workshop_rh_okrs_ia_2025.json'
+        ];
+        
+        async function loadEvents() {
+            const debugElement = document.getElementById('debug');
+            const statsElement = document.getElementById('stats');
+            const container = document.getElementById('eventsContainer');
+            
+            try {
+                debugElement.innerHTML = 'Loading ' + eventFiles.length + ' files...';
+                
+                let totalFilesLoaded = 0;
+                let totalEventsFound = 0;
+                let futureEvents = [];
+                let pastEvents = 0;
+                const cutoffDate = '2025-08-08';
+                
+                // Load all files in parallel
+                const loadPromises = eventFiles.map(async (filename) => {
+                    try {
+                        const response = await fetch('events/' + filename);
+                        if (\!response.ok) {
+                            console.warn('Failed to load ' + filename + ': HTTP ' + response.status);
+                            return null;
+                        }
+                        const data = await response.json();
+                        totalFilesLoaded++;
+                        return { filename, data };
+                    } catch (error) {
+                        console.warn('Error loading ' + filename + ':', error.message);
+                        return null;
+                    }
+                });
+                
+                const results = await Promise.all(loadPromises);
+                
+                // Process loaded data
+                results.forEach(result => {
+                    if (\!result) return;
+                    const { filename, data } = result;
+                    
+                    // Handle conferences.json (array format)
+                    if (filename === 'conferences.json' && data.ai_conferences_2025) {
+                        data.ai_conferences_2025.forEach(event => {
+                            totalEventsFound++;
+                            const eventData = normalizeEvent(event, 'conference');
+                            if (eventData && eventData.startDate >= cutoffDate) {
+                                futureEvents.push(eventData);
+                            } else if (eventData) {
+                                pastEvents++;
+                            }
+                        });
+                        return;
+                    }
+                    
+                    // Handle event_template.json (skip it)
+                    if (filename === 'event_template.json') {
+                        return;
+                    }
+                    
+                    // Handle individual event files
+                    totalEventsFound++;
+                    const eventData = normalizeEvent(data, getEventType(data));
+                    if (eventData && eventData.startDate >= cutoffDate) {
+                        futureEvents.push(eventData);
+                    } else if (eventData) {
+                        pastEvents++;
+                    }
+                });
+                
+                // Sort by date
+                futureEvents.sort((a, b) => a.startDate.localeCompare(b.startDate));
+                
+                // Update stats
+                statsElement.innerHTML = 
+                    '<strong>LOADING STATS:</strong><br>' +
+                    'Files loaded: ' + totalFilesLoaded + '/' + eventFiles.length + '<br>' +
+                    'Total events found: ' + totalEventsFound + '<br>' +
+                    'Events before Aug 8: ' + pastEvents + '<br>' +
+                    'Future events displayed: ' + futureEvents.length;
+                
+                debugElement.innerHTML = 'SUCCESS: Loaded ' + totalFilesLoaded + ' files, showing ' + futureEvents.length + ' future events';
+                
+                // Display events
+                container.innerHTML = '<h2>AI Events 2025 - Future Events (' + futureEvents.length + ' events)</h2>';
+                
+                futureEvents.forEach((event, index) => {
+                    const div = document.createElement('div');
+                    div.className = 'event';
+                    
+                    const formattedDate = formatDate(event.startDate, event.endDate);
+                    const typeInfo = event.type ? ' (' + event.type + ')' : '';
+                    
+                    div.innerHTML = 
+                        '<div class="event-title">' + (index + 1) + '. ' + event.name + typeInfo + '</div>' +
+                        '<div class="event-info"><strong>Date:</strong> ' + formattedDate + '</div>' +
+                        '<div class="event-info"><strong>Location:</strong> ' + event.city + ', ' + event.country + '</div>' +
+                        (event.venue ? '<div class="event-info"><strong>Venue:</strong> ' + event.venue + '</div>' : '') +
+                        (event.format ? '<div class="event-info"><strong>Format:</strong> ' + event.format + '</div>' : '');
+                    
+                    container.appendChild(div);
+                });
+                
+                console.log('All events processed and displayed');
+                
+            } catch (error) {
+                console.error('Error in loadEvents:', error);
+                debugElement.innerHTML = 'ERROR: ' + error.message;
+                container.innerHTML = '<h2>ERROR LOADING EVENTS</h2><p>' + error.message + '</p>';
+            }
+        }
+        
+        function normalizeEvent(eventData, defaultType) {
+            if (\!eventData) return null;
+            
+            // Extract name (different field names across files)
+            const name = eventData.name || 
+                         eventData.event_name || 
+                         eventData.full_name || 
+                         'Unnamed Event';
+            
+            // Extract dates (different structures)
+            let startDate = null;
+            let endDate = null;
+            
+            if (eventData.dates) {
+                startDate = eventData.dates.start;
+                endDate = eventData.dates.end;
+            } else if (eventData.date) {
+                startDate = eventData.date.start;
+                endDate = eventData.date.end;
+            }
+            
+            if (\!startDate) return null;
+            
+            // Extract location
+            const location = eventData.location || {};
+            const city = location.city || 'Unknown City';
+            const country = location.country || 'Unknown Country';
+            const venue = location.venue || '';
+            
+            // Extract type/format
+            const type = eventData.type || 
+                        eventData.event_type || 
+                        defaultType || 
+                        'event';
+            
+            const format = eventData.format || '';
+            
+            return {
+                name,
+                startDate,
+                endDate,
+                city,
+                country,
+                venue,
+                type,
+                format
+            };
+        }
+        
+        function getEventType(data) {
+            return data.type || data.event_type || 'event';
+        }
+        
+        function formatDate(start, end) {
+            if (\!start) return 'TBA';
+            
+            const startFormatted = new Date(start).toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric'
+            });
+            
+            if (end && end \!== start) {
+                const endFormatted = new Date(end).toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'short',
+                    day: 'numeric'
+                });
+                return startFormatted + ' - ' + endFormatted;
+            }
+            
+            return startFormatted;
+        }
+        
+        // Start loading
+        document.addEventListener('DOMContentLoaded', loadEvents);
+        setTimeout(loadEvents, 1000);
+        window.loadEvents = loadEvents;
+    </script>
+</body>
+</html>

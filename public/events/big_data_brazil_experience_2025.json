@@ -1,0 +1,75 @@
+{
+  "event_name": "Big Data Brazil Experience 2025",
+  "event_type": "conference",
+  "date": {
+    "start": "2025-11-22",
+    "end": "2025-11-22"
+  },
+  "location": {
+    "city": "São Paulo",
+    "state": "São Paulo",
+    "country": "Brazil",
+    "venue": "",
+    "address": "",
+    "online_platform": ""
+  },
+  "format": "presential",
+  "duration": "1 day",
+  "description": "Big Data Brazil Experience 2025, evento focado nas mais recentes tendências e aplicações de big data no mercado brasileiro.",
+  "focus_areas": [
+    "Big Data",
+    "Data Analytics",
+    "Business Intelligence",
+    "Data Engineering",
+    "AI Applications"
+  ],
+  "target_audience": [
+    "Data Professionals",
+    "Business Analysts",
+    "Tech Leaders",
+    "Data Engineers",
+    "Students"
+  ],
+  "organizers": [],
+  "sponsors": [],
+  "speakers": [],
+  "agenda": [],
+  "registration": {
+    "url": "",
+    "deadline": "",
+    "price": {
+      "currency": "BRL",
+      "early_bird": 0,
+      "regular": 0,
+      "student": 0
+    },
+    "capacity": 0,
+    "requirements": []
+  },
+  "contact": {
+    "email": "",
+    "phone": "",
+    "website": "",
+    "social_media": {
+      "linkedin": "",
+      "instagram": "",
+      "twitter": ""
+    }
+  },
+  "tags": [
+    "big data",
+    "data analytics",
+    "business intelligence",
+    "data engineering",
+    "brazil"
+  ],
+  "language": "Portuguese",
+  "certification": false,
+  "networking_opportunities": [],
+  "partners": [],
+  "related_events": [],
+  "last_updated": "2025-01-07",
+  "image": "/images/big_data_brazil_experience.jpg",
+  "image_source": "Big Data Brazil Official",
+  "image_description": "Big Data Brazil 2024 - Conference hall"
+}
