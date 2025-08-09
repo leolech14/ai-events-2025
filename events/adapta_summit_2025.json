@@ -1,0 +1,768 @@
+{
+  "event_id": "adapta_summit_2025",
+  "name": "Adapta Summit 2025",
+  "subtitle": "Generative AI for Business Transformation",
+  "dates": {
+    "start_date": "2025-08-12",
+    "end_date": "2025-08-13",
+    "duration_days": 2
+  },
+  "location": {
+    "venue": "Transamerica Expo Center",
+    "full_address": "Av. Dr. Mário Vilas Boas Rodrigues, 387 - Santo Amaro, São Paulo - SP, 04757-020, Brazil",
+    "city": "São Paulo",
+    "state": "SP",
+    "country": "Brazil",
+    "venue_details": {
+      "total_area": "100000_sqm",
+      "exhibition_area": "45000_sqm",
+      "capacity": "50000_people",
+      "facilities": [
+        "12 exhibition pavilions",
+        "Convention center with auditoriums",
+        "Multiple conference rooms",
+        "VIP networking lounges",
+        "Food courts and restaurants",
+        "Parking for 3000 vehicles",
+        "Accessibility features",
+        "High-speed Wi-Fi infrastructure"
+      ],
+      "location_benefits": [
+        "10 minutes from Congonhas Airport",
+        "Metro and bus connections",
+        "Prime business district location",
+        "Multiple hotel partnerships nearby"
+      ]
+    }
+  },
+  "format": {
+    "type": "presential",
+    "hybrid_options": false,
+    "languages": ["Portuguese", "English"],
+    "simultaneous_translation": true
+  },
+  "focus_areas": [
+    "Generative AI for business transformation",
+    "Enterprise AI implementation strategies",
+    "AI-driven operational efficiency",
+    "Customer experience enhancement with AI",
+    "Data-driven decision making",
+    "AI governance and ethics in corporations",
+    "ROI measurement for AI initiatives",
+    "Change management in AI adoption"
+  ],
+  "target_audience": {
+    "primary": [
+      "C-level executives (CEO, CTO, CDO, CAO)",
+      "Business transformation leaders",
+      "Digital innovation managers",
+      "Enterprise architects",
+      "Strategy directors",
+      "Operations executives"
+    ],
+    "secondary": [
+      "IT directors and managers",
+      "Data science leaders",
+      "Product managers",
+      "Consultants specializing in AI",
+      "Technology vendors",
+      "Investment professionals"
+    ],
+    "expected_attendees": 2500,
+    "seniority_breakdown": {
+      "c_level": "35%",
+      "director_vp": "30%",
+      "manager": "25%",
+      "specialist": "10%"
+    }
+  },
+  "agenda_structure": {
+    "day1": {
+      "date": "2025-08-12",
+      "theme": "Strategic AI Implementation",
+      "sessions": [
+        {
+          "time": "08:00-09:00",
+          "type": "registration_networking",
+          "title": "Executive Welcome & Networking Breakfast"
+        },
+        {
+          "time": "09:00-09:30",
+          "type": "opening_keynote",
+          "title": "The GenAI Business Revolution: From Hype to Real Value",
+          "speaker_profile": "Global tech CEO or McKinsey Partner"
+        },
+        {
+          "time": "09:30-10:30",
+          "type": "panel_discussion",
+          "title": "C-Suite Perspectives: Building AI-First Organizations",
+          "format": "CEO/CTO panel from major Brazilian corporations"
+        },
+        {
+          "time": "11:00-12:00",
+          "type": "parallel_tracks",
+          "tracks": [
+            {
+              "name": "Strategy Track",
+              "session": "AI Business Model Innovation"
+            },
+            {
+              "name": "Operations Track", 
+              "session": "Automating Enterprise Processes with GenAI"
+            },
+            {
+              "name": "Customer Track",
+              "session": "Personalizing Customer Experience at Scale"
+            }
+          ]
+        },
+        {
+          "time": "12:00-13:30",
+          "type": "networking_lunch",
+          "title": "Executive Networking Lunch with Case Study Presentations"
+        },
+        {
+          "time": "13:30-14:30",
+          "type": "workshop_session",
+          "title": "Hands-on: Building Your AI Implementation Roadmap",
+          "format": "Interactive workshops by business function"
+        },
+        {
+          "time": "14:30-15:30",
+          "type": "case_studies",
+          "title": "Enterprise Success Stories: AI Transformation Results",
+          "format": "3 major case study presentations"
+        },
+        {
+          "time": "16:00-17:00",
+          "type": "panel_discussion",
+          "title": "AI Ethics and Governance in Large Enterprises"
+        },
+        {
+          "time": "17:00-19:00",
+          "type": "networking_cocktail",
+          "title": "Executive Cocktail & Strategic Partnerships Forum"
+        }
+      ]
+    },
+    "day2": {
+      "date": "2025-08-13",
+      "theme": "Advanced Implementation & Future Trends",
+      "sessions": [
+        {
+          "time": "08:30-09:00",
+          "type": "networking_breakfast",
+          "title": "Day 2 Networking Breakfast"
+        },
+        {
+          "time": "09:00-09:45",
+          "type": "keynote",
+          "title": "The Future of Work: Human-AI Collaboration",
+          "speaker_profile": "Renowned AI researcher or business transformation expert"
+        },
+        {
+          "time": "09:45-10:45",
+          "type": "deep_dive_workshops",
+          "title": "Advanced GenAI Applications",
+          "tracks": [
+            "Financial Services AI Solutions",
+            "Manufacturing & Supply Chain AI",
+            "Healthcare AI Implementation",
+            "Retail & E-commerce AI Strategies"
+          ]
+        },
+        {
+          "time": "11:15-12:15",
+          "type": "interactive_session",
+          "title": "AI ROI Calculator: Measuring Business Impact",
+          "format": "Interactive tools and frameworks session"
+        },
+        {
+          "time": "12:15-13:45",
+          "type": "networking_lunch",
+          "title": "Industry-Specific Networking Lunch"
+        },
+        {
+          "time": "13:45-14:45",
+          "type": "panel_discussion",
+          "title": "Investment and Funding Landscape for AI Initiatives"
+        },
+        {
+          "time": "14:45-15:45",
+          "type": "workshop",
+          "title": "Change Management for AI Adoption",
+          "format": "Practical frameworks and tools"
+        },
+        {
+          "time": "16:15-17:00",
+          "type": "closing_session",
+          "title": "Building Brazil's AI-Driven Economy",
+          "format": "Vision presentation and action items"
+        },
+        {
+          "time": "17:00-18:30",
+          "type": "networking",
+          "title": "Final Networking & Partnership Meetings"
+        }
+      ]
+    }
+  },
+  "expected_speakers": {
+    "keynote_speakers": [
+      {
+        "profile": "CEO of major tech company (Microsoft Brazil, Google Brazil, IBM Brazil)",
+        "topic": "Enterprise AI transformation strategies"
+      },
+      {
+        "profile": "McKinsey or BCG Senior Partner",
+        "topic": "AI business impact and ROI measurement"
+      },
+      {
+        "profile": "Renowned AI researcher (USP, UNICAMP, or international)",
+        "topic": "Future of AI in business applications"
+      }
+    ],
+    "executive_speakers": [
+      {
+        "company_profile": "Itaú Unibanco - Chief Digital Officer",
+        "topic": "AI in financial services transformation"
+      },
+      {
+        "company_profile": "Vale - Chief Technology Officer", 
+        "topic": "AI in mining and industrial operations"
+      },
+      {
+        "company_profile": "Magazine Luiza - Chief Innovation Officer",
+        "topic": "Retail AI and customer experience"
+      },
+      {
+        "company_profile": "Petrobras - Chief Data Officer",
+        "topic": "AI in energy sector optimization"
+      },
+      {
+        "company_profile": "Ambev - Chief Digital Officer",
+        "topic": "Supply chain AI transformation"
+      },
+      {
+        "company_profile": "JBS - Chief Technology Officer",
+        "topic": "AI in food industry and sustainability"
+      }
+    ],
+    "international_speakers": [
+      {
+        "profile": "Fortune 500 Chief AI Officer",
+        "topic": "Global AI implementation best practices"
+      },
+      {
+        "profile": "European enterprise AI consultant",
+        "topic": "GDPR-compliant AI strategies"
+      }
+    ],
+    "total_speakers": 45,
+    "speaker_categories": {
+      "c_level_executives": "60%",
+      "technology_leaders": "25%",
+      "consultants_researchers": "15%"
+    }
+  },
+  "workshop_tracks": {
+    "strategic_implementation": {
+      "title": "AI Strategy Development Workshop",
+      "duration": "3 hours",
+      "capacity": 50,
+      "deliverables": [
+        "Personalized AI readiness assessment",
+        "90-day implementation roadmap",
+        "ROI calculation framework",
+        "Risk mitigation strategies"
+      ],
+      "target_roles": ["CEO", "Strategy Directors", "Innovation Leaders"]
+    },
+    "operational_excellence": {
+      "title": "Process Automation with GenAI",
+      "duration": "4 hours", 
+      "capacity": 40,
+      "deliverables": [
+        "Process mapping for AI opportunities",
+        "Automation priority matrix",
+        "Vendor evaluation framework",
+        "Implementation timeline"
+      ],
+      "target_roles": ["COO", "Operations Managers", "Process Improvement Leaders"]
+    },
+    "customer_experience": {
+      "title": "AI-Powered Customer Journey Optimization",
+      "duration": "3.5 hours",
+      "capacity": 45,
+      "deliverables": [
+        "Customer journey AI mapping",
+        "Personalization strategy framework",
+        "Chatbot implementation guide",
+        "CX metrics dashboard"
+      ],
+      "target_roles": ["CMO", "Customer Experience Directors", "Digital Marketing Leaders"]
+    },
+    "financial_optimization": {
+      "title": "AI for Financial Planning and Analysis",
+      "duration": "3 hours",
+      "capacity": 35,
+      "deliverables": [
+        "AI-enabled forecasting models",
+        "Cost optimization algorithms",
+        "Risk assessment frameworks", 
+        "Investment prioritization tools"
+      ],
+      "target_roles": ["CFO", "Financial Planning Directors", "Controllers"]
+    }
+  },
+  "case_studies": {
+    "featured_cases": [
+      {
+        "company": "Brazilian Bank (Major)",
+        "industry": "Financial Services",
+        "ai_application": "Credit risk assessment and fraud detection",
+        "results": "40% reduction in false positives, 25% faster loan processing",
+        "investment": "R$ 15M over 18 months",
+        "roi": "300% within 2 years"
+      },
+      {
+        "company": "Manufacturing Giant",
+        "industry": "Industrial Manufacturing", 
+        "ai_application": "Predictive maintenance and quality control",
+        "results": "30% reduction in downtime, 20% improvement in quality metrics",
+        "investment": "R$ 8M over 12 months",
+        "roi": "250% within 1.5 years"
+      },
+      {
+        "company": "Retail Chain",
+        "industry": "E-commerce/Retail",
+        "ai_application": "Demand forecasting and inventory optimization",
+        "results": "15% reduction in inventory costs, 22% improvement in stock availability",
+        "investment": "R$ 5M over 10 months",
+        "roi": "180% within 1 year"
+      },
+      {
+        "company": "Healthcare System",
+        "industry": "Healthcare",
+        "ai_application": "Diagnostic assistance and patient flow optimization",
+        "results": "12% faster diagnosis time, 35% better resource utilization",
+        "investment": "R$ 12M over 24 months",
+        "roi": "210% within 3 years"
+      },
+      {
+        "company": "Logistics Provider",
+        "industry": "Transportation/Logistics",
+        "ai_application": "Route optimization and delivery prediction",
+        "results": "18% reduction in fuel costs, 25% improvement in delivery times", 
+        "investment": "R$ 6M over 14 months",
+        "roi": "190% within 18 months"
+      }
+    ],
+    "case_study_format": {
+      "presentation_duration": "20 minutes",
+      "q_and_a": "10 minutes",
+      "networking_session": "15 minutes",
+      "materials_provided": [
+        "Executive summary report",
+        "Implementation timeline",
+        "Lessons learned document",
+        "Contact information for follow-up"
+      ]
+    }
+  },
+  "registration_tiers": {
+    "c_suite_vip": {
+      "price": "R$ 4,500",
+      "target": "CEOs, CTOs, CDOs, C-level executives",
+      "capacity": 200,
+      "benefits": [
+        "VIP registration process",
+        "Dedicated C-suite networking lounge",
+        "Priority seating at all sessions",
+        "Exclusive executive dinner (Aug 12)",
+        "1-on-1 meeting scheduling platform",
+        "Dedicated concierge service",
+        "Premium gift package",
+        "Post-event executive report",
+        "6 months of follow-up consulting calls"
+      ]
+    },
+    "executive_premium": {
+      "price": "R$ 2,800",
+      "target": "VPs, Directors, Senior Managers",
+      "capacity": 500,
+      "benefits": [
+        "Premium networking access",
+        "Reserved seating at main sessions",
+        "Access to all workshops",
+        "Executive networking lunch both days",
+        "Premium conference materials",
+        "Digital resource library access",
+        "3 months post-event follow-up"
+      ]
+    },
+    "corporate_team": {
+      "price": "R$ 1,800 per person",
+      "target": "Teams of 3+ from same company",
+      "minimum": 3,
+      "maximum": 20,
+      "benefits": [
+        "Team coordination support",
+        "Group workshop sessions",
+        "Shared meeting spaces",
+        "Team photo opportunities",
+        "Bulk material packages",
+        "Group networking sessions",
+        "Company profile in event directory"
+      ],
+      "discounts": {
+        "3-5_people": "10% discount",
+        "6-10_people": "15% discount",
+        "11+_people": "20% discount"
+      }
+    },
+    "consultant_partner": {
+      "price": "R$ 2,200",
+      "target": "Consultants, System Integrators, Service Providers",
+      "capacity": 300,
+      "benefits": [
+        "Partner networking directory",
+        "Client matching sessions",
+        "Speaking opportunities (selected partners)",
+        "Exhibition space (limited)",
+        "Lead generation platform access",
+        "Partner certification programs"
+      ]
+    },
+    "startup_innovation": {
+      "price": "R$ 950",
+      "target": "Startups, Innovation Teams, Entrepreneurs",
+      "capacity": 400,
+      "benefits": [
+        "Innovation showcase participation",
+        "Investor networking sessions",
+        "Startup pitch opportunities",
+        "Mentorship program access",
+        "Young professionals networking",
+        "Innovation lab access"
+      ],
+      "eligibility": [
+        "Company founded within 5 years",
+        "Less than R$ 50M annual revenue",
+        "AI/ML technology focus"
+      ]
+    },
+    "academic_research": {
+      "price": "R$ 650",
+      "target": "Academics, Researchers, Students",
+      "capacity": 200,
+      "benefits": [
+        "Academic poster sessions",
+        "Research networking area",
+        "Student competition participation",
+        "Academic-industry collaboration forum",
+        "Research publication opportunities"
+      ],
+      "eligibility": [
+        "Valid academic institution affiliation",
+        "Student ID or faculty credentials",
+        "Research focus on AI/ML applications"
+      ]
+    }
+  },
+  "major_sponsors": {
+    "title_sponsors": [
+      {
+        "name": "Microsoft Brazil",
+        "category": "Cloud & AI Platform",
+        "sponsorship_level": "Diamond - R$ 500K",
+        "benefits": [
+          "Main stage keynote slot",
+          "Premium exhibition space (200m²)",
+          "Co-branded event materials",
+          "Lead generation platform access",
+          "VIP hospitality suite"
+        ]
+      },
+      {
+        "name": "Google Cloud Brazil",
+        "category": "AI Infrastructure",
+        "sponsorship_level": "Diamond - R$ 450K",
+        "benefits": [
+          "Opening day keynote",
+          "Workshop hosting rights",
+          "Premium booth location",
+          "Branded networking areas",
+          "Customer case study showcase"
+        ]
+      }
+    ],
+    "platinum_sponsors": [
+      {
+        "name": "IBM Brazil",
+        "category": "Enterprise AI Solutions",
+        "sponsorship_level": "Platinum - R$ 250K"
+      },
+      {
+        "name": "AWS Brazil",
+        "category": "Cloud Infrastructure",
+        "sponsorship_level": "Platinum - R$ 280K"
+      },
+      {
+        "name": "Salesforce Brazil", 
+        "category": "CRM & Customer AI",
+        "sponsorship_level": "Platinum - R$ 220K"
+      }
+    ],
+    "gold_sponsors": [
+      {
+        "name": "Accenture Brazil",
+        "category": "AI Consulting",
+        "sponsorship_level": "Gold - R$ 150K"
+      },
+      {
+        "name": "Deloitte Brazil",
+        "category": "Digital Transformation",
+        "sponsorship_level": "Gold - R$ 140K"
+      },
+      {
+        "name": "PwC Brazil",
+        "category": "AI Strategy Consulting",
+        "sponsorship_level": "Gold - R$ 130K"
+      },
+      {
+        "name": "McKinsey & Company Brazil",
+        "category": "Management Consulting",
+        "sponsorship_level": "Gold - R$ 160K"
+      }
+    ],
+    "corporate_partners": [
+      {
+        "name": "Itaú Unibanco",
+        "category": "Financial Services Innovation"
+      },
+      {
+        "name": "Magazine Luiza",
+        "category": "Retail AI Innovation"
+      },
+      {
+        "name": "Petrobras",
+        "category": "Energy Sector AI"
+      },
+      {
+        "name": "Vale",
+        "category": "Mining & Industrial AI"
+      },
+      {
+        "name": "Ambev",
+        "category": "Consumer Goods AI"
+      }
+    ],
+    "technology_partners": [
+      "NVIDIA",
+      "Intel",
+      "Databricks",
+      "Snowflake",
+      "Palantir",
+      "UiPath",
+      "C3.ai",
+      "H2O.ai"
+    ]
+  },
+  "networking_opportunities": {
+    "structured_networking": [
+      {
+        "event": "C-Suite Executive Dinner",
+        "date": "2025-08-12",
+        "time": "19:30-22:00",
+        "location": "Premium restaurant partner",
+        "capacity": 80,
+        "format": "Invitation-only, roundtable discussions",
+        "topics": ["AI governance", "Investment strategies", "Future workforce"]
+      },
+      {
+        "event": "Industry Leaders Breakfast",
+        "date": "2025-08-13", 
+        "time": "07:30-08:30",
+        "capacity": 150,
+        "format": "Industry-specific tables",
+        "industries": ["Banking", "Retail", "Manufacturing", "Healthcare", "Energy"]
+      },
+      {
+        "event": "Innovation Showcase & Cocktail",
+        "date": "2025-08-12",
+        "time": "17:00-19:00",
+        "capacity": 800,
+        "format": "Startup pitches + networking",
+        "features": ["Live demos", "Investor meetings", "Partnership discussions"]
+      }
+    ],
+    "digital_networking": {
+      "platform": "Custom event app with AI matching",
+      "features": [
+        "AI-powered attendee matching",
+        "1-on-1 meeting scheduler", 
+        "Interest-based networking",
+        "Digital business card exchange",
+        "Post-event follow-up facilitation",
+        "LinkedIn integration",
+        "Company directory with search filters"
+      ]
+    },
+    "themed_lounges": [
+      {
+        "name": "C-Suite Lounge",
+        "access": "VIP ticket holders only",
+        "features": ["Quiet meeting spaces", "Premium catering", "Dedicated staff"]
+      },
+      {
+        "name": "Innovation Lab",
+        "access": "All attendees",
+        "features": ["Live AI demos", "Hands-on experiences", "Startup showcases"]
+      },
+      {
+        "name": "Partner Pavilion",
+        "access": "Enterprise attendees",
+        "features": ["Solution showcases", "Vendor meetings", "RFP discussions"]
+      },
+      {
+        "name": "Academic Corner",
+        "access": "Academic ticket holders",
+        "features": ["Research presentations", "Industry-academia collaboration", "Grant opportunities"]
+      }
+    ]
+  },
+  "previous_editions": {
+    "event_history": "Inaugural edition - 2025",
+    "founding_organization": "Brazilian AI Business Association (BABA)",
+    "organizer_background": "Formed by consortium of major consulting firms and tech companies",
+    "vision_statement": "To accelerate AI adoption in Brazilian enterprises and establish São Paulo as Latin America's AI business hub"
+  },
+  "practical_information": {
+    "registration": {
+      "opens": "2025-02-15",
+      "early_bird_deadline": "2025-05-15",
+      "early_bird_discount": "25% off all tiers",
+      "regular_deadline": "2025-07-30",
+      "last_minute_surcharge": "15% after July 30"
+    },
+    "accommodation": {
+      "partner_hotels": [
+        {
+          "name": "Hilton São Paulo Morumbi",
+          "distance": "5 minutes drive",
+          "rate": "R$ 380/night",
+          "booking_code": "ADAPTA2025"
+        },
+        {
+          "name": "Marriott São Paulo Airport",
+          "distance": "8 minutes drive",
+          "rate": "R$ 320/night",
+          "booking_code": "ADAPTASUMMIT"
+        },
+        {
+          "name": "Quality Hotel São Paulo Airport",
+          "distance": "10 minutes drive", 
+          "rate": "R$ 250/night",
+          "booking_code": "ADAPTA25"
+        }
+      ]
+    },
+    "transportation": {
+      "airport_shuttle": "Complimentary from Congonhas Airport",
+      "metro_access": "15 minutes from Giovanni Gronchi station",
+      "parking": "Complimentary for VIP attendees, R$ 30/day for others",
+      "ride_sharing": "Dedicated Uber/99 pickup area"
+    },
+    "catering": {
+      "dietary_accommodations": ["Vegetarian", "Vegan", "Gluten-free", "Kosher", "Halal"],
+      "meal_quality": "Premium business catering",
+      "networking_bars": "Coffee stations throughout venue",
+      "alcohol_service": "Wine and cocktails at networking events"
+    }
+  },
+  "contact_information": {
+    "official_website": "https://www.adaptasummit.com.br",
+    "registration_platform": "https://register.adaptasummit.com.br",
+    "general_inquiries": "info@adaptasummit.com.br",
+    "corporate_sales": "corporate@adaptasummit.com.br",
+    "speaker_bureau": "speakers@adaptasummit.com.br",
+    "media_relations": "media@adaptasummit.com.br",
+    "phone": "+55 11 3045-7890",
+    "whatsapp": "+55 11 9 9876-5432",
+    "social_media": {
+      "linkedin": "https://linkedin.com/company/adapta-summit",
+      "twitter": "@AdaptaSummit",
+      "instagram": "@adaptasummitbr",
+      "youtube": "AdaptaSummitBrasil"
+    }
+  },
+  "unique_features": {
+    "ai_powered_event": {
+      "description": "First business conference to use AI for attendee experience optimization",
+      "features": [
+        "AI matchmaking for networking",
+        "Personalized agenda recommendations",
+        "Real-time sentiment analysis of sessions",
+        "Automated meeting summarization",
+        "Chatbot for event support"
+      ]
+    },
+    "business_focus": {
+      "description": "Exclusively focused on business applications and ROI, not academic research",
+      "differentiators": [
+        "All speakers have P&L responsibility",
+        "Case studies include actual financial results",
+        "ROI calculators provided for all workshops",
+        "Investment-grade business plans developed",
+        "C-suite decision maker focus"
+      ]
+    },
+    "brazilian_context": {
+      "description": "Tailored to Brazilian business culture and regulatory environment",
+      "localization": [
+        "LGPD compliance focus",
+        "Portuguese-language materials",
+        "Brazilian tax implications",
+        "Local vendor ecosystem",
+        "Regional case studies",
+        "Cultural adaptation strategies"
+      ]
+    }
+  },
+  "success_metrics": {
+    "attendance_target": 2500,
+    "satisfaction_target": "4.8/5.0",
+    "networking_connections": "10 meaningful connections per attendee",
+    "follow_up_meetings": "500+ scheduled within 30 days",
+    "implementation_commitments": "R$ 100M+ in AI investments committed",
+    "media_coverage": "50+ major business publications",
+    "social_reach": "5M+ impressions across platforms"
+  },
+  "post_event_value": {
+    "digital_resources": [
+      "All session recordings (premium access)",
+      "Speaker presentation downloads",
+      "Case study detailed reports",
+      "Workshop templates and frameworks",
+      "Vendor evaluation guides",
+      "ROI calculation tools"
+    ],
+    "community_access": [
+      "Exclusive LinkedIn group for attendees",
+      "Monthly virtual meetups",
+      "Quarterly progress check-ins",
+      "Annual alumni reunion",
+      "Peer mentorship program",
+      "Industry-specific working groups"
+    ],
+    "consulting_follow_up": [
+      "3-month implementation support",
+      "Expert advisor network access",
+      "Vendor introduction services",
+      "ROI measurement assistance",
+      "Success story documentation",
+      "Speaking opportunities at next edition"
+    ]
+  }
+}

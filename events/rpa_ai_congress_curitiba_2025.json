@@ -1,0 +1,988 @@
+{
+  "event": {
+    "name": "RPA & AI Congress Curitiba 2025",
+    "slug": "rpa-ai-congress-curitiba-2025",
+    "date": "2025-09-26",
+    "duration": "1 day",
+    "format": "Congress",
+    "status": "upcoming",
+    "location": {
+      "venue": "Centro de Eventos FIEP",
+      "city": "Curitiba",
+      "state": "Paraná",
+      "country": "Brazil",
+      "address": "Rua Deputado Heitor Alencar Furtado, 5100 - Ecoville, Curitiba - PR",
+      "coordinates": {
+        "latitude": -25.4065,
+        "longitude": -49.2595
+      }
+    },
+    "capacity": 700,
+    "focus": [
+      "Hyperautomation",
+      "Robotic Process Automation (RPA)",
+      "AI-powered Process Automation",
+      "Digital Transformation",
+      "Business Process Optimization"
+    ],
+    "registration": {
+      "target_audience": [
+        "IT Professionals",
+        "Process Automation Engineers",
+        "Business Analysts",
+        "Digital Transformation Leaders",
+        "CIOs and CTOs",
+        "Operations Managers",
+        "Consultants",
+        "Software Developers"
+      ],
+      "pricing": {
+        "early_bird": {
+          "deadline": "2025-07-31",
+          "price_brl": 850,
+          "price_usd": 170
+        },
+        "regular": {
+          "deadline": "2025-09-15",
+          "price_brl": 1200,
+          "price_usd": 240
+        },
+        "student": {
+          "price_brl": 400,
+          "price_usd": 80,
+          "requirements": "Valid student ID"
+        }
+      },
+      "includes": [
+        "Full day access to all sessions",
+        "Welcome coffee and networking lunch",
+        "Conference materials and digital resources",
+        "Hands-on RPA lab access",
+        "Certificate of participation",
+        "1-year access to recorded sessions"
+      ]
+    }
+  },
+  "agenda": {
+    "schedule": [
+      {
+        "time": "08:00-09:00",
+        "type": "registration",
+        "title": "Registration & Welcome Coffee",
+        "description": "Networking and registration with welcome breakfast"
+      },
+      {
+        "time": "09:00-09:45",
+        "type": "keynote",
+        "title": "The Future of Hyperautomation in Latin America",
+        "speaker": {
+          "name": "Dr. Maria Silva",
+          "title": "VP of Digital Transformation",
+          "company": "Banco do Brasil",
+          "bio": "Leading digital transformation initiatives with over 15 years in automation"
+        },
+        "topics": [
+          "Hyperautomation trends in Brazil",
+          "ROI impact on major corporations",
+          "Future roadmap for intelligent automation"
+        ]
+      },
+      {
+        "time": "09:45-10:30",
+        "type": "presentation",
+        "title": "RPA Platforms Comparison: UiPath vs Automation Anywhere vs Blue Prism",
+        "speaker": {
+          "name": "Carlos Mendoza",
+          "title": "Senior RPA Architect",
+          "company": "Accenture Brazil",
+          "expertise": "Multi-platform RPA implementation"
+        },
+        "content": [
+          "Platform capabilities comparison",
+          "Licensing and cost analysis",
+          "Integration and scalability factors",
+          "Best practices for platform selection"
+        ]
+      },
+      {
+        "time": "10:30-11:00",
+        "type": "break",
+        "title": "Networking Coffee Break",
+        "activities": [
+          "Platform demos",
+          "Vendor showcases",
+          "Peer networking"
+        ]
+      },
+      {
+        "time": "11:00-11:45",
+        "type": "case_study",
+        "title": "Petrobras Digital Transformation: 50% Process Automation Success",
+        "speaker": {
+          "name": "Roberto Santos",
+          "title": "Head of Process Innovation",
+          "company": "Petrobras",
+          "achievements": "Led automation of 200+ business processes"
+        },
+        "case_details": {
+          "processes_automated": 247,
+          "time_saved_annually": "15,000 hours",
+          "roi_percentage": 340,
+          "implementation_timeline": "18 months",
+          "challenges_solved": [
+            "Invoice processing automation",
+            "HR onboarding workflows",
+            "Regulatory compliance reporting",
+            "Supply chain optimization"
+          ]
+        }
+      },
+      {
+        "time": "11:45-12:30",
+        "type": "technical_session",
+        "title": "AI-Powered RPA: Beyond Rule-Based Automation",
+        "speaker": {
+          "name": "Ana Oliveira",
+          "title": "AI Solutions Architect",
+          "company": "Microsoft Brazil",
+          "specialization": "Cognitive automation and machine learning"
+        },
+        "technologies": [
+          "Computer Vision for document processing",
+          "Natural Language Processing for unstructured data",
+          "Machine Learning for decision automation",
+          "Intelligent Document Processing (IDP)"
+        ]
+      },
+      {
+        "time": "12:30-13:30",
+        "type": "lunch",
+        "title": "Networking Lunch & Vendor Exhibition",
+        "activities": [
+          "Catered lunch with regional cuisine",
+          "Vendor booth interactions",
+          "Live RPA demonstrations",
+          "Peer networking sessions"
+        ]
+      },
+      {
+        "time": "13:30-14:15",
+        "type": "hands_on",
+        "title": "UiPath Studio Hands-on Workshop",
+        "facilitator": {
+          "name": "Lucas Ferreira",
+          "title": "UiPath Certified Trainer",
+          "company": "UiPath Brazil",
+          "certifications": ["UiPath Advanced RPA Developer"]
+        },
+        "workshop_content": [
+          "Building your first automation",
+          "Data scraping techniques",
+          "Exception handling best practices",
+          "Publishing to UiPath Orchestrator"
+        ],
+        "requirements": "Laptop with UiPath Studio Community installed"
+      },
+      {
+        "time": "14:15-15:00",
+        "type": "business_case",
+        "title": "Process Mining: Discovering Automation Opportunities",
+        "speaker": {
+          "name": "Patricia Costa",
+          "title": "Process Excellence Director",
+          "company": "Vale S.A.",
+          "experience": "Process optimization in mining operations"
+        },
+        "process_mining_tools": [
+          "Celonis",
+          "UiPath Process Mining",
+          "Signavio Process Intelligence",
+          "Microsoft Process Advisor"
+        ],
+        "outcomes": [
+          "Identified 150+ automation opportunities",
+          "Reduced process cycle time by 60%",
+          "Improved compliance monitoring",
+          "Enhanced operational visibility"
+        ]
+      },
+      {
+        "time": "15:00-15:30",
+        "type": "break",
+        "title": "Afternoon Coffee Break",
+        "activities": [
+          "Technology demonstrations",
+          "One-on-one consultations",
+          "Partner networking"
+        ]
+      },
+      {
+        "time": "15:30-16:15",
+        "type": "panel",
+        "title": "ROI Calculations: Building the Business Case for RPA",
+        "moderator": {
+          "name": "Eduardo Ribeiro",
+          "title": "Digital Transformation Consultant",
+          "company": "Deloitte Brazil"
+        },
+        "panelists": [
+          {
+            "name": "Marcos Almeida",
+            "title": "CFO",
+            "company": "Itaú Unibanco",
+            "focus": "Financial impact measurement"
+          },
+          {
+            "name": "Sofia Rodriguez",
+            "title": "Operations Director",
+            "company": "JBS S.A.",
+            "focus": "Operational efficiency metrics"
+          },
+          {
+            "name": "Gabriel Lima",
+            "title": "RPA Center of Excellence Lead",
+            "company": "Bradesco",
+            "focus": "Scalability and governance"
+          }
+        ],
+        "discussion_topics": [
+          "ROI calculation methodologies",
+          "Hidden costs and considerations",
+          "Measuring intangible benefits",
+          "Scaling automation programs",
+          "Change management costs"
+        ]
+      },
+      {
+        "time": "16:15-17:00",
+        "type": "case_study",
+        "title": "Embraer's Intelligent Automation Journey: From RPA to Hyperautomation",
+        "speaker": {
+          "name": "Ricardo Yamamoto",
+          "title": "Chief Digital Officer",
+          "company": "Embraer",
+          "background": "Aerospace industry digitalization"
+        },
+        "transformation_metrics": {
+          "processes_automated": 180,
+          "annual_savings": "USD 12M",
+          "error_reduction": "85%",
+          "employee_satisfaction_increase": "40%",
+          "implementation_phases": [
+            "RPA Foundation (6 months)",
+            "AI Integration (12 months)",
+            "Hyperautomation Platform (18 months)"
+          ]
+        }
+      },
+      {
+        "time": "17:00-17:45",
+        "type": "future_trends",
+        "title": "The Next Generation of Intelligent Automation",
+        "speaker": {
+          "name": "Dr. João Medeiros",
+          "title": "Research Director",
+          "company": "Gartner Brazil",
+          "expertise": "Enterprise software and automation trends"
+        },
+        "emerging_technologies": [
+          "Hyperautomation platforms",
+          "Low-code/No-code RPA",
+          "Conversational AI integration",
+          "Edge computing automation",
+          "Quantum-enhanced optimization"
+        ],
+        "predictions": [
+          "80% of organizations will use hyperautomation by 2027",
+          "AI-augmented RPA will become standard",
+          "Citizen developer programs will expand",
+          "Process discovery will be fully automated"
+        ]
+      },
+      {
+        "time": "17:45-18:00",
+        "type": "closing",
+        "title": "Closing Remarks & Networking Reception",
+        "activities": [
+          "Key takeaways summary",
+          "Certificate presentation",
+          "Final networking session",
+          "Prize drawings"
+        ]
+      }
+    ]
+  },
+  "hyperautomation_concepts": {
+    "definition": "Strategic approach combining RPA with AI, ML, and other advanced technologies to automate complex business processes end-to-end",
+    "core_components": [
+      {
+        "component": "Robotic Process Automation (RPA)",
+        "description": "Software robots automating repetitive, rule-based tasks",
+        "applications": [
+          "Data entry and validation",
+          "Report generation",
+          "System integration",
+          "Compliance monitoring"
+        ]
+      },
+      {
+        "component": "Artificial Intelligence (AI)",
+        "description": "Machine learning and cognitive capabilities for intelligent decision-making",
+        "applications": [
+          "Document understanding",
+          "Sentiment analysis",
+          "Predictive analytics",
+          "Natural language processing"
+        ]
+      },
+      {
+        "component": "Process Mining",
+        "description": "Data-driven process discovery and optimization",
+        "benefits": [
+          "Process visibility",
+          "Bottleneck identification",
+          "Compliance monitoring",
+          "Continuous improvement"
+        ]
+      },
+      {
+        "component": "Business Process Management (BPM)",
+        "description": "Systematic approach to process design and optimization",
+        "features": [
+          "Process modeling",
+          "Workflow orchestration",
+          "Performance monitoring",
+          "Change management"
+        ]
+      }
+    ],
+    "maturity_levels": [
+      {
+        "level": 1,
+        "name": "Basic RPA",
+        "characteristics": ["Simple task automation", "Rule-based processes", "Limited integration"]
+      },
+      {
+        "level": 2,
+        "name": "Enhanced RPA",
+        "characteristics": ["Multi-system integration", "Exception handling", "Basic analytics"]
+      },
+      {
+        "level": 3,
+        "name": "Intelligent Automation",
+        "characteristics": ["AI integration", "Cognitive capabilities", "Self-learning systems"]
+      },
+      {
+        "level": 4,
+        "name": "Hyperautomation",
+        "characteristics": ["End-to-end automation", "Platform orchestration", "Continuous optimization"]
+      }
+    ]
+  },
+  "rpa_platforms": {
+    "uipath": {
+      "company": "UiPath Inc.",
+      "platform_name": "UiPath Platform",
+      "market_position": "Market Leader",
+      "strengths": [
+        "Comprehensive platform ecosystem",
+        "Strong community support",
+        "Advanced AI capabilities",
+        "Extensive marketplace"
+      ],
+      "components": [
+        {
+          "name": "UiPath Studio",
+          "type": "Development Environment",
+          "features": ["Visual workflow designer", "Debugging tools", "Version control integration"]
+        },
+        {
+          "name": "UiPath Orchestrator",
+          "type": "Management Platform",
+          "features": ["Bot scheduling", "Queue management", "Analytics dashboard"]
+        },
+        {
+          "name": "UiPath Robots",
+          "type": "Execution Agents",
+          "features": ["Attended automation", "Unattended automation", "High-density robots"]
+        },
+        {
+          "name": "UiPath AI Center",
+          "type": "AI Integration",
+          "features": ["ML model deployment", "Document understanding", "Process mining"]
+        }
+      ],
+      "pricing_model": "Per robot licensing",
+      "use_cases": [
+        "Finance and accounting automation",
+        "Customer service optimization",
+        "Supply chain management",
+        "Regulatory compliance"
+      ]
+    },
+    "automation_anywhere": {
+      "company": "Automation Anywhere Inc.",
+      "platform_name": "Automation 360",
+      "market_position": "Strong Challenger",
+      "strengths": [
+        "Cloud-native architecture",
+        "Advanced security features",
+        "Integrated analytics",
+        "Mobile accessibility"
+      ],
+      "components": [
+        {
+          "name": "Bot Creator",
+          "type": "Development Environment",
+          "features": ["Drag-drop interface", "Recorder functionality", "API integration"]
+        },
+        {
+          "name": "Control Room",
+          "type": "Management Platform",
+          "features": ["Centralized management", "Role-based access", "Audit trails"]
+        },
+        {
+          "name": "Bot Runner",
+          "type": "Execution Environment",
+          "features": ["Scalable execution", "Load balancing", "Auto-scaling"]
+        },
+        {
+          "name": "Discovery Bot",
+          "type": "Process Discovery",
+          "features": ["Process mapping", "Opportunity identification", "ROI calculation"]
+        }
+      ],
+      "pricing_model": "Subscription-based",
+      "use_cases": [
+        "Banking and financial services",
+        "Healthcare administration",
+        "Manufacturing operations",
+        "Government services"
+      ]
+    },
+    "blue_prism": {
+      "company": "SS&C Blue Prism",
+      "platform_name": "Blue Prism Intelligent Automation Platform",
+      "market_position": "Established Player",
+      "strengths": [
+        "Enterprise-grade security",
+        "Robust governance framework",
+        "Visual process designer",
+        "Strong audit capabilities"
+      ],
+      "components": [
+        {
+          "name": "Process Studio",
+          "type": "Development Environment",
+          "features": ["Object-based design", "Reusable components", "Version management"]
+        },
+        {
+          "name": "Control Room",
+          "type": "Management Console",
+          "features": ["Schedule management", "Resource monitoring", "Exception handling"]
+        },
+        {
+          "name": "Digital Workforce",
+          "type": "Execution Layer",
+          "features": ["Virtual workforce", "Workload distribution", "Performance monitoring"]
+        },
+        {
+          "name": "Blue Prism Cloud",
+          "type": "Cloud Platform",
+          "features": ["SaaS deployment", "Hybrid connectivity", "Managed services"]
+        }
+      ],
+      "pricing_model": "Concurrent user licensing",
+      "use_cases": [
+        "Insurance claim processing",
+        "Telecommunications operations",
+        "Energy and utilities",
+        "Public sector automation"
+      ]
+    }
+  },
+  "brazilian_case_studies": [
+    {
+      "company": "Banco Bradesco",
+      "industry": "Financial Services",
+      "project": "Customer Onboarding Automation",
+      "challenge": "Manual customer verification and account setup processes taking 3-5 days",
+      "solution": [
+        "Automated document verification using OCR and AI",
+        "Real-time credit scoring integration",
+        "Automated compliance checks",
+        "Digital signature workflow"
+      ],
+      "results": {
+        "time_reduction": "80%",
+        "processing_time": "4 hours",
+        "error_reduction": "90%",
+        "annual_savings": "R$ 25M",
+        "customer_satisfaction": "+35%"
+      },
+      "technologies": ["UiPath", "Microsoft Cognitive Services", "Salesforce API"]
+    },
+    {
+      "company": "JBS S.A.",
+      "industry": "Food Processing",
+      "project": "Supply Chain Optimization",
+      "challenge": "Complex supply chain coordination across multiple countries and facilities",
+      "solution": [
+        "Automated inventory management",
+        "Predictive demand forecasting",
+        "Supplier performance monitoring",
+        "Logistics optimization"
+      ],
+      "results": {
+        "inventory_reduction": "25%",
+        "delivery_efficiency": "+40%",
+        "cost_savings": "USD 50M annually",
+        "waste_reduction": "30%",
+        "sustainability_impact": "15% carbon footprint reduction"
+      },
+      "technologies": ["Blue Prism", "SAP integration", "IoT sensors", "Machine Learning"]
+    },
+    {
+      "company": "Telefônica Brasil (Vivo)",
+      "industry": "Telecommunications",
+      "project": "Customer Service Automation",
+      "challenge": "High volume of routine customer inquiries overwhelming call centers",
+      "solution": [
+        "Intelligent chatbot integration",
+        "Automated ticket routing",
+        "Real-time service provisioning",
+        "Proactive issue resolution"
+      ],
+      "results": {
+        "call_volume_reduction": "60%",
+        "resolution_time": "-70%",
+        "customer_satisfaction": "+45%",
+        "agent_productivity": "+50%",
+        "operational_cost_savings": "R$ 80M"
+      },
+      "technologies": ["Automation Anywhere", "IBM Watson", "Salesforce Service Cloud"]
+    },
+    {
+      "company": "Magazine Luiza",
+      "industry": "Retail/E-commerce",
+      "project": "Order Processing Automation",
+      "challenge": "Manual order processing and inventory management during peak sales periods",
+      "solution": [
+        "End-to-end order automation",
+        "Dynamic pricing optimization",
+        "Inventory level monitoring",
+        "Customer communication automation"
+      ],
+      "results": {
+        "order_processing_speed": "+300%",
+        "inventory_accuracy": "99.5%",
+        "revenue_increase": "R$ 2.5B",
+        "customer_complaints": "-80%",
+        "operational_efficiency": "+150%"
+      },
+      "technologies": ["UiPath", "AWS services", "Oracle ERP", "WhatsApp Business API"]
+    }
+  ],
+  "expected_speakers": [
+    {
+      "name": "Dr. Maria Silva",
+      "title": "VP of Digital Transformation",
+      "company": "Banco do Brasil",
+      "expertise": ["Digital banking", "Process automation", "Innovation management"],
+      "session": "Keynote"
+    },
+    {
+      "name": "Carlos Mendoza",
+      "title": "Senior RPA Architect",
+      "company": "Accenture Brazil",
+      "expertise": ["Multi-platform RPA", "Solution architecture", "Change management"],
+      "session": "Platform Comparison"
+    },
+    {
+      "name": "Roberto Santos",
+      "title": "Head of Process Innovation",
+      "company": "Petrobras",
+      "expertise": ["Oil & gas automation", "Industrial processes", "Regulatory compliance"],
+      "session": "Case Study"
+    },
+    {
+      "name": "Ana Oliveira",
+      "title": "AI Solutions Architect",
+      "company": "Microsoft Brazil",
+      "expertise": ["Cognitive services", "Machine learning", "Cloud platforms"],
+      "session": "AI-Powered RPA"
+    },
+    {
+      "name": "Lucas Ferreira",
+      "title": "UiPath Certified Trainer",
+      "company": "UiPath Brazil",
+      "expertise": ["RPA development", "Training", "Best practices"],
+      "session": "Hands-on Workshop"
+    },
+    {
+      "name": "Patricia Costa",
+      "title": "Process Excellence Director",
+      "company": "Vale S.A.",
+      "expertise": ["Process mining", "Operational excellence", "Mining industry"],
+      "session": "Process Mining"
+    }
+  ],
+  "demonstrations": {
+    "hands_on_labs": [
+      {
+        "title": "UiPath Studio Fundamentals",
+        "duration": "45 minutes",
+        "level": "Beginner",
+        "requirements": ["Laptop", "UiPath Studio Community"],
+        "learning_objectives": [
+          "Create first automation project",
+          "Use recording features",
+          "Handle data manipulation",
+          "Debug and troubleshoot"
+        ]
+      },
+      {
+        "title": "Document Processing with AI",
+        "duration": "30 minutes",
+        "level": "Intermediate",
+        "requirements": ["Sample documents", "Access to cloud APIs"],
+        "learning_objectives": [
+          "Extract data from invoices",
+          "Implement OCR processing",
+          "Validate extracted information",
+          "Handle exceptions"
+        ]
+      },
+      {
+        "title": "Process Mining Workshop",
+        "duration": "60 minutes",
+        "level": "Intermediate",
+        "requirements": ["Process data samples", "Mining tool access"],
+        "learning_objectives": [
+          "Import process logs",
+          "Analyze process flows",
+          "Identify bottlenecks",
+          "Generate improvement recommendations"
+        ]
+      }
+    ],
+    "vendor_showcases": [
+      {
+        "company": "UiPath",
+        "demos": [
+          "Task Mining capabilities",
+          "Document Understanding AI",
+          "Process Mining integration",
+          "Automation Hub features"
+        ],
+        "booth_activities": [
+          "Live automation building",
+          "ROI calculator demo",
+          "Customer success stories",
+          "Certification information"
+        ]
+      },
+      {
+        "company": "Automation Anywhere",
+        "demos": [
+          "Bot Insight analytics",
+          "Discovery Bot process mining",
+          "IQ Bot cognitive automation",
+          "Cloud-native architecture"
+        ],
+        "booth_activities": [
+          "Bot marketplace exploration",
+          "Mobile app demonstration",
+          "Security features overview",
+          "Partner ecosystem showcase"
+        ]
+      },
+      {
+        "company": "Blue Prism",
+        "demos": [
+          "Digital Exchange connectors",
+          "DECIPHER intelligent document processing",
+          "Chorus process mining",
+          "Blue Prism Cloud platform"
+        ],
+        "booth_activities": [
+          "Enterprise governance demo",
+          "Security and compliance overview",
+          "Scalability demonstrations",
+          "Training and certification"
+        ]
+      }
+    ]
+  },
+  "roi_framework": {
+    "calculation_methodology": {
+      "direct_benefits": [
+        {
+          "category": "Labor Cost Savings",
+          "calculation": "Hours saved * Hourly rate * Number of processes",
+          "typical_range": "30-70% of total ROI"
+        },
+        {
+          "category": "Error Reduction",
+          "calculation": "Error costs avoided * Error rate improvement",
+          "typical_range": "10-25% of total ROI"
+        },
+        {
+          "category": "Processing Speed",
+          "calculation": "Time saved * Opportunity cost",
+          "typical_range": "15-30% of total ROI"
+        }
+      ],
+      "indirect_benefits": [
+        {
+          "category": "Employee Satisfaction",
+          "impact": "Reduced turnover, increased productivity",
+          "measurement": "HR metrics and surveys"
+        },
+        {
+          "category": "Compliance Improvement",
+          "impact": "Reduced regulatory risks and penalties",
+          "measurement": "Audit results and compliance scores"
+        },
+        {
+          "category": "Customer Experience",
+          "impact": "Faster response times and accuracy",
+          "measurement": "Customer satisfaction scores"
+        }
+      ],
+      "investment_costs": [
+        {
+          "category": "Software Licensing",
+          "components": ["Platform licenses", "Bot licenses", "Add-on modules"],
+          "typical_percentage": "40-60% of total cost"
+        },
+        {
+          "category": "Implementation Services",
+          "components": ["Consulting", "Development", "Training"],
+          "typical_percentage": "25-40% of total cost"
+        },
+        {
+          "category": "Infrastructure",
+          "components": ["Servers", "Cloud resources", "Security tools"],
+          "typical_percentage": "10-20% of total cost"
+        },
+        {
+          "category": "Change Management",
+          "components": ["Training", "Communication", "Support"],
+          "typical_percentage": "10-15% of total cost"
+        }
+      ]
+    },
+    "roi_calculation_examples": [
+      {
+        "scenario": "Invoice Processing Automation",
+        "process_details": {
+          "invoices_per_month": 10000,
+          "processing_time_minutes": 8,
+          "hourly_rate": 25,
+          "error_rate": "5%",
+          "error_cost": 50
+        },
+        "automation_impact": {
+          "time_reduction": "85%",
+          "error_reduction": "95%",
+          "implementation_cost": 150000,
+          "annual_savings": 340000,
+          "payback_period": "5.3 months",
+          "three_year_roi": "580%"
+        }
+      },
+      {
+        "scenario": "Customer Onboarding",
+        "process_details": {
+          "applications_per_month": 2500,
+          "processing_time_hours": 3,
+          "hourly_rate": 35,
+          "approval_time_days": 5,
+          "customer_acquisition_value": 800
+        },
+        "automation_impact": {
+          "time_reduction": "70%",
+          "approval_acceleration": "80%",
+          "implementation_cost": 200000,
+          "annual_savings": 425000,
+          "payback_period": "5.6 months",
+          "three_year_roi": "535%"
+        }
+      }
+    ],
+    "business_case_template": {
+      "executive_summary": "Problem statement, solution overview, financial impact",
+      "current_state_analysis": "Process mapping, pain points, costs",
+      "proposed_solution": "Automation approach, technology selection, implementation plan",
+      "financial_analysis": "ROI calculation, cash flow projection, risk assessment",
+      "implementation_roadmap": "Timeline, milestones, resource requirements",
+      "success_metrics": "KPIs, measurement approach, governance model"
+    }
+  },
+  "networking_opportunities": {
+    "structured_sessions": [
+      {
+        "session": "Welcome Coffee",
+        "duration": "1 hour",
+        "focus": "Initial introductions and connection building",
+        "activities": ["Speed networking", "Industry roundtables", "Vendor introductions"]
+      },
+      {
+        "session": "Lunch Networking",
+        "duration": "1 hour",
+        "focus": "Deep dive discussions and partnership exploration",
+        "activities": ["Themed lunch tables", "Case study discussions", "Partnership meetings"]
+      },
+      {
+        "session": "Coffee Breaks",
+        "duration": "30 minutes each",
+        "focus": "Follow-up conversations and demo viewing",
+        "activities": ["Technology demonstrations", "One-on-one meetings", "Q&A sessions"]
+      },
+      {
+        "session": "Closing Reception",
+        "duration": "45 minutes",
+        "focus": "Relationship building and future planning",
+        "activities": ["Contact exchange", "Follow-up planning", "Regional meetup organization"]
+      }
+    ],
+    "digital_networking": {
+      "event_app": "RPA Congress 2025 Mobile App",
+      "features": [
+        "Attendee directory with profiles",
+        "Meeting scheduler and calendar",
+        "Chat and messaging system",
+        "Business card exchange",
+        "Session feedback and ratings",
+        "Resource sharing and downloads"
+      ],
+      "linkedin_group": "RPA & AI Congress Curitiba 2025",
+      "whatsapp_groups": [
+        "RPA Professionals Brazil",
+        "AI Automation Leaders",
+        "Process Mining Community"
+      ]
+    }
+  },
+  "sponsors_and_partners": {
+    "title_sponsors": [
+      {
+        "name": "UiPath",
+        "level": "Platinum",
+        "benefits": ["Keynote slot", "Premium booth space", "Workshop hosting", "Logo placement"]
+      },
+      {
+        "name": "Microsoft Brazil",
+        "level": "Platinum",
+        "benefits": ["Technical session", "AI showcase", "Developer lounge", "Prize sponsorship"]
+      }
+    ],
+    "gold_sponsors": [
+      {
+        "name": "Automation Anywhere",
+        "benefits": ["Demo theater", "Networking lunch", "Mobile app presence"]
+      },
+      {
+        "name": "Blue Prism",
+        "benefits": ["Exhibition space", "Speaking slot", "Welcome reception"]
+      },
+      {
+        "name": "Accenture Brazil",
+        "benefits": ["Consulting showcase", "Panel participation", "Career fair"]
+      }
+    ],
+    "supporting_partners": [
+      "FIEP - Federação das Indústrias do Estado do Paraná",
+      "ABRH-PR - Associação Brasileira de Recursos Humanos",
+      "SUCESU-PR - Sociedade de Usuários de Informática",
+      "Curitiba Tech Chamber",
+      "Paraná Innovation Hub"
+    ],
+    "media_partners": [
+      "IT Forum",
+      "CIO Brasil",
+      "Mundo RPA",
+      "Automation World",
+      "Digital Transformation Magazine"
+    ]
+  },
+  "post_event_resources": {
+    "digital_content": [
+      "Recorded session videos (1-year access)",
+      "Presentation slides and materials",
+      "Case study detailed reports",
+      "ROI calculation templates",
+      "Implementation checklists"
+    ],
+    "community_building": [
+      "Monthly virtual meetups",
+      "Regional automation user groups",
+      "Online collaboration platform",
+      "Certification study groups",
+      "Mentorship program matching"
+    ],
+    "continuing_education": [
+      "Quarterly webinar series",
+      "Online certification programs",
+      "Best practices documentation",
+      "Technology update briefings",
+      "Industry trend reports"
+    ]
+  },
+  "contact_information": {
+    "event_organizer": {
+      "company": "Automation Events Brazil",
+      "website": "https://rpacongress.com.br",
+      "email": "info@rpacongress.com.br",
+      "phone": "+55 41 3333-2025"
+    },
+    "registration": {
+      "website": "https://rpacongress.com.br/register",
+      "email": "registration@rpacongress.com.br",
+      "phone": "+55 41 3333-2026"
+    },
+    "sponsorship": {
+      "contact": "Carla Nascimento",
+      "title": "Partnership Director",
+      "email": "sponsors@rpacongress.com.br",
+      "phone": "+55 41 99999-2025"
+    },
+    "media": {
+      "contact": "Ricardo Moreira",
+      "title": "Media Relations",
+      "email": "media@rpacongress.com.br",
+      "phone": "+55 41 99999-2026"
+    }
+  },
+  "additional_information": {
+    "covid_safety": [
+      "Health protocols following local guidelines",
+      "Vaccination certificates required",
+      "Hand sanitizing stations",
+      "Optional mask wearing",
+      "Virtual attendance options"
+    ],
+    "accessibility": [
+      "Wheelchair accessible venue",
+      "Sign language interpreters available",
+      "Audio assistance systems",
+      "Accessible parking",
+      "Dietary accommodation options"
+    ],
+    "sustainability": [
+      "Carbon neutral event certification",
+      "Digital-first documentation",
+      "Recycling programs",
+      "Local catering sourcing",
+      "Public transportation promotion"
+    ],
+    "language_support": [
+      "Portuguese (primary)",
+      "English (simultaneous translation)",
+      "Spanish (key sessions)",
+      "Multilingual mobile app",
+      "International attendee support"
+    ]
+  }
+}

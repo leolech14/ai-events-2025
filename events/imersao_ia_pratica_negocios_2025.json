@@ -1,0 +1,475 @@
+{
+  "event": {
+    "name": "Imersão IA na Prática para Negócios",
+    "subtitle": "Transforme sua empresa com Inteligência Artificial Generativa",
+    "type": "workshop",
+    "format": "presencial",
+    "duration": "1 dia",
+    "date": {
+      "start": "2025-09-13",
+      "end": "2025-09-13",
+      "timezone": "America/Sao_Paulo"
+    },
+    "time": {
+      "start": "08:00",
+      "end": "18:00",
+      "registration_start": "07:30"
+    },
+    "location": {
+      "city": "Porto Alegre",
+      "state": "Rio Grande do Sul",
+      "country": "Brasil",
+      "venue": {
+        "name": "Corporate Auditorium Porto Alegre",
+        "address": "Av. Carlos Gomes, 466 - Auxiliadora",
+        "cep": "90480-000",
+        "capacity": 200,
+        "facilities": [
+          "Auditório principal com 200 lugares",
+          "2 salas de breakout para hands-on",
+          "Área de networking e coffee break",
+          "WiFi de alta velocidade",
+          "Equipamentos audiovisuais completos",
+          "Estacionamento gratuito"
+        ],
+        "accessibility": [
+          "Acessibilidade para cadeirantes",
+          "Banheiros adaptados",
+          "Elevadores",
+          "Sinalização tátil"
+        ]
+      }
+    },
+    "focus_areas": [
+      "Inteligência Artificial Generativa",
+      "Automação de processos de negócios",
+      "Ferramentas práticas de IA",
+      "Transformação digital empresarial",
+      "ROI em projetos de IA"
+    ],
+    "target_audience": {
+      "primary": [
+        "Gestores e executivos de empresas",
+        "Diretores de inovação e tecnologia",
+        "Gerentes de processos e operações",
+        "Empreendedores e empresários",
+        "Consultores de negócios"
+      ],
+      "secondary": [
+        "Profissionais de TI em posições de liderança",
+        "Analistas de negócios sêniores",
+        "Coordenadores de projetos digitais"
+      ],
+      "level": "Intermediário a Avançado",
+      "size": "Até 200 participantes"
+    }
+  },
+  "program": {
+    "overview": "Workshop intensivo de um dia com foco prático na implementação de IA Generativa em ambientes corporativos, combinando teoria essencial com exercícios hands-on e cases reais de negócios.",
+    "methodology": "Formato imersivo com 70% prática e 30% teoria, incluindo workshops em pequenos grupos, demonstrações ao vivo e desenvolvimento de casos práticos.",
+    "schedule": [
+      {
+        "time": "07:30 - 08:00",
+        "activity": "Credenciamento e Welcome Coffee",
+        "description": "Recepção dos participantes, entrega de materiais e networking inicial"
+      },
+      {
+        "time": "08:00 - 08:30",
+        "activity": "Abertura e Apresentações",
+        "description": "Boas-vindas, apresentação da agenda e dinâmica de networking entre participantes"
+      },
+      {
+        "time": "08:30 - 10:00",
+        "activity": "Módulo 1: Fundamentos da IA Generativa para Negócios",
+        "type": "palestra + demo",
+        "topics": [
+          "Panorama atual da IA Generativa no mercado brasileiro",
+          "Diferenças entre IA tradicional e IA Generativa",
+          "Principais aplicações empresariais",
+          "Cases de sucesso nacionais e internacionais",
+          "ROI e métricas de sucesso em projetos de IA"
+        ],
+        "deliverable": "Framework de avaliação de oportunidades de IA"
+      },
+      {
+        "time": "10:00 - 10:15",
+        "activity": "Coffee Break",
+        "description": "Pausa para café e networking"
+      },
+      {
+        "time": "10:15 - 12:00",
+        "activity": "Módulo 2: Ferramentas GenAI Essenciais - Hands-on",
+        "type": "workshop prático",
+        "format": "Divisão em 2 grupos simultâneos",
+        "groups": {
+          "grupo_a": {
+            "focus": "Criação de Conteúdo e Comunicação",
+            "tools": [
+              "ChatGPT para redação empresarial",
+              "Claude para análise de documentos",
+              "Perplexity para pesquisa e insights",
+              "Gamma para apresentações automáticas"
+            ]
+          },
+          "grupo_b": {
+            "focus": "Análise e Automação",
+            "tools": [
+              "GPT-4 para análise de dados",
+              "Zapier AI para automação",
+              "Microsoft Copilot para produtividade",
+              "Notion AI para gestão de conhecimento"
+            ]
+          }
+        },
+        "exercises": [
+          "Criação de relatório executivo automatizado",
+          "Desenvolvimento de fluxo de aprovação inteligente",
+          "Análise de feedback de clientes com IA",
+          "Automação de processo de onboarding"
+        ]
+      },
+      {
+        "time": "12:00 - 13:30",
+        "activity": "Almoço e Networking",
+        "description": "Almoço livre com oportunidades estruturadas de networking"
+      },
+      {
+        "time": "13:30 - 15:15",
+        "activity": "Módulo 3: Automação de Processos com IA",
+        "type": "workshop prático",
+        "use_cases": [
+          {
+            "area": "Recursos Humanos",
+            "processes": [
+              "Triagem automatizada de currículos",
+              "Geração de descrições de vagas",
+              "Onboarding personalizado",
+              "Análise de feedback de funcionários"
+            ]
+          },
+          {
+            "area": "Vendas e Marketing",
+            "processes": [
+              "Lead scoring inteligente",
+              "Personalização de propostas comerciais",
+              "Criação de conteúdo para redes sociais",
+              "Análise de sentimento de clientes"
+            ]
+          },
+          {
+            "area": "Operações",
+            "processes": [
+              "Classificação automática de tickets",
+              "Otimização de agenda e recursos",
+              "Geração de relatórios operacionais",
+              "Previsão de demanda"
+            ]
+          },
+          {
+            "area": "Financeiro",
+            "processes": [
+              "Análise de riscos automatizada",
+              "Categorização de despesas",
+              "Relatórios financeiros inteligentes",
+              "Detecção de anomalias"
+            ]
+          }
+        ],
+        "practical_exercise": "Desenvolvimento de um processo automatizado para a área escolhida pelo participante"
+      },
+      {
+        "time": "15:15 - 15:30",
+        "activity": "Coffee Break",
+        "description": "Pausa para café e troca de experiências"
+      },
+      {
+        "time": "15:30 - 17:00",
+        "activity": "Módulo 4: Implementação e Estratégia",
+        "type": "workshop estratégico",
+        "components": [
+          {
+            "topic": "Roadmap de Implementação",
+            "activities": [
+              "Identificação de quick wins",
+              "Definição de prioridades por impacto/esforço",
+              "Criação de cronograma de implementação",
+              "Definição de KPIs e métricas de sucesso"
+            ]
+          },
+          {
+            "topic": "Gestão da Mudança",
+            "activities": [
+              "Estratégias de adoção organizacional",
+              "Treinamento de equipes",
+              "Comunicação interna efetiva",
+              "Superação de resistências"
+            ]
+          },
+          {
+            "topic": "Aspectos Legais e Éticos",
+            "activities": [
+              "LGPD e uso de IA",
+              "Políticas de uso responsável",
+              "Transparência e explicabilidade",
+              "Vieses e fairness"
+            ]
+          }
+        ],
+        "deliverable": "Plano de ação personalizado para implementação de IA na empresa"
+      },
+      {
+        "time": "17:00 - 17:45",
+        "activity": "Módulo 5: Cases Práticos e Q&A",
+        "type": "apresentação + discussão",
+        "cases": [
+          "Empresa de varejo: Implementação de chatbot inteligente",
+          "Indústria: Automação de controle de qualidade",
+          "Serviços: Otimização de atendimento ao cliente",
+          "Startup: Escalabilidade com IA desde o início"
+        ],
+        "format": "Apresentação de cases seguida de sessão aberta de perguntas e respostas"
+      },
+      {
+        "time": "17:45 - 18:00",
+        "activity": "Encerramento e Next Steps",
+        "description": "Síntese do dia, entrega de certificados e orientações para continuidade do aprendizado"
+      }
+    ]
+  },
+  "practical_tools": {
+    "genai_platforms": [
+      {
+        "tool": "ChatGPT (GPT-4)",
+        "use_cases": [
+          "Redação de e-mails e documentos",
+          "Brainstorming e ideação",
+          "Análise de contratos",
+          "Criação de scripts e templates"
+        ],
+        "hands_on": "Criação de template de proposta comercial"
+      },
+      {
+        "tool": "Claude (Anthropic)",
+        "use_cases": [
+          "Análise de documentos longos",
+          "Resumos executivos",
+          "Revisão e edição de textos",
+          "Análise de dados estruturados"
+        ],
+        "hands_on": "Análise de relatório anual da empresa"
+      },
+      {
+        "tool": "Microsoft Copilot",
+        "use_cases": [
+          "Automação no Office 365",
+          "Criação de apresentações",
+          "Análise de planilhas",
+          "Geração de códigos simples"
+        ],
+        "hands_on": "Criação de dashboard executivo no Power BI"
+      },
+      {
+        "tool": "Perplexity AI",
+        "use_cases": [
+          "Pesquisa de mercado",
+          "Análise de concorrência",
+          "Identificação de tendências",
+          "Coleta de insights"
+        ],
+        "hands_on": "Análise de mercado para novo produto"
+      },
+      {
+        "tool": "Zapier AI",
+        "use_cases": [
+          "Automação de workflows",
+          "Integração entre sistemas",
+          "Processamento de dados",
+          "Gatilhos inteligentes"
+        ],
+        "hands_on": "Criação de workflow de aprovação automática"
+      }
+    ],
+    "automation_scenarios": [
+      {
+        "scenario": "Atendimento ao Cliente",
+        "description": "Implementação de chatbot inteligente para primeiro atendimento",
+        "tools": ["ChatGPT API", "Zapier", "WhatsApp Business"],
+        "expected_results": "Redução de 60% no tempo de resposta inicial"
+      },
+      {
+        "scenario": "Recursos Humanos",
+        "description": "Automação do processo de triagem de candidatos",
+        "tools": ["Claude", "Zapier", "Planilhas Google"],
+        "expected_results": "80% de redução no tempo de análise de currículos"
+      },
+      {
+        "scenario": "Marketing Digital",
+        "description": "Criação automatizada de conteúdo para redes sociais",
+        "tools": ["ChatGPT", "DALL-E", "Buffer"],
+        "expected_results": "Produção 5x mais rápida de conteúdo"
+      },
+      {
+        "scenario": "Vendas",
+        "description": "Personalização de propostas comerciais",
+        "tools": ["GPT-4", "Zapier", "CRM"],
+        "expected_results": "30% de aumento na taxa de conversão"
+      }
+    ]
+  },
+  "deliverables": {
+    "during_event": [
+      "Framework de avaliação de oportunidades de IA",
+      "Templates práticos para cada ferramenta apresentada",
+      "Checklist de implementação por área",
+      "Planilha de ROI para projetos de IA"
+    ],
+    "post_event": [
+      "Plano de ação personalizado (30 dias)",
+      "Acesso a comunidade exclusiva no LinkedIn",
+      "E-book com resumo de todas as ferramentas",
+      "Sessão de follow-up virtual (1 mês depois)"
+    ],
+    "certificates": "Certificado de participação em 'Imersão IA na Prática para Negócios'"
+  },
+  "speakers": {
+    "facilitator_team": [
+      {
+        "name": "A definir",
+        "role": "Especialista em IA para Negócios",
+        "background": "10+ anos em transformação digital, especialista em implementação de IA em PMEs e grandes corporações"
+      },
+      {
+        "name": "A definir",
+        "role": "Consultor em Automação de Processos",
+        "background": "Especialista em RPA e IA, com cases práticos em diversos setores da economia brasileira"
+      }
+    ],
+    "guest_speakers": [
+      {
+        "role": "CEO de empresa que implementou IA com sucesso",
+        "topic": "Case prático de transformação digital"
+      },
+      {
+        "role": "Especialista em LGPD e IA",
+        "topic": "Aspectos legais da implementação de IA"
+      }
+    ]
+  },
+  "registration": {
+    "status": "Inscrições abertas",
+    "deadline": "2025-09-10",
+    "capacity": 200,
+    "early_bird": {
+      "deadline": "2025-08-13",
+      "discount": "30%"
+    },
+    "pricing": {
+      "individual": {
+        "early_bird": "R$ 497,00",
+        "regular": "R$ 697,00"
+      },
+      "corporate": {
+        "2_pessoas": "R$ 1.194,00",
+        "3_pessoas": "R$ 1.491,00",
+        "5_ou_mais": "R$ 2.087,00"
+      }
+    },
+    "includes": [
+      "Participação em todos os módulos",
+      "Material didático digital",
+      "Coffee breaks e almoço",
+      "Certificado de participação",
+      "Templates e frameworks práticos",
+      "Acesso à comunidade exclusiva",
+      "Sessão de follow-up virtual"
+    ],
+    "payment_methods": [
+      "Cartão de crédito (até 12x)",
+      "PIX (5% desconto)",
+      "Boleto bancário",
+      "Transferência bancária"
+    ],
+    "cancellation_policy": "Cancelamento até 7 dias antes do evento com 80% de reembolso"
+  },
+  "requirements": {
+    "technical": [
+      "Notebook próprio (obrigatório)",
+      "Conhecimento básico de Excel/Google Sheets",
+      "E-mail corporativo ativo",
+      "Conta no ChatGPT (gratuita)"
+    ],
+    "business": [
+      "Experiência em gestão ou liderança",
+      "Conhecimento dos processos da própria empresa",
+      "Interesse em implementar soluções de IA"
+    ]
+  },
+  "networking": {
+    "opportunities": [
+      "Welcome coffee com apresentações estruturadas",
+      "Almoço com mesas temáticas por setor",
+      "Coffee breaks direcionados",
+      "Espaço de networking pós-evento"
+    ],
+    "community": {
+      "platform": "LinkedIn - Grupo exclusivo",
+      "activities": [
+        "Compartilhamento de cases e experiências",
+        "Webinars mensais com especialistas",
+        "Biblioteca de recursos atualizada",
+        "Networking entre participantes"
+      ]
+    }
+  },
+  "follow_up": {
+    "immediate": [
+      "E-mail de agradecimento com materiais",
+      "Pesquisa de satisfação",
+      "Convite para grupo do LinkedIn"
+    ],
+    "30_days": [
+      "Sessão virtual de follow-up (2h)",
+      "Revisão dos planos de ação",
+      "Q&A sobre implementações",
+      "Compartilhamento de resultados iniciais"
+    ],
+    "ongoing": [
+      "Newsletter mensal com novidades em IA",
+      "Convites para eventos futuros",
+      "Descontos em consultorias especializadas"
+    ]
+  },
+  "contact": {
+    "organizer": "A definir",
+    "registration": "inscricoes@imersaoia.com.br",
+    "phone": "+55 51 9999-9999",
+    "whatsapp": "+55 51 9999-9999",
+    "website": "www.imersaoia.com.br",
+    "social_media": {
+      "linkedin": "/company/imersao-ia-negocios",
+      "instagram": "@imersaoia",
+      "youtube": "/channel/imersaoia"
+    }
+  },
+  "sponsors": {
+    "categories": [
+      "Patrocinador Diamante",
+      "Patrocinador Ouro",
+      "Patrocinador Prata",
+      "Apoio Institucional"
+    ],
+    "benefits": "Pacote de patrocínio disponível mediante consulta"
+  },
+  "sustainability": [
+    "Materiais 100% digitais",
+    "Certificados digitais",
+    "Compensação de carbono do evento",
+    "Parcerias com fornecedores sustentáveis"
+  ],
+  "success_metrics": {
+    "participant_satisfaction": "> 4.5/5.0",
+    "implementation_rate": "> 70% implementam pelo menos 1 ferramenta em 30 dias",
+    "networking_connections": "> 5 conexões por participante",
+    "return_investment": "> 200% ROI reportado em 90 dias"
+  }
+}

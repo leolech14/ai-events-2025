@@ -1,0 +1,74 @@
+{
+    "title": "Curso Uso de IA Generativa no Ensino Superior",
+    "institution": "Unicamp",
+    "format": "Online",
+    "dates": {
+        "class_dates": [
+            "2025-08-14",
+            "2025-08-21", 
+            "2025-08-28",
+            "2025-09-04"
+        ],
+        "total_hours": 16
+    },
+    "target_audience": [
+        "Professores universitários",
+        "Coordenadores acadêmicos",
+        "Pesquisadores",
+        "Tutores online",
+        "Gestores educacionais"
+    ],
+    "course_modules": [
+        {
+            "name": "Fundamentos de IA no Ensino Superior",
+            "topics": [
+                "Introdução à IA generativa",
+                "Ética e uso responsável",
+                "Impacto no ambiente acadêmico"
+            ]
+        },
+        {
+            "name": "Ferramentas de IA para Educação",
+            "topics": [
+                "Geração de material didático",
+                "Personalização de aprendizagem",
+                "Assistentes de pesquisa"
+            ]
+        },
+        {
+            "name": "Metodologias Inovadoras",
+            "topics": [
+                "Design de aulas com IA",
+                "Avaliação e feedback automatizado",
+                "Suporte à pesquisa acadêmica"
+            ]
+        },
+        {
+            "name": "Práticas e Implementação",
+            "topics": [
+                "Integração de IA em disciplinas",
+                "Casos de sucesso",
+                "Desenvolvimento de projeto final"
+            ]
+        }
+    ],
+    "certification": {
+        "available": true,
+        "hours": 16,
+        "requirements": [
+            "Participação em todos os encontros",
+            "Entrega de projeto de implementação"
+        ]
+    },
+    "investment": {
+        "total_price": 350.00,
+        "payment_options": [
+            "Pagamento único",
+            "2x sem juros"
+        ]
+    },
+    "contact": {
+        "email": "ead.ia@unicamp.br",
+        "phone": "+55 19 3521-4000"
+    }
+}

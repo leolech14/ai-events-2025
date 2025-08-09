@@ -1,0 +1,33 @@
+{
+  "name": "Applied AI Workshop",
+  "full_name": "Practical Applications of AI in Business",
+  "type": "workshop",
+  "dates": {
+    "start": "2025-03-15",
+    "end": "2025-03-16"
+  },
+  "location": {
+    "venue": "Tech Hub",
+    "city": "San Francisco",
+    "country": "USA"
+  },
+  "description": "Hands-on workshop focusing on implementing AI solutions in real-world business scenarios. Learn from industry experts and build practical projects.",
+  "activities": [
+    "Hands-on coding sessions",
+    "Case study analysis",
+    "Group projects",
+    "Expert mentoring",
+    "Networking sessions"
+  ],
+  "target_audience": [
+    "Software engineers",
+    "Product managers",
+    "Business analysts",
+    "Startup founders"
+  ],
+  "registration": {
+    "url": "https://example.com/ai-workshop",
+    "deadline": "2025-03-01"
+  },
+  "tags": ["workshop", "practical", "business", "AI applications", "hands-on"]
+}

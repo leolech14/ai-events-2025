@@ -1,0 +1,54 @@
+{
+  "event_name": "ICBDAI 2025 Porto Alegre",
+  "event_type": "conference",
+  "date": {
+    "start": "2025-09-27",
+    "end": "2025-09-27"
+  },
+  "location": {
+    "city": "Porto Alegre",
+    "state": "Rio Grande do Sul",
+    "country": "Brazil",
+    "venue": "",
+    "address": "",
+    "online_platform": ""
+  },
+  "format": "presential",
+  "duration": "1 day",
+  "description": "International Conference on Big Data and Artificial Intelligence 2025 em Porto Alegre, focado em avanços em big data e inteligência artificial.",
+  "focus_areas": ["Big Data", "Artificial Intelligence", "Data Science", "Machine Learning", "Data Analytics"],
+  "target_audience": ["Data Scientists", "AI Researchers", "Tech Professionals", "Students", "Industry Leaders"],
+  "organizers": [],
+  "sponsors": [],
+  "speakers": [],
+  "agenda": [],
+  "registration": {
+    "url": "",
+    "deadline": "",
+    "price": {
+      "currency": "BRL",
+      "early_bird": 0,
+      "regular": 0,
+      "student": 0
+    },
+    "capacity": 0,
+    "requirements": []
+  },
+  "contact": {
+    "email": "",
+    "phone": "",
+    "website": "",
+    "social_media": {
+      "linkedin": "",
+      "instagram": "",
+      "twitter": ""
+    }
+  },
+  "tags": ["big data", "artificial intelligence", "data science", "machine learning", "analytics"],
+  "language": "Portuguese",
+  "certification": false,
+  "networking_opportunities": [],
+  "partners": [],
+  "related_events": [],
+  "last_updated": "2025-01-07"
+}

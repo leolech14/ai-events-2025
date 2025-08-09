@@ -1,0 +1,54 @@
+{
+  "event_name": "V CBTA 2025",
+  "event_type": "conference",
+  "date": {
+    "start": "2025-09-30",
+    "end": "2025-10-03"
+  },
+  "location": {
+    "city": "Curitiba",
+    "state": "Paraná",
+    "country": "Brazil",
+    "venue": "",
+    "address": "",
+    "online_platform": ""
+  },
+  "format": "presential",
+  "duration": "4 days",
+  "description": "V Congresso Brasileiro de Tecnologia e Automação (CBTA) 2025 em Curitiba, focado em tecnologia, automação e inteligência artificial aplicada.",
+  "focus_areas": ["Technology", "Automation", "Artificial Intelligence", "Engineering", "Innovation"],
+  "target_audience": ["Engineers", "Tech Professionals", "Researchers", "Students", "Industry Leaders"],
+  "organizers": [],
+  "sponsors": [],
+  "speakers": [],
+  "agenda": [],
+  "registration": {
+    "url": "",
+    "deadline": "",
+    "price": {
+      "currency": "BRL",
+      "early_bird": 0,
+      "regular": 0,
+      "student": 0
+    },
+    "capacity": 0,
+    "requirements": []
+  },
+  "contact": {
+    "email": "",
+    "phone": "",
+    "website": "",
+    "social_media": {
+      "linkedin": "",
+      "instagram": "",
+      "twitter": ""
+    }
+  },
+  "tags": ["CBTA", "technology", "automation", "AI", "engineering"],
+  "language": "Portuguese",
+  "certification": false,
+  "networking_opportunities": [],
+  "partners": [],
+  "related_events": [],
+  "last_updated": "2025-01-07"
+}

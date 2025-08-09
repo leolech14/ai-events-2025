@@ -1,0 +1,58 @@
+{
+    "event_name": "Rio Preto Tech Summit 2025",
+    "dates": {
+        "start_date": "2025-08-06",
+        "end_date": "2025-08-07"
+    },
+    "venues": [
+        {
+            "name": "Teatro Paulo Moura",
+            "type": "Main Conference Hall"
+        },
+        {
+            "name": "Complexo Swift",
+            "type": "Workshop and Startup Showcase Area"
+        }
+    ],
+    "location": {
+        "city": "São José do Rio Preto",
+        "state": "São Paulo",
+        "country": "Brazil"
+    },
+    "event_format": {
+        "type": "Presential",
+        "duration_days": 2
+    },
+    "primary_focus": [
+        "Innovation",
+        "AI Applied to Business",
+        "Startup Ecosystem"
+    ],
+    "key_highlights": [
+        "Dual Venue Format",
+        "Regional Tech Ecosystem Showcase",
+        "Startup Pitch Sessions",
+        "Business AI Applications"
+    ],
+    "target_audience": [
+        "Entrepreneurs",
+        "Tech Professionals",
+        "Startup Founders",
+        "Business Leaders",
+        "AI Researchers"
+    ],
+    "conference_tracks": [
+        {
+            "name": "AI in Business Transformation",
+            "description": "Exploring AI's impact on business models and strategies"
+        },
+        {
+            "name": "Startup Innovation Showcase",
+            "description": "Featuring local and regional tech startups"
+        },
+        {
+            "name": "Practical AI Applications",
+            "description": "Real-world case studies and implementation strategies"
+        }
+    ]
+}

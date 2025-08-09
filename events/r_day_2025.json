@@ -1,0 +1,301 @@
+{
+  "event_name": "5º R Day",
+  "event_type": "R Programming Conference",
+  "date": {
+    "start": "2025-09-25",
+    "end": "2025-09-26",
+    "duration_days": 2
+  },
+  "location": {
+    "venue": "Universidade Federal de Santa Maria - UFSM",
+    "city": "Santa Maria",
+    "state": "Rio Grande do Sul",
+    "country": "Brazil"
+  },
+  "organizer": "R Community Brazil & UFSM",
+  "focus_areas": [
+    "R Programming",
+    "Data Visualization",
+    "Statistical Computing",
+    "Shiny Applications",
+    "Package Development",
+    "Machine Learning with R",
+    "Reproducible Research",
+    "Big Data Analytics with R"
+  ],
+  "target_audience": [
+    "R programmers",
+    "Data analysts",
+    "Statisticians",
+    "Data scientists",
+    "Academic researchers",
+    "Business analysts",
+    "Students learning R"
+  ],
+  "program": {
+    "day1": {
+      "date": "2025-09-25",
+      "theme": "Advanced R Programming & Data Science",
+      "sessions": [
+        {
+          "title": "Welcome & R Community Updates",
+          "time": "09:00-09:30",
+          "type": "Opening",
+          "speaker": "R Brazil Organizing Committee"
+        },
+        {
+          "title": "Modern R Development Practices",
+          "time": "09:30-10:30",
+          "speaker": "Dr. Hadley Wickham",
+          "affiliation": "Posit PBC",
+          "type": "Keynote",
+          "topic": "The Future of R Programming"
+        },
+        {
+          "title": "Advanced Data Manipulation with dplyr 2.0",
+          "time": "11:00-12:00",
+          "speaker": "Prof. Daniela Santos",
+          "type": "Technical Talk",
+          "hands_on": true
+        },
+        {
+          "title": "Building Interactive Dashboards with Shiny",
+          "time": "14:00-16:00",
+          "type": "Workshop",
+          "instructor": "Dr. Winston Chang",
+          "level": "Intermediate",
+          "materials": "Provided"
+        },
+        {
+          "title": "R for Machine Learning: tidymodels Framework",
+          "time": "16:30-17:30",
+          "speaker": "Prof. Max Kuhn",
+          "type": "Technical Talk",
+          "focus": "tidymodels ecosystem"
+        }
+      ]
+    },
+    "day2": {
+      "date": "2025-09-26",
+      "theme": "R Applications & Community",
+      "sessions": [
+        {
+          "title": "R in Production Environments",
+          "time": "09:00-10:00",
+          "speaker": "Dr. Sean Lopp",
+          "affiliation": "Posit PBC",
+          "type": "Keynote",
+          "topic": "Scaling R Applications"
+        },
+        {
+          "title": "Package Development Best Practices",
+          "time": "10:30-12:00",
+          "type": "Workshop",
+          "instructor": "Jenny Bryan",
+          "level": "Advanced",
+          "prerequisites": "R package basics"
+        },
+        {
+          "title": "Data Visualization with ggplot2 Extensions",
+          "time": "14:00-15:00",
+          "speaker": "Dr. Thomas Lin Pedersen",
+          "type": "Technical Talk",
+          "packages": ["ggplot2", "gganimate", "ggraph"]
+        },
+        {
+          "title": "R Community Lightning Talks",
+          "time": "15:30-16:30",
+          "type": "Lightning Talks",
+          "presentations": 12,
+          "duration": "5 min each"
+        },
+        {
+          "title": "Future of R & Closing Ceremony",
+          "time": "17:00-17:30",
+          "type": "Panel Discussion",
+          "panelists": ["Community leaders", "Package maintainers"]
+        }
+      ]
+    }
+  },
+  "workshops": [
+    {
+      "title": "Introduction to R for Beginners",
+      "instructor": "Prof. Curso Básico",
+      "time": "Pre-conference: Sep 24, 14:00-17:00",
+      "level": "Beginner",
+      "fee": "Free",
+      "registration_required": true
+    },
+    {
+      "title": "Advanced Statistical Modeling with R",
+      "instructor": "Dr. Statistical Expert",
+      "time": "Day 1, parallel session",
+      "level": "Advanced",
+      "topics": ["Mixed models", "Bayesian analysis", "Time series"]
+    },
+    {
+      "title": "Shiny for Python Users",
+      "instructor": "Shiny Team",
+      "time": "Day 2, parallel session",
+      "level": "Intermediate",
+      "prerequisites": "Python knowledge helpful"
+    },
+    {
+      "title": "R Package Development Workshop",
+      "instructor": "Jenny Bryan",
+      "time": "Day 2, morning",
+      "level": "Advanced",
+      "materials": "Laptop required"
+    }
+  ],
+  "speakers": [
+    {
+      "name": "Dr. Hadley Wickham",
+      "role": "Chief Scientist",
+      "organization": "Posit PBC",
+      "expertise": "R Language Development, Data Science, Package Development",
+      "notable_packages": ["ggplot2", "dplyr", "tidyr"],
+      "talk": "The Future of R Programming"
+    },
+    {
+      "name": "Prof. Max Kuhn",
+      "role": "Software Engineer",
+      "organization": "Posit PBC",
+      "expertise": "Machine Learning, Predictive Modeling",
+      "notable_packages": ["caret", "tidymodels"],
+      "talk": "R for Machine Learning: tidymodels Framework"
+    },
+    {
+      "name": "Jenny Bryan",
+      "role": "Software Engineer",
+      "organization": "Posit PBC",
+      "expertise": "R Package Development, Reproducible Research",
+      "notable_packages": ["usethis", "googlesheets4"],
+      "workshop": "Package Development Best Practices"
+    },
+    {
+      "name": "Dr. Winston Chang",
+      "role": "Software Engineer",
+      "organization": "Posit PBC",
+      "expertise": "Interactive Applications, Shiny",
+      "notable_packages": ["shiny", "shinydashboard"],
+      "workshop": "Building Interactive Dashboards with Shiny"
+    }
+  ],
+  "community_features": [
+    {
+      "name": "R Package Showcase",
+      "description": "Exhibition of innovative R packages",
+      "time": "Continuous during breaks"
+    },
+    {
+      "name": "Mentorship Program",
+      "description": "Connect beginners with R experts",
+      "signup": "At registration"
+    },
+    {
+      "name": "Job Board",
+      "description": "R-related job opportunities",
+      "location": "Main lobby"
+    },
+    {
+      "name": "R-Ladies Meet & Greet",
+      "description": "Networking for women in R community",
+      "time": "Day 1, lunch break"
+    }
+  ],
+  "competitions": [
+    {
+      "name": "Best R Package Competition",
+      "categories": ["Innovation", "Utility", "Student"],
+      "prizes": ["R$ 1,000", "R$ 500", "R$ 300"],
+      "submission_deadline": "2025-09-15"
+    },
+    {
+      "name": "Data Visualization Challenge",
+      "theme": "Brazilian Environmental Data",
+      "tool": "ggplot2 required",
+      "prize": "R$ 800"
+    }
+  ],
+  "registration": {
+    "required": true,
+    "fees": {
+      "students": "R$ 100",
+      "academics": "R$ 200",
+      "industry": "R$ 400",
+      "r_user_groups": "R$ 150"
+    },
+    "early_bird": {
+      "deadline": "2025-08-25",
+      "discount": "30%"
+    },
+    "includes": [
+      "Conference materials",
+      "R Day t-shirt",
+      "Coffee breaks",
+      "Lunch both days",
+      "Workshop materials",
+      "Digital proceedings"
+    ],
+    "website": "https://rday.leg.ufpr.br/2025"
+  },
+  "sponsors": [
+    {
+      "name": "Posit PBC",
+      "level": "Platinum",
+      "contribution": "Speaker support"
+    },
+    {
+      "name": "R Consortium",
+      "level": "Gold",
+      "contribution": "Community support"
+    },
+    {
+      "name": "Curso-R",
+      "level": "Silver",
+      "contribution": "Educational support"
+    }
+  ],
+  "virtual_participation": {
+    "available": true,
+    "platform": "YouTube Live",
+    "fee": "R$ 50",
+    "includes": ["Live streaming", "Chat interaction", "Recorded sessions"]
+  },
+  "ai_relevance": {
+    "score": 9,
+    "topics": [
+      "Machine learning with R",
+      "AI model development in R",
+      "Statistical AI methods",
+      "R for deep learning",
+      "Automated machine learning",
+      "AI model interpretation"
+    ]
+  },
+  "code_of_conduct": {
+    "enforced": true,
+    "url": "https://rday.leg.ufpr.br/2025/conduct",
+    "contact": "conduct@rday.br"
+  },
+  "expected_attendance": 600,
+  "languages": ["Portuguese", "English (with translation)"],
+  "hashtags": ["#RDay2025", "#RBrasil", "#DataScience"],
+  "social_media": {
+    "twitter": "@RDayBrasil",
+    "linkedin": "R Day Brasil",
+    "telegram": "@rdaybrasil"
+  },
+  "tags": [
+    "r-programming",
+    "data-science",
+    "statistical-computing",
+    "machine-learning",
+    "data-visualization",
+    "shiny",
+    "package-development",
+    "reproducible-research"
+  ]
+}

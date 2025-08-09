@@ -1,0 +1,244 @@
+{
+  "event_name": "IA Summit UPF 1ª edição",
+  "event_type": "summit",
+  "date": {
+    "start": "2025-08-06",
+    "end": "2025-08-06"
+  },
+  "location": {
+    "city": "Passo Fundo",
+    "state": "RS",
+    "country": "Brazil",
+    "venue": "UPF Parque - Universidade de Passo Fundo",
+    "address": "BR-285, Km 292,7 - São José, Passo Fundo, RS, 99052-900",
+    "online_platform": ""
+  },
+  "format": "presential",
+  "duration": "Evening event (3 hours)",
+  "description": "A 1ª edição do IA Summit UPF é um evento inaugural que marca o início de uma série de encontros focados na inteligência artificial na região Norte do Rio Grande do Sul. Com formato de palestras vespertinas, o evento promove o diálogo entre academia e mercado, reunindo estudantes, professores e profissionais da indústria para discutir as aplicações práticas da IA e suas perspectivas futuras. Realizado no UPF Parque, o evento representa um marco para o ecossistema tecnológico de Passo Fundo.",
+  "focus_areas": [
+    "Artificial Intelligence Applications",
+    "Academic Research in AI",
+    "AI Market Trends",
+    "Industry-Academia Collaboration",
+    "AI Ethics and Governance",
+    "Machine Learning in Business",
+    "AI Innovation in Regional Context",
+    "Future of Work with AI"
+  ],
+  "target_audience": [
+    "Computer Science students",
+    "Engineering students",
+    "University professors and researchers",
+    "Technology professionals",
+    "Startup entrepreneurs",
+    "Regional industry leaders",
+    "AI enthusiasts and practitioners",
+    "Innovation managers"
+  ],
+  "organizers": [
+    "UPF - Universidade de Passo Fundo",
+    "UPF Parque Científico e Tecnológico",
+    "Faculdade de Engenharia e Arquitetura - UPF",
+    "Instituto de Ciências Exatas e Geociências - UPF"
+  ],
+  "sponsors": [
+    "UPF - Universidade de Passo Fundo",
+    "Prefeitura Municipal de Passo Fundo",
+    "SEBRAE-RS",
+    "Fundação de Amparo à Pesquisa do Estado do RS (FAPERGS)"
+  ],
+  "expected_speakers": [
+    {
+      "category": "Academic",
+      "profiles": [
+        "Professores doutores em Ciência da Computação da UPF",
+        "Pesquisadores em IA da região Sul",
+        "Coordenadores de cursos de tecnologia",
+        "Representantes de grupos de pesquisa em IA"
+      ]
+    },
+    {
+      "category": "Industry",
+      "profiles": [
+        "CTOs de empresas de tecnologia regionais",
+        "Consultores especializados em transformação digital",
+        "Empreendedores de startups de IA",
+        "Gerentes de inovação de grandes empresas"
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "time": "19:00",
+      "activity": "Credenciamento e networking",
+      "speaker": "",
+      "duration": "30 min"
+    },
+    {
+      "time": "19:30",
+      "activity": "Abertura oficial - Reitor da UPF",
+      "speaker": "Reitorado UPF",
+      "duration": "15 min"
+    },
+    {
+      "time": "19:45",
+      "activity": "Palestra magna: 'IA na Academia: Pesquisa e Formação'",
+      "speaker": "Professor Doutor em IA - UPF",
+      "duration": "45 min"
+    },
+    {
+      "time": "20:30",
+      "activity": "Coffee break e networking",
+      "speaker": "",
+      "duration": "20 min"
+    },
+    {
+      "time": "20:50",
+      "activity": "Palestra: 'IA no Mercado: Oportunidades e Desafios'",
+      "speaker": "Executivo de tecnologia",
+      "duration": "40 min"
+    },
+    {
+      "time": "21:30",
+      "activity": "Mesa redonda: 'Futuro da IA na Região Norte-RS'",
+      "speaker": "Painel com academia e indústria",
+      "duration": "30 min"
+    },
+    {
+      "time": "22:00",
+      "activity": "Encerramento e networking final",
+      "speaker": "",
+      "duration": "30 min"
+    }
+  ],
+  "registration": {
+    "url": "https://upf.br/eventos/ia-summit-2025",
+    "deadline": "2025-08-04",
+    "price": {
+      "currency": "BRL",
+      "early_bird": 0,
+      "regular": 25,
+      "student": 0,
+      "upf_community": 0
+    },
+    "capacity": 200,
+    "requirements": [
+      "Inscrição prévia obrigatória",
+      "Comprovante de vínculo acadêmico para desconto estudantil"
+    ]
+  },
+  "contact": {
+    "email": "iasummit@upf.br",
+    "phone": "+55 (54) 3316-8100",
+    "website": "https://upf.br/eventos/ia-summit-2025",
+    "social_media": {
+      "linkedin": "https://linkedin.com/school/universidade-de-passo-fundo",
+      "instagram": "@upfoficial",
+      "twitter": "@upfoficial"
+    }
+  },
+  "university_context": {
+    "institution": "Universidade de Passo Fundo (UPF)",
+    "founded": 1968,
+    "nature": "Community University",
+    "students": "~12,000 students",
+    "relevance": "Principal universidade da região Norte do RS",
+    "tech_programs": [
+      "Ciência da Computação",
+      "Engenharia de Computação",
+      "Sistemas de Informação",
+      "Análise e Desenvolvimento de Sistemas",
+      "Engenharia de Software",
+      "Tecnologia em Redes de Computadores"
+    ],
+    "research_groups": [
+      "Grupo de Pesquisa em Inteligência Artificial",
+      "Laboratório de Computação Aplicada",
+      "Núcleo de Inovação Tecnológica",
+      "Centro de Pesquisa em IA e Machine Learning"
+    ]
+  },
+  "regional_context": {
+    "city_profile": "Passo Fundo é um importante centro educacional e tecnológico do Norte do RS",
+    "population": "~200,000 habitantes",
+    "economic_sectors": [
+      "Agronegócio com tecnologia",
+      "Setor de serviços",
+      "Indústria de alimentos",
+      "Tecnologia da informação"
+    ],
+    "tech_ecosystem": [
+      "UPF Parque Científico e Tecnológico",
+      "Incubadora de empresas UPF",
+      "Polo de inovação regional",
+      "Empresas de desenvolvimento de software",
+      "Startups focadas em agtech"
+    ]
+  },
+  "tags": [
+    "inteligencia-artificial",
+    "academia",
+    "mercado",
+    "upf",
+    "passo-fundo",
+    "rio-grande-do-sul",
+    "primeira-edicao",
+    "palestras-vespertinas",
+    "networking",
+    "inovacao",
+    "pesquisa",
+    "industria"
+  ],
+  "language": "Portuguese",
+  "certification": false,
+  "networking_opportunities": [
+    "Coffee break com profissionais da área",
+    "Mesa redonda interativa",
+    "Networking pós-evento",
+    "Contato direto com palestrantes",
+    "Conexões academia-indústria",
+    "Oportunidades de estágio e emprego"
+  ],
+  "partners": [
+    "SEBRAE-RS",
+    "ACIPF - Associação Comercial e Industrial de Passo Fundo",
+    "SINPRO/RS - Sindicato dos Professores",
+    "Prefeitura Municipal de Passo Fundo",
+    "Governo do Estado do RS"
+  ],
+  "related_events": [
+    "ERAMIA-RS 2025",
+    "Semana Acadêmica da Computação - UPF",
+    "TDC Porto Alegre 2025",
+    "Startup Summit RS 2025"
+  ],
+  "significance": "Inaugural edition - First AI Summit at UPF, establishing a new tradition of industry-academia dialogue in North RS region",
+  "innovation_focus": [
+    "IA aplicada ao agronegócio",
+    "Transformação digital em pequenas e médias empresas",
+    "Pesquisa acadêmica com impacto regional",
+    "Formação de profissionais em IA",
+    "Ecossistema de inovação no interior do RS"
+  ],
+  "expected_outcomes": [
+    "Fortalecimento da rede de IA na região Norte-RS",
+    "Parcerias entre academia e indústria",
+    "Identificação de oportunidades de pesquisa aplicada",
+    "Inspiração para novos projetos de IA",
+    "Consolidação do evento como referência regional"
+  ],
+  "accessibility": {
+    "venue_accessibility": "UPF Parque possui infraestrutura acessível",
+    "content_accessibility": "Palestras em português com suporte para deficientes auditivos sob demanda",
+    "transportation": "Transporte público disponível, estacionamento gratuito"
+  },
+  "last_updated": "2025-01-07",
+  "data_sources": [
+    "https://upf.br - Website oficial da UPF",
+    "Informações sobre UPF Parque Científico e Tecnológico",
+    "Contexto regional de Passo Fundo e Norte do RS",
+    "Perfil dos cursos de tecnologia da UPF",
+    "Ecossistema de inovação regional"
+  ]
+}

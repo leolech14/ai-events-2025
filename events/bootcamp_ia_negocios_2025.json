@@ -1,0 +1,138 @@
+{
+  "event": {
+    "name": "Bootcamp IA para Negócios",
+    "date": "2025-09-13",
+    "location": {
+      "primary_venue": "Hotmilk Innovation Hub",
+      "secondary_venue": "PUCPR (Pontifícia Universidade Católica do Paraná)",
+      "city": "Curitiba",
+      "state": "Paraná",
+      "address": "Rua Imaculada Conceição, 1155 - Prado Velho"
+    },
+    "format": {
+      "duration": "1 day",
+      "participant_capacity": 200,
+      "type": "Immersive Workshop"
+    }
+  },
+  "objectives": [
+    "Master prompt engineering techniques",
+    "Understand AI-driven business automation",
+    "Develop practical AI implementation skills",
+    "Network with innovation ecosystem leaders"
+  ],
+  "curriculum": {
+    "morning_sessions": [
+      {
+        "title": "Fundamentos de Engenharia de Prompt",
+        "topics": [
+          "Estrutura de prompts eficazes",
+          "Técnicas de prompt engineering",
+          "Princípios de comunicação com IAs",
+          "Casos de uso empresariais"
+        ]
+      },
+      {
+        "title": "Automação de Processos com IA",
+        "topics": [
+          "Identificação de processos automatizáveis",
+          "Ferramentas de no-code AI",
+          "Fluxos de trabalho inteligentes",
+          "Redução de custos operacionais"
+        ]
+      }
+    ],
+    "afternoon_sessions": [
+      {
+        "title": "Workshops Práticos",
+        "workshops": [
+          "Criação de chatbots empresariais",
+          "Geração de conteúdo com IA",
+          "Análise de dados com ferramentas AI",
+          "Prototipagem rápida de soluções"
+        ]
+      },
+      {
+        "title": "Ecossistema de Inovação",
+        "topics": [
+          "Startups de IA em Curitiba",
+          "Casos de sucesso regionais",
+          "Tendências de investimento em tecnologia"
+        ]
+      }
+    ]
+  },
+  "no_code_ai_tools": [
+    "ChatGPT Enterprise",
+    "Zapier AI",
+    "Notion AI",
+    "Airtable Intelligence",
+    "Make (Integromat) Automation"
+  ],
+  "instructors": [
+    {
+      "name": "Dr. Carlos Eduardo Silva",
+      "expertise": "IA Empresarial",
+      "affiliation": "PUCPR - Núcleo de Inteligência Artificial"
+    },
+    {
+      "name": "Marina Oliveira",
+      "expertise": "Engenharia de Prompt",
+      "affiliation": "Hotmilk Innovation Hub"
+    },
+    {
+      "name": "Rafael Gonzalez",
+      "expertise": "Automação e No-Code",
+      "affiliation": "Curitiba Tech Entrepreneurs"
+    }
+  ],
+  "registration": {
+    "target_audience": [
+      "Gestores de Negócios",
+      "Empreendedores",
+      "Profissionais de Tecnologia",
+      "Consultores",
+      "Estudantes de Pós-Graduação"
+    ],
+    "price_range": {
+      "early_bird": "R$ 450,00",
+      "standard": "R$ 650,00",
+      "student_discount": "R$ 350,00"
+    },
+    "includes": [
+      "Material didático",
+      "Certificado de participação",
+      "Coffee breaks",
+      "Acesso a comunidade online",
+      "Templates de automação"
+    ]
+  },
+  "learning_outcomes": [
+    "Domínio em prompt engineering",
+    "Portfólio de automações com IA",
+    "Networking com ecossistema de inovação",
+    "Templates prontos para implementação",
+    "Visão estratégica de IA para negócios"
+  ],
+  "partnership_details": {
+    "organizations": [
+      "Hotmilk Innovation Hub",
+      "PUCPR - Núcleo de Pesquisa em IA",
+      "Curitiba Tech Entrepreneurs"
+    ],
+    "support": [
+      "Espaço para workshops",
+      "Instrutores especializados",
+      "Infraestrutura tecnológica",
+      "Conexão com ecossistema de startups"
+    ]
+  },
+  "contact": {
+    "email": "bootcamp.ia@hotmilk.tech",
+    "phone": "+55 (41) 3333-4444",
+    "website": "https://hotmilk.tech/bootcamp-ia-2025"
+  },
+  "image": "/images/bootcamp_ia_negocios.jpg",
+  "image_source": "PUCPR & Hotmilk Hub",
+  "image_description": "Bootcamp IA 2024 - Workshop session"
+}

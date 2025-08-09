@@ -1,0 +1,419 @@
+{
+  "event_name": "Seminário de Pesquisa em IA Generativa",
+  "event_type": "Research Seminar",
+  "date": {
+    "start": "2025-09-03",
+    "end": "2025-09-05",
+    "duration_days": 3
+  },
+  "location": {
+    "venue": "Instituto de Computação - Universidade Estadual de Campinas",
+    "city": "Campinas",
+    "state": "São Paulo",
+    "country": "Brazil"
+  },
+  "organizer": "UNICAMP - Instituto de Computação",
+  "co_organizers": [
+    "FAPESP",
+    "CNPq", 
+    "Brazilian AI Research Network"
+  ],
+  "focus_areas": [
+    "Generative AI Models",
+    "Large Language Models",
+    "Computer Vision Generation",
+    "Multimodal AI Systems",
+    "AI Ethics and Bias",
+    "Computational Creativity",
+    "Neural Architecture Search",
+    "Foundation Models"
+  ],
+  "target_audience": [
+    "AI researchers",
+    "Machine learning engineers",
+    "PhD students",
+    "Computer science professors",
+    "Industry AI practitioners",
+    "Data scientists",
+    "AI ethicists"
+  ],
+  "program": {
+    "day1": {
+      "date": "2025-09-03",
+      "theme": "Foundation Models and Large Language Models",
+      "sessions": [
+        {
+          "title": "Opening Ceremony",
+          "time": "09:00-09:30",
+          "speaker": "Reitor da UNICAMP",
+          "type": "Opening"
+        },
+        {
+          "title": "The Evolution of Foundation Models",
+          "time": "09:30-10:30",
+          "speaker": "Dr. Yoshua Bengio",
+          "affiliation": "Mila - Quebec AI Institute",
+          "type": "Keynote",
+          "focus": "Architectural innovations in large-scale models"
+        },
+        {
+          "title": "Portuguese Language Models: Challenges and Opportunities",
+          "time": "11:00-12:00",
+          "speaker": "Prof. Dr. Sandra Aluísio",
+          "affiliation": "USP - Instituto de Ciências Matemáticas e de Computação",
+          "type": "Technical Talk"
+        },
+        {
+          "title": "Training Efficient Large Language Models",
+          "time": "14:00-16:00",
+          "type": "Workshop",
+          "instructors": ["Dr. Thomas Wolf (Hugging Face)", "Dr. Julien Chaumond (Hugging Face)"],
+          "hands_on": true,
+          "requirements": "Python, PyTorch experience"
+        },
+        {
+          "title": "Research Paper Session: LLM Architectures",
+          "time": "16:30-18:00",
+          "type": "Paper Presentations",
+          "papers": 6,
+          "categories": ["Model architecture", "Training efficiency", "Multilingual models"]
+        }
+      ]
+    },
+    "day2": {
+      "date": "2025-09-04",
+      "theme": "Multimodal AI and Computer Vision",
+      "sessions": [
+        {
+          "title": "Multimodal Foundation Models",
+          "time": "09:00-10:00",
+          "speaker": "Dr. Fei-Fei Li",
+          "affiliation": "Stanford University",
+          "type": "Keynote",
+          "focus": "Vision-language models and their applications"
+        },
+        {
+          "title": "Generative Computer Vision: From GANs to Diffusion",
+          "time": "10:30-11:30",
+          "speaker": "Dr. Ian Goodfellow",
+          "affiliation": "Apple",
+          "type": "Technical Talk",
+          "topic": "Evolution of generative computer vision"
+        },
+        {
+          "title": "Diffusion Models Workshop",
+          "time": "14:00-16:00",
+          "type": "Hands-on Workshop",
+          "instructor": "Prof. Dr. Anderson Rocha (UNICAMP)",
+          "tools": ["Stable Diffusion", "DALL-E", "Midjourney API"],
+          "level": "Intermediate"
+        },
+        {
+          "title": "AI for Creative Applications",
+          "time": "16:30-17:30",
+          "type": "Panel Discussion",
+          "panelists": [
+            "Artists using AI",
+            "Creative industry professionals",
+            "AI researchers",
+            "Digital humanities scholars"
+          ]
+        },
+        {
+          "title": "Research Paper Session: Generative Vision",
+          "time": "17:30-18:30",
+          "type": "Paper Presentations",
+          "papers": 5,
+          "focus": "Image generation, video synthesis, 3D modeling"
+        }
+      ]
+    },
+    "day3": {
+      "date": "2025-09-05",
+      "theme": "Ethics, Bias, and Future Directions",
+      "sessions": [
+        {
+          "title": "AI Safety and Alignment in Generative Models",
+          "time": "09:00-10:00",
+          "speaker": "Dr. Dario Amodei",
+          "affiliation": "Anthropic",
+          "type": "Keynote",
+          "focus": "Constitutional AI and safety measures"
+        },
+        {
+          "title": "Bias Detection and Mitigation in AI Systems",
+          "time": "10:30-11:30",
+          "speaker": "Dr. Timnit Gebru",
+          "affiliation": "Distributed AI Research Institute",
+          "type": "Technical Talk"
+        },
+        {
+          "title": "Regulatory Frameworks for AI in Brazil",
+          "time": "11:45-12:45",
+          "speaker": "Dr. Marco Aurélio Florêncio Filho",
+          "affiliation": "Ministério da Ciência, Tecnologia e Inovação",
+          "type": "Policy Talk"
+        },
+        {
+          "title": "Responsible AI Development Workshop",
+          "time": "14:00-16:00",
+          "type": "Interactive Workshop",
+          "facilitators": ["AI ethics experts", "Legal professionals"],
+          "activities": ["Case studies", "Framework development", "Group discussions"]
+        },
+        {
+          "title": "Future Research Directions in Generative AI",
+          "time": "16:30-17:30",
+          "type": "Research Roadmap Discussion",
+          "participants": "Senior researchers and industry leaders"
+        },
+        {
+          "title": "Closing Ceremony and Awards",
+          "time": "17:30-18:00",
+          "awards": ["Best Paper", "Best Student Presentation", "Innovation Award"]
+        }
+      ]
+    }
+  },
+  "research_tracks": [
+    {
+      "name": "Foundation Models",
+      "topics": [
+        "Architecture innovations",
+        "Training methodologies",
+        "Efficiency improvements",
+        "Multilingual capabilities"
+      ]
+    },
+    {
+      "name": "Computer Vision Generation",
+      "topics": [
+        "Image synthesis",
+        "Video generation", 
+        "3D model creation",
+        "Style transfer"
+      ]
+    },
+    {
+      "name": "Natural Language Generation",
+      "topics": [
+        "Text generation",
+        "Code synthesis",
+        "Creative writing",
+        "Translation systems"
+      ]
+    },
+    {
+      "name": "Multimodal Systems",
+      "topics": [
+        "Vision-language models",
+        "Audio-visual synthesis",
+        "Cross-modal understanding",
+        "Unified representations"
+      ]
+    },
+    {
+      "name": "AI Ethics and Safety",
+      "topics": [
+        "Bias detection",
+        "Fairness metrics",
+        "Alignment methods",
+        "Safety evaluation"
+      ]
+    }
+  ],
+  "keynote_speakers": [
+    {
+      "name": "Dr. Yoshua Bengio",
+      "affiliation": "Mila - Quebec AI Institute, University of Montreal",
+      "expertise": "Deep Learning, Neural Networks, AI Safety",
+      "awards": ["Turing Award 2018", "Order of Canada"],
+      "talk": "The Evolution of Foundation Models"
+    },
+    {
+      "name": "Dr. Fei-Fei Li", 
+      "affiliation": "Stanford University",
+      "expertise": "Computer Vision, Cognitive and Computational Neuroscience",
+      "notable_work": "ImageNet, Stanford AI Lab",
+      "talk": "Multimodal Foundation Models"
+    },
+    {
+      "name": "Dr. Dario Amodei",
+      "affiliation": "Anthropic",
+      "expertise": "AI Safety, Large Language Models",
+      "background": "Former OpenAI Research Director",
+      "talk": "AI Safety and Alignment in Generative Models"
+    },
+    {
+      "name": "Dr. Timnit Gebru",
+      "affiliation": "Distributed AI Research Institute",
+      "expertise": "AI Ethics, Algorithmic Bias, Fairness",
+      "advocacy": "Ethical AI development and inclusive research",
+      "talk": "Bias Detection and Mitigation in AI Systems"
+    }
+  ],
+  "workshops": [
+    {
+      "title": "Building and Fine-tuning Large Language Models",
+      "instructor": "Hugging Face Team",
+      "duration": "4 hours",
+      "level": "Advanced",
+      "tools": ["Transformers", "Accelerate", "PEFT"],
+      "capacity": 50
+    },
+    {
+      "title": "Diffusion Models for Image Generation",
+      "instructor": "Prof. Dr. Anderson Rocha",
+      "duration": "3 hours",
+      "level": "Intermediate",
+      "tools": ["Stable Diffusion", "PyTorch", "Jupyter"],
+      "capacity": 40
+    },
+    {
+      "title": "Prompt Engineering and Chain-of-Thought",
+      "instructor": "Dr. Chain-of-Thought Expert",
+      "duration": "2 hours",
+      "level": "Beginner to Intermediate",
+      "tools": ["OpenAI API", "Anthropic API"],
+      "capacity": 60
+    }
+  ],
+  "paper_submission": {
+    "deadline": "2025-08-10",
+    "notification": "2025-08-25",
+    "categories": [
+      "Full research papers (8 pages)",
+      "Short papers (4 pages)",
+      "Position papers (2 pages)",
+      "Demo papers (4 pages)"
+    ],
+    "review_process": "Double-blind peer review",
+    "acceptance_rate": "Expected 35%"
+  },
+  "registration": {
+    "required": true,
+    "fees": {
+      "students_undergrad": "R$ 200",
+      "students_grad": "R$ 300", 
+      "academics": "R$ 500",
+      "industry": "R$ 800",
+      "international": "$200 USD"
+    },
+    "early_bird": {
+      "deadline": "2025-08-15",
+      "discount": "25%"
+    },
+    "includes": [
+      "Conference materials",
+      "Workshop access",
+      "Coffee breaks and lunches",
+      "Welcome reception",
+      "Conference dinner",
+      "Digital proceedings",
+      "Certificate of participation"
+    ],
+    "website": "https://ic.unicamp.br/seminario-ia-generativa-2025"
+  },
+  "funding_support": [
+    {
+      "organization": "FAPESP",
+      "type": "Student travel grants",
+      "amount": "Up to R$ 1,500 per student",
+      "deadline": "2025-08-01"
+    },
+    {
+      "organization": "CNPq", 
+      "type": "Research presentation support",
+      "amount": "R$ 800 per presenter",
+      "eligibility": "PhD students and postdocs"
+    }
+  ],
+  "industry_partners": [
+    {
+      "name": "Google Research",
+      "contribution": "Keynote speaker, workshop support"
+    },
+    {
+      "name": "Microsoft Research",
+      "contribution": "Student scholarships, demo space"
+    },
+    {
+      "name": "OpenAI",
+      "contribution": "API credits, technical talks"
+    },
+    {
+      "name": "Anthropic",
+      "contribution": "Safety workshop, keynote speaker"
+    },
+    {
+      "name": "Hugging Face",
+      "contribution": "Workshop instructors, compute resources"
+    }
+  ],
+  "special_sessions": [
+    {
+      "name": "Industry-Academia Collaboration Forum",
+      "description": "Matchmaking session for research partnerships",
+      "time": "Day 2, evening"
+    },
+    {
+      "name": "Startup Pitch Session",
+      "description": "AI startups present to investors and researchers",
+      "time": "Day 3, lunch break"
+    },
+    {
+      "name": "Student Research Showcase",
+      "description": "PhD and Master's students present ongoing work",
+      "format": "Poster session with prizes"
+    }
+  ],
+  "ai_relevance": {
+    "score": 10,
+    "topics": [
+      "Generative AI research",
+      "Large language models",
+      "Diffusion models",
+      "Multimodal AI",
+      "AI safety and ethics",
+      "Foundation model development"
+    ]
+  },
+  "expected_attendance": 500,
+  "languages": ["Portuguese", "English"],
+  "live_streaming": {
+    "available": true,
+    "platform": "YouTube",
+    "fee": "R$ 100",
+    "includes": ["Keynotes", "Selected technical talks"]
+  },
+  "proceedings": {
+    "publisher": "SBC - Sociedade Brasileira de Computação",
+    "indexed_in": ["DBLP", "Google Scholar"],
+    "open_access": true
+  },
+  "code_of_conduct": {
+    "enforced": true,
+    "focus": ["Respectful communication", "Inclusive environment", "Academic integrity"]
+  },
+  "contact": {
+    "email": "seminario-ia@ic.unicamp.br",
+    "phone": "+55 19 3521-5847",
+    "address": "Instituto de Computação, UNICAMP, Campinas, SP"
+  },
+  "hashtags": ["#IAGenerativa2025", "#UNICAMP", "#AIResearch", "#GenerativeAI"],
+  "social_media": {
+    "twitter": "@ICUnicamp",
+    "linkedin": "UNICAMP Instituto de Computação",
+    "youtube": "IC UNICAMP"
+  },
+  "tags": [
+    "generative-ai",
+    "large-language-models",
+    "computer-vision",
+    "ai-ethics",
+    "machine-learning",
+    "deep-learning",
+    "ai-safety",
+    "foundation-models"
+  ]
+}

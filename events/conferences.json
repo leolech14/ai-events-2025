@@ -1,0 +1,733 @@
+{
+  "ai_conferences_2025": [
+    {
+      "name": "Neural Information Processing Systems (NeurIPS 2025)",
+      "dates": {
+        "start": "2025-12-08",
+        "end": "2025-12-14"
+      },
+      "location": {
+        "city": "Vancouver",
+        "country": "Canada",
+        "venue": "Vancouver Convention Centre"
+      },
+      "description": "The premier conference on neural information processing systems, machine learning, and artificial intelligence research.",
+      "topics": [
+        "Deep Learning",
+        "Reinforcement Learning",
+        "Computer Vision",
+        "Natural Language Processing",
+        "Optimization",
+        "Neuroscience",
+        "Theory",
+        "Applications"
+      ],
+      "submission_deadline": "2025-05-22",
+      "early_bird_deadline": "2025-09-15",
+      "registration_url": "https://neurips.cc/",
+      "expected_attendees": 15000,
+      "keynote_speakers": [
+        "Yoshua Bengio",
+        "Demis Hassabis",
+        "Fei-Fei Li"
+      ],
+      "workshops": [
+        "Machine Learning for Health",
+        "Climate Change AI",
+        "Federated Learning",
+        "AI for Social Good"
+      ],
+      "ticket_price_range": {
+        "student": "$100-300",
+        "academic": "$400-800",
+        "industry": "$1200-2000"
+      }
+    },
+    {
+      "name": "International Conference on Machine Learning (ICML 2025)",
+      "dates": {
+        "start": "2025-07-13",
+        "end": "2025-07-19"
+      },
+      "location": {
+        "city": "Vienna",
+        "country": "Austria",
+        "venue": "Austria Center Vienna"
+      },
+      "description": "Leading international academic conference on machine learning with a focus on theoretical foundations and practical applications.",
+      "topics": [
+        "Machine Learning Theory",
+        "Deep Learning",
+        "Optimization",
+        "Probabilistic Methods",
+        "Online Learning",
+        "Multi-agent Systems",
+        "Causal Inference",
+        "Fairness and Ethics"
+      ],
+      "submission_deadline": "2025-02-01",
+      "early_bird_deadline": "2025-05-01",
+      "registration_url": "https://icml.cc/",
+      "expected_attendees": 8000,
+      "keynote_speakers": [
+        "Michael I. Jordan",
+        "Pieter Abbeel",
+        "Regina Barzilay"
+      ],
+      "workshops": [
+        "AutoML",
+        "Computational Biology",
+        "Trustworthy ML",
+        "ML for Systems"
+      ],
+      "ticket_price_range": {
+        "student": "$150-350",
+        "academic": "$500-900",
+        "industry": "$1400-2200"
+      }
+    },
+    {
+      "name": "Computer Vision and Pattern Recognition (CVPR 2025)",
+      "dates": {
+        "start": "2025-06-16",
+        "end": "2025-06-20"
+      },
+      "location": {
+        "city": "Nashville",
+        "country": "USA",
+        "venue": "Music City Center"
+      },
+      "description": "Premier conference for computer vision research, covering image processing, recognition, and visual understanding.",
+      "topics": [
+        "Computer Vision",
+        "Image Recognition",
+        "Object Detection",
+        "Semantic Segmentation",
+        "3D Vision",
+        "Video Analysis",
+        "Medical Imaging",
+        "Autonomous Driving"
+      ],
+      "submission_deadline": "2024-11-15",
+      "early_bird_deadline": "2025-04-15",
+      "registration_url": "https://cvpr2025.thecvf.com/",
+      "expected_attendees": 12000,
+      "keynote_speakers": [
+        "Kaiming He",
+        "Serena Yeung",
+        "Antonio Torralba"
+      ],
+      "workshops": [
+        "Autonomous Driving",
+        "Medical Computer Vision",
+        "3D Scene Understanding",
+        "Visual Recognition and Search"
+      ],
+      "ticket_price_range": {
+        "student": "$200-400",
+        "academic": "$600-1000",
+        "industry": "$1500-2500"
+      }
+    },
+    {
+      "name": "Association for Computational Linguistics (ACL 2025)",
+      "dates": {
+        "start": "2025-07-27",
+        "end": "2025-08-01"
+      },
+      "location": {
+        "city": "Vienna",
+        "country": "Austria",
+        "venue": "Vienna International Centre"
+      },
+      "description": "The premier venue for research in computational linguistics and natural language processing.",
+      "topics": [
+        "Natural Language Processing",
+        "Machine Translation",
+        "Question Answering",
+        "Information Extraction",
+        "Dialogue Systems",
+        "Language Models",
+        "Computational Semantics",
+        "Multilingual NLP"
+      ],
+      "submission_deadline": "2025-02-15",
+      "early_bird_deadline": "2025-05-15",
+      "registration_url": "https://2025.aclweb.org/",
+      "expected_attendees": 4000,
+      "keynote_speakers": [
+        "Christopher Manning",
+        "Emily Bender",
+        "Yoav Goldberg"
+      ],
+      "workshops": [
+        "Ethics in NLP",
+        "Multilingual NLP",
+        "Clinical NLP",
+        "NLP for Social Media"
+      ],
+      "ticket_price_range": {
+        "student": "$100-250",
+        "academic": "$350-650",
+        "industry": "$800-1400"
+      }
+    },
+    {
+      "name": "AAAI Conference on Artificial Intelligence (AAAI 2025)",
+      "dates": {
+        "start": "2025-02-25",
+        "end": "2025-03-04"
+      },
+      "location": {
+        "city": "Philadelphia",
+        "country": "USA",
+        "venue": "Pennsylvania Convention Center"
+      },
+      "description": "Major international conference promoting research in AI and fostering scientific exchange among researchers and practitioners.",
+      "topics": [
+        "Artificial Intelligence",
+        "Knowledge Representation",
+        "Planning and Scheduling",
+        "Multi-agent Systems",
+        "Robotics",
+        "Game Theory",
+        "Constraint Satisfaction",
+        "AI Ethics"
+      ],
+      "submission_deadline": "2024-08-15",
+      "early_bird_deadline": "2024-12-15",
+      "registration_url": "https://aaai.org/conference/aaai/aaai-25/",
+      "expected_attendees": 6000,
+      "keynote_speakers": [
+        "Stuart Russell",
+        "Cynthia Breazeal",
+        "Bart Selman"
+      ],
+      "workshops": [
+        "AI for Social Impact",
+        "Explainable AI",
+        "AI Safety",
+        "Human-AI Collaboration"
+      ],
+      "ticket_price_range": {
+        "student": "$150-300",
+        "academic": "$400-750",
+        "industry": "$1000-1800"
+      }
+    },
+    {
+      "name": "International Conference on Learning Representations (ICLR 2025)",
+      "dates": {
+        "start": "2025-04-24",
+        "end": "2025-04-28"
+      },
+      "location": {
+        "city": "Singapore",
+        "country": "Singapore",
+        "venue": "Singapore Expo"
+      },
+      "description": "Conference dedicated to the advancement of learning representations and deep learning research.",
+      "topics": [
+        "Deep Learning",
+        "Representation Learning",
+        "Unsupervised Learning",
+        "Generative Models",
+        "Transfer Learning",
+        "Meta-Learning",
+        "Continual Learning",
+        "Interpretability"
+      ],
+      "submission_deadline": "2024-10-01",
+      "early_bird_deadline": "2025-02-15",
+      "registration_url": "https://iclr.cc/",
+      "expected_attendees": 5000,
+      "keynote_speakers": [
+        "Yoshua Bengio",
+        "Yann LeCun",
+        "Geoffrey Hinton"
+      ],
+      "workshops": [
+        "Generative Models",
+        "Self-Supervised Learning",
+        "Robustness in ML",
+        "Neural Architecture Search"
+      ],
+      "ticket_price_range": {
+        "student": "$200-350",
+        "academic": "$500-800",
+        "industry": "$1200-1800"
+      }
+    },
+    {
+      "name": "International Conference on Computer Vision (ICCV 2025)",
+      "dates": {
+        "start": "2025-10-05",
+        "end": "2025-10-11"
+      },
+      "location": {
+        "city": "Paris",
+        "country": "France",
+        "venue": "Paris Expo Porte de Versailles"
+      },
+      "description": "Premier international conference covering all aspects of computer vision research and applications.",
+      "topics": [
+        "Computer Vision",
+        "Image Processing",
+        "Pattern Recognition",
+        "3D Computer Vision",
+        "Video Understanding",
+        "Visual Learning",
+        "Computational Photography",
+        "Biometrics"
+      ],
+      "submission_deadline": "2025-03-17",
+      "early_bird_deadline": "2025-08-01",
+      "registration_url": "https://iccv2025.thecvf.com/",
+      "expected_attendees": 10000,
+      "keynote_speakers": [
+        "Cordelia Schmid",
+        "Jitendra Malik",
+        "Trevor Darrell"
+      ],
+      "workshops": [
+        "3D Vision and Robotics",
+        "Visual Recognition",
+        "Computational Photography",
+        "Video Analysis"
+      ],
+      "ticket_price_range": {
+        "student": "$250-450",
+        "academic": "$650-1100",
+        "industry": "$1600-2600"
+      }
+    },
+    {
+      "name": "Robotics: Science and Systems (RSS 2025)",
+      "dates": {
+        "start": "2025-07-07",
+        "end": "2025-07-11"
+      },
+      "location": {
+        "city": "Berlin",
+        "country": "Germany",
+        "venue": "Technical University of Berlin"
+      },
+      "description": "Single-track conference focusing on robotics research with emphasis on systems that successfully integrate perception, planning, control, and autonomy.",
+      "topics": [
+        "Robotics",
+        "Autonomous Systems",
+        "Robot Perception",
+        "Motion Planning",
+        "Human-Robot Interaction",
+        "Manipulation",
+        "Navigation",
+        "Swarm Robotics"
+      ],
+      "submission_deadline": "2025-02-01",
+      "early_bird_deadline": "2025-05-01",
+      "registration_url": "https://roboticsconference.org/",
+      "expected_attendees": 1200,
+      "keynote_speakers": [
+        "Marc Raibert",
+        "Daniela Rus",
+        "Wolfram Burgard"
+      ],
+      "workshops": [
+        "Learning for Robot Control",
+        "Field Robotics",
+        "Soft Robotics",
+        "Robot Learning in the Real World"
+      ],
+      "ticket_price_range": {
+        "student": "$200-400",
+        "academic": "$500-800",
+        "industry": "$1000-1500"
+      }
+    },
+    {
+      "name": "Conference on Uncertainty in Artificial Intelligence (UAI 2025)",
+      "dates": {
+        "start": "2025-08-12",
+        "end": "2025-08-15"
+      },
+      "location": {
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "venue": "RAI Amsterdam"
+      },
+      "description": "Premier international conference on uncertainty in artificial intelligence, focusing on probabilistic and decision-theoretic methods.",
+      "topics": [
+        "Probabilistic Models",
+        "Bayesian Methods",
+        "Decision Theory",
+        "Causal Inference",
+        "Graphical Models",
+        "Approximate Inference",
+        "Uncertainty Quantification",
+        "Probabilistic Programming"
+      ],
+      "submission_deadline": "2025-03-04",
+      "early_bird_deadline": "2025-06-15",
+      "registration_url": "https://www.auai.org/uai2025/",
+      "expected_attendees": 800,
+      "keynote_speakers": [
+        "Zoubin Ghahramani",
+        "David Blei",
+        "Jennifer Neville"
+      ],
+      "workshops": [
+        "Causal Inference",
+        "Probabilistic Programming",
+        "Bayesian Deep Learning",
+        "Uncertainty in Healthcare"
+      ],
+      "ticket_price_range": {
+        "student": "$150-300",
+        "academic": "$400-650",
+        "industry": "$800-1200"
+      }
+    },
+    {
+      "name": "Conference on Empirical Methods in Natural Language Processing (EMNLP 2025)",
+      "dates": {
+        "start": "2025-11-11",
+        "end": "2025-11-15"
+      },
+      "location": {
+        "city": "Miami",
+        "country": "USA",
+        "venue": "Miami Beach Convention Center"
+      },
+      "description": "Major conference focusing on empirical methods and corpus-based approaches to natural language processing.",
+      "topics": [
+        "Natural Language Processing",
+        "Information Retrieval",
+        "Text Mining",
+        "Sentiment Analysis",
+        "Machine Translation",
+        "Named Entity Recognition",
+        "Discourse Analysis",
+        "Language Resources"
+      ],
+      "submission_deadline": "2025-05-15",
+      "early_bird_deadline": "2025-09-01",
+      "registration_url": "https://2025.emnlp.org/",
+      "expected_attendees": 3500,
+      "keynote_speakers": [
+        "Dan Jurafsky",
+        "Percy Liang",
+        "Mirella Lapata"
+      ],
+      "workshops": [
+        "Workshop on NLP for Social Media",
+        "Clinical NLP",
+        "Multilingual and Code-Switching",
+        "Workshop on Evaluation"
+      ],
+      "ticket_price_range": {
+        "student": "$100-250",
+        "academic": "$350-600",
+        "industry": "$750-1300"
+      }
+    },
+    {
+      "name": "AI for Good Global Summit",
+      "dates": {
+        "start": "2025-05-07",
+        "end": "2025-05-09"
+      },
+      "location": {
+        "city": "Geneva",
+        "country": "Switzerland",
+        "venue": "ITU Headquarters"
+      },
+      "description": "UN platform for dialogue on AI for sustainable development, bringing together government, industry, academia, and civil society.",
+      "topics": [
+        "AI for SDGs",
+        "Healthcare AI",
+        "Climate Change",
+        "Education Technology",
+        "Financial Inclusion",
+        "Smart Cities",
+        "Digital Governance",
+        "Ethical AI"
+      ],
+      "submission_deadline": "2025-02-15",
+      "early_bird_deadline": "2025-04-01",
+      "registration_url": "https://aiforgood.itu.int/",
+      "expected_attendees": 2000,
+      "keynote_speakers": [
+        "Kai-Fu Lee",
+        "Timnit Gebru",
+        "Andrew McAfee"
+      ],
+      "workshops": [
+        "AI for Climate",
+        "AI in Healthcare",
+        "AI Ethics and Governance",
+        "AI for Education"
+      ],
+      "ticket_price_range": {
+        "student": "$50-100",
+        "academic": "$200-400",
+        "industry": "$500-800"
+      }
+    },
+    {
+      "name": "Advances in Approximate Bayesian Inference (AABI 2025)",
+      "dates": {
+        "start": "2025-12-14",
+        "end": "2025-12-15"
+      },
+      "location": {
+        "city": "Vancouver",
+        "country": "Canada",
+        "venue": "Vancouver Convention Centre"
+      },
+      "description": "Workshop focusing on approximate inference methods in probabilistic machine learning and Bayesian statistics.",
+      "topics": [
+        "Variational Inference",
+        "MCMC Methods",
+        "Approximate Bayesian Computation",
+        "Normalizing Flows",
+        "Bayesian Deep Learning",
+        "Probabilistic Programming",
+        "Gaussian Processes",
+        "Scalable Inference"
+      ],
+      "submission_deadline": "2025-09-15",
+      "early_bird_deadline": "2025-11-01",
+      "registration_url": "http://approximateinference.org/",
+      "expected_attendees": 300,
+      "keynote_speakers": [
+        "Tamara Broderick",
+        "Ryan Adams",
+        "Max Welling"
+      ],
+      "workshops": [
+        "Scalable Bayesian Methods",
+        "Approximate Inference in Deep Learning"
+      ],
+      "ticket_price_range": {
+        "student": "$50-100",
+        "academic": "$150-250",
+        "industry": "$300-500"
+      }
+    },
+    {
+      "name": "International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2025)",
+      "dates": {
+        "start": "2025-05-19",
+        "end": "2025-05-23"
+      },
+      "location": {
+        "city": "Detroit",
+        "country": "USA",
+        "venue": "Detroit Marriott at the Renaissance Center"
+      },
+      "description": "Premier conference for research in autonomous agents and multiagent systems.",
+      "topics": [
+        "Multi-agent Systems",
+        "Game Theory",
+        "Mechanism Design",
+        "Agent-based Modeling",
+        "Distributed AI",
+        "Negotiation",
+        "Coalition Formation",
+        "Social Choice"
+      ],
+      "submission_deadline": "2024-11-08",
+      "early_bird_deadline": "2025-03-15",
+      "registration_url": "https://aamas2025.org/",
+      "expected_attendees": 1500,
+      "keynote_speakers": [
+        "Manuela Veloso",
+        "Tim Roughgarden",
+        "Sarit Kraus"
+      ],
+      "workshops": [
+        "Multi-Agent Reinforcement Learning",
+        "Algorithmic Game Theory",
+        "AI and Social Sciences",
+        "Distributed Problem Solving"
+      ],
+      "ticket_price_range": {
+        "student": "$200-350",
+        "academic": "$450-700",
+        "industry": "$900-1400"
+      }
+    },
+    {
+      "name": "International Conference on Automated Planning and Scheduling (ICAPS 2025)",
+      "dates": {
+        "start": "2025-06-02",
+        "end": "2025-06-06"
+      },
+      "location": {
+        "city": "Delft",
+        "country": "Netherlands",
+        "venue": "Delft University of Technology"
+      },
+      "description": "Premier forum for researchers in automated planning and scheduling from around the world.",
+      "topics": [
+        "Automated Planning",
+        "Scheduling",
+        "Constraint Programming",
+        "Optimization",
+        "Temporal Reasoning",
+        "Plan Recognition",
+        "Multi-agent Planning",
+        "Planning Applications"
+      ],
+      "submission_deadline": "2024-11-29",
+      "early_bird_deadline": "2025-04-01",
+      "registration_url": "https://icaps25.icaps-conference.org/",
+      "expected_attendees": 400,
+      "keynote_speakers": [
+        "Craig Boutilier",
+        "Malte Helmert",
+        "Sheila McIlraith"
+      ],
+      "workshops": [
+        "Planning and Robotics",
+        "Hierarchical Planning",
+        "Planning Under Uncertainty",
+        "Knowledge Engineering for Planning"
+      ],
+      "ticket_price_range": {
+        "student": "$150-250",
+        "academic": "$350-550",
+        "industry": "$650-1000"
+      }
+    },
+    {
+      "name": "International Conference on Intelligent Robots and Systems (IROS 2025)",
+      "dates": {
+        "start": "2025-10-14",
+        "end": "2025-10-18"
+      },
+      "location": {
+        "city": "Abu Dhabi",
+        "country": "UAE",
+        "venue": "Abu Dhabi National Exhibition Centre"
+      },
+      "description": "Premier international conference for intelligent robots and systems research and applications.",
+      "topics": [
+        "Robotics",
+        "Autonomous Systems",
+        "Machine Learning for Robotics",
+        "Computer Vision for Robotics",
+        "Human-Robot Interaction",
+        "Medical Robotics",
+        "Field Robotics",
+        "Robot Control"
+      ],
+      "submission_deadline": "2025-03-01",
+      "early_bird_deadline": "2025-08-01",
+      "registration_url": "https://iros2025.org/",
+      "expected_attendees": 4000,
+      "keynote_speakers": [
+        "Oussama Khatib",
+        "Hadas Kress-Gazit",
+        "Vijay Kumar"
+      ],
+      "workshops": [
+        "Robot Learning",
+        "Aerial Robotics",
+        "Marine Robotics",
+        "Assistive Robotics"
+      ],
+      "ticket_price_range": {
+        "student": "$300-450",
+        "academic": "$600-900",
+        "industry": "$1200-1800"
+      }
+    },
+    {
+      "name": "Artificial Intelligence and Statistics (AISTATS 2025)",
+      "dates": {
+        "start": "2025-04-08",
+        "end": "2025-04-10"
+      },
+      "location": {
+        "city": "Valencia",
+        "country": "Spain",
+        "venue": "Palacio de Congresos de Valencia"
+      },
+      "description": "Interdisciplinary gathering of researchers at the intersection of computer science, artificial intelligence, machine learning, and statistics.",
+      "topics": [
+        "Machine Learning Theory",
+        "Statistical Learning",
+        "Bayesian Methods",
+        "Deep Learning Theory",
+        "Optimization",
+        "Information Theory",
+        "Causal Inference",
+        "Non-parametric Methods"
+      ],
+      "submission_deadline": "2024-10-08",
+      "early_bird_deadline": "2025-02-15",
+      "registration_url": "https://aistats.org/aistats2025/",
+      "expected_attendees": 1000,
+      "keynote_speakers": [
+        "Susan Murphy",
+        "Michael I. Jordan",
+        "Bernhard Schölkopf"
+      ],
+      "workshops": [
+        "Causal Inference",
+        "Bayesian Deep Learning",
+        "Statistical Learning Theory",
+        "Robust Statistics"
+      ],
+      "ticket_price_range": {
+        "student": "$200-300",
+        "academic": "$400-600",
+        "industry": "$800-1200"
+      }
+    },
+    {
+      "name": "Conference on Fairness, Accountability, and Transparency (FAccT 2025)",
+      "dates": {
+        "start": "2025-06-24",
+        "end": "2025-06-27"
+      },
+      "location": {
+        "city": "São Paulo",
+        "country": "Brazil",
+        "venue": "WTC São Paulo"
+      },
+      "description": "Premier venue for research and discussion on fairness, accountability, and transparency in algorithmic systems.",
+      "topics": [
+        "Algorithmic Fairness",
+        "AI Ethics",
+        "Bias in AI",
+        "Transparency",
+        "Accountability",
+        "Algorithmic Auditing",
+        "AI Governance",
+        "Responsible AI"
+      ],
+      "submission_deadline": "2025-01-17",
+      "early_bird_deadline": "2025-04-15",
+      "registration_url": "https://facctconference.org/",
+      "expected_attendees": 800,
+      "keynote_speakers": [
+        "Cathy O'Neil",
+        "Ruha Benjamin",
+        "Timnit Gebru"
+      ],
+      "workshops": [
+        "Algorithmic Auditing",
+        "Participatory ML",
+        "AI and Law",
+        "Bias in Language Models"
+      ],
+      "ticket_price_range": {
+        "student": "$100-200",
+        "academic": "$300-500",
+        "industry": "$600-1000"
+      }
+    }
+  ]
+}

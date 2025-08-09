@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useState, useEffect, useRef, memo, useLayoutEffect, useMemo } from 'react';
-import { Search, MapPin, Calendar, Heart, Filter, SlidersHorizontal, Clock, Star, Users, ArrowUpDown, Navigation, Loader2, Globe, Building2, Tag, X } from 'lucide-react';
+import { Search, MapPin, Calendar, Heart, Filter, SlidersHorizontal, Clock, Star, Users, ArrowUpDown, Navigation, Loader2, Globe, Building2, Tag, X, Globe2 } from 'lucide-react';
+import Link from 'next/link';
 import {
   AnimatePresence,
   motion,
@@ -902,6 +903,15 @@ const FinallyGoldEventShowcase = () => {
                     <MapPin className="h-3 w-3 mr-1" />
                     {locations.length} Cidades
                   </Badge>
+                  <Link href="/globe">
+                    <Button 
+                      variant="outline" 
+                      className="border-yellow-500/50 text-yellow-400 hover:bg-yellow-500/10 transition-colors"
+                    >
+                      <Globe2 className="h-4 w-4 mr-2" />
+                      3D Globe
+                    </Button>
+                  </Link>
                 </>
               )}
             </div>

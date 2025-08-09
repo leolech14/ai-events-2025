@@ -1,0 +1,356 @@
+{
+  "event_name": "The Developer's Conference (TDC) São Paulo 2025",
+  "event_type": "Hybrid Technology Conference",
+  "dates": {
+    "start_date": "2025-09-17",
+    "end_date": "2025-09-19",
+    "duration_days": 3,
+    "schedule": "09:00 - 19:00 (GMT-3)"
+  },
+  "location": {
+    "venue": "Pro Magno Center",
+    "city": "São Paulo",
+    "state": "SP",
+    "country": "Brazil",
+    "maps_link": "https://goo.gl/maps/pgzC8BZqKsZwvV8P7",
+    "address": "São Paulo - SP, Brazil"
+  },
+  "tdc_history": {
+    "description": "TDC is Brazil's largest software development event, connecting meetup organizers, speakers, companies and sponsors on a single platform, empowering the local ecosystem of each region where it's held",
+    "significance": "The premier developer conference in Brazil's tech scene",
+    "established": "2007",
+    "years_running": "19th edition in 2025",
+    "organizer": "Globalcode Tecnologia e Eventos Ltda.",
+    "organizer_cnpj": "03.281.114/0001-45",
+    "legacy": "18+ years of connecting Brazil's developer community",
+    "impact": "Largest software development conference in Brazil"
+  },
+  "venue_details": {
+    "name": "Pro Magno Center",
+    "type": "Convention Center",
+    "location_description": "Modern conference facility in São Paulo",
+    "accessibility": "Full accessibility support with sign language interpretation",
+    "capacity": "Multi-room venue supporting multiple simultaneous tracks",
+    "technology": "Equipped for hybrid streaming and recording"
+  },
+  "event_format": {
+    "type": "Hybrid",
+    "in_person": {
+      "available": true,
+      "location": "Pro Magno Center, São Paulo",
+      "benefits": "Access to all premium tracks, networking, exhibition area"
+    },
+    "online": {
+      "available": true,
+      "streaming": "Live streaming of premium tracks",
+      "recording": "On-demand access to recorded sessions",
+      "platform": "TDC digital platform"
+    },
+    "sign_language": "Live sign language interpretation available",
+    "time_zone": "GMT-3 (Brazilian Standard Time)"
+  },
+  "tracks_structure": {
+    "total_tracks": "24+ tracks over 3 days",
+    "track_types": {
+      "premium_tracks": "In-person with live streaming",
+      "stadium_tracks": "Main keynote sessions with live streaming and sign language",
+      "expo_tracks": "Primarily in-person activities"
+    },
+    "daily_breakdown": {
+      "day_1": {
+        "date": "2025-09-17",
+        "day_name": "Wednesday",
+        "tracks": [
+          "Product Management",
+          "Analytics Engineering", 
+          "Artificial Intelligence",
+          "JavaScript and Node.js",
+          "Technical Leadership",
+          "Code Design",
+          "Cloud Architecture",
+          "Testing and Quality Management",
+          "Stadium Wednesday"
+        ]
+      },
+      "day_2": {
+        "date": "2025-09-18", 
+        "day_name": "Thursday",
+        "tracks": [
+          "Agility with GenAI",
+          "Data Engineering",
+          "Generative AI",
+          "Web and Front-End",
+          "API and Microservices",
+          ".NET Architecture",
+          "SRE and Observability",
+          "DevTest and AI",
+          "AI & Emerging Tech",
+          "Stadium Thursday"
+        ]
+      },
+      "day_3": {
+        "date": "2025-09-19",
+        "day_name": "Friday", 
+        "tracks": [
+          "Management 3.0 and Agile Management",
+          "Data Science",
+          "AI Agents",
+          "Mobile Development",
+          "Java Architecture",
+          "Solutions Architecture",
+          "Software Security",
+          "Product Design",
+          "Stadium Friday"
+        ]
+      }
+    },
+    "genai_ml_data_tracks": {
+      "generative_ai": {
+        "day": "Thursday",
+        "focus": "Latest developments in generative AI technologies",
+        "level": "Intermediate to Advanced"
+      },
+      "ai_agents": {
+        "day": "Friday",
+        "focus": "AI agent development and implementation",
+        "level": "Advanced"
+      },
+      "artificial_intelligence": {
+        "day": "Wednesday", 
+        "focus": "General AI concepts and applications",
+        "level": "Intermediate to Advanced"
+      },
+      "data_science": {
+        "day": "Friday",
+        "focus": "Data science methodologies and tools",
+        "level": "Intermediate to Advanced"
+      },
+      "data_engineering": {
+        "day": "Thursday",
+        "focus": "Data pipeline design and implementation",
+        "level": "Intermediate to Advanced"
+      },
+      "analytics_engineering": {
+        "day": "Wednesday",
+        "focus": "Modern analytics stack and engineering practices",
+        "level": "Intermediate to Advanced"
+      },
+      "ai_emerging_tech": {
+        "day": "Thursday",
+        "focus": "Cutting-edge AI and emerging technologies",
+        "level": "Advanced",
+        "language": "English"
+      },
+      "agility_with_genai": {
+        "day": "Thursday",
+        "focus": "Integrating GenAI into agile development processes",
+        "level": "Intermediate"
+      },
+      "devtest_and_ai": {
+        "day": "Thursday",
+        "focus": "AI-powered development and testing tools",
+        "level": "Intermediate to Advanced"
+      }
+    }
+  },
+  "speaker_submission": {
+    "call_for_papers": "Call4Papers",
+    "process": "Submissions evaluated by track coordinators",
+    "requirements": "Technical expertise and practical experience",
+    "evaluation_criteria": [
+      "Technical depth",
+      "Practical relevance", 
+      "Speaker experience",
+      "Case studies and real-world applications"
+    ],
+    "mentorship_program": "Speaker mentorship available for first-time speakers",
+    "diversity_initiative": "TDC + Diversity program to promote inclusive participation",
+    "submission_platform": "TDC website submission system"
+  },
+  "registration_options": {
+    "ticket_types": {
+      "vip_presencial": {
+        "name": "VIP Presencial",
+        "description": "Full access to all premium in-person tracks with complete digital access",
+        "includes": [
+          "Access to all premium in-person tracks at Pro Magno",
+          "Complete digital content access",
+          "Live streaming during event",
+          "On-demand recorded sessions",
+          "Networking opportunities"
+        ]
+      },
+      "premium_digital": {
+        "name": "Premium Digital",
+        "description": "Full digital access to all content",
+        "includes": [
+          "Live streaming of all premium tracks",
+          "On-demand access to recorded sessions",
+          "Digital platform access",
+          "Digital networking features"
+        ]
+      },
+      "expo_ticket": {
+        "name": "Expo Ticket", 
+        "description": "Access to exhibition area and select activities",
+        "includes": [
+          "Exhibition area access",
+          "Stadium track streaming",
+          "Limited in-person activities"
+        ]
+      }
+    },
+    "pricing": {
+      "early_bird": "Multiple early bird phases with progressive discounts",
+      "corporate_rates": "Group discounts available for companies",
+      "student_discount": "50% discount for students (over full price)",
+      "diversity_scholarships": "Available through TDC + Diversity program"
+    },
+    "registration_platform": "TDC website registration system"
+  },
+  "online_hybrid_participation": {
+    "streaming_quality": "Professional live streaming setup",
+    "interaction_features": [
+      "Live Q&A with speakers",
+      "Digital networking rooms",
+      "Interactive chat during sessions",
+      "Virtual exhibition booths"
+    ],
+    "recorded_content": {
+      "availability": "On-demand access after event",
+      "retention_period": "Extended access to recorded sessions",
+      "platform": "TDC video platform (videos.globalcode.com.br)"
+    },
+    "digital_experience": [
+      "Mobile-optimized streaming platform",
+      "Multi-device access",
+      "Offline viewing for recorded content",
+      "Digital certificates"
+    ]
+  },
+  "community_involvement": {
+    "tdc_community": "Active online community platform",
+    "technical_committee": "Industry experts curating content",
+    "volunteers": "Volunteer program for event support",
+    "meetup_integration": "Connection with local developer meetups",
+    "community_lounge": {
+      "description": "Space for community-driven discussions and networking",
+      "activities": [
+        "Discussion panels",
+        "Interactive debates", 
+        "Experience sharing sessions",
+        "Collaborative networking"
+      ]
+    },
+    "rockstar_awards": "TDC Rockstar recognition program"
+  },
+  "previous_editions_statistics": {
+    "2024_sao_paulo": {
+      "attendance": "Thousands of developers",
+      "tracks": "20+ technical tracks",
+      "speakers": "200+ industry experts",
+      "companies": "100+ participating companies"
+    },
+    "historical_growth": "Consistent year-over-year growth since 2007",
+    "international_reach": "Attracts participants from across Latin America",
+    "recorded_content_views": "Millions of views on recorded sessions"
+  },
+  "international_speakers": {
+    "program": "International speaker program",
+    "languages": [
+      "Portuguese (primary)",
+      "English (select tracks like AI & Emerging Tech)",
+      "Spanish (regional speakers)"
+    ],
+    "global_experts": "Industry leaders from major tech companies",
+    "diversity": "International speakers promote global perspective"
+  },
+  "certification_details": {
+    "digital_certificates": "Available for all registered participants",
+    "cpe_credits": "Continuing Professional Education credits",
+    "track_completion": "Certificates for specific track completion", 
+    "verification": "Digital verification system",
+    "professional_development": "Recognized by Brazilian tech industry"
+  },
+  "networking_opportunities": {
+    "exhibition_area": "Technology showcase and sponsor booths",
+    "coffee_breaks": "Structured networking breaks",
+    "lunch_networking": "Organized lunch sessions",
+    "after_hours": "Evening networking events",
+    "mentorship_sessions": "One-on-one mentoring opportunities",
+    "job_fair": "Career opportunities showcase"
+  },
+  "sponsors_partners": {
+    "categories": [
+      "Gold Sponsors",
+      "Track Sponsors", 
+      "Digital Partners",
+      "Community Partners",
+      "Hub de Mentoria Partners"
+    ],
+    "major_sponsors": [
+      "Vivo",
+      "Bosch",
+      "Remessa Online",
+      "Sensedia",
+      "Shape Digital",
+      "Newhack",
+      "DataStax Langflow",
+      "Rocketseat"
+    ],
+    "partnership_benefits": "Brand exposure, talent acquisition, product showcase"
+  },
+  "technical_specifications": {
+    "presentation_format": "Professional presentation templates provided",
+    "av_equipment": "Full audio-visual support",
+    "streaming_infrastructure": "Professional broadcasting setup",
+    "recording_quality": "HD video recording for all sessions",
+    "accessibility": [
+      "Sign language interpretation",
+      "Closed captioning",
+      "Audio descriptions",
+      "Wheelchair accessibility"
+    ]
+  },
+  "contact_information": {
+    "website": "https://thedevconf.com/tdc/2025/sao-paulo/",
+    "registration": "https://thedevconf.com/tdc/2025/sao-paulo/inscricoes",
+    "tracks": "https://thedevconf.com/tdc/2025/sao-paulo/trilhas",
+    "social_media": {
+      "facebook": "https://web.facebook.com/TheDevelopersConference/",
+      "linkedin": "https://www.linkedin.com/company/the-developer's-conference/",
+      "instagram": "https://www.instagram.com/thedevconf/",
+      "youtube": "https://www.youtube.com/TheDevConf"
+    },
+    "blog": "https://blog.thedevconf.com/",
+    "store": "https://store.thedevconf.com/",
+    "videos": "https://videos.globalcode.com.br/"
+  },
+  "additional_info": {
+    "code_of_conduct": "Comprehensive code of conduct enforced",
+    "diversity_commitment": "Strong commitment to diversity and inclusion",
+    "sustainability": "Digital-first approach reduces environmental impact",
+    "innovation_focus": "Emphasis on cutting-edge technologies and practices",
+    "industry_relevance": "Content curated for immediate practical application",
+    "career_development": "Focus on professional growth and skill advancement"
+  },
+  "key_differentiators": [
+    "Largest developer conference in Brazil",
+    "19-year legacy in Brazilian tech community",
+    "Hybrid format maximizing accessibility",
+    "Strong focus on AI, ML, and Data Engineering",
+    "Professional recording and on-demand access",
+    "International and local speaker mix",
+    "Comprehensive track coverage",
+    "Strong industry partnerships",
+    "Active community engagement",
+    "Professional development focus"
+  ],
+  "last_updated": "2025-01-07",
+  "data_sources": [
+    "https://thedevconf.com/tdc/2025/sao-paulo/",
+    "https://thedevconf.com/tdc/2025/sao-paulo/trilhas",
+    "https://thedevconf.com/tdc/2025/sao-paulo/inscricoes",
+    "https://thedevconf.com/pt"
+  ]
+}

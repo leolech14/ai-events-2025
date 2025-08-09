@@ -1,0 +1,75 @@
+{
+  "event_name": "AI Summit Brasil 2025 SP",
+  "event_type": "summit",
+  "date": {
+    "start": "2025-09-03",
+    "end": "2025-09-04"
+  },
+  "location": {
+    "city": "São Paulo",
+    "state": "São Paulo",
+    "country": "Brazil",
+    "venue": "Hospital das Clínicas",
+    "address": "Hospital das Clínicas da Faculdade de Medicina da USP",
+    "online_platform": ""
+  },
+  "format": "presential",
+  "duration": "2 days",
+  "description": "AI Summit Brasil 2025 SP no Hospital das Clínicas, focado em aplicações de inteligência artificial na área da saúde.",
+  "focus_areas": [
+    "Healthcare AI",
+    "Medical Technology",
+    "Digital Health",
+    "AI Applications",
+    "Medical Innovation"
+  ],
+  "target_audience": [
+    "Healthcare Professionals",
+    "Medical Researchers",
+    "AI Developers",
+    "Health Tech Entrepreneurs",
+    "Students"
+  ],
+  "organizers": [],
+  "sponsors": [],
+  "speakers": [],
+  "agenda": [],
+  "registration": {
+    "url": "",
+    "deadline": "",
+    "price": {
+      "currency": "BRL",
+      "early_bird": 0,
+      "regular": 0,
+      "student": 0
+    },
+    "capacity": 0,
+    "requirements": []
+  },
+  "contact": {
+    "email": "",
+    "phone": "",
+    "website": "",
+    "social_media": {
+      "linkedin": "",
+      "instagram": "",
+      "twitter": ""
+    }
+  },
+  "tags": [
+    "AI",
+    "healthcare",
+    "medical technology",
+    "digital health",
+    "hospital"
+  ],
+  "language": "Portuguese",
+  "certification": false,
+  "networking_opportunities": [],
+  "partners": [],
+  "related_events": [],
+  "last_updated": "2025-01-07",
+  "image": "/images/ai_summit_brasil_sp.jpg",
+  "image_source": "LinkedIn - Official Event Page",
+  "image_description": "AI Summit Brasil 2024 - Main conference hall"
+}

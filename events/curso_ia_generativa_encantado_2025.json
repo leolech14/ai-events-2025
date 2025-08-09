@@ -1,0 +1,70 @@
+{
+    "title": "Curso IA Generativa para Negócios",
+    "institution": "CIC Encantado",
+    "format": "Presencial",
+    "dates": {
+        "start": "2025-08-21",
+        "end": "2025-09-18",
+        "total_hours": 24
+    },
+    "target_audience": [
+        "Empreendedores",
+        "Gestores de negócios",
+        "Consultores",
+        "Profissionais de marketing",
+        "Startups"
+    ],
+    "course_modules": [
+        {
+            "name": "Fundamentos de IA Generativa",
+            "topics": [
+                "Conceitos de IA generativa",
+                "Modelos de linguagem",
+                "Aplicações em negócios"
+            ]
+        },
+        {
+            "name": "Geração de Conteúdo e Marketing",
+            "topics": [
+                "Criação de textos e roteiros",
+                "Geração de imagens",
+                "Estratégias de marketing digital"
+            ]
+        },
+        {
+            "name": "IA em Estratégia e Inovação",
+            "topics": [
+                "Planejamento estratégico",
+                "Análise de mercado",
+                "Prototipagem de produtos"
+            ]
+        },
+        {
+            "name": "Casos Práticos e Implementação",
+            "topics": [
+                "Ferramentas de IA generativa",
+                "Estudo de casos",
+                "Desenvolvimento de projeto final"
+            ]
+        }
+    ],
+    "certification": {
+        "available": true,
+        "hours": 24,
+        "requirements": [
+            "Frequência mínima de 80%",
+            "Desenvolvimento de projeto aplicado"
+        ]
+    },
+    "investment": {
+        "total_price": 680.00,
+        "payment_options": [
+            "Parcela única com desconto",
+            "3x sem juros"
+        ]
+    },
+    "contact": {
+        "email": "cursos@cicentantado.org",
+        "phone": "+55 51 3751-1000"
+    }
+}

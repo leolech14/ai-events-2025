@@ -1,0 +1,75 @@
+{
+  "event_name": "Data Science Summit 2025",
+  "event_type": "summit",
+  "date": {
+    "start": "2025-10-28",
+    "end": "2025-10-31"
+  },
+  "location": {
+    "city": "Curitiba",
+    "state": "Paraná",
+    "country": "Brazil",
+    "venue": "",
+    "address": "",
+    "online_platform": ""
+  },
+  "format": "presential",
+  "duration": "4 days",
+  "description": "Data Science Summit 2025 em Curitiba, evento focado em ciência de dados, machine learning e inteligência artificial.",
+  "focus_areas": [
+    "Data Science",
+    "Machine Learning",
+    "Artificial Intelligence",
+    "Big Data",
+    "Analytics"
+  ],
+  "target_audience": [
+    "Data Scientists",
+    "ML Engineers",
+    "Analysts",
+    "Researchers",
+    "Students"
+  ],
+  "organizers": [],
+  "sponsors": [],
+  "speakers": [],
+  "agenda": [],
+  "registration": {
+    "url": "",
+    "deadline": "",
+    "price": {
+      "currency": "BRL",
+      "early_bird": 0,
+      "regular": 0,
+      "student": 0
+    },
+    "capacity": 0,
+    "requirements": []
+  },
+  "contact": {
+    "email": "",
+    "phone": "",
+    "website": "",
+    "social_media": {
+      "linkedin": "",
+      "instagram": "",
+      "twitter": ""
+    }
+  },
+  "tags": [
+    "data science",
+    "machine learning",
+    "AI",
+    "big data",
+    "curitiba"
+  ],
+  "language": "Portuguese",
+  "certification": false,
+  "networking_opportunities": [],
+  "partners": [],
+  "related_events": [],
+  "last_updated": "2025-01-07",
+  "image": "/images/data_science_summit.jpg",
+  "image_source": "Data Hackers Official",
+  "image_description": "Data Science Summit 2024 - Audience"
+}
