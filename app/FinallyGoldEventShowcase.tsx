@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useRef, memo, useLayoutEffect, useMemo } from 'react';
-import { Search, MapPin, Calendar, Heart, Filter, SlidersHorizontal, Clock, Star, Users, ArrowUpDown, Navigation, Loader2, Globe, Building2, Tag } from 'lucide-react';
+import { Search, MapPin, Calendar, Heart, Filter, SlidersHorizontal, Clock, Star, Users, ArrowUpDown, Navigation, Loader2, Globe, Building2, Tag, X } from 'lucide-react';
 import {
   AnimatePresence,
   motion,
@@ -116,6 +116,7 @@ const eventFiles = [
   'deep_learning_course.json',
   'encontro_ia_politica_2025.json',
   'eramia_rs_2025.json',
+  'event_template.json',
   'expoinovacao_2025.json',
   'futurecom_2025.json',
   'genai_summit.json',
@@ -370,8 +371,8 @@ const BGPattern = ({ variant = 'dots', className = '' }) => {
 };
 
 const duration = 0.15
-const transition = { duration, ease: [0.32, 0.72, 0, 1] }
-const transitionOverlay = { duration: 0.5, ease: [0.32, 0.72, 0, 1] }
+const transition = { duration, ease: [0.32, 0.72, 0, 1] as const }
+const transitionOverlay = { duration: 0.5, ease: [0.32, 0.72, 0, 1] as const }
 
 const EventCarousel = memo((
   {
