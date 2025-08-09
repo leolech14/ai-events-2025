@@ -1,0 +1,88 @@
+{
+  "title": "Curso Aplicação da IA no Ambiente de Trabalho",
+  "institution": "UCS (Universidade de Caxias do Sul)",
+  "format": "Online",
+  "dates": {
+    "start": "2025-08-05",
+    "end": "2025-08-19",
+    "total_hours": 20
+  },
+  "target_audience": [
+    "Profissionais de RH",
+    "Gestores",
+    "Líderes de equipe",
+    "Empreendedores",
+    "Estudantes de administração"
+  ],
+  "course_modules": [
+    {
+      "name": "Fundamentos de IA no Trabalho",
+      "topics": [
+        "Conceitos básicos de IA",
+        "Impacto da IA nos processos organizacionais",
+        "Ética e responsabilidade"
+      ]
+    },
+    {
+      "name": "Ferramentas de IA para Produtividade",
+      "topics": [
+        "Automação de tarefas",
+        "Análise de dados",
+        "Ferramentas de IA generativa"
+      ]
+    },
+    {
+      "name": "IA em Processos de RH",
+      "topics": [
+        "Recrutamento e seleção",
+        "Treinamento e desenvolvimento",
+        "Avaliação de desempenho"
+      ]
+    },
+    {
+      "name": "Estratégias de Implementação",
+      "topics": [
+        "Integração de IA nos processos",
+        "Gestão de mudança",
+        "Desenvolvimento de competências digitais"
+      ]
+    }
+  ],
+  "certification": {
+    "available": true,
+    "hours": 20,
+    "requirements": [
+      "Participação em 75% das aulas",
+      "Entrega de projeto final"
+    ]
+  },
+  "investment": {
+    "total_price": 450.0,
+    "payment_options": [
+      "Parcela única",
+      "2x sem juros"
+    ]
+  },
+  "contact": {
+    "email": "cursos.ia@ucs.br",
+    "phone": "+55 54 3218-2000"
+  },
+  "photos": [
+    {
+      "file": "keynote.jpg",
+      "type": "keynote",
+      "caption": "Palestra principal - course"
+    },
+    {
+      "file": "audience.jpg",
+      "type": "audience",
+      "caption": "Público e networking - course"
+    },
+    {
+      "file": "venue.jpg",
+      "type": "venue",
+      "caption": "Local do evento - course"
+    }
+  ],
+  "event_type": "course"
+}

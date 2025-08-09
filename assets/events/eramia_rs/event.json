@@ -1,0 +1,117 @@
+{
+  "event_name": "ERAMIA-RS 2025 - 1ª Escola Regional de Aprendizado de Máquina e Inteligência Artificial da Região Sul",
+  "event_type": "event",
+  "date": {
+    "start": "2025-11-12",
+    "end": "2025-11-14"
+  },
+  "location": {
+    "city": "Porto Alegre",
+    "state": "RS",
+    "country": "Brazil",
+    "venue": "Instituto de Informática - UFRGS",
+    "address": "Av. Bento Gonçalves, 9500 - Campus do Vale, Bloco IV - Prédio 43.412, Porto Alegre, RS, CEP 91501-970"
+  },
+  "format": "presential",
+  "duration": "3 days",
+  "description": "A 1ª Escola Regional de Aprendizado de Máquina e Inteligência Artificial da Região Sul (ERAMIA-RS 2025) é um evento inaugural que visa promover o conhecimento em Inteligência Artificial e Aprendizado de Máquina, incentivando o intercâmbio entre estudantes, pesquisadores e profissionais da indústria. O evento representa um marco importante para a Região Sul do Brasil, criando um espaço dedicado ao compartilhamento de conhecimento e colaboração nos campos de IA e ML.",
+  "focus_areas": [
+    "Machine Learning",
+    "Artificial Intelligence",
+    "Deep Learning",
+    "Computational Intelligence",
+    "Data Science",
+    "Neural Networks",
+    "AI Research"
+  ],
+  "target_audience": [
+    "Undergraduate students",
+    "Graduate students",
+    "Researchers",
+    "Professors",
+    "Industry professionals",
+    "AI enthusiasts"
+  ],
+  "activities": [
+    "Mini-courses",
+    "Lectures",
+    "Technical sessions",
+    "Discussion panels",
+    "Paper presentations",
+    "Undergraduate research forum",
+    "Graduate forum"
+  ],
+  "organizers": [
+    "UFRGS - Universidade Federal do Rio Grande do Sul",
+    "Instituto de Informática - UFRGS",
+    "SBC - Sociedade Brasileira de Computação",
+    "CE-IA - Comissão Especial em Inteligência Artificial (SBC)",
+    "CE-IC - Comissão Especial em Inteligência Computacional (SBC)"
+  ],
+  "submission_details": {
+    "submission_deadline": "2025-08-17",
+    "review_process": "single-blind peer review",
+    "categories": [
+      "Undergraduate research papers",
+      "Graduate research papers"
+    ]
+  },
+  "registration": {
+    "url": "https://eramia-rs.sbc.org.br/",
+    "status": "open",
+    "price": {
+      "currency": "BRL",
+      "student": "TBA",
+      "regular": "TBA"
+    }
+  },
+  "contact": {
+    "website": "https://eramia-rs.sbc.org.br/",
+    "institute_website": "https://www.inf.ufrgs.br/",
+    "email": "informat@inf.ufrgs.br",
+    "phone": "+55 (51) 3308-7019 / +55 (51) 3308-7029",
+    "address": "Av. Bento Gonçalves, 9500, Campus do Vale, Bloco IV - Prédio 43.412, Porto Alegre, RS, CEP 91501-970"
+  },
+  "language": "Portuguese",
+  "certification": true,
+  "significance": "Inaugural edition - First Regional School of ML and AI for South Region of Brazil",
+  "related_events": [
+    "ERAD-RS (Escola Regional de Alto Desempenho da Região Sul)",
+    "ERAMIA-NO2 (Escola Regional de Aprendizado de Máquina e Inteligência Artificial Norte 2)"
+  ],
+  "academic_support": {
+    "proceedings": "Expected to be published in SBC SOL (Sistema Online de Publicação)",
+    "indexing": "SBC Digital Library"
+  },
+  "research_areas": [
+    "High-performance computing applications in ML/AI",
+    "Heterogeneous workloads in AI systems",
+    "Intersection of HPC and AI/ML",
+    "Precision agriculture with ML",
+    "Real-time machine learning models"
+  ],
+  "last_updated": "2025-01-07",
+  "data_sources": [
+    "https://www.inf.ufrgs.br/site/noticia/eramia-rs-2025-participe/",
+    "https://eramia-rs.sbc.org.br/",
+    "https://x.com/INF_UFRGS/status/1949824484912791713",
+    "SBC - Sociedade Brasileira de Computação official information"
+  ],
+  "photos": [
+    {
+      "file": "keynote.jpg",
+      "type": "keynote",
+      "caption": "Palestra principal - event"
+    },
+    {
+      "file": "audience.jpg",
+      "type": "audience",
+      "caption": "Público e networking - event"
+    },
+    {
+      "file": "venue.jpg",
+      "type": "venue",
+      "caption": "Local do evento - event"
+    }
+  ]
+}

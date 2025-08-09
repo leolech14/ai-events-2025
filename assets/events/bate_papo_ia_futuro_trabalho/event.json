@@ -1,0 +1,133 @@
+{
+  "event_name": "Bate papo IA e o Futuro do Trabalho",
+  "event_type": "event",
+  "date": {
+    "start": "2025-08-27",
+    "end": "2025-08-27"
+  },
+  "location": {
+    "city": "Sorocaba",
+    "state": "SP",
+    "country": "Brazil",
+    "venue": "SESI Sorocaba",
+    "address": "Av. Melvin Jones, 65 - Além Ponte, Sorocaba - SP",
+    "online_platform": ""
+  },
+  "format": "presential",
+  "duration": "4 hours",
+  "description": "Evento focado em discussão sobre o impacto da Inteligência Artificial no futuro do trabalho, abordando transformações digitais, automação de processos e novas competências profissionais necessárias na era da IA.",
+  "focus_areas": [
+    "Future of Work",
+    "AI in Human Resources",
+    "Digital Transformation",
+    "Automation and Employment",
+    "Professional Skills Development",
+    "AI Ethics in Workplace",
+    "Industry 4.0 Impact"
+  ],
+  "target_audience": [
+    "HR Professionals",
+    "Business Leaders",
+    "Managers and Supervisors",
+    "Workers and Employees",
+    "Educational Professionals",
+    "Union Representatives",
+    "Policy Makers"
+  ],
+  "organizers": [
+    "SESI Sorocaba",
+    "CNI - Confederação Nacional da Indústria"
+  ],
+  "sponsors": [],
+  "speakers": [],
+  "agenda": [
+    {
+      "time": "09:00-09:30",
+      "title": "Credenciamento e Coffee Break",
+      "type": "networking"
+    },
+    {
+      "time": "09:30-10:30",
+      "title": "IA e Transformação Digital no Trabalho",
+      "type": "presentation"
+    },
+    {
+      "time": "10:30-11:30",
+      "title": "Mesa Redonda: O Futuro das Profissões",
+      "type": "panel"
+    },
+    {
+      "time": "11:30-12:00",
+      "title": "Coffee Break e Networking",
+      "type": "networking"
+    },
+    {
+      "time": "12:00-13:00",
+      "title": "Workshop: Preparando-se para o Mercado de Trabalho IA",
+      "type": "workshop"
+    }
+  ],
+  "registration": {
+    "url": "",
+    "deadline": "2025-08-25",
+    "price": {
+      "currency": "BRL",
+      "early_bird": 0,
+      "regular": 0,
+      "student": 0
+    },
+    "capacity": 200,
+    "requirements": [
+      "Inscrição prévia obrigatória",
+      "Documento de identificação"
+    ]
+  },
+  "contact": {
+    "email": "eventos@sesi.org.br",
+    "phone": "+55 15 3238-5000",
+    "website": "https://www.sesisp.org.br/",
+    "social_media": {
+      "linkedin": "https://linkedin.com/company/sesi-sp",
+      "instagram": "@sesisp",
+      "twitter": "@sesisp"
+    }
+  },
+  "tags": [
+    "future-of-work",
+    "artificial-intelligence",
+    "human-resources",
+    "digital-transformation",
+    "automation",
+    "professional-development",
+    "industry-4.0"
+  ],
+  "language": "Portuguese",
+  "certification": false,
+  "networking_opportunities": [
+    "Coffee breaks",
+    "Panel discussions",
+    "Q&A sessions"
+  ],
+  "partners": [
+    "FIESP - Federação das Indústrias do Estado de São Paulo"
+  ],
+  "related_events": [],
+  "last_updated": "2025-08-07",
+  "photos": [
+    {
+      "file": "keynote.jpg",
+      "type": "keynote",
+      "caption": "Palestra principal - event"
+    },
+    {
+      "file": "audience.jpg",
+      "type": "audience",
+      "caption": "Público e networking - event"
+    },
+    {
+      "file": "venue.jpg",
+      "type": "venue",
+      "caption": "Local do evento - event"
+    }
+  ]
+}

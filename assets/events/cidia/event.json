@@ -1,0 +1,210 @@
+{
+  "event_name": "VI CIDIA - VI Congresso Internacional de Direito e Inteligência Artificial",
+  "event_type": "event",
+  "date": {
+    "start": "2025-09-18",
+    "end": "2025-09-19"
+  },
+  "location": {
+    "city": "Belo Horizonte",
+    "state": "MG",
+    "country": "Brazil",
+    "venue": "SKEMA Business School",
+    "address": "SKEMA Business School - Belo Horizonte Campus",
+    "online_platform": "Hybrid format with online working groups"
+  },
+  "format": "hybrid",
+  "duration": "2 days",
+  "description": "The VI International Congress on Law and Artificial Intelligence (VI CIDIA) is a premier academic event promoted by SKEMA Business School in collaboration with CONPEDI (National Council for Research and Graduate Studies in Law). This 6th edition focuses on the intersection of artificial intelligence and law, addressing crucial topics including AI regulation, ethics, legal frameworks, and the impact of emerging technologies on the legal profession. The event is particularly relevant in the context of Brazil's ongoing AI regulation efforts, including the recently approved PL 2338/23.",
+  "focus_areas": [
+    "AI Regulation and Legal Framework",
+    "Brazilian AI Law (PL 2338/23)",
+    "Ethics in Artificial Intelligence",
+    "Automated Decision Making",
+    "Jurimetry and Legal Data Science",
+    "Startups and Technology-based Entrepreneurship",
+    "Legal Cybernetics",
+    "Algorithms and Intellectual Property",
+    "Language Models and Legal Applications",
+    "Business Management and AI",
+    "Human Rights and AI",
+    "Data Protection in AI Systems",
+    "Labor Relations and AI",
+    "Public Administration and AI",
+    "Environmental Law and AI",
+    "Civil Responsibility in AI"
+  ],
+  "target_audience": [
+    "Lawyers and Legal Professionals",
+    "Judges and Magistrates",
+    "Prosecutors and Legal Officers",
+    "Policy Makers and Regulators",
+    "Legal Academics and Researchers",
+    "Law Students (undergraduate and graduate)",
+    "Business Administration Professionals",
+    "Data Science Professionals",
+    "Computer Science Professionals",
+    "Technology Entrepreneurs",
+    "Compliance Officers",
+    "Legal Tech Professionals"
+  ],
+  "organizers": [
+    "SKEMA Business School Brazil",
+    "CONPEDI (Conselho Nacional de Pesquisa e Pós-graduação em Direito)"
+  ],
+  "sponsors": [],
+  "speakers": [
+    {
+      "category": "International Experts",
+      "description": "Renowned national and international specialists in AI and law"
+    },
+    {
+      "category": "Brazilian Legal Experts",
+      "description": "Leading Brazilian legal scholars and practitioners"
+    },
+    {
+      "category": "Technology Professionals",
+      "description": "AI researchers and technology industry leaders"
+    },
+    {
+      "category": "Regulatory Experts",
+      "description": "Specialists in AI regulation and policy development"
+    }
+  ],
+  "agenda": [
+    {
+      "day": "September 18, 2025",
+      "sessions": [
+        "Hybrid format lectures (schedule TBA)",
+        "Online working group meetings (afternoon)"
+      ]
+    },
+    {
+      "day": "September 19, 2025",
+      "sessions": [
+        "Hybrid format lectures (schedule TBA)",
+        "Online working group meetings (afternoon)"
+      ]
+    }
+  ],
+  "registration": {
+    "url": "TBA",
+    "deadline": "2025-07-31",
+    "price": {
+      "currency": "BRL",
+      "early_bird": 0,
+      "regular": 0,
+      "student": 0
+    },
+    "capacity": 0,
+    "requirements": [
+      "Academic paper submission for working groups",
+      "Extended abstracts due by July 31, 2025 11:59 PM"
+    ]
+  },
+  "contact": {
+    "email": "jose.junior@skema.edu",
+    "phone": "",
+    "website": "https://www.skema.edu/br/",
+    "social_media": {
+      "linkedin": "",
+      "instagram": "",
+      "twitter": ""
+    }
+  },
+  "tags": [
+    "artificial-intelligence",
+    "law",
+    "legal-technology",
+    "ai-regulation",
+    "ethics",
+    "PL-2338-23",
+    "jurimetry",
+    "legal-data-science",
+    "automated-decisions",
+    "intellectual-property",
+    "legal-framework",
+    "technology-entrepreneurship",
+    "SKEMA",
+    "CONPEDI",
+    "hybrid-event"
+  ],
+  "language": "Portuguese",
+  "certification": true,
+  "networking_opportunities": [
+    "Working group discussions",
+    "Panel sessions with experts",
+    "Academic networking sessions",
+    "International collaboration opportunities"
+  ],
+  "partners": [
+    "SKEMA Business School",
+    "CONPEDI",
+    "SKEMA Centre for Artificial Intelligence"
+  ],
+  "related_events": [
+    "Previous CIDIA editions (I-V)",
+    "CONPEDI academic conferences",
+    "Brazilian AI regulation forums"
+  ],
+  "working_groups": [
+    "Startups and Technology-based Entrepreneurship",
+    "Jurimetry, Legal Cybernetics and Data Science",
+    "Automated Decisions and Business Management",
+    "Algorithms, Language Models and Intellectual Property",
+    "AI Ethics and Human Rights",
+    "Data Protection and Privacy in AI",
+    "Labor Relations and AI Impact",
+    "Public Administration and AI Implementation"
+  ],
+  "historical_context": {
+    "edition": 6,
+    "previous_editions": {
+      "I_CIDIA": "2020",
+      "II_CIDIA": "2021 (May 27-28, virtual format)",
+      "III_CIDIA": "2022 (June 8-10)",
+      "IV_CIDIA": "2023 (June 1-2, hybrid format)",
+      "V_CIDIA": "2024 (June 6-7, hybrid format)"
+    },
+    "achievements": "Over 1,000 researchers participated across previous editions, nearly 700 scientific papers presented, 42 scientific books published",
+    "reputation": "Established as a reference in the international academic agenda in law and technology"
+  },
+  "regulatory_context": {
+    "pl_2338_23": {
+      "description": "Brazilian AI regulation bill approved by Senate in December 2024",
+      "status": "Awaiting Chamber of Deputies vote",
+      "key_features": [
+        "Risk-based approach to AI regulation",
+        "Rights protection for AI-affected individuals",
+        "Fines up to R$50,000,000 or 2% of annual revenue",
+        "Prohibition of certain high-risk AI applications",
+        "Human oversight requirements for automated decisions"
+      ],
+      "relevance": "Central topic for conference discussions on AI legal framework"
+    }
+  },
+  "academic_contributions": {
+    "paper_submission": "Extended abstracts accepted until July 31, 2025",
+    "publication": "Selected papers published in CONPEDI academic books",
+    "research_areas": "8 thematic working groups covering diverse AI-law intersections",
+    "international_scope": "Participants from multiple countries including Portugal, France, Italy, Canada"
+  },
+  "last_updated": "2025-01-07",
+  "photos": [
+    {
+      "file": "keynote.jpg",
+      "type": "keynote",
+      "caption": "Palestra principal - event"
+    },
+    {
+      "file": "audience.jpg",
+      "type": "audience",
+      "caption": "Público e networking - event"
+    },
+    {
+      "file": "venue.jpg",
+      "type": "venue",
+      "caption": "Local do evento - event"
+    }
+  ]
+}

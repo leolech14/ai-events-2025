@@ -1,0 +1,89 @@
+{
+  "event_name": "Expoinovação 2025",
+  "event_type": "event",
+  "date": {
+    "start": "2025-09-17",
+    "end": "2025-09-18"
+  },
+  "location": {
+    "city": "Joinville",
+    "state": "Santa Catarina",
+    "country": "Brazil",
+    "venue": "",
+    "address": "",
+    "online_platform": ""
+  },
+  "format": "presential",
+  "duration": "2 days",
+  "description": "Expoinovação 2025 em Joinville, exposição e conferência focada em inovação, tecnologia e inteligência artificial.",
+  "focus_areas": [
+    "Innovation",
+    "Technology",
+    "Artificial Intelligence",
+    "Digital Solutions",
+    "Industry 4.0"
+  ],
+  "target_audience": [
+    "Entrepreneurs",
+    "Tech Professionals",
+    "Researchers",
+    "Students",
+    "Industry Leaders"
+  ],
+  "organizers": [],
+  "sponsors": [],
+  "speakers": [],
+  "agenda": [],
+  "registration": {
+    "url": "",
+    "deadline": "",
+    "price": {
+      "currency": "BRL",
+      "early_bird": 0,
+      "regular": 0,
+      "student": 0
+    },
+    "capacity": 0,
+    "requirements": []
+  },
+  "contact": {
+    "email": "",
+    "phone": "",
+    "website": "",
+    "social_media": {
+      "linkedin": "",
+      "instagram": "",
+      "twitter": ""
+    }
+  },
+  "tags": [
+    "innovation",
+    "technology",
+    "AI",
+    "industry 4.0",
+    "joinville"
+  ],
+  "language": "Portuguese",
+  "certification": false,
+  "networking_opportunities": [],
+  "partners": [],
+  "related_events": [],
+  "last_updated": "2025-01-07",
+  "photos": [
+    {
+      "file": "keynote.jpg",
+      "type": "keynote",
+      "caption": "Palestra principal - event"
+    },
+    {
+      "file": "audience.jpg",
+      "type": "audience",
+      "caption": "Público e networking - event"
+    },
+    {
+      "file": "venue.jpg",
+      "type": "venue",
+      "caption": "Local do evento - event"
+    }
+  ]
+}

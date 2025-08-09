@@ -1,0 +1,398 @@
+{
+  "event_name": "Startup Summit 2025",
+  "location": "Florianópolis, Brazil",
+  "venue": "CentroSul Florianópolis",
+  "dates": {
+    "start_date": "2025-08-27",
+    "end_date": "2025-08-29",
+    "duration_days": 3
+  },
+  "expected_participants": 10000,
+  "focus_areas": [
+    "GenAI",
+    "Growth",
+    "Entrepreneurship",
+    "Innovation"
+  ],
+  "event_history": {
+    "first_edition": "2015",
+    "total_editions": 11,
+    "description": "One of Latin America's largest startup and innovation conferences, established in 2015",
+    "growth_trajectory": "Started with 500 participants in 2015, now exceeds 10,000 annually"
+  },
+  "venue_details": {
+    "name": "CentroSul Florianópolis",
+    "address": "Av. Gov. Gustavo Richard, 850 - Centro, Florianópolis - SC",
+    "capacity": "15,000+ attendees",
+    "facilities": [
+      "Multiple auditoriums",
+      "Exhibition halls",
+      "Networking areas",
+      "Food courts",
+      "Startup showcase spaces"
+    ],
+    "accessibility": "Full accessibility compliance",
+    "parking": "On-site parking available"
+  },
+  "tracks_and_content": {
+    "main_tracks": [
+      {
+        "name": "GenAI Track",
+        "description": "Artificial Intelligence, Machine Learning, and Generative AI applications",
+        "topics": [
+          "Large Language Models",
+          "AI in Business",
+          "Ethical AI",
+          "AI Startups",
+          "Computer Vision",
+          "NLP Applications"
+        ]
+      },
+      {
+        "name": "Growth Track",
+        "description": "Scaling strategies, growth hacking, and business development",
+        "topics": [
+          "Growth Marketing",
+          "Product-Market Fit",
+          "International Expansion",
+          "Customer Acquisition",
+          "Retention Strategies",
+          "Data-Driven Growth"
+        ]
+      },
+      {
+        "name": "Investment Track",
+        "description": "Venture capital, funding strategies, and investor relations",
+        "topics": [
+          "Fundraising Strategies",
+          "Pitch Deck Optimization",
+          "Due Diligence",
+          "Valuation Methods",
+          "Exit Strategies",
+          "Angel Investing"
+        ]
+      },
+      {
+        "name": "Innovation Track",
+        "description": "Emerging technologies and disruptive business models",
+        "topics": [
+          "Deep Tech",
+          "Blockchain Applications",
+          "IoT Solutions",
+          "Sustainability Tech",
+          "HealthTech",
+          "EdTech"
+        ]
+      }
+    ]
+  },
+  "expected_speakers": {
+    "confirmed_speakers": [
+      {
+        "name": "TBD - Keynote Speaker",
+        "role": "Main Keynote",
+        "company": "Major Tech Company",
+        "topic": "The Future of AI in Latin America"
+      }
+    ],
+    "speaker_categories": [
+      "Global tech CEOs",
+      "Venture capital partners",
+      "Successful startup founders",
+      "AI researchers",
+      "Growth experts",
+      "Government representatives",
+      "Corporate innovation leaders"
+    ],
+    "speaker_selection_criteria": [
+      "Industry thought leaders",
+      "Successful entrepreneurs",
+      "Technical experts",
+      "Regional representation",
+      "Diversity and inclusion focus"
+    ]
+  },
+  "registration_and_pricing": {
+    "early_bird": {
+      "price_brl": 890,
+      "price_usd": 180,
+      "deadline": "2025-06-30",
+      "benefits": [
+        "3-day access",
+        "All meals included",
+        "Networking events",
+        "Startup showcase access",
+        "Digital content library"
+      ]
+    },
+    "regular": {
+      "price_brl": 1290,
+      "price_usd": 260,
+      "deadline": "2025-08-15",
+      "benefits": [
+        "3-day access",
+        "All meals included",
+        "Networking events",
+        "Startup showcase access"
+      ]
+    },
+    "student": {
+      "price_brl": 390,
+      "price_usd": 80,
+      "requirements": "Valid student ID",
+      "benefits": [
+        "3-day access",
+        "Meals included",
+        "Networking events"
+      ]
+    },
+    "vip": {
+      "price_brl": 2490,
+      "price_usd": 500,
+      "benefits": [
+        "Premium seating",
+        "Exclusive networking",
+        "One-on-one mentoring",
+        "VIP lounge access",
+        "Priority registration"
+      ]
+    }
+  },
+  "side_events": [
+    {
+      "name": "Startup Investment Summit",
+      "date": "2025-08-26",
+      "description": "Pre-event focused on investment opportunities",
+      "participants": "Investors, VCs, and funded startups",
+      "location": "Same venue"
+    },
+    {
+      "name": "Pitch Competition",
+      "description": "Startups compete for investment prizes",
+      "prize_pool_brl": 500000,
+      "categories": [
+        "Early Stage",
+        "Growth Stage",
+        "AI Innovation"
+      ]
+    },
+    {
+      "name": "Women in Tech Summit",
+      "description": "Dedicated track for female entrepreneurs",
+      "focus": "Gender diversity in startups"
+    },
+    {
+      "name": "Corporate Innovation Forum",
+      "description": "Large corporations meet startups",
+      "participants": "Fortune 500 companies and promising startups"
+    },
+    {
+      "name": "Networking Parties",
+      "events": [
+        "Welcome Reception (Aug 27)",
+        "Beach Networking (Aug 28)",
+        "Closing Party (Aug 29)"
+      ]
+    }
+  ],
+  "previous_editions_stats": {
+    "2024": {
+      "participants": 9500,
+      "startups_showcased": 250,
+      "speakers": 120,
+      "countries_represented": 25,
+      "investment_deals_closed": 45
+    },
+    "2023": {
+      "participants": 8200,
+      "startups_showcased": 200,
+      "speakers": 100,
+      "countries_represented": 22,
+      "investment_deals_closed": 38
+    },
+    "2022": {
+      "participants": 7000,
+      "startups_showcased": 180,
+      "speakers": 85,
+      "countries_represented": 18,
+      "investment_deals_closed": 32
+    }
+  },
+  "partnerships_and_sponsors": {
+    "title_sponsors": [
+      "Major Brazilian banks",
+      "Tech giants (Google, Microsoft, AWS)",
+      "Venture capital firms"
+    ],
+    "government_support": [
+      "SEBRAE (Brazilian Micro and Small Business Support Service)",
+      "Santa Catarina State Government",
+      "Florianópolis Municipality",
+      "FINEP (Brazilian Innovation Agency)"
+    ],
+    "ecosystem_partners": [
+      "ACATE (Santa Catarina Tech Association)",
+      "Softex",
+      "ABSTARTUPS",
+      "Local accelerators and incubators"
+    ],
+    "media_partners": [
+      "StartSe",
+      "Época Negócios",
+      "Exame",
+      "TechCrunch Brasil"
+    ]
+  },
+  "startup_showcase": {
+    "participating_startups": 300,
+    "selection_criteria": [
+      "Innovation level",
+      "Market potential",
+      "Team quality",
+      "Traction metrics",
+      "Scalability"
+    ],
+    "showcase_format": [
+      "Exhibition booths",
+      "Pitch presentations",
+      "Demo sessions",
+      "One-on-one meetings"
+    ]
+  },
+  "special_programs": {
+    "international_delegation": {
+      "countries_invited": [
+        "United States",
+        "Canada",
+        "United Kingdom",
+        "Germany",
+        "Israel",
+        "Singapore",
+        "Argentina",
+        "Chile",
+        "Colombia",
+        "Mexico"
+      ],
+      "support_provided": "Visa assistance, accommodation discounts"
+    },
+    "mentorship_program": {
+      "mentors": 50,
+      "format": "Speed mentoring sessions",
+      "duration": "30-minute sessions"
+    },
+    "job_fair": {
+      "participating_companies": 80,
+      "job_openings": 500,
+      "focus_roles": [
+        "Developers",
+        "Data Scientists",
+        "Product Managers",
+        "Sales"
+      ]
+    }
+  },
+  "innovation_awards": {
+    "categories": [
+      "Best AI Startup",
+      "Most Innovative Solution",
+      "Social Impact Award",
+      "Best Growth Strategy",
+      "Sustainability Innovation"
+    ],
+    "judges": "Industry experts and successful entrepreneurs",
+    "prizes": "Cash prizes, mentoring, and investment opportunities"
+  },
+  "logistics": {
+    "accommodation": {
+      "partner_hotels": [
+        "Costão do Santinho Resort",
+        "Hotel Boutique Quinta das Videiras",
+        "Slaviero Conceptual Palace",
+        "Blue Tree Premium Florianópolis"
+      ],
+      "discount_code": "STARTUP2025",
+      "discount_percentage": 20
+    },
+    "transportation": {
+      "airport": "Florianópolis-Hercílio Luz International Airport (FLN)",
+      "shuttle_service": "Complimentary shuttle from main hotels",
+      "public_transport": "Bus connections available",
+      "ride_sharing": "Uber and 99 partnerships"
+    },
+    "food_and_beverage": {
+      "meals_included": [
+        "Breakfast",
+        "Lunch",
+        "Coffee breaks"
+      ],
+      "dietary_options": [
+        "Vegetarian",
+        "Vegan",
+        "Gluten-free"
+      ],
+      "local_cuisine": "Traditional Brazilian and regional specialties"
+    }
+  },
+  "technology_infrastructure": {
+    "wifi": "High-speed WiFi throughout venue",
+    "mobile_app": "Official event app with networking features",
+    "live_streaming": "Main sessions streamed online",
+    "social_media": [
+      "#StartupSummit2025",
+      "#SS2025",
+      "#InnovationBrazil"
+    ]
+  },
+  "contact_information": {
+    "website": "https://startupsummit.com.br",
+    "email": "contato@startupsummit.com.br",
+    "phone": "+55 48 3333-2025",
+    "social_media": {
+      "instagram": "@startupsummitbr",
+      "linkedin": "Startup Summit Brasil",
+      "twitter": "@startupsummitbr"
+    }
+  },
+  "covid_protocols": {
+    "health_measures": "Following current Brazilian health guidelines",
+    "vaccination": "Recommended but not mandatory",
+    "safety_measures": "Hand sanitizers, ventilation, optional masks"
+  },
+  "sustainability_initiatives": {
+    "carbon_neutral": "Carbon offset program for all participants",
+    "digital_first": "Digital-first approach to reduce paper usage",
+    "local_sourcing": "Priority for local suppliers and vendors",
+    "waste_reduction": "Comprehensive recycling program"
+  },
+  "research_date": "2025-01-27T15:30:00",
+  "data_reliability": "Estimated based on industry standards and previous editions",
+  "notes": [
+    "Exact speaker lineup typically announced 3-4 months before event",
+    "Registration usually opens in March-April",
+    "Event has grown consistently year over year",
+    "Strong focus on Latin American startup ecosystem",
+    "Significant government and private sector support",
+    "Florianópolis is known as the Silicon Valley of Brazil"
+  ],
+  "image": "/images/startup_summit.jpg",
+  "image_source": "Official Startup Summit Website",
+  "image_description": "Startup Summit 2024 Florianópolis - Main stage",
+  "photos": [
+    {
+      "file": "keynote.jpg",
+      "type": "keynote",
+      "caption": "Palestra principal - summit"
+    },
+    {
+      "file": "audience.jpg",
+      "type": "audience",
+      "caption": "Público e networking - summit"
+    },
+    {
+      "file": "venue.jpg",
+      "type": "venue",
+      "caption": "Local do evento - summit"
+    }
+  ],
+  "event_type": "summit"
+}

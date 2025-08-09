@@ -1,0 +1,485 @@
+{
+  "event_name": "Smart Energy 2025",
+  "event_type": "event",
+  "dates": {
+    "start": "2025-09-10",
+    "end": "2025-09-11",
+    "duration_days": 2
+  },
+  "location": {
+    "venue": "Campus da Indústria FIEP",
+    "city": "Curitiba",
+    "state": "Paraná",
+    "country": "Brazil",
+    "address": "Av. Comendador Franco, 1341 - Jardim Botânico",
+    "postal_code": "80215-090",
+    "coordinates": {
+      "latitude": -25.4372,
+      "longitude": -49.27
+    },
+    "facilities": {
+      "auditoriums": 5,
+      "exhibition_space_sqm": 8000,
+      "meeting_rooms": 12,
+      "parking_spaces": 1200,
+      "tech_infrastructure": "5G enabled, fiber optic connectivity"
+    }
+  },
+  "organizer": {
+    "name": "FIEP - Federação das Indústrias do Estado do Paraná",
+    "type": "Industry Federation",
+    "website": "https://www.fiepr.org.br",
+    "about": "Leading industrial federation representing over 40,000 companies in Paraná",
+    "focus_areas": [
+      "Industrial innovation",
+      "Energy efficiency",
+      "Digital transformation",
+      "Sustainability initiatives"
+    ]
+  },
+  "event_details": {
+    "expected_attendance": 800,
+    "target_audience": [
+      "Energy engineers",
+      "Utility company executives",
+      "Smart grid specialists",
+      "Renewable energy developers",
+      "Industrial energy managers",
+      "Government regulators",
+      "Technology providers",
+      "Sustainability officers",
+      "Research institutions",
+      "Investment professionals"
+    ],
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "format": {
+      "congress": {
+        "keynotes": 8,
+        "technical_sessions": 24,
+        "panel_discussions": 12,
+        "workshops": 6
+      },
+      "exhibition": {
+        "booths": 120,
+        "demonstration_areas": 4,
+        "innovation_showcases": 15
+      }
+    }
+  },
+  "ai_focus_areas": {
+    "energy_optimization": {
+      "title": "AI-Powered Energy Optimization",
+      "topics": [
+        "Predictive maintenance using machine learning",
+        "Real-time load forecasting algorithms",
+        "Dynamic pricing optimization",
+        "Energy consumption pattern analysis",
+        "Anomaly detection in power systems",
+        "Demand response automation"
+      ],
+      "use_cases": [
+        "Industrial plant energy efficiency",
+        "Building management systems",
+        "Distribution network optimization",
+        "Peak load management"
+      ]
+    },
+    "smart_grid_applications": {
+      "title": "Smart Grid Intelligence",
+      "topics": [
+        "Grid stability prediction models",
+        "Automated fault detection and isolation",
+        "Distributed energy resource management",
+        "Power quality monitoring with AI",
+        "Cybersecurity threat detection",
+        "Self-healing grid technologies"
+      ],
+      "technologies": [
+        "Neural networks for grid analysis",
+        "Reinforcement learning for grid control",
+        "Computer vision for equipment inspection",
+        "NLP for regulatory compliance"
+      ]
+    },
+    "renewable_energy_ai": {
+      "title": "AI in Renewable Energy",
+      "topics": [
+        "Solar generation forecasting",
+        "Wind power optimization",
+        "Battery storage management",
+        "Hybrid system control",
+        "Weather pattern analysis",
+        "Site selection algorithms"
+      ],
+      "applications": [
+        "Virtual power plant management",
+        "Microgrid optimization",
+        "Energy trading algorithms",
+        "Carbon footprint tracking"
+      ]
+    }
+  },
+  "congress_tracks": {
+    "track_1": {
+      "name": "AI & Machine Learning for Energy Systems",
+      "sessions": [
+        "Deep learning for energy forecasting",
+        "Computer vision in grid monitoring",
+        "Federated learning for distributed energy",
+        "Explainable AI for energy decisions"
+      ]
+    },
+    "track_2": {
+      "name": "Smart Grid Technologies",
+      "sessions": [
+        "Digital twin applications",
+        "IoT sensor networks",
+        "Edge computing in utilities",
+        "5G for smart metering"
+      ]
+    },
+    "track_3": {
+      "name": "Renewable Energy Integration",
+      "sessions": [
+        "AI for solar farm optimization",
+        "Wind energy prediction models",
+        "Energy storage algorithms",
+        "Grid flexibility solutions"
+      ]
+    },
+    "track_4": {
+      "name": "Industrial Energy Management",
+      "sessions": [
+        "Process optimization with AI",
+        "Energy efficiency in manufacturing",
+        "Predictive maintenance strategies",
+        "ISO 50001 compliance automation"
+      ]
+    },
+    "track_5": {
+      "name": "Sustainability & ESG",
+      "sessions": [
+        "Carbon tracking with AI",
+        "ESG reporting automation",
+        "Circular economy models",
+        "Climate risk assessment"
+      ]
+    }
+  },
+  "expected_exhibitors": {
+    "energy_companies": [
+      "Copel - Companhia Paranaense de Energia",
+      "Petrobras",
+      "Eletrobras",
+      "CPFL Energia",
+      "EDP Brasil",
+      "Engie Brasil",
+      "Neoenergia",
+      "Light",
+      "Cemig",
+      "AES Brasil"
+    ],
+    "technology_providers": [
+      "Siemens Energy",
+      "ABB",
+      "Schneider Electric",
+      "General Electric",
+      "Hitachi Energy",
+      "Honeywell",
+      "IBM Energy Solutions",
+      "Microsoft Azure IoT",
+      "AWS Energy",
+      "Google Cloud for Energy"
+    ],
+    "ai_companies": [
+      "Grid4C",
+      "AutoGrid",
+      "Opus One Solutions",
+      "SparkCognition",
+      "C3.ai",
+      "Uptake Technologies",
+      "Canvass AI",
+      "Beyond Limits",
+      "Veritone Energy",
+      "Sentient Energy"
+    ],
+    "local_startups": [
+      "Energy Tech Brasil",
+      "Smart Grid Solutions",
+      "AI Energy Analytics",
+      "Green AI Systems",
+      "PowerML Brasil"
+    ]
+  },
+  "registration": {
+    "categories": {
+      "full_congress": {
+        "price_brl": 2800,
+        "includes": [
+          "All keynotes and sessions",
+          "Exhibition access",
+          "Networking events",
+          "Conference materials",
+          "Coffee breaks and lunch"
+        ]
+      },
+      "single_day": {
+        "price_brl": 1600,
+        "includes": [
+          "One day access",
+          "Exhibition access",
+          "Selected sessions",
+          "Coffee breaks and lunch"
+        ]
+      },
+      "exhibition_only": {
+        "price_brl": 350,
+        "includes": [
+          "Exhibition floor access",
+          "Demo area access",
+          "Product showcases"
+        ]
+      },
+      "student": {
+        "price_brl": 900,
+        "requirements": "Valid student ID",
+        "includes": [
+          "Full congress access",
+          "Special student sessions",
+          "Career fair access"
+        ]
+      }
+    },
+    "group_discounts": {
+      "5_plus": "10% discount",
+      "10_plus": "15% discount",
+      "20_plus": "20% discount"
+    },
+    "early_bird": {
+      "deadline": "2025-06-30",
+      "discount": "25% off regular prices"
+    }
+  },
+  "previous_editions": {
+    "2024": {
+      "attendance": 650,
+      "exhibitors": 85,
+      "satisfaction_rate": "92%",
+      "key_outcomes": [
+        "15 partnership agreements signed",
+        "R$ 45M in business opportunities",
+        "3 pilot projects launched"
+      ]
+    },
+    "2023": {
+      "attendance": 520,
+      "exhibitors": 62,
+      "satisfaction_rate": "89%",
+      "key_outcomes": [
+        "First AI energy lab announced",
+        "Regional smart grid initiative",
+        "10 startups funded"
+      ]
+    }
+  },
+  "partnerships": {
+    "energy_utilities": [
+      {
+        "name": "Copel",
+        "role": "Platinum Sponsor",
+        "contribution": "Smart grid demonstration area"
+      },
+      {
+        "name": "Itaipu Binacional",
+        "role": "Innovation Partner",
+        "contribution": "Renewable energy showcase"
+      }
+    ],
+    "government": [
+      {
+        "entity": "Ministry of Mines and Energy",
+        "support": "Policy framework presentations"
+      },
+      {
+        "entity": "ANEEL",
+        "support": "Regulatory guidelines"
+      }
+    ],
+    "academic": [
+      {
+        "institution": "UFPR - Federal University of Paraná",
+        "contribution": "Research presentations"
+      },
+      {
+        "institution": "UTFPR",
+        "contribution": "Student competition"
+      }
+    ],
+    "international": [
+      {
+        "organization": "IEA - International Energy Agency",
+        "role": "Knowledge partner"
+      },
+      {
+        "organization": "IEEE Power & Energy Society",
+        "role": "Technical co-sponsor"
+      }
+    ]
+  },
+  "sustainability_focus": {
+    "carbon_neutral_event": {
+      "measures": [
+        "100% renewable energy for venue",
+        "Carbon offset program",
+        "Digital-first materials",
+        "Public transport incentives",
+        "Waste reduction initiatives"
+      ],
+      "certification": "ISO 20121 Sustainable Events"
+    },
+    "esg_themes": [
+      "Net-zero energy systems",
+      "Just energy transition",
+      "Climate resilience planning",
+      "Social impact of energy access",
+      "Governance in energy markets",
+      "Biodiversity and energy projects"
+    ],
+    "green_innovation_awards": {
+      "categories": [
+        "Best AI Solution for Emissions Reduction",
+        "Smart Grid Innovation",
+        "Renewable Energy Integration",
+        "Energy Access Solution",
+        "Circular Economy in Energy"
+      ],
+      "prize_pool_brl": 150000
+    }
+  },
+  "special_features": {
+    "ai_energy_lab": {
+      "description": "Live demonstration area for AI solutions",
+      "demos": [
+        "Real-time grid optimization",
+        "Predictive maintenance simulation",
+        "Energy trading algorithms",
+        "Computer vision for infrastructure"
+      ]
+    },
+    "startup_pavilion": {
+      "slots": 20,
+      "pitch_competition": true,
+      "investor_meetings": true,
+      "prize_brl": 50000
+    },
+    "hackathon": {
+      "theme": "AI for Energy Transition",
+      "duration_hours": 24,
+      "teams": 30,
+      "challenges": [
+        "Grid flexibility optimization",
+        "Renewable forecasting",
+        "Energy poverty solutions"
+      ]
+    },
+    "executive_summit": {
+      "format": "Closed session for C-level",
+      "topics": [
+        "AI investment strategies",
+        "Digital transformation roadmap",
+        "Regulatory challenges",
+        "Partnership opportunities"
+      ]
+    }
+  },
+  "networking_events": {
+    "welcome_reception": {
+      "date": "2025-09-09",
+      "time": "19:00-22:00",
+      "venue": "FIEP Lounge"
+    },
+    "gala_dinner": {
+      "date": "2025-09-10",
+      "time": "20:00-23:00",
+      "venue": "Convention Center",
+      "includes": "Innovation awards ceremony"
+    },
+    "technical_visits": {
+      "options": [
+        "Copel Smart Grid Center",
+        "Itaipu Hydroelectric Plant",
+        "Solar Farm Demonstration Site",
+        "Energy Innovation Lab"
+      ]
+    }
+  },
+  "media_coverage": {
+    "expected_reach": "5M+ impressions",
+    "media_partners": [
+      "Canal Energia",
+      "Agência CanalEnergia",
+      "Brasil Energia",
+      "Valor Econômico",
+      "Exame"
+    ],
+    "digital_presence": {
+      "live_streaming": true,
+      "virtual_attendance_option": true,
+      "mobile_app": true,
+      "social_media": [
+        "LinkedIn",
+        "Twitter",
+        "YouTube"
+      ]
+    }
+  },
+  "contact": {
+    "website": "www.smartenergy2025.com.br",
+    "email": "info@smartenergy2025.com.br",
+    "phone": "+55 41 3271-9000",
+    "whatsapp": "+55 41 99999-9999",
+    "registration": "registro@smartenergy2025.com.br",
+    "sponsorship": "patrocinio@smartenergy2025.com.br",
+    "exhibition": "expo@smartenergy2025.com.br"
+  },
+  "key_topics_2025": [
+    "Generative AI for energy system design",
+    "Digital twins for grid management",
+    "Blockchain in energy trading",
+    "Quantum computing for optimization",
+    "6G and energy infrastructure",
+    "Hydrogen economy integration",
+    "Carbon capture automation",
+    "Climate adaptation AI",
+    "Energy justice algorithms",
+    "Prosumer management systems"
+  ],
+  "expected_outcomes": {
+    "business_opportunities": "R$ 60M+ in potential deals",
+    "partnerships": "20+ strategic alliances",
+    "pilot_projects": "5-10 new initiatives",
+    "policy_recommendations": "White paper for government",
+    "talent_development": "100+ professionals trained",
+    "innovation_showcase": "30+ new solutions presented"
+  },
+  "photos": [
+    {
+      "file": "keynote.jpg",
+      "type": "keynote",
+      "caption": "Palestra principal - event"
+    },
+    {
+      "file": "audience.jpg",
+      "type": "audience",
+      "caption": "Público e networking - event"
+    },
+    {
+      "file": "venue.jpg",
+      "type": "venue",
+      "caption": "Local do evento - event"
+    }
+  ]
+}

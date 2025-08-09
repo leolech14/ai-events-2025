@@ -1,0 +1,89 @@
+{
+  "event_name": "Hackathon Innova Saúde 2025",
+  "event_type": "hackathon",
+  "date": {
+    "start": "2025-11-21",
+    "end": "2025-11-22"
+  },
+  "location": {
+    "city": "",
+    "state": "",
+    "country": "Brazil",
+    "venue": "",
+    "address": "",
+    "online_platform": ""
+  },
+  "format": "presential",
+  "duration": "2 days",
+  "description": "Hackathon Innova Saúde 2025, evento de desenvolvimento colaborativo focado em soluções inovadoras para a área da saúde utilizando IA.",
+  "focus_areas": [
+    "Healthcare Innovation",
+    "Medical AI",
+    "Health Tech",
+    "Digital Health",
+    "Medical Solutions"
+  ],
+  "target_audience": [
+    "Developers",
+    "Healthcare Professionals",
+    "Designers",
+    "Students",
+    "Entrepreneurs"
+  ],
+  "organizers": [],
+  "sponsors": [],
+  "speakers": [],
+  "agenda": [],
+  "registration": {
+    "url": "",
+    "deadline": "",
+    "price": {
+      "currency": "BRL",
+      "early_bird": 0,
+      "regular": 0,
+      "student": 0
+    },
+    "capacity": 0,
+    "requirements": []
+  },
+  "contact": {
+    "email": "",
+    "phone": "",
+    "website": "",
+    "social_media": {
+      "linkedin": "",
+      "instagram": "",
+      "twitter": ""
+    }
+  },
+  "tags": [
+    "hackathon",
+    "healthcare",
+    "innovation",
+    "AI",
+    "health tech"
+  ],
+  "language": "Portuguese",
+  "certification": false,
+  "networking_opportunities": [],
+  "partners": [],
+  "related_events": [],
+  "last_updated": "2025-01-07",
+  "photos": [
+    {
+      "file": "keynote.jpg",
+      "type": "keynote",
+      "caption": "Palestra principal - hackathon"
+    },
+    {
+      "file": "audience.jpg",
+      "type": "audience",
+      "caption": "Público e networking - hackathon"
+    },
+    {
+      "file": "venue.jpg",
+      "type": "venue",
+      "caption": "Local do evento - hackathon"
+    }
+  ]
+}

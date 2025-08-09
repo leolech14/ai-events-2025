@@ -1,0 +1,183 @@
+{
+  "event": {
+    "name": "Startup Investment Summit",
+    "date": "2025-08-26",
+    "location": {
+      "venue": "CentroSul",
+      "city": "Florianópolis",
+      "country": "Brazil"
+    },
+    "format": {
+      "duration": "1 day",
+      "expected_attendance": 1000,
+      "type": "Investment Summit"
+    },
+    "focus_areas": [
+      "Venture Capital",
+      "GenAI impact on business",
+      "Investment strategies",
+      "Startup funding"
+    ],
+    "schedule": {
+      "09:00": {
+        "session": "Registration & Coffee",
+        "type": "networking"
+      },
+      "09:30": {
+        "session": "Opening Keynote: The Future of Venture Capital",
+        "speaker": "TBD - Prominent VC Partner",
+        "type": "keynote"
+      },
+      "10:30": {
+        "session": "VC Panel: Investment Thesis in the AI Era",
+        "participants": [
+          "Leading Brazilian VCs",
+          "International fund representatives"
+        ],
+        "type": "panel"
+      },
+      "11:30": {
+        "session": "Coffee Break & Investor Networking",
+        "type": "networking"
+      },
+      "12:00": {
+        "session": "GenAI Startup Showcase: Pitch Session Round 1",
+        "description": "Selected GenAI startups present to investor panel",
+        "type": "pitches"
+      },
+      "13:00": {
+        "session": "Networking Lunch",
+        "type": "networking"
+      },
+      "14:30": {
+        "session": "Investment Thesis Presentations: Sector Deep Dives",
+        "topics": [
+          "Enterprise AI",
+          "Consumer GenAI",
+          "AI Infrastructure",
+          "Vertical AI Applications"
+        ],
+        "type": "presentations"
+      },
+      "15:30": {
+        "session": "GenAI Startup Showcase: Pitch Session Round 2",
+        "description": "Second round of GenAI startup pitches",
+        "type": "pitches"
+      },
+      "16:30": {
+        "session": "Coffee Break",
+        "type": "networking"
+      },
+      "17:00": {
+        "session": "Panel: GenAI's Disruption Across Industries",
+        "participants": [
+          "Industry leaders",
+          "GenAI startup founders",
+          "Investors"
+        ],
+        "type": "panel"
+      },
+      "18:00": {
+        "session": "Closing Remarks & Investor Networking Reception",
+        "type": "networking"
+      },
+      "19:00": {
+        "session": "VIP Investor Dinner (Invitation Only)",
+        "type": "exclusive_networking"
+      }
+    },
+    "key_activities": [
+      "VC investment thesis presentations",
+      "GenAI startup pitch sessions",
+      "Investor-founder networking",
+      "Industry disruption panels",
+      "Deal-making opportunities"
+    ],
+    "target_audience": [
+      "Venture capitalists",
+      "Angel investors",
+      "GenAI startup founders",
+      "Corporate venture arms",
+      "Family offices",
+      "Investment bankers",
+      "Startup advisors"
+    ],
+    "investment_focus": {
+      "stage_preferences": [
+        "Seed",
+        "Series A",
+        "Series B"
+      ],
+      "sector_focus": [
+        "Generative AI",
+        "Enterprise Software",
+        "AI Infrastructure",
+        "Vertical AI Solutions",
+        "AI-powered SaaS"
+      ],
+      "geographic_focus": [
+        "Brazil",
+        "Latin America",
+        "Global opportunities"
+      ]
+    },
+    "networking_opportunities": {
+      "structured_networking": [
+        "Investor-founder speed meetings",
+        "Sector-specific roundtables",
+        "Deal room sessions"
+      ],
+      "informal_networking": [
+        "Coffee breaks",
+        "Lunch networking",
+        "Reception",
+        "VIP dinner"
+      ]
+    },
+    "special_features": [
+      "Live deal-making sessions",
+      "Investment readiness workshops",
+      "Due diligence deep dives",
+      "Market trend analysis"
+    ],
+    "relation_to_other_events": {
+      "precedes": "Startup Summit (Aug 27-28, 2025)",
+      "note": "Day before main Startup Summit - focused investor preparation"
+    },
+    "registration": {
+      "investor_tiers": [
+        "Accredited investors",
+        "Institutional VCs",
+        "Angel investors",
+        "Corporate venture"
+      ],
+      "startup_application": "Competitive selection for pitch sessions"
+    },
+    "outcomes": {
+      "expected": [
+        "Investment deals initiated",
+        "Partnership formations",
+        "Market insights shared",
+        "Network expansion"
+      ]
+    }
+  },
+  "photos": [
+    {
+      "file": "keynote.jpg",
+      "type": "keynote",
+      "caption": "Palestra principal - summit"
+    },
+    {
+      "file": "audience.jpg",
+      "type": "audience",
+      "caption": "Público e networking - summit"
+    },
+    {
+      "file": "venue.jpg",
+      "type": "venue",
+      "caption": "Local do evento - summit"
+    }
+  ],
+  "event_type": "summit"
+}

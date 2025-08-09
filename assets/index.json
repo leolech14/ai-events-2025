@@ -1,0 +1,113 @@
+{
+  "created": "2025-01-09",
+  "total_events": 10,
+  "structure": "assets/events/{event_name}/",
+  "contents_per_event": [
+    "event.json - Complete event data with photo references",
+    "keynote.jpg - Speaker/presentation photo",
+    "audience.jpg - Attendees/networking photo",
+    "venue.jpg - Location/exhibition photo"
+  ],
+  "events": [
+    {
+      "name": "agtech_meeting",
+      "path": "events/agtech_meeting",
+      "files": [
+        "venue.jpg",
+        "audience.jpg",
+        "event.json",
+        "keynote.jpg"
+      ]
+    },
+    {
+      "name": "ai_summit_brasil_sp",
+      "path": "events/ai_summit_brasil_sp",
+      "files": [
+        "venue.jpg",
+        "audience.jpg",
+        "event.json",
+        "keynote.jpg"
+      ]
+    },
+    {
+      "name": "big_data_brazil_experience",
+      "path": "events/big_data_brazil_experience",
+      "files": [
+        "venue.jpg",
+        "audience.jpg",
+        "event.json",
+        "keynote.jpg"
+      ]
+    },
+    {
+      "name": "biotech_agro_health",
+      "path": "events/biotech_agro_health",
+      "files": [
+        "venue.jpg",
+        "audience.jpg",
+        "event.json",
+        "keynote.jpg"
+      ]
+    },
+    {
+      "name": "bootcamp_ia_negocios",
+      "path": "events/bootcamp_ia_negocios",
+      "files": [
+        "venue.jpg",
+        "audience.jpg",
+        "event.json",
+        "keynote.jpg"
+      ]
+    },
+    {
+      "name": "data_science_summit",
+      "path": "events/data_science_summit",
+      "files": [
+        "venue.jpg",
+        "audience.jpg",
+        "event.json",
+        "keynote.jpg"
+      ]
+    },
+    {
+      "name": "ia_conference_brasil",
+      "path": "events/ia_conference_brasil",
+      "files": [
+        "venue.jpg",
+        "audience.jpg",
+        "event.json",
+        "keynote.jpg"
+      ]
+    },
+    {
+      "name": "innovation_week_sjc",
+      "path": "events/innovation_week_sjc",
+      "files": [
+        "venue.jpg",
+        "audience.jpg",
+        "event.json",
+        "keynote.jpg"
+      ]
+    },
+    {
+      "name": "startup_summit",
+      "path": "events/startup_summit",
+      "files": [
+        "venue.jpg",
+        "audience.jpg",
+        "event.json",
+        "keynote.jpg"
+      ]
+    },
+    {
+      "name": "workshop_rh_okrs_ia",
+      "path": "events/workshop_rh_okrs_ia",
+      "files": [
+        "venue.jpg",
+        "audience.jpg",
+        "event.json",
+        "keynote.jpg"
+      ]
+    }
+  ]
+}

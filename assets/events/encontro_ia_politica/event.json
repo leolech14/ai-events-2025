@@ -1,0 +1,486 @@
+{
+  "event_name": "3º Encontro de IA: Política & Inteligência Artificial",
+  "event_type": "event",
+  "date": {
+    "start": "2025-09-08",
+    "end": "2025-09-09",
+    "duration_days": 2
+  },
+  "location": {
+    "venue": "Ilum Escola de Ciência - CNPEM",
+    "city": "Campinas",
+    "state": "São Paulo",
+    "country": "Brazil"
+  },
+  "organizer": "Ilum Escola de Ciência - CNPEM",
+  "co_organizers": [
+    "Instituto de Pesquisas Tecnológicas (IPT)",
+    "Ministério da Ciência, Tecnologia e Inovação",
+    "Observatório de Governança de IA"
+  ],
+  "focus_areas": [
+    "AI Governance",
+    "Digital Policy",
+    "AI Regulation",
+    "Ethics in AI",
+    "Democratic Participation in AI",
+    "AI Impact on Society",
+    "Public Policy and Technology",
+    "International AI Cooperation"
+  ],
+  "target_audience": [
+    "Policymakers",
+    "Government officials",
+    "AI researchers",
+    "Legal experts",
+    "Civil society representatives",
+    "Tech industry leaders",
+    "Academic researchers",
+    "International organizations"
+  ],
+  "program": {
+    "day1": {
+      "date": "2025-09-08",
+      "theme": "AI Governance and Regulatory Frameworks",
+      "sessions": [
+        {
+          "title": "Welcome & Opening Remarks",
+          "time": "09:00-09:30",
+          "speakers": [
+            "Diretor do CNPEM",
+            "Ministro da Ciência, Tecnologia e Inovação"
+          ],
+          "type": "Opening"
+        },
+        {
+          "title": "Global Perspectives on AI Governance",
+          "time": "09:30-10:30",
+          "speaker": "Dr. Helen Toner",
+          "affiliation": "Georgetown University - Center for Security and Emerging Technology",
+          "type": "Keynote",
+          "focus": "International approaches to AI regulation"
+        },
+        {
+          "title": "The Brazilian AI Strategy: Progress and Challenges",
+          "time": "11:00-12:00",
+          "speaker": "Dr. Marco Aurélio Florêncio Filho",
+          "affiliation": "Secretário de Políticas Digitais - MCTI",
+          "type": "Policy Presentation",
+          "topic": "National AI strategy implementation"
+        },
+        {
+          "title": "Panel: Regulatory Frameworks Around the World",
+          "time": "14:00-15:30",
+          "type": "Panel Discussion",
+          "panelists": [
+            {
+              "name": "Dr. Andrea Renda",
+              "affiliation": "CEPS (Centre for European Policy Studies)",
+              "expertise": "EU AI Act"
+            },
+            {
+              "name": "Prof. Ryan Calo",
+              "affiliation": "University of Washington School of Law",
+              "expertise": "US AI Policy"
+            },
+            {
+              "name": "Dr. Cathy O'Neil",
+              "affiliation": "ORCAA (O'Neil Risk Consulting & Algorithmic Auditing)",
+              "expertise": "Algorithmic accountability"
+            },
+            {
+              "name": "Dra. Carla Viana",
+              "affiliation": "Universidade de Brasília",
+              "expertise": "Brazilian digital rights"
+            }
+          ]
+        },
+        {
+          "title": "Workshop: Designing AI Governance Mechanisms",
+          "time": "16:00-18:00",
+          "type": "Interactive Workshop",
+          "facilitators": [
+            "Policy experts",
+            "Legal scholars",
+            "AI practitioners"
+          ],
+          "activities": [
+            "Case study analysis",
+            "Regulatory sandbox design",
+            "Stakeholder mapping",
+            "Policy recommendation drafting"
+          ],
+          "outcome": "Policy recommendations document"
+        }
+      ]
+    },
+    "day2": {
+      "date": "2025-09-09",
+      "theme": "Democratic Participation and Social Impact",
+      "sessions": [
+        {
+          "title": "AI and Democratic Participation",
+          "time": "09:00-10:00",
+          "speaker": "Prof. Archon Fung",
+          "affiliation": "Harvard Kennedy School",
+          "type": "Keynote",
+          "focus": "Participatory governance in the age of AI"
+        },
+        {
+          "title": "AI Bias and Social Justice in Brazil",
+          "time": "10:30-11:30",
+          "speaker": "Dra. Tarcízio Silva",
+          "affiliation": "Universidade Federal do ABC",
+          "type": "Research Presentation",
+          "topic": "Algorithmic bias in Brazilian context"
+        },
+        {
+          "title": "Civil Society Roundtable: AI Rights and Responsibilities",
+          "time": "11:45-12:45",
+          "type": "Roundtable Discussion",
+          "participants": [
+            "Coding Rights",
+            "Instituto de Tecnologia e Sociedade (ITS Rio)",
+            "InternetLab",
+            "Article 19",
+            "Mozilla Foundation Brazil"
+          ]
+        },
+        {
+          "title": "Workshop: Public Consultation on AI Policy",
+          "time": "14:00-16:00",
+          "type": "Participatory Workshop",
+          "description": "Simulated public consultation process",
+          "participants": "Mixed stakeholders from different sectors",
+          "methodology": "Deliberative democracy techniques"
+        },
+        {
+          "title": "Panel: AI in Public Services - Opportunities and Risks",
+          "time": "16:30-17:30",
+          "type": "Panel Discussion",
+          "panelists": [
+            {
+              "name": "Dr. Virgilio Almeida",
+              "affiliation": "UFMG",
+              "expertise": "Digital governance"
+            },
+            {
+              "name": "Secretário Municipal de Inovação",
+              "affiliation": "Prefeitura de São Paulo",
+              "expertise": "Smart city initiatives"
+            },
+            {
+              "name": "Dr. Fabrício Benevenuto",
+              "affiliation": "UFMG",
+              "expertise": "Social media and AI"
+            }
+          ]
+        },
+        {
+          "title": "Closing Session: Action Plan for AI Governance in Brazil",
+          "time": "17:30-18:00",
+          "type": "Synthesis and Next Steps",
+          "output": "Collaborative action plan document"
+        }
+      ]
+    }
+  },
+  "special_sessions": [
+    {
+      "name": "AI Ethics Café",
+      "description": "Informal discussions on ethical AI dilemmas",
+      "time": "Both days during lunch break",
+      "format": "Small group conversations with rotating topics"
+    },
+    {
+      "name": "Policy Makers' Breakfast",
+      "description": "Private session for government officials",
+      "time": "Day 2, 08:00-09:00",
+      "invitation_only": true
+    },
+    {
+      "name": "Youth Voices on AI",
+      "description": "Students and young professionals discuss AI futures",
+      "time": "Day 1, evening",
+      "age_limit": "Under 30"
+    },
+    {
+      "name": "Tech Industry Listening Session",
+      "description": "Industry perspectives on proposed regulations",
+      "time": "Day 2, parallel to workshops",
+      "participants": [
+        "Big tech",
+        "Startups",
+        "AI companies"
+      ]
+    }
+  ],
+  "working_groups": [
+    {
+      "name": "AI and Labor Rights",
+      "chair": "Prof. Laís Abramo (USP)",
+      "focus": "Impact of AI on employment and worker rights",
+      "deliverable": "Policy brief on AI and future of work"
+    },
+    {
+      "name": "AI in Healthcare Governance",
+      "chair": "Dr. Mariana Vasconcelos (Fiocruz)",
+      "focus": "Regulation of AI in medical applications",
+      "deliverable": "Healthcare AI governance framework"
+    },
+    {
+      "name": "Educational AI Policy",
+      "chair": "Prof. José Armando Valente (UNICAMP)",
+      "focus": "AI in education sector regulation",
+      "deliverable": "Educational AI policy recommendations"
+    },
+    {
+      "name": "AI and Privacy Rights",
+      "chair": "Dra. Laura Schertel (UnB)",
+      "focus": "Intersection of LGPD and AI applications",
+      "deliverable": "Privacy-preserving AI guidelines"
+    }
+  ],
+  "keynote_speakers": [
+    {
+      "name": "Dr. Helen Toner",
+      "affiliation": "Georgetown University - CSET",
+      "expertise": "AI Governance, Technology Policy, China AI",
+      "background": "Former OpenAI board member",
+      "talk": "Global Perspectives on AI Governance"
+    },
+    {
+      "name": "Prof. Archon Fung",
+      "affiliation": "Harvard Kennedy School",
+      "expertise": "Democratic Governance, Civic Technology",
+      "notable_work": "Empowered Participation book author",
+      "talk": "AI and Democratic Participation"
+    },
+    {
+      "name": "Dr. Marco Aurélio Florêncio Filho",
+      "affiliation": "MCTI - Ministério da Ciência, Tecnologia e Inovação",
+      "role": "Secretary of Digital Policies",
+      "expertise": "Brazilian digital policy, National AI strategy",
+      "talk": "The Brazilian AI Strategy: Progress and Challenges"
+    }
+  ],
+  "policy_outcomes": [
+    {
+      "name": "Campinas Declaration on AI Governance",
+      "description": "Joint statement on principles for AI governance in Brazil",
+      "signatories": "All participating organizations",
+      "release_date": "End of Day 2"
+    },
+    {
+      "name": "AI Governance Toolkit for Municipalities",
+      "description": "Practical guide for local governments",
+      "target": "Brazilian cities implementing smart city initiatives",
+      "availability": "Open access after event"
+    },
+    {
+      "name": "Policy Brief: Public Participation in AI Regulation",
+      "description": "Recommendations for inclusive AI policy making",
+      "audience": "Federal and state governments",
+      "language": "Portuguese and English"
+    }
+  ],
+  "international_participation": [
+    {
+      "organization": "OECD",
+      "representative": "AI Policy Expert",
+      "contribution": "AI Principles implementation experience"
+    },
+    {
+      "organization": "UNESCO",
+      "representative": "AI Ethics Specialist",
+      "contribution": "Global AI ethics recommendations"
+    },
+    {
+      "organization": "Partnership on AI",
+      "representative": "Industry Liaison",
+      "contribution": "Multi-stakeholder governance models"
+    },
+    {
+      "organization": "EU Commission",
+      "representative": "AI Act Implementation Team",
+      "contribution": "Regulatory implementation insights"
+    }
+  ],
+  "media_and_outreach": [
+    {
+      "format": "Live streaming",
+      "platform": "YouTube and LinkedIn",
+      "languages": [
+        "Portuguese",
+        "English subtitles"
+      ]
+    },
+    {
+      "format": "Social media coverage",
+      "platforms": [
+        "Twitter",
+        "LinkedIn",
+        "Instagram"
+      ],
+      "hashtag": "#IAPolitica2025"
+    },
+    {
+      "format": "Podcast series",
+      "description": "Post-event interviews with key speakers",
+      "episodes": 6,
+      "distribution": "Spotify, Apple Podcasts"
+    },
+    {
+      "format": "Policy briefs",
+      "quantity": 4,
+      "topics": [
+        "AI governance",
+        "Democratic participation",
+        "Social impact",
+        "Implementation roadmap"
+      ],
+      "distribution": "Government agencies, think tanks, academia"
+    }
+  ],
+  "registration": {
+    "required": true,
+    "fees": {
+      "government_officials": "Free",
+      "students": "R$ 50",
+      "academics": "R$ 150",
+      "civil_society": "R$ 100",
+      "industry": "R$ 400",
+      "international": "$100 USD"
+    },
+    "scholarships": {
+      "available": 50,
+      "criteria": "Underrepresented groups, geographic diversity",
+      "covers": "Registration fee and travel support"
+    },
+    "includes": [
+      "Conference materials",
+      "Welcome reception",
+      "Lunches and coffee breaks",
+      "Policy toolkit access",
+      "Certificate of participation",
+      "Networking app access"
+    ],
+    "website": "https://ilum.cnpem.br/encontro-ia-politica-2025"
+  },
+  "funding_partners": [
+    {
+      "name": "Ford Foundation",
+      "contribution": "Civil society participation support"
+    },
+    {
+      "name": "Open Society Foundations",
+      "contribution": "Democratic governance research"
+    },
+    {
+      "name": "Simons Foundation",
+      "contribution": "International speaker support"
+    },
+    {
+      "name": "FAPESP",
+      "contribution": "Research dissemination and student scholarships"
+    }
+  ],
+  "follow_up_activities": [
+    {
+      "name": "Monthly AI Policy Webinar Series",
+      "description": "Ongoing discussions on AI governance topics",
+      "frequency": "Monthly",
+      "duration": "12 months"
+    },
+    {
+      "name": "AI Governance Fellowship Program",
+      "description": "6-month fellowship for policy professionals",
+      "participants": 10,
+      "start_date": "November 2025"
+    },
+    {
+      "name": "Multi-stakeholder AI Council",
+      "description": "Permanent advisory body for Brazilian AI policy",
+      "members": "Government, academia, industry, civil society",
+      "first_meeting": "October 2025"
+    }
+  ],
+  "ai_relevance": {
+    "score": 10,
+    "topics": [
+      "AI governance and regulation",
+      "AI ethics and social impact",
+      "Democratic participation in AI",
+      "AI policy development",
+      "AI and human rights",
+      "Algorithmic accountability"
+    ]
+  },
+  "expected_attendance": 250,
+  "languages": [
+    "Portuguese",
+    "English (simultaneous interpretation)"
+  ],
+  "accessibility": {
+    "sign_language": "Brazilian Sign Language (Libras) interpretation",
+    "physical_access": "Wheelchair accessible venue",
+    "materials": "Large print and digital formats available"
+  },
+  "code_of_conduct": {
+    "enforced": true,
+    "principles": [
+      "Respectful dialogue",
+      "Inclusive participation",
+      "Evidence-based discussion",
+      "Transparency in interests"
+    ]
+  },
+  "contact": {
+    "email": "ia-politica@cnpem.br",
+    "phone": "+55 19 3512-3000",
+    "address": "Ilum Escola de Ciência, CNPEM, Campinas, SP"
+  },
+  "documentation": {
+    "proceedings": "Published as open access policy report",
+    "video_archive": "Available 30 days after event",
+    "policy_outputs": "All outputs published under Creative Commons"
+  },
+  "hashtags": [
+    "#IAPolitica2025",
+    "#AIGovernance",
+    "#DemocraciaDigital",
+    "#CNPEM"
+  ],
+  "social_media": {
+    "twitter": "@CNPEMBrasil",
+    "linkedin": "CNPEM",
+    "instagram": "@cnpem_oficial"
+  },
+  "tags": [
+    "ai-governance",
+    "digital-policy",
+    "ai-regulation",
+    "ai-ethics",
+    "democratic-participation",
+    "public-policy",
+    "technology-policy",
+    "ai-society"
+  ],
+  "photos": [
+    {
+      "file": "keynote.jpg",
+      "type": "keynote",
+      "caption": "Palestra principal - event"
+    },
+    {
+      "file": "audience.jpg",
+      "type": "audience",
+      "caption": "Público e networking - event"
+    },
+    {
+      "file": "venue.jpg",
+      "type": "venue",
+      "caption": "Local do evento - event"
+    }
+  ]
+}

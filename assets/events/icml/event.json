@@ -1,0 +1,57 @@
+{
+  "name": "ICML 2025",
+  "full_name": "International Conference on Machine Learning",
+  "type": "conference",
+  "dates": {
+    "start": "2025-07-21",
+    "end": "2025-07-27"
+  },
+  "location": {
+    "venue": "Sydney International Convention Centre",
+    "city": "Sydney",
+    "country": "Australia"
+  },
+  "description": "The leading international academic conference in machine learning, bringing together researchers from around the world to share latest developments.",
+  "activities": [
+    "Technical talks",
+    "Poster sessions",
+    "Workshops",
+    "Tutorials",
+    "Social events"
+  ],
+  "target_audience": [
+    "Academic researchers",
+    "PhD students",
+    "Industry researchers",
+    "ML practitioners"
+  ],
+  "registration": {
+    "url": "https://icml.cc/",
+    "deadline": "2025-06-15"
+  },
+  "tags": [
+    "machine learning",
+    "AI",
+    "research",
+    "academic",
+    "conference"
+  ],
+  "photos": [
+    {
+      "file": "keynote.jpg",
+      "type": "keynote",
+      "caption": "Palestra principal - event"
+    },
+    {
+      "file": "audience.jpg",
+      "type": "audience",
+      "caption": "Público e networking - event"
+    },
+    {
+      "file": "venue.jpg",
+      "type": "venue",
+      "caption": "Local do evento - event"
+    }
+  ],
+  "event_type": "event"
+}

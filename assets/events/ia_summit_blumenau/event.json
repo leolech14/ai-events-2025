@@ -1,0 +1,187 @@
+{
+  "event_name": "IA Summit 2025",
+  "event_type": "summit",
+  "date": {
+    "start": "2025-09-11",
+    "end": "2025-09-11"
+  },
+  "location": {
+    "city": "Blumenau",
+    "state": "SC",
+    "country": "Brazil",
+    "venue": "Vila Germânica",
+    "address": "Rua Alberto Stein, 199 - Vila Formosa, Blumenau - SC",
+    "online_platform": ""
+  },
+  "format": "presential",
+  "duration": "1 day",
+  "description": "Summit de um dia focado em Inteligência Artificial com abordagem prática para empresas, startups e profissionais de tecnologia em Santa Catarina, explorando aplicações de IA em diversos setores da economia regional.",
+  "focus_areas": [
+    "AI for Business Applications",
+    "Machine Learning in Practice",
+    "AI in Manufacturing",
+    "Natural Language Processing",
+    "Computer Vision Applications",
+    "AI Ethics and Governance",
+    "Startup AI Solutions",
+    "AI in Healthcare",
+    "Financial AI Applications",
+    "Educational AI Tools"
+  ],
+  "target_audience": [
+    "Business Executives",
+    "Technology Professionals",
+    "Startup Founders",
+    "Software Developers",
+    "Data Scientists",
+    "Product Managers",
+    "Innovation Managers",
+    "Students in Technology",
+    "Entrepreneurs",
+    "Investors"
+  ],
+  "organizers": [
+    "ACATE - Associação Catarinense de Tecnologia",
+    "FURB - Universidade Regional de Blumenau"
+  ],
+  "sponsors": [],
+  "speakers": [],
+  "agenda": [
+    {
+      "time": "08:00-09:00",
+      "title": "Credenciamento e Coffee Networking",
+      "type": "networking"
+    },
+    {
+      "time": "09:00-09:15",
+      "title": "Abertura IA Summit 2025",
+      "type": "opening"
+    },
+    {
+      "time": "09:15-10:15",
+      "title": "Keynote: O Estado da IA no Brasil",
+      "type": "keynote"
+    },
+    {
+      "time": "10:15-10:45",
+      "title": "Coffee Break",
+      "type": "networking"
+    },
+    {
+      "time": "10:45-12:00",
+      "title": "Painel: IA na Indústria Catarinense",
+      "type": "panel"
+    },
+    {
+      "time": "12:00-13:30",
+      "title": "Almoço e Networking",
+      "type": "networking"
+    },
+    {
+      "time": "13:30-14:30",
+      "title": "Workshop: Implementando IA em Pequenas Empresas",
+      "type": "workshop"
+    },
+    {
+      "time": "14:30-15:30",
+      "title": "Pitch Session: Startups de IA",
+      "type": "pitch"
+    },
+    {
+      "time": "15:30-16:00",
+      "title": "Coffee Break",
+      "type": "networking"
+    },
+    {
+      "time": "16:00-17:00",
+      "title": "Mesa Redonda: Ética e Futuro da IA",
+      "type": "panel"
+    },
+    {
+      "time": "17:00-17:30",
+      "title": "Encerramento e Awards IA Inovação SC",
+      "type": "closing"
+    },
+    {
+      "time": "17:30-19:00",
+      "title": "Happy Hour de Encerramento",
+      "type": "networking"
+    }
+  ],
+  "registration": {
+    "url": "",
+    "deadline": "2025-09-08",
+    "price": {
+      "currency": "BRL",
+      "early_bird": 120,
+      "regular": 180,
+      "student": 30
+    },
+    "capacity": 400,
+    "requirements": [
+      "Inscrição online obrigatória",
+      "Documento de identificação",
+      "Interesse ou experiência em tecnologia"
+    ]
+  },
+  "contact": {
+    "email": "ia.summit@acate.com.br",
+    "phone": "+55 47 3027-8000",
+    "website": "https://www.acate.com.br/",
+    "social_media": {
+      "linkedin": "https://linkedin.com/company/acate",
+      "instagram": "@acate_sc",
+      "twitter": "@acate_sc"
+    }
+  },
+  "tags": [
+    "artificial-intelligence",
+    "summit",
+    "business-ai",
+    "startups",
+    "innovation",
+    "santa-catarina",
+    "technology",
+    "machine-learning",
+    "entrepreneurship",
+    "regional-development"
+  ],
+  "language": "Portuguese",
+  "certification": false,
+  "networking_opportunities": [
+    "Coffee breaks",
+    "Lunch networking",
+    "Happy hour",
+    "Startup pitch sessions",
+    "Exhibition area",
+    "Speed networking sessions"
+  ],
+  "partners": [
+    "SEBRAE-SC",
+    "FIESC - Federação das Indústrias do Estado de Santa Catarina",
+    "Prefeitura de Blumenau",
+    "BADESC - Agência de Fomento do Estado de Santa Catarina"
+  ],
+  "related_events": [
+    "inovar_sc_2025.json",
+    "conecta_industria_2025.json"
+  ],
+  "last_updated": "2025-08-07",
+  "photos": [
+    {
+      "file": "keynote.jpg",
+      "type": "keynote",
+      "caption": "Palestra principal - summit"
+    },
+    {
+      "file": "audience.jpg",
+      "type": "audience",
+      "caption": "Público e networking - summit"
+    },
+    {
+      "file": "venue.jpg",
+      "type": "venue",
+      "caption": "Local do evento - summit"
+    }
+  ]
+}

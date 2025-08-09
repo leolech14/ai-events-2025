@@ -1,0 +1,91 @@
+{
+  "event_name": "Seminário ISA",
+  "event_type": "event",
+  "date": {
+    "start": "2025-09-23",
+    "end": "2025-09-24"
+  },
+  "location": {
+    "city": "Curitiba",
+    "state": "Paraná",
+    "country": "Brazil",
+    "venue": "",
+    "address": "",
+    "online_platform": ""
+  },
+  "format": "presential",
+  "duration": "2 days",
+  "description": "Seminário ISA sobre automação e instrumentação, incluindo aplicações de inteligência artificial em processos industriais.",
+  "focus_areas": [
+    "Industrial Automation",
+    "Instrumentation",
+    "Process Control",
+    "AI in Industry",
+    "Industry 4.0"
+  ],
+  "target_audience": [
+    "Engineers",
+    "Industrial Professionals",
+    "Technicians",
+    "Students",
+    "Researchers"
+  ],
+  "organizers": [
+    "ISA"
+  ],
+  "sponsors": [],
+  "speakers": [],
+  "agenda": [],
+  "registration": {
+    "url": "",
+    "deadline": "",
+    "price": {
+      "currency": "BRL",
+      "early_bird": 0,
+      "regular": 0,
+      "student": 0
+    },
+    "capacity": 0,
+    "requirements": []
+  },
+  "contact": {
+    "email": "",
+    "phone": "",
+    "website": "",
+    "social_media": {
+      "linkedin": "",
+      "instagram": "",
+      "twitter": ""
+    }
+  },
+  "tags": [
+    "automation",
+    "instrumentation",
+    "industry",
+    "AI",
+    "ISA"
+  ],
+  "language": "Portuguese",
+  "certification": false,
+  "networking_opportunities": [],
+  "partners": [],
+  "related_events": [],
+  "last_updated": "2025-01-07",
+  "photos": [
+    {
+      "file": "keynote.jpg",
+      "type": "keynote",
+      "caption": "Palestra principal - event"
+    },
+    {
+      "file": "audience.jpg",
+      "type": "audience",
+      "caption": "Público e networking - event"
+    },
+    {
+      "file": "venue.jpg",
+      "type": "venue",
+      "caption": "Local do evento - event"
+    }
+  ]
+}

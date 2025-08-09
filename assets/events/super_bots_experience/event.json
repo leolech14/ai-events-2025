@@ -1,0 +1,402 @@
+{
+  "event_id": "super-bots-experience-2025",
+  "name": "Super Bots Experience & Fórum de Autoatendimento Digital 2025",
+  "organizer": "Informa Markets Brasil",
+  "dates": {
+    "start_date": "2025-08-21",
+    "end_date": "2025-08-22",
+    "duration_days": 2,
+    "timezone": "America/Sao_Paulo"
+  },
+  "venue": {
+    "name": "WTC Events Center",
+    "full_name": "World Trade Center Events Center",
+    "address": {
+      "street": "Av. das Nações Unidas, 12.551",
+      "neighborhood": "Brooklin Novo",
+      "city": "São Paulo",
+      "state": "SP",
+      "country": "Brazil",
+      "postal_code": "04578-903"
+    },
+    "facilities": {
+      "exhibition_area": "15,000 sqm",
+      "auditoriums": 8,
+      "meeting_rooms": 32,
+      "parking_spaces": 1200,
+      "accessibility": "Full wheelchair accessibility",
+      "wifi": "High-speed complimentary WiFi",
+      "catering": "On-site restaurants and coffee stations"
+    },
+    "transportation": {
+      "metro": "Berrini Station (Line 9-Emerald) - 800m",
+      "bus_lines": [
+        "5174",
+        "675A",
+        "675T",
+        "6272"
+      ],
+      "airports": {
+        "congonhas": "12 km",
+        "guarulhos": "35 km"
+      }
+    }
+  },
+  "format": {
+    "type": "Presential",
+    "format_details": "In-person conference and exhibition",
+    "virtual_components": "Live streaming of main sessions",
+    "networking_format": "Face-to-face networking sessions",
+    "demo_areas": "Live bot demonstration zones"
+  },
+  "focus_areas": [
+    "Chatbot Technologies",
+    "Voice Bot Solutions",
+    "Natural Language Processing (NLP)",
+    "Customer Service Automation",
+    "Digital Self-Service Platforms",
+    "Conversational AI",
+    "WhatsApp Business Integration",
+    "Omnichannel Customer Experience",
+    "AI-Powered Customer Support",
+    "Brazilian Portuguese NLP"
+  ],
+  "target_audience": {
+    "primary": [
+      "Customer Experience Professionals",
+      "Customer Service Directors",
+      "Digital Transformation Leaders",
+      "IT Managers",
+      "Contact Center Executives",
+      "Marketing Automation Specialists"
+    ],
+    "industries": [
+      "Banking and Financial Services",
+      "Telecommunications",
+      "E-commerce and Retail",
+      "Healthcare",
+      "Insurance",
+      "Government Services",
+      "Education",
+      "Utilities"
+    ],
+    "seniority_levels": [
+      "C-Level Executives",
+      "Directors",
+      "Managers",
+      "Technical Specialists",
+      "Consultants"
+    ]
+  },
+  "expected_statistics": {
+    "projected_attendees": 5000,
+    "exhibitors": 150,
+    "speakers": 80,
+    "countries_represented": 12,
+    "sessions": 45,
+    "workshops": 20,
+    "networking_events": 8
+  },
+  "previous_editions": {
+    "2024": {
+      "attendees": 4500,
+      "exhibitors": 130,
+      "satisfaction_rate": "92%",
+      "key_trends": [
+        "GPT Integration",
+        "Multimodal Interfaces",
+        "Emotional AI"
+      ]
+    },
+    "2023": {
+      "attendees": 3800,
+      "exhibitors": 110,
+      "satisfaction_rate": "89%",
+      "key_trends": [
+        "Conversational Commerce",
+        "Voice-First Design",
+        "Hybrid Support"
+      ]
+    }
+  },
+  "technology_showcases": {
+    "chatbot_platforms": [
+      "Microsoft Bot Framework",
+      "IBM Watson Assistant",
+      "Google Dialogflow",
+      "Amazon Lex",
+      "Rasa Open Source",
+      "Blip Platform",
+      "Take Platform",
+      "Zendesk Answer Bot"
+    ],
+    "voice_technologies": [
+      "Amazon Alexa for Business",
+      "Google Assistant SDK",
+      "Microsoft Cognitive Services Speech",
+      "Nuance Dragon Speech Recognition",
+      "SpeechMatics",
+      "Avanade Voice Solutions"
+    ],
+    "nlp_solutions": [
+      "OpenAI GPT-4",
+      "Google Cloud Natural Language",
+      "AWS Comprehend",
+      "Azure Cognitive Services",
+      "Hugging Face Transformers",
+      "spaCy Portuguese Models",
+      "Portuguese BERT Models"
+    ]
+  },
+  "expected_vendors": {
+    "major_platforms": [
+      {
+        "name": "Take (Zenvia)",
+        "focus": "Conversational platforms for Brazil",
+        "expected_announcements": [
+          "WhatsApp Business API updates",
+          "AI chat improvements"
+        ]
+      },
+      {
+        "name": "Blip",
+        "focus": "Chatbot development platform",
+        "expected_announcements": [
+          "New integrations",
+          "Enhanced analytics"
+        ]
+      },
+      {
+        "name": "IBM Brasil",
+        "focus": "Watson Assistant solutions",
+        "expected_announcements": [
+          "Industry-specific templates",
+          "Portuguese language improvements"
+        ]
+      },
+      {
+        "name": "Microsoft Brasil",
+        "focus": "Bot Framework and Cognitive Services",
+        "expected_announcements": [
+          "Azure AI updates",
+          "Teams integration"
+        ]
+      },
+      {
+        "name": "Movidesk",
+        "focus": "Customer service automation",
+        "expected_announcements": [
+          "AI ticket routing",
+          "Automated responses"
+        ]
+      }
+    ],
+    "emerging_vendors": [
+      "BotCity",
+      "Botmaker",
+      "Huggy",
+      "Landbot",
+      "Userbot",
+      "Weni Platform"
+    ],
+    "system_integrators": [
+      "Accenture Brasil",
+      "Capgemini Brasil",
+      "Deloitte Digital",
+      "EY Consulting",
+      "KPMG Advisory"
+    ]
+  },
+  "conference_tracks": {
+    "track_1": {
+      "name": "Conversational AI Strategy",
+      "topics": [
+        "Building AI-First Customer Service",
+        "ROI of Chatbot Implementation",
+        "Change Management for Digital Transformation",
+        "Measuring Conversational AI Success"
+      ]
+    },
+    "track_2": {
+      "name": "Technical Implementation",
+      "topics": [
+        "NLP for Brazilian Portuguese",
+        "Multi-Channel Bot Deployment",
+        "Integration with CRM Systems",
+        "Security in Conversational AI"
+      ]
+    },
+    "track_3": {
+      "name": "Industry Use Cases",
+      "topics": [
+        "Banking Chatbots: Compliance and Innovation",
+        "Healthcare Virtual Assistants",
+        "E-commerce Conversational Commerce",
+        "Government Digital Services"
+      ]
+    },
+    "track_4": {
+      "name": "Future Technologies",
+      "topics": [
+        "Multimodal AI Interfaces",
+        "Emotional AI in Customer Service",
+        "Voice Commerce in Brazil",
+        "Next-Gen NLP Capabilities"
+      ]
+    }
+  },
+  "demo_zones": {
+    "live_bot_arena": {
+      "description": "Interactive area where attendees can test various chatbots",
+      "featured_bots": [
+        "Banking customer service bots",
+        "E-commerce shopping assistants",
+        "Healthcare appointment schedulers",
+        "Government service inquiries"
+      ]
+    },
+    "voice_experience_lab": {
+      "description": "Hands-on voice bot demonstrations",
+      "technologies": [
+        "Smart speaker integrations",
+        "Phone-based voice assistants",
+        "Voice-enabled mobile apps",
+        "Multilingual voice recognition"
+      ]
+    },
+    "ai_sandbox": {
+      "description": "Developer-focused area for technical demonstrations",
+      "activities": [
+        "Code workshops",
+        "API demonstrations",
+        "Integration tutorials",
+        "Performance testing"
+      ]
+    }
+  },
+  "brazilian_market_focus": {
+    "key_challenges": [
+      "Portuguese language nuances and slang",
+      "WhatsApp dominance in messaging",
+      "Mobile-first customer behavior",
+      "Regulatory compliance (LGPD)",
+      "Integration with Brazilian payment systems"
+    ],
+    "opportunities": [
+      "250+ million WhatsApp users in Brazil",
+      "Growing digital banking adoption",
+      "Government digitalization initiatives",
+      "E-commerce growth acceleration",
+      "Customer service cost optimization needs"
+    ],
+    "local_regulations": {
+      "lgpd_compliance": "Brazilian General Data Protection Law requirements",
+      "financial_regulations": "Central Bank chatbot guidelines for financial services",
+      "healthcare_regulations": "ANVISA requirements for healthcare bots"
+    }
+  },
+  "networking_opportunities": {
+    "welcome_reception": {
+      "date": "2025-08-21",
+      "time": "18:00-20:00",
+      "location": "WTC Events Center Atrium"
+    },
+    "exhibitor_showcase": {
+      "date": "2025-08-22",
+      "time": "12:00-14:00",
+      "format": "Networking lunch with vendor presentations"
+    },
+    "cx_leaders_dinner": {
+      "date": "2025-08-22",
+      "time": "19:00-22:00",
+      "invitation_only": true,
+      "target": "Senior CX executives and thought leaders"
+    }
+  },
+  "partnerships": {
+    "industry_associations": [
+      "ABEMD (Brazilian Direct Marketing Association)",
+      "ABRADi (Brazilian Digital Marketing Association)",
+      "ABRAREC (Brazilian Customer Relations Association)"
+    ],
+    "media_partners": [
+      "CustomerExperience.com.br",
+      "MundodoMarketing",
+      "IT Forum",
+      "TeleSintese"
+    ],
+    "technology_partners": [
+      "Microsoft Brasil",
+      "Google Cloud Brasil",
+      "AWS Brasil",
+      "IBM Brasil"
+    ]
+  },
+  "registration": {
+    "early_bird": {
+      "deadline": "2025-06-15",
+      "price_range": "R$ 450 - R$ 1,200",
+      "discount": "30% off regular pricing"
+    },
+    "regular": {
+      "price_range": "R$ 650 - R$ 1,700",
+      "includes": [
+        "Access to all sessions",
+        "Exhibition hall access",
+        "Networking events",
+        "Conference materials",
+        "Meals and coffee breaks"
+      ]
+    },
+    "student_academic": {
+      "price": "R$ 150",
+      "requirements": "Valid student ID required"
+    },
+    "group_discounts": "Available for 5+ registrations"
+  },
+  "contact_information": {
+    "event_website": "https://superbots.com.br",
+    "registration_email": "registro@superbots.com.br",
+    "general_info": "info@superbots.com.br",
+    "media_contact": "imprensa@superbots.com.br",
+    "phone": "+55 11 3043-2300",
+    "social_media": {
+      "linkedin": "@SuperBotsExperience",
+      "twitter": "@SuperBotsBR",
+      "instagram": "@superbotsbrasil"
+    }
+  },
+  "covid_protocols": {
+    "health_measures": "Following current São Paulo health department guidelines",
+    "vaccination": "Vaccination certificate may be required",
+    "safety_protocols": "Sanitization stations throughout venue"
+  },
+  "additional_info": {
+    "languages": [
+      "Portuguese",
+      "English (select sessions)"
+    ],
+    "certification": "CX and Digital Transformation CPE credits available",
+    "mobile_app": "Event mobile app for networking and schedule management",
+    "live_streaming": "Key sessions available for remote viewing",
+    "post_event": "Session recordings and materials available for 90 days"
+  },
+  "photos": [
+    {
+      "file": "keynote.jpg",
+      "type": "keynote",
+      "caption": "Palestra principal - event"
+    },
+    {
+      "file": "audience.jpg",
+      "type": "audience",
+      "caption": "Público e networking - event"
+    },
+    {
+      "file": "venue.jpg",
+      "type": "venue",
+      "caption": "Local do evento - event"
+    }
+  ],
+  "event_type": "event"
+}

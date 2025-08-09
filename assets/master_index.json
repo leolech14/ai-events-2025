@@ -1,0 +1,711 @@
+{
+  "total_events": 57,
+  "created": "2025-01-09",
+  "structure": {
+    "root": "assets/",
+    "events": "assets/events/",
+    "per_event": [
+      "event.json - Event data and metadata",
+      "keynote.jpg - Speaker/presentation photo",
+      "audience.jpg - Attendees/networking photo",
+      "venue.jpg - Location/venue photo"
+    ]
+  },
+  "event_types": {
+    "summit": 10,
+    "meeting": 3,
+    "workshop": 3,
+    "event": 27,
+    "bootcamp": 1,
+    "course": 5,
+    "hackathon": 1,
+    "conference": 2,
+    "week": 5
+  },
+  "events": [
+    {
+      "name": "Adapta Summit",
+      "directory": "adapta_summit",
+      "type": "summit",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Agtech Meeting",
+      "directory": "agtech_meeting",
+      "type": "meeting",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Ai Summit Bix",
+      "directory": "ai_summit_bix",
+      "type": "summit",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Ai Summit Brasil Sp",
+      "directory": "ai_summit_brasil_sp",
+      "type": "summit",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Ai Workshop March",
+      "directory": "ai_workshop_march",
+      "type": "workshop",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Bate Papo Ia Futuro Trabalho",
+      "directory": "bate_papo_ia_futuro_trabalho",
+      "type": "event",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Big Data Brazil Experience",
+      "directory": "big_data_brazil_experience",
+      "type": "event",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Biotech Agro Health",
+      "directory": "biotech_agro_health",
+      "type": "event",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Bootcamp Ia Negocios",
+      "directory": "bootcamp_ia_negocios",
+      "type": "bootcamp",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Cbta",
+      "directory": "cbta",
+      "type": "event",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Cidia",
+      "directory": "cidia",
+      "type": "event",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Conecta Industria",
+      "directory": "conecta_industria",
+      "type": "event",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Conexao Mulher Ia",
+      "directory": "conexao_mulher_ia",
+      "type": "event",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Curso Aplicacao Ia Trabalho",
+      "directory": "curso_aplicacao_ia_trabalho",
+      "type": "course",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Curso Ia Generativa Encantado",
+      "directory": "curso_ia_generativa_encantado",
+      "type": "course",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Curso Ia Generativa Ensino",
+      "directory": "curso_ia_generativa_ensino",
+      "type": "course",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Curso Ia Teoria Pratica",
+      "directory": "curso_ia_teoria_pratica",
+      "type": "course",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Data Science Summit",
+      "directory": "data_science_summit",
+      "type": "summit",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Deep Learning Course",
+      "directory": "deep_learning_course",
+      "type": "course",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Encontro Ia Politica",
+      "directory": "encontro_ia_politica",
+      "type": "event",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Eramia Rs",
+      "directory": "eramia_rs",
+      "type": "event",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Expoinovacao",
+      "directory": "expoinovacao",
+      "type": "event",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Futurecom",
+      "directory": "futurecom",
+      "type": "event",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Genai Summit",
+      "directory": "genai_summit",
+      "type": "summit",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Hackathon Innova Saude",
+      "directory": "hackathon_innova_saude",
+      "type": "hackathon",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Health Meeting Brasil",
+      "directory": "health_meeting_brasil",
+      "type": "meeting",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Ia Conference Brasil",
+      "directory": "ia_conference_brasil",
+      "type": "conference",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Ia Summit Blumenau",
+      "directory": "ia_summit_blumenau",
+      "type": "summit",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Ia Summit Upf",
+      "directory": "ia_summit_upf",
+      "type": "summit",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Icbdai Porto Alegre",
+      "directory": "icbdai_porto_alegre",
+      "type": "event",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Icbdai Sao Paulo",
+      "directory": "icbdai_sao_paulo",
+      "type": "event",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Icml",
+      "directory": "icml",
+      "type": "event",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Imersao Ia Pratica Negocios",
+      "directory": "imersao_ia_pratica_negocios",
+      "type": "event",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Innovation Week Sjc",
+      "directory": "innovation_week_sjc",
+      "type": "week",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Inovar Sc",
+      "directory": "inovar_sc",
+      "type": "event",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Live Sbagro Ia",
+      "directory": "live_sbagro_ia",
+      "type": "event",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Mercopar",
+      "directory": "mercopar",
+      "type": "event",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Neurips",
+      "directory": "neurips",
+      "type": "event",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "R Day",
+      "directory": "r_day",
+      "type": "event",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Rio Preto Tech Summit",
+      "directory": "rio_preto_tech_summit",
+      "type": "summit",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Rpa Ai Congress Curitiba",
+      "directory": "rpa_ai_congress_curitiba",
+      "type": "conference",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Sao Paulo Tech Week",
+      "directory": "sao_paulo_tech_week",
+      "type": "week",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Semana Caldeira",
+      "directory": "semana_caldeira",
+      "type": "week",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Semana De Dados",
+      "directory": "semana_de_dados",
+      "type": "week",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Seminario Automacao Isa",
+      "directory": "seminario_automacao_isa",
+      "type": "event",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Seminario Pesquisa Ia Generativa",
+      "directory": "seminario_pesquisa_ia_generativa",
+      "type": "event",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Simposio Simplas",
+      "directory": "simposio_simplas",
+      "type": "event",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Smart Energy",
+      "directory": "smart_energy",
+      "type": "event",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "South Stat Meeting",
+      "directory": "south_stat_meeting",
+      "type": "meeting",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Startup Investment Summit",
+      "directory": "startup_investment_summit",
+      "type": "summit",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Startup Summit",
+      "directory": "startup_summit",
+      "type": "summit",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Super Bots Experience",
+      "directory": "super_bots_experience",
+      "type": "event",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Tdc Sao Paulo",
+      "directory": "tdc_sao_paulo",
+      "type": "event",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Techstars Weekend Ai Curitiba",
+      "directory": "techstars_weekend_ai_curitiba",
+      "type": "week",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Urban Tech Forum",
+      "directory": "urban_tech_forum",
+      "type": "event",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Workshop Fig Ladm 3D",
+      "directory": "workshop_fig_ladm_3d",
+      "type": "workshop",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    },
+    {
+      "name": "Workshop Rh Okrs Ia",
+      "directory": "workshop_rh_okrs_ia",
+      "type": "workshop",
+      "files": [
+        "event.json",
+        "keynote.jpg",
+        "audience.jpg",
+        "venue.jpg"
+      ],
+      "photo_count": 3
+    }
+  ]
+}

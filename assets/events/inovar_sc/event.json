@@ -1,0 +1,176 @@
+{
+  "event_name": "Inovar SC 2025",
+  "event_type": "event",
+  "date": {
+    "start": "2025-10-23",
+    "end": "2025-10-23"
+  },
+  "location": {
+    "city": "Florianópolis",
+    "state": "SC",
+    "country": "Brazil",
+    "venue": "TCE-SC - Tribunal de Contas do Estado de Santa Catarina",
+    "address": "Rua Bulcão Vianna, 90 - Agronômica, Florianópolis - SC",
+    "online_platform": ""
+  },
+  "format": "presential",
+  "duration": "8 hours",
+  "description": "Evento de inovação em Santa Catarina focado em IA aplicada ao setor público, governança digital, transparência e eficiência administrativa através de tecnologias emergentes.",
+  "focus_areas": [
+    "AI in Public Administration",
+    "Digital Governance",
+    "Government Transparency",
+    "Public Service Automation",
+    "Smart Cities",
+    "E-Government Solutions",
+    "Data Analytics in Public Sector",
+    "Citizen Experience Enhancement",
+    "Compliance and Audit AI",
+    "Public Policy Innovation"
+  ],
+  "target_audience": [
+    "Public Servants",
+    "Government Officials",
+    "Municipal Managers",
+    "IT Public Sector Professionals",
+    "Policy Makers",
+    "Auditors and Controllers",
+    "Urban Planners",
+    "Academic Researchers",
+    "Technology Vendors",
+    "Citizens Engaged in Public Affairs"
+  ],
+  "organizers": [
+    "TCE-SC - Tribunal de Contas do Estado de Santa Catarina",
+    "FAPESC - Fundação de Amparo à Pesquisa e Inovação de Santa Catarina"
+  ],
+  "sponsors": [],
+  "speakers": [],
+  "agenda": [
+    {
+      "time": "08:00-08:30",
+      "title": "Credenciamento",
+      "type": "registration"
+    },
+    {
+      "time": "08:30-09:00",
+      "title": "Abertura Oficial",
+      "type": "opening"
+    },
+    {
+      "time": "09:00-10:00",
+      "title": "Keynote: IA na Transformação do Setor Público",
+      "type": "keynote"
+    },
+    {
+      "time": "10:00-10:30",
+      "title": "Coffee Break",
+      "type": "networking"
+    },
+    {
+      "time": "10:30-12:00",
+      "title": "Painel: Governança Digital em SC",
+      "type": "panel"
+    },
+    {
+      "time": "12:00-13:30",
+      "title": "Almoço e Networking",
+      "type": "networking"
+    },
+    {
+      "time": "13:30-15:00",
+      "title": "Workshop: Automação de Processos Públicos",
+      "type": "workshop"
+    },
+    {
+      "time": "15:00-15:30",
+      "title": "Coffee Break",
+      "type": "networking"
+    },
+    {
+      "time": "15:30-16:30",
+      "title": "Cases: Cidades Inteligentes em SC",
+      "type": "presentation"
+    },
+    {
+      "time": "16:30-17:30",
+      "title": "Mesa Redonda: Futuro da Administração Pública",
+      "type": "panel"
+    },
+    {
+      "time": "17:30-18:00",
+      "title": "Encerramento e Próximos Passos",
+      "type": "closing"
+    }
+  ],
+  "registration": {
+    "url": "",
+    "deadline": "2025-10-18",
+    "price": {
+      "currency": "BRL",
+      "early_bird": 0,
+      "regular": 0,
+      "student": 0
+    },
+    "capacity": 300,
+    "requirements": [
+      "Inscrição obrigatória",
+      "Documento de identificação",
+      "Comprovante de vínculo com setor público (preferencial)"
+    ]
+  },
+  "contact": {
+    "email": "inovar@tce.sc.gov.br",
+    "phone": "+55 48 3221-7000",
+    "website": "https://www.tce.sc.gov.br/",
+    "social_media": {
+      "linkedin": "https://linkedin.com/company/tce-sc",
+      "instagram": "@tcesc_oficial",
+      "twitter": "@tcesc"
+    }
+  },
+  "tags": [
+    "public-administration",
+    "digital-governance",
+    "artificial-intelligence",
+    "smart-cities",
+    "e-government",
+    "innovation",
+    "transparency",
+    "public-policy",
+    "santa-catarina"
+  ],
+  "language": "Portuguese",
+  "certification": false,
+  "networking_opportunities": [
+    "Coffee breaks",
+    "Lunch networking",
+    "Panel discussions",
+    "Workshop interactions",
+    "Exhibition area"
+  ],
+  "partners": [
+    "ACATE - Associação Catarinense de Tecnologia",
+    "UFSC - Universidade Federal de Santa Catarina",
+    "Governo do Estado de Santa Catarina"
+  ],
+  "related_events": [],
+  "last_updated": "2025-08-07",
+  "photos": [
+    {
+      "file": "keynote.jpg",
+      "type": "keynote",
+      "caption": "Palestra principal - event"
+    },
+    {
+      "file": "audience.jpg",
+      "type": "audience",
+      "caption": "Público e networking - event"
+    },
+    {
+      "file": "venue.jpg",
+      "type": "venue",
+      "caption": "Local do evento - event"
+    }
+  ]
+}

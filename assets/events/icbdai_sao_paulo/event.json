@@ -1,0 +1,362 @@
+{
+  "event_name": "International Conference on Big Data & AI (ICBDAI 2025) - São Paulo Edition",
+  "event_type": "event",
+  "date": {
+    "start": "2025-08-24",
+    "end": "2025-08-24"
+  },
+  "location": {
+    "city": "São Paulo",
+    "state": "SP",
+    "country": "Brazil",
+    "venue": "Hotel TBC",
+    "address": "Hotel TBC, São Paulo - SP (venue to be confirmed)",
+    "online_platform": null
+  },
+  "format": "in-person",
+  "duration": "1 day",
+  "description": "The International Conference on Big Data & AI (ICBDAI 2025) São Paulo edition is a premier academic conference focusing on cutting-edge research in Big Data analytics and Artificial Intelligence. This intensive one-day conference brings together international researchers, academics, and industry professionals to present and discuss the latest developments in data science, machine learning, AI applications, and big data technologies. The São Paulo edition emphasizes the growing importance of Brazil as a hub for AI and data science research in Latin America.",
+  "focus_areas": [
+    "Big Data Analytics and Processing",
+    "Machine Learning Algorithms and Applications",
+    "Deep Learning and Neural Networks",
+    "Natural Language Processing",
+    "Computer Vision and Image Processing",
+    "Data Mining and Knowledge Discovery",
+    "AI in Healthcare and Biomedicine",
+    "Financial Analytics and FinTech AI",
+    "Smart Cities and IoT Data Analytics",
+    "Distributed Computing and Cloud Analytics",
+    "Real-time Data Processing",
+    "Privacy-Preserving Data Analytics",
+    "AI Ethics and Responsible AI",
+    "Explainable AI (XAI)",
+    "Federated Learning",
+    "Edge Computing and AI",
+    "Social Network Analysis",
+    "Recommender Systems",
+    "Time Series Analysis",
+    "Quantum Computing Applications"
+  ],
+  "target_audience": [
+    "Academic Researchers in AI/ML/Data Science",
+    "Computer Science Professors and Faculty",
+    "PhD Students and Postdoctoral Researchers",
+    "Graduate Students (Masters and PhD)",
+    "Data Scientists and ML Engineers",
+    "Research Engineers in AI/Big Data",
+    "Industry R&D Professionals",
+    "Technology Innovation Managers",
+    "AI/ML Consultants and Specialists",
+    "Government Research Officials",
+    "International Collaboration Partners"
+  ],
+  "organizers": [
+    "International Conference Organization Committee",
+    "Academic Research Institutions Consortium",
+    "Brazilian AI Research Community"
+  ],
+  "sponsors": [
+    "TBA (Academic and Industry Sponsors)"
+  ],
+  "speakers": [
+    {
+      "category": "Keynote Speakers",
+      "description": "Internationally renowned researchers in Big Data and AI"
+    },
+    {
+      "category": "Academic Presenters",
+      "description": "University professors and research scientists"
+    },
+    {
+      "category": "Industry Research Leaders",
+      "description": "R&D directors from technology companies"
+    },
+    {
+      "category": "International Collaborators",
+      "description": "Researchers from partner institutions worldwide"
+    },
+    {
+      "category": "Brazilian AI Experts",
+      "description": "Leading Brazilian researchers in AI and Big Data"
+    }
+  ],
+  "agenda": [
+    {
+      "day": "August 24, 2025",
+      "sessions": [
+        {
+          "time": "08:00-09:00",
+          "session": "Registration and Welcome Coffee"
+        },
+        {
+          "time": "09:00-09:15",
+          "session": "Opening Ceremony and Welcome Address"
+        },
+        {
+          "time": "09:15-10:15",
+          "session": "Keynote 1: Latest Advances in Big Data Analytics"
+        },
+        {
+          "time": "10:15-10:30",
+          "session": "Coffee Break"
+        },
+        {
+          "time": "10:30-12:00",
+          "session": "Session 1: Machine Learning and Deep Learning Research Papers"
+        },
+        {
+          "time": "12:00-13:30",
+          "session": "Lunch Break and Networking"
+        },
+        {
+          "time": "13:30-14:30",
+          "session": "Keynote 2: AI Applications in Industry and Society"
+        },
+        {
+          "time": "14:30-16:00",
+          "session": "Session 2: Big Data Processing and Analytics Research Papers"
+        },
+        {
+          "time": "16:00-16:15",
+          "session": "Coffee Break"
+        },
+        {
+          "time": "16:15-17:45",
+          "session": "Session 3: Emerging AI Technologies and Applications"
+        },
+        {
+          "time": "17:45-18:00",
+          "session": "Best Paper Awards and Closing Ceremony"
+        },
+        {
+          "time": "18:00-19:30",
+          "session": "Networking Reception"
+        }
+      ]
+    }
+  ],
+  "registration": {
+    "url": "TBA",
+    "deadline": "2025-07-15",
+    "price": {
+      "currency": "USD",
+      "early_bird": 250,
+      "regular": 300,
+      "student": 150,
+      "academic": 200
+    },
+    "capacity": 200,
+    "requirements": [
+      "Academic affiliation recommended",
+      "Paper submission for presenting authors",
+      "Extended abstract submission deadline: June 15, 2025"
+    ]
+  },
+  "contact": {
+    "email": "info@icbdai2025.org",
+    "phone": "TBA",
+    "website": "www.icbdai2025.org",
+    "social_media": {
+      "linkedin": "TBA",
+      "instagram": "TBA",
+      "twitter": "TBA"
+    }
+  },
+  "tags": [
+    "big-data",
+    "artificial-intelligence",
+    "machine-learning",
+    "deep-learning",
+    "data-science",
+    "academic-conference",
+    "research-papers",
+    "international-conference",
+    "sao-paulo",
+    "brazil",
+    "data-analytics",
+    "neural-networks",
+    "computer-vision",
+    "nlp",
+    "data-mining",
+    "distributed-computing",
+    "cloud-analytics",
+    "ai-applications",
+    "research-presentation"
+  ],
+  "language": "English",
+  "certification": true,
+  "networking_opportunities": [
+    "Research collaboration discussions",
+    "Academic networking sessions",
+    "Industry-academia partnership meetings",
+    "International collaboration opportunities",
+    "Poster sessions and demos",
+    "Coffee break networking",
+    "Welcome reception networking"
+  ],
+  "partners": [
+    "International Academic Research Institutions",
+    "Brazilian Universities and Research Centers",
+    "Technology Industry Partners",
+    "IEEE Computer Society (potential)",
+    "ACM SIGKDD (potential)"
+  ],
+  "related_events": [
+    "ICBDAI 2025 Porto Alegre Edition (September 27, 2025)",
+    "International Big Data Conferences",
+    "AI Research Symposiums",
+    "Machine Learning Conferences"
+  ],
+  "research_tracks": [
+    {
+      "track": "Big Data Analytics",
+      "topics": [
+        "Distributed processing",
+        "Real-time analytics",
+        "Data visualization",
+        "Stream processing"
+      ]
+    },
+    {
+      "track": "Machine Learning",
+      "topics": [
+        "Supervised learning",
+        "Unsupervised learning",
+        "Reinforcement learning",
+        "Transfer learning"
+      ]
+    },
+    {
+      "track": "Deep Learning",
+      "topics": [
+        "CNNs",
+        "RNNs",
+        "Transformers",
+        "GANs",
+        "Autoencoders"
+      ]
+    },
+    {
+      "track": "AI Applications",
+      "topics": [
+        "Healthcare AI",
+        "Financial AI",
+        "Smart cities",
+        "Industrial AI",
+        "Social media analysis"
+      ]
+    },
+    {
+      "track": "Emerging Technologies",
+      "topics": [
+        "Quantum computing",
+        "Edge AI",
+        "Federated learning",
+        "Explainable AI",
+        "AI ethics"
+      ]
+    }
+  ],
+  "submission_guidelines": {
+    "paper_types": [
+      "Full research papers (6-8 pages)",
+      "Short papers (4 pages)",
+      "Extended abstracts (2 pages)",
+      "Poster presentations"
+    ],
+    "review_process": "Double-blind peer review",
+    "acceptance_rate": "Approximately 40-50%",
+    "publication": "Conference proceedings (potential IEEE/ACM publication)",
+    "submission_deadline": "2025-06-15",
+    "notification_date": "2025-07-01",
+    "camera_ready_deadline": "2025-07-20"
+  },
+  "academic_value": {
+    "peer_review": "Rigorous double-blind review process",
+    "publication_opportunities": "High-quality conference proceedings",
+    "research_impact": "Platform for presenting cutting-edge research",
+    "international_visibility": "Global audience and collaboration opportunities",
+    "citation_potential": "Published papers in academic databases"
+  },
+  "international_participation": {
+    "expected_countries": [
+      "Brazil",
+      "United States",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "Canada",
+      "Australia",
+      "Japan",
+      "South Korea",
+      "China",
+      "India",
+      "Netherlands",
+      "Sweden",
+      "Switzerland",
+      "Israel",
+      "Argentina",
+      "Chile",
+      "Colombia",
+      "Mexico",
+      "Portugal",
+      "Spain"
+    ],
+    "collaboration_focus": "International research partnerships and knowledge exchange",
+    "visa_support": "Conference invitation letters available for international attendees"
+  },
+  "special_features": [
+    "Best Paper Awards in each research track",
+    "Young Researcher Award for PhD students",
+    "Industry Collaboration Showcase",
+    "International Partnership Forum",
+    "Research Funding Opportunities Session",
+    "Open Source Project Demonstrations"
+  ],
+  "accommodation": {
+    "recommended_hotels": "List will be provided with conference venue confirmation",
+    "venue_hotel": "Conference hosted at Hotel TBC (accommodation available)",
+    "booking_deadline": "2025-07-31",
+    "group_rates": "Available for conference attendees"
+  },
+  "transportation": {
+    "airport": "São Paulo/Guarulhos International Airport (GRU)",
+    "local_transport": "Metro, bus, and taxi services available",
+    "venue_access": "Details provided with venue confirmation"
+  },
+  "distinction_from_porto_alegre": {
+    "date_difference": "São Paulo edition on August 24, Porto Alegre edition on September 27",
+    "focus_differentiation": "São Paulo edition emphasizes industrial applications and international collaboration",
+    "audience": "More industry-focused in São Paulo, more academic-focused in Porto Alegre",
+    "venue_type": "Hotel-based conference in São Paulo vs traditional academic venue in Porto Alegre"
+  },
+  "covid_protocols": {
+    "health_safety": "Following current Brazilian health guidelines",
+    "vaccination": "Recommended but not mandatory",
+    "testing": "Rapid tests available on-site if required"
+  },
+  "sustainability": {
+    "digital_materials": "Conference materials provided digitally",
+    "carbon_offset": "Optional carbon offset program for international travel",
+    "local_sourcing": "Local catering and service providers preferred"
+  },
+  "last_updated": "2025-08-07",
+  "photos": [
+    {
+      "file": "keynote.jpg",
+      "type": "keynote",
+      "caption": "Palestra principal - event"
+    },
+    {
+      "file": "audience.jpg",
+      "type": "audience",
+      "caption": "Público e networking - event"
+    },
+    {
+      "file": "venue.jpg",
+      "type": "venue",
+      "caption": "Local do evento - event"
+    }
+  ]
+}

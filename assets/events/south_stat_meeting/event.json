@@ -1,0 +1,250 @@
+{
+  "event_name": "South Stat Meeting 2025",
+  "event_type": "meeting",
+  "date": {
+    "start": "2025-09-24",
+    "end": "2025-09-26",
+    "duration_days": 3
+  },
+  "location": {
+    "venue": "Universidade Federal de Santa Maria - UFSM",
+    "city": "Santa Maria",
+    "state": "Rio Grande do Sul",
+    "country": "Brazil"
+  },
+  "organizer": "UFSM Statistics Department",
+  "focus_areas": [
+    "Statistical Methods",
+    "Data Science",
+    "Machine Learning",
+    "Biostatistics",
+    "Statistical Computing",
+    "Applied Statistics",
+    "Statistical Modeling",
+    "Big Data Analytics"
+  ],
+  "target_audience": [
+    "Statisticians",
+    "Data scientists",
+    "Academic researchers",
+    "Graduate students",
+    "Industry professionals",
+    "Biostatisticians"
+  ],
+  "program": {
+    "day1": {
+      "date": "2025-09-24",
+      "sessions": [
+        {
+          "title": "Opening Ceremony & Keynote",
+          "time": "09:00-10:30",
+          "speaker": "Prof. Dr. Ana Carolina Campana",
+          "topic": "Modern Challenges in Statistical Inference"
+        },
+        {
+          "title": "Statistical Learning Methods",
+          "time": "11:00-12:30",
+          "type": "Technical Session",
+          "papers": 6
+        },
+        {
+          "title": "Bayesian Statistics Workshop",
+          "time": "14:00-17:00",
+          "type": "Workshop",
+          "hands_on": true
+        }
+      ]
+    },
+    "day2": {
+      "date": "2025-09-25",
+      "sessions": [
+        {
+          "title": "Statistical Computing and R",
+          "time": "09:00-10:30",
+          "type": "Technical Session",
+          "papers": 8
+        },
+        {
+          "title": "Machine Learning in Practice",
+          "time": "11:00-12:30",
+          "speaker": "Dr. Roberto Martinez",
+          "topic": "Deep Learning for Statistical Analysis"
+        },
+        {
+          "title": "Biostatistics Applications",
+          "time": "14:00-15:30",
+          "type": "Technical Session",
+          "papers": 7
+        },
+        {
+          "title": "Statistical Software Development",
+          "time": "16:00-17:30",
+          "type": "Workshop",
+          "focus": "R Package Development"
+        }
+      ]
+    },
+    "day3": {
+      "date": "2025-09-26",
+      "sessions": [
+        {
+          "title": "Big Data and Statistics",
+          "time": "09:00-10:30",
+          "type": "Panel Discussion",
+          "panelists": 4
+        },
+        {
+          "title": "Applied Statistics in Industry",
+          "time": "11:00-12:30",
+          "type": "Technical Session",
+          "papers": 6
+        },
+        {
+          "title": "Future of Statistical Education",
+          "time": "14:00-15:30",
+          "type": "Roundtable",
+          "participants": "Academic leaders"
+        },
+        {
+          "title": "Closing Ceremony & Awards",
+          "time": "16:00-17:00",
+          "awards": [
+            "Best Paper",
+            "Best Student Presentation"
+          ]
+        }
+      ]
+    }
+  },
+  "keynote_speakers": [
+    {
+      "name": "Prof. Dr. Ana Carolina Campana",
+      "affiliation": "USP - Universidade de São Paulo",
+      "expertise": "Statistical Inference, Asymptotic Theory",
+      "talk": "Modern Challenges in Statistical Inference"
+    },
+    {
+      "name": "Dr. Roberto Martinez",
+      "affiliation": "IMPA - Instituto de Matemática Pura e Aplicada",
+      "expertise": "Machine Learning, Deep Learning, Statistics",
+      "talk": "Deep Learning for Statistical Analysis"
+    },
+    {
+      "name": "Prof. Dr. Mariane Branco",
+      "affiliation": "UFRGS - Universidade Federal do Rio Grande do Sul",
+      "expertise": "Biostatistics, Survival Analysis",
+      "talk": "Statistical Methods in Health Data Science"
+    }
+  ],
+  "workshops": [
+    {
+      "title": "Advanced Bayesian Methods with STAN",
+      "instructor": "Dr. Carlos Silva",
+      "duration": "3 hours",
+      "requirements": "Basic R knowledge"
+    },
+    {
+      "title": "Statistical Learning with Python",
+      "instructor": "Prof. Maria Santos",
+      "duration": "3 hours",
+      "requirements": "Python basics"
+    },
+    {
+      "title": "R Package Development",
+      "instructor": "Dr. João Oliveira",
+      "duration": "2 hours",
+      "requirements": "Advanced R skills"
+    }
+  ],
+  "paper_sessions": {
+    "submission_deadline": "2025-08-15",
+    "categories": [
+      "Theoretical Statistics",
+      "Applied Statistics",
+      "Biostatistics",
+      "Statistical Computing",
+      "Data Science Methods",
+      "Educational Statistics"
+    ],
+    "presentation_formats": [
+      "Oral presentation (15 min)",
+      "Poster session",
+      "Lightning talks (5 min)"
+    ]
+  },
+  "registration": {
+    "required": true,
+    "fees": {
+      "students": "R$ 150",
+      "academics": "R$ 300",
+      "industry": "R$ 500"
+    },
+    "deadline": "2025-09-10",
+    "includes": [
+      "Conference materials",
+      "Coffee breaks",
+      "Lunch",
+      "Conference dinner"
+    ],
+    "website": "https://ufsm.br/southstat2025"
+  },
+  "accommodation": {
+    "partner_hotels": [
+      "Hotel Santa Maria",
+      "Itaimbé Palace Hotel"
+    ],
+    "university_housing": "Available for students",
+    "discount_code": "SOUTHSTAT2025"
+  },
+  "ai_relevance": {
+    "score": 8,
+    "topics": [
+      "Statistical machine learning",
+      "Deep learning statistics",
+      "AI model validation",
+      "Bayesian AI methods",
+      "Statistical computing for ML"
+    ]
+  },
+  "expected_attendance": 450,
+  "languages": [
+    "Portuguese",
+    "English"
+  ],
+  "proceedings": {
+    "published": true,
+    "format": "Digital proceedings",
+    "isbn": "To be assigned"
+  },
+  "sponsors": [
+    "CNPq",
+    "CAPES",
+    "FAPERGS",
+    "Brazilian Statistical Association"
+  ],
+  "tags": [
+    "statistics",
+    "data-science",
+    "machine-learning",
+    "biostatistics",
+    "statistical-computing",
+    "r-programming"
+  ],
+  "photos": [
+    {
+      "file": "keynote.jpg",
+      "type": "keynote",
+      "caption": "Palestra principal - meeting"
+    },
+    {
+      "file": "audience.jpg",
+      "type": "audience",
+      "caption": "Público e networking - meeting"
+    },
+    {
+      "file": "venue.jpg",
+      "type": "venue",
+      "caption": "Local do evento - meeting"
+    }
+  ]
+}

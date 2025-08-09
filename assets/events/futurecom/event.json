@@ -1,0 +1,374 @@
+{
+  "event": {
+    "name": "Futurecom 2025",
+    "edition": "26th Edition",
+    "dates": {
+      "start_date": "2025-09-30",
+      "end_date": "2025-10-02",
+      "duration_days": 3,
+      "format": "presential"
+    },
+    "location": {
+      "venue": "São Paulo Expo",
+      "address": "Rodovia dos Imigrantes, KM 1,5 - Vila Água Funda, São Paulo - SP, Brazil",
+      "venue_details": {
+        "description": "One of Brazil's largest and most modern expo centers",
+        "total_area": "100,000 sqm",
+        "exhibition_halls": "12 interconnected pavilions",
+        "capacity": "40,000+ visitors simultaneously",
+        "parking_spaces": "5,000 spaces",
+        "transportation": "Direct metro access via Linha Azul"
+      }
+    },
+    "history": {
+      "founding_year": 1999,
+      "years_of_operation": 26,
+      "description": "Latin America's most important telecommunications event for over 25 years",
+      "evolution": "Started as a traditional telecom event and evolved into a comprehensive technology platform covering AI, 5G, IoT, cloud, and digital transformation",
+      "regional_impact": "The main reference event for telecommunications and technology in Latin America",
+      "industry_recognition": "Official support from Brazilian government and international telecommunications organizations"
+    },
+    "focus_areas": {
+      "primary_themes": [
+        "Artificial Intelligence",
+        "5G Networks and Infrastructure",
+        "Cloud Computing and Edge Computing",
+        "Telecommunications Innovation",
+        "Digital Transformation",
+        "IoT and Smart Cities",
+        "Cybersecurity",
+        "Network Infrastructure",
+        "Regulatory Frameworks",
+        "Sustainable Technology"
+      ],
+      "ai_integration": {
+        "ai_5g_convergence": "Integration of AI algorithms with 5G networks for enhanced performance and predictive maintenance",
+        "ai_cloud_synergy": "Cloud-based AI services for telecommunications operators and enterprises",
+        "machine_learning": "ML applications in network optimization, customer experience, and operational efficiency",
+        "intelligent_networks": "Self-optimizing networks using AI for resource allocation and fault detection",
+        "ai_applications": [
+          "Network automation and orchestration",
+          "Predictive analytics for network maintenance",
+          "AI-powered customer service and chatbots",
+          "Fraud detection and prevention",
+          "Quality of service optimization"
+        ]
+      },
+      "telecom_transformation": {
+        "digital_evolution": "Transformation from traditional telecom services to digital platform providers",
+        "5g_deployment": "Strategies for 5G rollout across Latin America",
+        "cloud_native": "Migration to cloud-native architectures and services",
+        "edge_computing": "Deployment of edge computing infrastructure for low-latency applications",
+        "sustainability": "Green technologies and sustainable network operations"
+      }
+    },
+    "participants": {
+      "major_telecom_companies": [
+        {
+          "name": "Vivo (Telefónica Brasil)",
+          "role": "Main sponsor and exhibitor",
+          "focus": "5G deployment, digital services, AI-powered customer experience"
+        },
+        {
+          "name": "Claro Brasil",
+          "role": "Diamond sponsor",
+          "focus": "5G infrastructure, IoT solutions, enterprise cloud services"
+        },
+        {
+          "name": "TIM Brasil",
+          "role": "Platinum sponsor",
+          "focus": "5G innovation, digital transformation, sustainability initiatives"
+        },
+        {
+          "name": "Oi",
+          "role": "Gold sponsor",
+          "focus": "Fiber optic expansion, digital inclusion, network modernization"
+        }
+      ],
+      "international_companies": [
+        "Huawei",
+        "Nokia",
+        "Ericsson",
+        "Samsung Networks",
+        "ZTE",
+        "Cisco",
+        "Amazon Web Services",
+        "Microsoft Azure",
+        "Google Cloud",
+        "Oracle",
+        "IBM",
+        "Qualcomm"
+      ],
+      "government_regulatory": [
+        {
+          "organization": "ANATEL (Brazilian Telecommunications Agency)",
+          "role": "Main regulatory presence and policy discussions"
+        },
+        {
+          "organization": "Ministry of Communications",
+          "role": "Government policy and digital inclusion initiatives"
+        },
+        {
+          "organization": "ABRINT (Brazilian Association of Internet and Telecommunications Providers)",
+          "role": "Industry representation and advocacy"
+        },
+        {
+          "organization": "TELEBRASIL (Brazilian Telecommunications Association)",
+          "role": "Sector coordination and standards development"
+        }
+      ],
+      "international_delegations": [
+        {
+          "country": "United States",
+          "focus": "Technology partnerships and 5G equipment"
+        },
+        {
+          "country": "China",
+          "focus": "5G infrastructure and AI technologies"
+        },
+        {
+          "country": "South Korea",
+          "focus": "5G innovation and smart city solutions"
+        },
+        {
+          "country": "Finland",
+          "focus": "Nokia ecosystem and network technologies"
+        },
+        {
+          "country": "Sweden",
+          "focus": "Ericsson solutions and sustainability"
+        }
+      ]
+    },
+    "program": {
+      "congress_tracks": [
+        {
+          "track": "5G & AI Convergence",
+          "description": "Technical sessions on integrating AI with 5G networks for enhanced performance",
+          "target_audience": "Network engineers, AI specialists, telecom executives"
+        },
+        {
+          "track": "Cloud & Edge Computing",
+          "description": "Cloud-native architectures and edge computing strategies for telecom operators",
+          "target_audience": "Cloud architects, infrastructure managers, CIOs"
+        },
+        {
+          "track": "Digital Transformation",
+          "description": "Strategic transformation initiatives and business model innovation",
+          "target_audience": "C-level executives, business strategists, consultants"
+        },
+        {
+          "track": "Regulatory & Policy",
+          "description": "Regulatory frameworks, spectrum management, and policy discussions",
+          "target_audience": "Regulators, legal experts, policy makers"
+        },
+        {
+          "track": "Innovation & Startups",
+          "description": "Emerging technologies and startup ecosystem in telecommunications",
+          "target_audience": "Entrepreneurs, investors, innovation managers"
+        },
+        {
+          "track": "Cybersecurity",
+          "description": "Network security, threat detection, and privacy protection",
+          "target_audience": "Security professionals, risk managers, compliance officers"
+        }
+      ],
+      "technical_sessions": {
+        "keynotes": "12+ keynote presentations from industry leaders",
+        "panels": "30+ panel discussions on critical industry topics",
+        "workshops": "15+ hands-on workshops and technical deep dives",
+        "case_studies": "50+ real-world implementation case studies",
+        "networking": "Structured networking sessions and business matchmaking"
+      },
+      "exhibition_floor": {
+        "total_exhibitors": "300+ companies",
+        "exhibition_area": "25,000 sqm",
+        "demonstration_zones": [
+          "5G Live Network Demonstrations",
+          "AI/ML Application Showcases",
+          "Smart City Solutions",
+          "IoT Device Integrations",
+          "Cloud Infrastructure Demos",
+          "Cybersecurity Simulations"
+        ],
+        "innovation_areas": [
+          "Startup Pavilion",
+          "University Research Zone",
+          "Government Innovation Hub",
+          "International Technology Corridor"
+        ]
+      }
+    },
+    "registration": {
+      "pricing_tiers": [
+        {
+          "category": "Telecom Executives",
+          "price_brl": "2,500",
+          "price_usd": "500",
+          "includes": "All sessions, exhibition access, networking events, conference materials"
+        },
+        {
+          "category": "Technical Professionals",
+          "price_brl": "1,800",
+          "price_usd": "360",
+          "includes": "Technical sessions, exhibition access, workshop participation"
+        },
+        {
+          "category": "Government/Regulatory",
+          "price_brl": "1,200",
+          "price_usd": "240",
+          "includes": "Regulatory sessions, policy discussions, exhibition access"
+        },
+        {
+          "category": "Startups/Students",
+          "price_brl": "800",
+          "price_usd": "160",
+          "includes": "Innovation sessions, startup pavilion, basic exhibition access"
+        },
+        {
+          "category": "Exhibition Only",
+          "price_brl": "300",
+          "price_usd": "60",
+          "includes": "Exhibition floor access only"
+        }
+      ],
+      "early_bird_discount": "20% discount for registrations before July 31, 2025",
+      "group_discounts": "15% discount for groups of 5+ from same organization",
+      "registration_platforms": [
+        "Official website",
+        "Corporate partnerships",
+        "Travel agency packages"
+      ]
+    },
+    "statistics": {
+      "2024_edition": {
+        "total_attendees": "28,500",
+        "international_visitors": "6,200",
+        "countries_represented": 45,
+        "exhibiting_companies": 280,
+        "conference_sessions": 85,
+        "networking_meetings": "15,000+",
+        "media_coverage": "200+ journalists and analysts"
+      },
+      "growth_trends": {
+        "attendee_growth": "12% year-over-year increase",
+        "international_participation": "25% of total attendees",
+        "startup_presence": "60+ startups in innovation pavilion",
+        "ai_focused_sessions": "40% increase in AI-related content"
+      },
+      "economic_impact": {
+        "business_deals": "R$ 2.8 billion in announced deals",
+        "investment_announcements": "R$ 1.5 billion in infrastructure investments",
+        "job_creation": "5,000+ new positions announced during event"
+      }
+    },
+    "partnerships": {
+      "strategic_partners": [
+        "GSMA (Global System for Mobile Communications)",
+        "ITU (International Telecommunication Union)",
+        "CITEL (Inter-American Telecommunication Commission)",
+        "Brazilian Development Bank (BNDES)",
+        "São Paulo State Government"
+      ],
+      "technology_partners": [
+        "AWS",
+        "Microsoft",
+        "Google Cloud",
+        "Oracle",
+        "IBM",
+        "Salesforce",
+        "VMware"
+      ],
+      "media_partners": [
+        "Tele.Síntese",
+        "Teletime",
+        "Mobile Time",
+        "IT Forum",
+        "Convergência Digital",
+        "Computerworld"
+      ]
+    },
+    "sustainability": {
+      "green_initiatives": [
+        "Carbon neutral event certification",
+        "Digital-first documentation",
+        "Waste reduction and recycling programs",
+        "Public transportation incentives",
+        "Sustainable catering options"
+      ],
+      "technology_focus": [
+        "Energy-efficient network technologies",
+        "Renewable energy for telecom infrastructure",
+        "Circular economy in electronics",
+        "Green 5G deployment strategies"
+      ]
+    },
+    "logistics": {
+      "accommodation": {
+        "partner_hotels": "25+ partner hotels with special rates",
+        "shuttle_service": "Free shuttle from major hotels to venue",
+        "booking_deadline": "August 15, 2025 for guaranteed rates"
+      },
+      "transportation": {
+        "airport_access": "45 minutes from São Paulo-Guarulhos International Airport",
+        "metro_connection": "Direct access via Linha Azul (Blue Line)",
+        "parking": "5,000 spaces available at venue",
+        "ride_sharing": "Dedicated pickup/drop-off areas"
+      },
+      "health_safety": {
+        "protocols": "Following Brazilian health ministry guidelines",
+        "medical_support": "On-site medical team and facilities",
+        "accessibility": "Full accessibility compliance (WCAG 2.1 AA)"
+      }
+    },
+    "digital_platform": {
+      "virtual_components": [
+        "Live streaming of keynotes",
+        "Virtual networking platform",
+        "Digital exhibition booths",
+        "On-demand session recordings"
+      ],
+      "mobile_app": {
+        "features": [
+          "Personal agenda builder",
+          "Networking matchmaking",
+          "Interactive floor maps",
+          "Real-time notifications",
+          "Social media integration"
+        ]
+      }
+    },
+    "contact_information": {
+      "official_website": "https://www.futurecom.com.br",
+      "registration_email": "registro@futurecom.com.br",
+      "exhibitor_contact": "expositores@futurecom.com.br",
+      "media_contact": "imprensa@futurecom.com.br",
+      "international_contact": "international@futurecom.com.br",
+      "phone": "+55 11 3043-2020",
+      "social_media": {
+        "linkedin": "@futurecom-event",
+        "twitter": "@FuturecomBrasil",
+        "instagram": "@futurecom_oficial",
+        "youtube": "Futurecom Brasil"
+      }
+    }
+  },
+  "photos": [
+    {
+      "file": "keynote.jpg",
+      "type": "keynote",
+      "caption": "Palestra principal - event"
+    },
+    {
+      "file": "audience.jpg",
+      "type": "audience",
+      "caption": "Público e networking - event"
+    },
+    {
+      "file": "venue.jpg",
+      "type": "venue",
+      "caption": "Local do evento - event"
+    }
+  ],
+  "event_type": "event"
+}

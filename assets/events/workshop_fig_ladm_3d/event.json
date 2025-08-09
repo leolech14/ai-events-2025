@@ -1,0 +1,180 @@
+{
+  "event_name": "Workshop FIG LADM 3D",
+  "event_type": "workshop",
+  "date": {
+    "start": "2025-11-03",
+    "end": "2025-11-05"
+  },
+  "location": {
+    "city": "Florianópolis",
+    "state": "SC",
+    "country": "Brazil",
+    "venue": "UFSC - Universidade Federal de Santa Catarina",
+    "address": "Campus Universitário Reitor João David Ferreira Lima, Trindade, Florianópolis - SC",
+    "online_platform": ""
+  },
+  "format": "presential",
+  "duration": "3 days",
+  "description": "Workshop técnico internacional sobre FIG LADM (Land Administration Domain Model) em 3D, explorando o uso de IA e tecnologias avançadas para modelagem tridimensional de propriedades territoriais, cadastro fundiário e administração de terras.",
+  "focus_areas": [
+    "3D Land Administration",
+    "AI in Geospatial Analysis",
+    "3D Cadastral Systems",
+    "Spatial Data Management",
+    "BIM and GIS Integration",
+    "Machine Learning for Land Records",
+    "3D Property Rights Modeling",
+    "Digital Twin for Land Administration",
+    "Automated Property Valuation",
+    "Geospatial AI Applications"
+  ],
+  "target_audience": [
+    "Geomaticians and Surveyors",
+    "GIS Professionals",
+    "Cadastral Engineers",
+    "Land Administration Specialists",
+    "Urban Planners",
+    "Real Estate Professionals",
+    "Government Land Officials",
+    "Academic Researchers",
+    "BIM Specialists",
+    "Geospatial Data Scientists"
+  ],
+  "organizers": [
+    "UFSC - Universidade Federal de Santa Catarina",
+    "FIG - Federação Internacional de Geômetras",
+    "Departamento de Engenharia Civil - UFSC"
+  ],
+  "sponsors": [],
+  "speakers": [],
+  "agenda": [
+    {
+      "time": "Day 1 - 08:30-09:00",
+      "title": "Registration and Welcome",
+      "type": "registration"
+    },
+    {
+      "time": "Day 1 - 09:00-10:30",
+      "title": "Introduction to FIG LADM 3D Standards",
+      "type": "presentation"
+    },
+    {
+      "time": "Day 1 - 11:00-12:30",
+      "title": "AI Applications in Land Administration",
+      "type": "presentation"
+    },
+    {
+      "time": "Day 1 - 14:00-17:00",
+      "title": "Hands-on: 3D Cadastral Modeling",
+      "type": "workshop"
+    },
+    {
+      "time": "Day 2 - 09:00-10:30",
+      "title": "Machine Learning for Property Classification",
+      "type": "presentation"
+    },
+    {
+      "time": "Day 2 - 11:00-12:30",
+      "title": "Case Studies: International Implementations",
+      "type": "presentation"
+    },
+    {
+      "time": "Day 2 - 14:00-17:00",
+      "title": "Practical Session: AI-Powered Land Analysis",
+      "type": "workshop"
+    },
+    {
+      "time": "Day 3 - 09:00-10:30",
+      "title": "3D Visualization and Digital Twins",
+      "type": "presentation"
+    },
+    {
+      "time": "Day 3 - 11:00-12:30",
+      "title": "Future Perspectives and Standards Evolution",
+      "type": "panel"
+    },
+    {
+      "time": "Day 3 - 14:00-16:00",
+      "title": "Group Project Presentations",
+      "type": "presentation"
+    },
+    {
+      "time": "Day 3 - 16:00-17:00",
+      "title": "Closing Ceremony and Certification",
+      "type": "closing"
+    }
+  ],
+  "registration": {
+    "url": "",
+    "deadline": "2025-10-25",
+    "price": {
+      "currency": "BRL",
+      "early_bird": 350,
+      "regular": 450,
+      "student": 100
+    },
+    "capacity": 80,
+    "requirements": [
+      "Technical background in geomatics, surveying, or GIS",
+      "Basic knowledge of 3D modeling software",
+      "Laptop with specific software installed",
+      "English proficiency (technical level)"
+    ]
+  },
+  "contact": {
+    "email": "fig.ladm.3d@ufsc.br",
+    "phone": "+55 48 3721-5000",
+    "website": "https://ufsc.br/",
+    "social_media": {
+      "linkedin": "https://linkedin.com/school/ufsc",
+      "instagram": "@ufsc.oficial",
+      "twitter": "@ufsc"
+    }
+  },
+  "tags": [
+    "land-administration",
+    "3d-modeling",
+    "cadastral-systems",
+    "artificial-intelligence",
+    "geospatial-analysis",
+    "fig-ladm",
+    "surveying",
+    "gis",
+    "technical-workshop",
+    "international-standards"
+  ],
+  "language": "English",
+  "certification": true,
+  "networking_opportunities": [
+    "Coffee breaks",
+    "Lunch sessions",
+    "Technical discussions",
+    "Group project collaborations",
+    "International networking"
+  ],
+  "partners": [
+    "CREA-SC",
+    "Instituto Brasileiro de Geografia e Estatística (IBGE)",
+    "International Federation of Surveyors (FIG)",
+    "Brazilian Association of Geodesy and Cartography"
+  ],
+  "related_events": [],
+  "last_updated": "2025-08-07",
+  "photos": [
+    {
+      "file": "keynote.jpg",
+      "type": "keynote",
+      "caption": "Palestra principal - workshop"
+    },
+    {
+      "file": "audience.jpg",
+      "type": "audience",
+      "caption": "Público e networking - workshop"
+    },
+    {
+      "file": "venue.jpg",
+      "type": "venue",
+      "caption": "Local do evento - workshop"
+    }
+  ]
+}

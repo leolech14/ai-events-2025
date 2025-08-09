@@ -1,0 +1,627 @@
+{
+  "event_name": "Semana Caldeira 2025",
+  "edition": "4ª Edição",
+  "dates": {
+    "start_date": "2025-09-29",
+    "end_date": "2025-10-03",
+    "duration_days": 5,
+    "format": "Presencial"
+  },
+  "location": {
+    "venue": "Instituto Caldeira",
+    "address": "Tv. São José, 455 - Navegantes",
+    "city": "Porto Alegre",
+    "state": "Rio Grande do Sul",
+    "country": "Brazil",
+    "area_m2": 22000,
+    "expansion_planned_m2": 55000
+  },
+  "event_overview": {
+    "description": "5 dias de intensa programação focada em GenAI & dados, conectando corporações, startups, universidades e autoridades públicas em um ambiente transformador de inovação.",
+    "focus_areas": [
+      "GenAI",
+      "Data Science",
+      "Artificial Intelligence",
+      "Innovation",
+      "Digital Transformation"
+    ],
+    "tagline": "Maior festival de GenAI & dados do Sul do Brasil",
+    "language": "Português",
+    "target_audience": [
+      "Desenvolvedores",
+      "Data Scientists",
+      "Executivos",
+      "Startups",
+      "Acadêmicos",
+      "Investidores"
+    ]
+  },
+  "organizer": {
+    "name": "Instituto Caldeira",
+    "type": "Non-profit Innovation Hub",
+    "founded": 2019,
+    "description": "Maior hub de inovação do Sul do Brasil, conectando corporações, startups, universidades e autoridades públicas",
+    "mission": "Promover o ecossistema de tecnologia e inovação, democratizando o acesso ao conhecimento",
+    "community_size": "400+ organizações",
+    "physical_occupants": "130 empresas",
+    "ecosystem_connections": "480+ empresas",
+    "annual_visitors": 330000,
+    "annual_activities": "450+",
+    "gdp_impact_percentage": 15,
+    "founding_companies": [
+      "Gerdau",
+      "Renner",
+      "Sicredi",
+      "Panvel",
+      "Vulcabras",
+      "Agibank",
+      "Banrisul",
+      "SLC Agrícola",
+      "4all",
+      "Zenvia",
+      "StartSe"
+    ],
+    "tech_partners": [
+      "Amazon",
+      "Microsoft",
+      "Google",
+      "AWS",
+      "IBM",
+      "Oracle",
+      "Salesforce",
+      "Nvidia"
+    ]
+  },
+  "event_structure": {
+    "simultaneous_stages": 10,
+    "total_activities": "100+",
+    "speakers": {
+      "national": "60+",
+      "international": "40+",
+      "total": "100+"
+    },
+    "expected_attendance": "10000+",
+    "programming_format": "Intensa e imersiva"
+  },
+  "daily_themes": {
+    "day_1": {
+      "date": "2025-09-29",
+      "theme": "Fundamentos de GenAI",
+      "description": "Introdução aos conceitos fundamentais de IA generativa e suas aplicações",
+      "focus": [
+        "Machine Learning Basics",
+        "GenAI Overview",
+        "Industry Applications"
+      ]
+    },
+    "day_2": {
+      "date": "2025-09-30",
+      "theme": "Data Science & Analytics",
+      "description": "Técnicas avançadas de ciência de dados e análise preditiva",
+      "focus": [
+        "Big Data",
+        "Data Engineering",
+        "Analytics",
+        "Visualization"
+      ]
+    },
+    "day_3": {
+      "date": "2025-10-01",
+      "theme": "IA Aplicada aos Negócios",
+      "description": "Casos de uso práticos de IA em diferentes setores",
+      "focus": [
+        "Business Applications",
+        "ROI of AI",
+        "Implementation Strategies"
+      ]
+    },
+    "day_4": {
+      "date": "2025-10-02",
+      "theme": "Inovação & Startups",
+      "description": "O papel da IA no ecossistema de startups e inovação",
+      "focus": [
+        "Startup Ecosystem",
+        "Investment",
+        "Innovation Management"
+      ]
+    },
+    "day_5": {
+      "date": "2025-10-03",
+      "theme": "Futuro da IA no Brasil",
+      "description": "Perspectivas e oportunidades para o desenvolvimento da IA no país",
+      "focus": [
+        "Future Trends",
+        "Policy",
+        "Education",
+        "Ecosystem Development"
+      ]
+    }
+  },
+  "genai_data_focus": {
+    "tracks": [
+      {
+        "name": "GenAI Fundamentals",
+        "description": "Conceitos básicos de IA generativa, LLMs e aplicações práticas",
+        "target_audience": "Iniciantes e intermediários",
+        "sessions": 12
+      },
+      {
+        "name": "Data Engineering & MLOps",
+        "description": "Infraestrutura para dados e operações de machine learning",
+        "target_audience": "Engenheiros de dados e DevOps",
+        "sessions": 10
+      },
+      {
+        "name": "Business Intelligence & Analytics",
+        "description": "Análise avançada de dados para tomada de decisão",
+        "target_audience": "Analistas e gestores",
+        "sessions": 8
+      },
+      {
+        "name": "AI Ethics & Governance",
+        "description": "Aspectos éticos e regulatórios da inteligência artificial",
+        "target_audience": "Executivos e formuladores de políticas",
+        "sessions": 6
+      }
+    ],
+    "technologies_covered": [
+      "GPT-4",
+      "Claude",
+      "Gemini",
+      "LangChain",
+      "Hugging Face",
+      "TensorFlow",
+      "PyTorch",
+      "Apache Spark",
+      "Databricks",
+      "AWS AI/ML",
+      "Azure AI",
+      "Google Cloud AI",
+      "Snowflake"
+    ]
+  },
+  "expected_speakers": {
+    "international_keynotes": [
+      {
+        "profile": "AI Research Leader from Stanford/MIT",
+        "topic": "Future of Large Language Models"
+      },
+      {
+        "profile": "VP of AI at major tech company",
+        "topic": "Scaling AI in Enterprise"
+      }
+    ],
+    "national_speakers": [
+      {
+        "profile": "Brazilian AI startup founder",
+        "topic": "Building AI products in Brazil"
+      },
+      {
+        "profile": "Data Science leader from major Brazilian bank",
+        "topic": "AI in Financial Services"
+      },
+      {
+        "profile": "Professor from USP/UFRGS",
+        "topic": "AI Research in Brazil"
+      }
+    ],
+    "corporate_leaders": [
+      {
+        "profile": "CTO of major Brazilian corporation",
+        "topic": "Digital transformation with AI"
+      }
+    ]
+  },
+  "workshops_hands_on": {
+    "technical_workshops": [
+      {
+        "title": "Building Your First ChatBot with LangChain",
+        "duration": "3 hours",
+        "level": "Intermediate",
+        "capacity": 30
+      },
+      {
+        "title": "Data Pipeline with Apache Spark and Databricks",
+        "duration": "4 hours",
+        "level": "Advanced",
+        "capacity": 25
+      },
+      {
+        "title": "Fine-tuning LLMs for Portuguese",
+        "duration": "2 hours",
+        "level": "Advanced",
+        "capacity": 20
+      },
+      {
+        "title": "Computer Vision with PyTorch",
+        "duration": "3 hours",
+        "level": "Intermediate",
+        "capacity": 35
+      }
+    ],
+    "business_workshops": [
+      {
+        "title": "AI Strategy for Startups",
+        "duration": "2 hours",
+        "level": "Beginner",
+        "capacity": 50
+      },
+      {
+        "title": "ROI of AI Implementation",
+        "duration": "1.5 hours",
+        "level": "Intermediate",
+        "capacity": 40
+      }
+    ]
+  },
+  "networking_events": {
+    "welcome_reception": {
+      "date": "2025-09-29",
+      "time": "18:00-21:00",
+      "description": "Coquetel de abertura com apresentação dos participantes",
+      "location": "Área externa do Instituto Caldeira"
+    },
+    "startup_pitch_night": {
+      "date": "2025-09-30",
+      "time": "19:00-22:00",
+      "description": "Noite de pitches de startups de IA com investidores",
+      "location": "Auditório principal"
+    },
+    "corporate_mixer": {
+      "date": "2025-10-01",
+      "time": "18:30-21:30",
+      "description": "Mixer entre grandes empresas e startups",
+      "location": "Espaço colaborativo"
+    },
+    "community_barbecue": {
+      "date": "2025-10-02",
+      "time": "19:00-23:00",
+      "description": "Churrasco tradicional gaúcho com toda a comunidade",
+      "location": "Área de convivência expandida"
+    },
+    "closing_party": {
+      "date": "2025-10-03",
+      "time": "20:00-02:00",
+      "description": "Festa de encerramento com música e premiação",
+      "location": "Todo o complexo Instituto Caldeira"
+    }
+  },
+  "porto_alegre_tech_ecosystem": {
+    "overview": "Porto Alegre é um dos principais hubs de tecnologia do Brasil, com forte ecossistema de startups e inovação",
+    "key_advantages": [
+      "Excelente qualidade de vida",
+      "Forte ênfase em educação STEM",
+      "Custo de vida menor que São Paulo/Rio",
+      "Comunidade tech vibrante",
+      "Proximidade com universidades de qualidade"
+    ],
+    "major_developments": {
+      "scala_ai_city": {
+        "description": "Maior projeto de data center para IA da América Latina",
+        "location": "Eldorado do Sul (região metropolitana)",
+        "investment": "Multilionário",
+        "jobs_created": "3000+ diretos e indiretos",
+        "focus": "IA e computação de alta performance",
+        "energy": "100% renovável"
+      }
+    },
+    "startup_ecosystem_value": "$117 bilhões (Brasil)",
+    "unicorns_sp": 13,
+    "startups_created_brazil": "13000+ recentes",
+    "key_sectors": [
+      "Fintech",
+      "Edtech",
+      "Agtech",
+      "AI/ML"
+    ],
+    "notable_companies": [
+      "Nubank",
+      "iFood",
+      "Stone",
+      "Cellva Ingredients"
+    ]
+  },
+  "registration_pricing": {
+    "general_admission": {
+      "price": "Gratuito",
+      "includes": [
+        "Acesso a todas as palestras",
+        "Material do evento",
+        "Coffee breaks",
+        "Networking"
+      ]
+    },
+    "premium_pass": {
+      "price": "R$ 299",
+      "includes": [
+        "Tudo do gratuito",
+        "Workshops hands-on",
+        "Almoços",
+        "Kit premium",
+        "Acesso VIP"
+      ]
+    },
+    "corporate_package": {
+      "price": "R$ 1.999 (até 5 pessoas)",
+      "includes": [
+        "Tudo do premium",
+        "Mesa reservada",
+        "Reuniões com startups",
+        "Branding no evento"
+      ]
+    },
+    "student_discount": {
+      "discount": "50%",
+      "requirements": [
+        "Comprovante de matrícula",
+        "Documento de identidade"
+      ]
+    },
+    "early_bird": {
+      "discount": "30%",
+      "deadline": "2025-07-31",
+      "note": "Aplicável apenas aos passes pagos"
+    },
+    "registration_platform": "plataforma.institutocaldeira.org.br",
+    "payment_methods": [
+      "PIX",
+      "Cartão de crédito",
+      "Boleto"
+    ]
+  },
+  "previous_editions_impact": {
+    "2022": {
+      "edition": "1ª Edição",
+      "participants": "7000+",
+      "activities": 45,
+      "speakers": 100,
+      "impact": "Estabeleceu o evento como referência no Sul"
+    },
+    "2023": {
+      "edition": "2ª Edição",
+      "activities": 65,
+      "speakers": "60+",
+      "impact": "Expansão do escopo e audiência internacional"
+    },
+    "2024": {
+      "edition": "3ª Edição",
+      "dates": "2024-09-23 a 2024-09-27",
+      "participants": "10000+",
+      "activities": "80+",
+      "theme": "Navegando tempos incertos",
+      "special_note": "Evento de reconstrução pós-enchentes de maio/2024",
+      "revenue_destination": "Reconstrução das áreas afetadas pelas enchentes"
+    }
+  },
+  "partner_companies": {
+    "founding_members": [
+      "Gerdau",
+      "Lojas Renner",
+      "Sicredi",
+      "Panvel",
+      "Vulcabras",
+      "Agibank",
+      "Banrisul",
+      "SLC Agrícola"
+    ],
+    "tech_partners": [
+      "Amazon",
+      "Microsoft",
+      "Google",
+      "IBM",
+      "Oracle",
+      "Salesforce",
+      "Nvidia",
+      "AWS"
+    ],
+    "startup_partners": [
+      "4all",
+      "Zenvia",
+      "StartSe",
+      "Easy Taxi",
+      "Ebanx",
+      "Conta Simples",
+      "Dell Brasil"
+    ],
+    "educational_partners": [
+      "UFRGS",
+      "PUCRS",
+      "Unisinos",
+      "Instituto Singularidades"
+    ],
+    "government_partners": [
+      "Governo do Rio Grande do Sul",
+      "Prefeitura de Porto Alegre",
+      "Sebrae RS",
+      "DETRAN RS"
+    ]
+  },
+  "side_events_competitions": {
+    "hackathon": {
+      "name": "Hackathon GenAI Caldeira",
+      "duration": "48 horas",
+      "dates": "2025-09-28 a 2025-09-29",
+      "theme": "IA para impacto social",
+      "prizes": "R$ 50.000 em prêmios",
+      "participants": "200 desenvolvedores"
+    },
+    "startup_competition": {
+      "name": "Pitch Battle AI",
+      "format": "Competição de pitches",
+      "categories": [
+        "Early Stage",
+        "Growth Stage",
+        "Corporate Innovation"
+      ],
+      "prizes": "R$ 100.000 + mentoria",
+      "judges": "Investidores e executivos renomados"
+    },
+    "data_science_challenge": {
+      "name": "DataThon Caldeira",
+      "format": "Competição de ciência de dados",
+      "dataset": "Dados reais de parceiros corporativos",
+      "duration": "72 horas",
+      "prizes": "R$ 30.000 + job opportunities"
+    },
+    "ai_art_exhibition": {
+      "name": "Arte IA Expo",
+      "description": "Exposição de arte criada com inteligência artificial",
+      "artists": "20+ artistas nacionais e internacionais",
+      "location": "Galeria Instituto Caldeira"
+    }
+  },
+  "special_programs": {
+    "geracao_caldeira": {
+      "description": "Programa educacional focado em capacitação em tecnologia",
+      "participants": "40.000 jovens (meta 2025)",
+      "tracks": [
+        "Java Programming",
+        "AI and Data",
+        "Sales",
+        "Marketing & Design"
+      ],
+      "scholarship": "R$ 4.000 para 200 participantes selecionados",
+      "certifications": [
+        "AWS",
+        "IBM",
+        "Microsoft",
+        "Oracle",
+        "Google",
+        "Nvidia"
+      ]
+    },
+    "silicon_valley_mission": {
+      "dates": "2025-08-24 a 2025-08-29",
+      "focus": [
+        "Artificial Intelligence",
+        "Generative AI",
+        "Software",
+        "Machine Learning",
+        "Big Data"
+      ],
+      "description": "Missão de imersão no Vale do Silício"
+    },
+    "conecta_program": {
+      "cycle": "4º ciclo",
+      "description": "Programa de inovação aberta conectando empresas e startups",
+      "format": "Challenges corporativos com soluções de startups"
+    }
+  },
+  "infrastructure": {
+    "event_spaces": {
+      "main_auditorium": {
+        "capacity": 700,
+        "features": [
+          "Palco principal",
+          "Transmissão ao vivo",
+          "Tradução simultânea"
+        ]
+      },
+      "secondary_auditoriums": {
+        "quantity": 4,
+        "capacity_each": 150,
+        "features": [
+          "Workshops",
+          "Painéis paralelos",
+          "Breakout sessions"
+        ]
+      },
+      "exhibition_area": {
+        "size_m2": 2000,
+        "booths": "50+ stands de empresas e startups"
+      },
+      "networking_spaces": {
+        "outdoor_area": "Área externa para networking",
+        "coffee_points": "6 pontos de café distribuídos",
+        "lounge_areas": "5 áreas de descanso"
+      }
+    },
+    "technology": {
+      "wifi": "Wifi de alta velocidade em todo o complexo",
+      "streaming": "Transmissão ao vivo de todas as palestras principais",
+      "app": "App oficial do evento para agenda e networking",
+      "charging_stations": "Estações de carregamento em todos os ambientes"
+    },
+    "accessibility": {
+      "wheelchair_access": "100% acessível",
+      "sign_language": "Tradução em LIBRAS nas palestras principais",
+      "audio_description": "Audiodescrição para deficientes visuais"
+    }
+  },
+  "media_coverage": {
+    "press_partners": [
+      "Exame",
+      "Estadão",
+      "Jornal do Comércio",
+      "Gazz Conecta",
+      "Brasil Inovador",
+      "StartupBlind",
+      "AI Brasil"
+    ],
+    "content_formats": [
+      "Transmissão ao vivo",
+      "Podcasts",
+      "Entrevistas exclusivas",
+      "Documentário do evento",
+      "Newsletter diária"
+    ],
+    "social_media": {
+      "hashtag": "#SemanaCaldeira2025",
+      "platforms": [
+        "LinkedIn",
+        "Instagram",
+        "YouTube",
+        "Twitter"
+      ],
+      "influencer_program": "Programa de embaixadores tech"
+    }
+  },
+  "sustainability": {
+    "carbon_neutral": "Evento carbono neutro",
+    "waste_management": "Gestão completa de resíduos com reciclagem",
+    "renewable_energy": "100% energia renovável (hidrelétrica)",
+    "digital_first": "Materiais prioritariamente digitais",
+    "local_suppliers": "Preferência por fornecedores locais"
+  },
+  "contact_information": {
+    "website": "institutocaldeira.org.br",
+    "registration": "plataforma.institutocaldeira.org.br",
+    "email": "eventos@institutocaldeira.org.br",
+    "phone": "+55 51 3333-4444",
+    "social_media": {
+      "instagram": "@institutocaldeira",
+      "linkedin": "Instituto Caldeira",
+      "youtube": "Instituto Caldeira"
+    },
+    "press_contact": "imprensa@institutocaldeira.org.br"
+  },
+  "key_metrics": {
+    "projected_attendance": 12000,
+    "international_visitors": "15%",
+    "corporate_participants": "40%",
+    "startup_participants": "35%",
+    "academic_participants": "25%",
+    "economic_impact_estimate": "R$ 25 milhões para Porto Alegre",
+    "job_opportunities_generated": "500+",
+    "partnership_deals_expected": "100+",
+    "media_impressions_target": "50 milhões"
+  },
+  "photos": [
+    {
+      "file": "keynote.jpg",
+      "type": "keynote",
+      "caption": "Palestra principal - week"
+    },
+    {
+      "file": "audience.jpg",
+      "type": "audience",
+      "caption": "Público e networking - week"
+    },
+    {
+      "file": "venue.jpg",
+      "type": "venue",
+      "caption": "Local do evento - week"
+    }
+  ],
+  "event_type": "week"
+}
